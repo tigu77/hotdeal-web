@@ -1,5 +1,20 @@
 [
   {
+    "id": "1771079493024",
+    "title": "Apple 2025 에어팟 프로 3 USB-C 블루투스 이어폰 - 블루투스 이어폰",
+    "description": "",
+    "price": 340030,
+    "salePrice": 340030,
+    "originalPrice": 369000,
+    "discount": 8,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/13880464300917-2f4f4e1b-9bb7-4b73-ba97-0ea444b9e2d9.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dMrCmp",
+    "category": "general",
+    "tags": [],
+    "isRocket": true,
+    "postedAt": "2026-02-14T14:31:33.024Z"
+  },
+  {
     "id": "1771079480949",
     "title": "홈플래닛 140cm 자바라 스탠드 탭 패드 태블릿 스마트폰 거치대 대형 - 거치대",
     "description": "",
@@ -110,21 +125,5 @@
     "category": "general",
     "tags": [],
     "postedAt": "2026-02-14T14:10:16.007Z"
-  },
-  {
-    "id": "1771073939742",
-    "title": "Apple 2025 에어팟 프로 3 USB-C 블루투스 이어폰 - 블루투스 이어폰",
-    "description": "",
-    "price": 340030,
-    "originalPrice": 369000,
-    "discount": 8,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/13880464300917-2f4f4e1b-9bb7-4b73-ba97-0ea444b9e2d9.jpg",
-    "affiliateUrl": "https://link.coupang.com/a/dMrCmp",
-    "category": "general",
-    "tags": [],
-    "isRocket": true,
-    "postedAt": "2026-02-14T12:58:59.742Z",
-    "salePrice": 340030,
-    "isWow": false
   }
 ]
