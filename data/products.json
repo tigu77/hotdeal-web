@@ -1,5 +1,20 @@
 [
   {
+    "id": "1771077265648",
+    "title": "로지텍 G102IC 2세대 LIGHTSYNC 게이밍 유선마우스 - 유선마우스",
+    "description": "",
+    "price": 10150,
+    "originalPrice": 22150,
+    "discount": 54,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/1025_amir_coupang_oct_80k/243b/566c5e1c6edc04f8a07a96374c7d03275399cb239fbdc3201a3677c73562.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dMryLt",
+    "category": "general",
+    "tags": [],
+    "isWow": true,
+    "isRocket": true,
+    "postedAt": "2026-02-14T13:54:25.648Z"
+  },
+  {
     "id": "1771077180806",
     "title": "타포 홈 보안 WIFI 카메라 실내용 - CCTV/IP카메라",
     "description": "",
@@ -103,19 +118,5 @@
     "postedAt": "2026-02-14T12:41:58.258Z",
     "salePrice": 23990,
     "wowPrice": 22330
-  },
-  {
-    "id": "1771072446475",
-    "title": "로지텍 G102IC 2세대 LIGHTSYNC 게이밍 유선마우스 - 유선마우스",
-    "description": "",
-    "price": 22150,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/1025_amir_coupang_oct_80k/243b/566c5e1c6edc04f8a07a96374c7d03275399cb239fbdc3201a3677c73562.jpg",
-    "affiliateUrl": "https://link.coupang.com/a/dMryLt",
-    "category": "general",
-    "tags": [],
-    "isWow": false,
-    "isRocket": true,
-    "postedAt": "2026-02-14T12:34:06.475Z",
-    "salePrice": 22150
   }
 ]
