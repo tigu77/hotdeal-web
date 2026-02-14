@@ -1,6 +1,21 @@
 [
   {
-    "id": "1771082081754",
+    "id": "1771082306341",
+    "title": "Apple 2025 에어팟 프로 3 USB-C 블루투스 이어폰 - 블루투스 이어폰",
+    "description": "",
+    "price": 340030,
+    "salePrice": 340030,
+    "originalPrice": 369000,
+    "discount": 8,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/13880464300917-2f4f4e1b-9bb7-4b73-ba97-0ea444b9e2d9.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dMrCmp",
+    "category": "general",
+    "tags": [],
+    "isRocket": true,
+    "postedAt": "2026-02-14T15:18:26.341Z"
+  },
+  {
+    "id": "1771082303856",
     "title": "홈플래닛 140cm 자바라 스탠드 탭 패드 태블릿 스마트폰 거치대 대형 - 거치대",
     "description": "",
     "price": 6990,
@@ -14,27 +29,15 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-14T15:14:41.754Z"
+    "postedAt": "2026-02-14T15:18:23.856Z"
   },
   {
-    "id": "1771081061968",
-    "title": "Apple 2025 에어팟 프로 3 USB-C 블루투스 이어폰 - 블루투스 이어폰",
-    "description": "",
-    "price": 340030,
-    "originalPrice": 369000,
-    "discount": 8,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/13880464300917-2f4f4e1b-9bb7-4b73-ba97-0ea444b9e2d9.jpg",
-    "affiliateUrl": "https://link.coupang.com/a/dMrCmp",
-    "category": "general",
-    "tags": [],
-    "isRocket": true,
-    "postedAt": "2026-02-14T14:57:41.968Z"
-  },
-  {
-    "id": "1771081056958",
+    "id": "1771082301323",
     "title": "필립스 3000 시리즈 무선 전기 주전자 - 전기포트",
     "description": "",
     "price": 11020,
+    "salePrice": 23980,
+    "wowPrice": 11020,
     "originalPrice": 45000,
     "discount": 76,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/1025_amir_coupang_oct_80k/7ee2/189c2a945b4cf40229b71a9b0fad53a8e1b874a7548600a6ab13664002ce.jpg",
@@ -43,13 +46,14 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-14T14:57:36.958Z"
+    "postedAt": "2026-02-14T15:18:21.323Z"
   },
   {
-    "id": "1771081054463",
+    "id": "1771082298799",
     "title": "필립스 보풀제거기 - 보풀제거기",
     "description": "",
     "price": 0,
+    "salePrice": 12000,
     "originalPrice": 25000,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/590703716526441-30a6e6a6-012c-485f-ac94-65ca652f640e.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dMrAQ5",
@@ -57,13 +61,14 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-14T14:57:34.463Z"
+    "postedAt": "2026-02-14T15:18:18.799Z"
   },
   {
-    "id": "1771081051970",
+    "id": "1771082296257",
     "title": "로지텍 유선마우스 - 유선마우스",
     "description": "",
     "price": 0,
+    "salePrice": 9860,
     "originalPrice": 9860,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/1880744397357937-0bf9aaf0-6c87-4089-9d3c-5b88b376fb78.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dMrzTr",
@@ -71,13 +76,14 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-14T14:57:31.970Z"
+    "postedAt": "2026-02-14T15:18:16.257Z"
   },
   {
-    "id": "1771081049467",
+    "id": "1771082293742",
     "title": "에버튼하우스 에그쿠커 - 에그쿠커",
     "description": "",
     "price": 0,
+    "salePrice": 8800,
     "originalPrice": 8800,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/a201/2dd15aac8555890470c5504040f83df6c16272be3321371efeb81513ca50.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dMrzpK",
@@ -85,13 +91,15 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-14T14:57:29.467Z"
+    "postedAt": "2026-02-14T15:18:13.742Z"
   },
   {
-    "id": "1771081046963",
+    "id": "1771082291252",
     "title": "로지텍 G102IC 2세대 LIGHTSYNC 게이밍 유선마우스 - 유선마우스",
     "description": "",
     "price": 10150,
+    "salePrice": 22150,
+    "wowPrice": 10150,
     "originalPrice": 22150,
     "discount": 54,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/1025_amir_coupang_oct_80k/243b/566c5e1c6edc04f8a07a96374c7d03275399cb239fbdc3201a3677c73562.jpg",
@@ -100,13 +108,15 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-14T14:57:26.963Z"
+    "postedAt": "2026-02-14T15:18:11.252Z"
   },
   {
-    "id": "1771081044331",
+    "id": "1771082288746",
     "title": "타포 홈 보안 WIFI 카메라 실내용 - CCTV/IP카메라",
     "description": "",
     "price": 23140,
+    "salePrice": 36990,
+    "wowPrice": 23140,
     "originalPrice": 48900,
     "discount": 53,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/1305384220551241-6dc25c61-97de-4d52-9ef5-6ee2aa4c3a4a.jpg",
@@ -115,7 +125,7 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-14T14:57:24.332Z"
+    "postedAt": "2026-02-14T15:18:08.746Z"
   },
   {
     "id": "1771078216007",
