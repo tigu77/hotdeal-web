@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "핫딜 알리미 | 매일 최저가 추천",
   description: "매일 엄선된 최저가 상품을 추천합니다. 쿠팡 베스트, 골드박스, 타임세일 핫딜 모음.",
   keywords: ["핫딜", "최저가", "쿠팡", "추천", "베스트", "골드박스"],
+  icons: {
+    icon: "/icon.svg",
+  },
   openGraph: {
     title: "핫딜 알리미 | 매일 최저가 추천",
     description: "매일 엄선된 최저가 상품을 추천합니다.",
