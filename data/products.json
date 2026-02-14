@@ -1,5 +1,19 @@
 [
   {
+    "id": "1771075885268",
+    "title": "에버튼하우스 에그쿠커 - 에그쿠커",
+    "description": "",
+    "price": 0,
+    "originalPrice": 8800,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/a201/2dd15aac8555890470c5504040f83df6c16272be3321371efeb81513ca50.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dMrzpK",
+    "category": "general",
+    "tags": [],
+    "isWow": true,
+    "isRocket": true,
+    "postedAt": "2026-02-14T13:31:25.268Z"
+  },
+  {
     "id": "1771073939742",
     "title": "Apple 2025 에어팟 프로 3 USB-C 블루투스 이어폰 - 블루투스 이어폰",
     "description": "",
@@ -77,23 +91,6 @@
     "isRocket": true,
     "postedAt": "2026-02-14T12:41:35.480Z",
     "salePrice": 9860
-  },
-  {
-    "id": "1771072884429",
-    "title": "에버튼하우스 에그쿠커 - 에그쿠커",
-    "description": "",
-    "price": 8270,
-    "originalPrice": 8800,
-    "discount": 6,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/a201/2dd15aac8555890470c5504040f83df6c16272be3321371efeb81513ca50.jpg",
-    "affiliateUrl": "https://link.coupang.com/a/dMrzpK",
-    "category": "general",
-    "tags": [],
-    "isWow": true,
-    "isRocket": true,
-    "postedAt": "2026-02-14T12:41:24.429Z",
-    "salePrice": 8800,
-    "wowPrice": 8270
   },
   {
     "id": "1771072446475",
