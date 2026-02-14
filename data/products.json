@@ -1,5 +1,20 @@
 [
   {
+    "id": "1771079456331",
+    "title": "필립스 보풀제거기 - 보풀제거기",
+    "description": "",
+    "price": 12000,
+    "salePrice": 12000,
+    "originalPrice": 25000,
+    "discount": 52,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/590703716526441-30a6e6a6-012c-485f-ac94-65ca652f640e.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dMrAQ5",
+    "category": "general",
+    "tags": [],
+    "isRocket": true,
+    "postedAt": "2026-02-14T14:30:56.331Z"
+  },
+  {
     "id": "1771079444246",
     "title": "로지텍 유선마우스 - 유선마우스",
     "description": "",
@@ -80,20 +95,6 @@
     "isWow": true,
     "isRocket": true,
     "postedAt": "2026-02-14T13:52:03.016Z"
-  },
-  {
-    "id": "1771077085633",
-    "title": "필립스 보풀제거기 - 보풀제거기",
-    "description": "",
-    "price": 0,
-    "originalPrice": 25000,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/590703716526441-30a6e6a6-012c-485f-ac94-65ca652f640e.jpg",
-    "affiliateUrl": "https://link.coupang.com/a/dMrAQ5",
-    "category": "general",
-    "tags": [],
-    "isWow": true,
-    "isRocket": true,
-    "postedAt": "2026-02-14T13:51:25.633Z"
   },
   {
     "id": "1771073939742",
