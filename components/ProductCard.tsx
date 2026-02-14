@@ -26,11 +26,17 @@ export default function ProductCard({ product }: { product: Product }) {
     >
       {/* 이미지 */}
       <div className="relative aspect-square bg-gray-50 overflow-hidden">
-        <img
-          src={product.imageUrl}
-          alt={product.title}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-        />
+        {product.imageUrl ? (
+          <img
+            src={product.imageUrl}
+            alt={product.title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200">
+            <span className="text-5xl">🛒</span>
+          </div>
+        )}
         {/* 할인 배지 */}
         {product.discount && (
           <div className="absolute top-3 left-3 bg-red-500 text-white text-sm font-bold px-2.5 py-1 rounded-full">
@@ -61,16 +67,18 @@ export default function ProductCard({ product }: { product: Product }) {
         </h3>
 
         {/* 가격 */}
-        <div className="flex items-end gap-2">
-          <span className="text-lg font-bold text-orange-600">
-            {formatPrice(product.price)}
-          </span>
-          {product.originalPrice && (
-            <span className="text-sm text-gray-400 line-through">
-              {formatPrice(product.originalPrice)}
+        {product.price > 0 && (
+          <div className="flex items-end gap-2">
+            <span className="text-lg font-bold text-orange-600">
+              {formatPrice(product.price)}
             </span>
-          )}
-        </div>
+            {product.originalPrice && product.originalPrice > 0 && (
+              <span className="text-sm text-gray-400 line-through">
+                {formatPrice(product.originalPrice)}
+              </span>
+            )}
+          </div>
+        )}
 
         {/* 평점 */}
         {product.rating && (
