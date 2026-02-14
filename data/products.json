@@ -1,5 +1,19 @@
 [
   {
+    "id": "1771077153454",
+    "title": "로지텍 유선마우스 - 유선마우스",
+    "description": "",
+    "price": 10150,
+    "originalPrice": 9860,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/1880744397357937-0bf9aaf0-6c87-4089-9d3c-5b88b376fb78.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dMrzTr",
+    "category": "general",
+    "tags": [],
+    "isWow": true,
+    "isRocket": true,
+    "postedAt": "2026-02-14T13:52:33.454Z"
+  },
+  {
     "id": "1771077123016",
     "title": "홈플래닛 140cm 자바라 스탠드 탭 패드 태블릿 스마트폰 거치대 대형 - 거치대",
     "description": "",
@@ -27,20 +41,6 @@
     "isWow": true,
     "isRocket": true,
     "postedAt": "2026-02-14T13:51:25.633Z"
-  },
-  {
-    "id": "1771076766276",
-    "title": "로지텍 유선마우스 - 유선마우스",
-    "description": "",
-    "price": 0,
-    "originalPrice": 9860,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/1880744397357937-0bf9aaf0-6c87-4089-9d3c-5b88b376fb78.jpg",
-    "affiliateUrl": "https://link.coupang.com/a/dMrzTr",
-    "category": "general",
-    "tags": [],
-    "isWow": true,
-    "isRocket": true,
-    "postedAt": "2026-02-14T13:46:06.276Z"
   },
   {
     "id": "1771075885268",
