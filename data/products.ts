@@ -1,4 +1,25 @@
-import { Product } from "@/types";
-import productsJson from "./products.json";
+import type { Product } from "@/types";
+import raw from "./products.json";
 
-export const products: Product[] = productsJson as Product[];
+const allProducts: Product[] = raw as Product[];
+
+/**
+ * 중복 제거 + 최신순 정렬된 상품 목록
+ * - title 기준 중복 제거, 최신 것만 유지
+ */
+export function getProducts(category?: string | null): Product[] {
+  const sorted = [...allProducts].sort(
+    (a, b) => new Date(b.postedAt).getTime() - new Date(a.postedAt).getTime()
+  );
+
+  // 같은 title이면 최신 것만 유지
+  const seen = new Set<string>();
+  const deduped = sorted.filter((p) => {
+    if (seen.has(p.title)) return false;
+    seen.add(p.title);
+    return true;
+  });
+
+  if (!category) return deduped;
+  return deduped.filter((p) => p.category === category);
+}
