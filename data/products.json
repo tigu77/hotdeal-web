@@ -11,7 +11,9 @@
     "category": "general",
     "tags": [],
     "isRocket": true,
-    "postedAt": "2026-02-14T12:58:59.742Z"
+    "postedAt": "2026-02-14T12:58:59.742Z",
+    "salePrice": 340030,
+    "isWow": false
   },
   {
     "id": "1771072929791",
@@ -24,9 +26,10 @@
     "affiliateUrl": "https://link.coupang.com/a/dMrBOq",
     "category": "general",
     "tags": [],
-    "isWow": true,
+    "isWow": false,
     "isRocket": true,
-    "postedAt": "2026-02-14T12:42:09.791Z"
+    "postedAt": "2026-02-14T12:42:09.791Z",
+    "salePrice": 18990
   },
   {
     "id": "1771072918258",
@@ -41,7 +44,9 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-14T12:41:58.258Z"
+    "postedAt": "2026-02-14T12:41:58.258Z",
+    "salePrice": 23990,
+    "wowPrice": 22330
   },
   {
     "id": "1771072906649",
@@ -54,9 +59,10 @@
     "affiliateUrl": "https://link.coupang.com/a/dMrAQ5",
     "category": "general",
     "tags": [],
-    "isWow": true,
+    "isWow": false,
     "isRocket": true,
-    "postedAt": "2026-02-14T12:41:46.649Z"
+    "postedAt": "2026-02-14T12:41:46.649Z",
+    "salePrice": 12000
   },
   {
     "id": "1771072895480",
@@ -67,9 +73,10 @@
     "affiliateUrl": "https://link.coupang.com/a/dMrzTr",
     "category": "general",
     "tags": [],
-    "isWow": true,
+    "isWow": false,
     "isRocket": true,
-    "postedAt": "2026-02-14T12:41:35.480Z"
+    "postedAt": "2026-02-14T12:41:35.480Z",
+    "salePrice": 9860
   },
   {
     "id": "1771072884429",
@@ -84,7 +91,9 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-14T12:41:24.429Z"
+    "postedAt": "2026-02-14T12:41:24.429Z",
+    "salePrice": 8800,
+    "wowPrice": 8270
   },
   {
     "id": "1771072446475",
@@ -95,9 +104,10 @@
     "affiliateUrl": "https://link.coupang.com/a/dMryLt",
     "category": "general",
     "tags": [],
-    "isWow": true,
+    "isWow": false,
     "isRocket": true,
-    "postedAt": "2026-02-14T12:34:06.475Z"
+    "postedAt": "2026-02-14T12:34:06.475Z",
+    "salePrice": 22150
   },
   {
     "id": "1771071645666",
@@ -112,6 +122,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-14T12:20:45.666Z"
+    "postedAt": "2026-02-14T12:20:45.666Z",
+    "salePrice": 36990,
+    "wowPrice": 35140
   }
 ]
