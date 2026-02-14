@@ -9,9 +9,14 @@ import { products } from "@/data/products";
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
+  // 같은 상품(title 기준) 중복 제거 → 최신 것만 유지
+  const deduplicated = products
+    .sort((a, b) => new Date(b.postedAt).getTime() - new Date(a.postedAt).getTime())
+    .filter((p, i, arr) => arr.findIndex((q) => q.title === p.title) === i);
+
   const filtered = selectedCategory
-    ? products.filter((p) => p.category === selectedCategory)
-    : products;
+    ? deduplicated.filter((p) => p.category === selectedCategory)
+    : deduplicated;
 
   return (
     <div className="min-h-screen bg-gray-50">
