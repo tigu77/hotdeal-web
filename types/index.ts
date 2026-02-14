@@ -4,7 +4,9 @@ export interface Product {
   id: string;
   title: string;
   description: string;
-  price: number;
+  price: number;            // 최종 표시가 (와우가 있으면 와우가, 없으면 판매가)
+  salePrice?: number;       // 쿠팡판매가
+  wowPrice?: number;        // 와우할인가
   originalPrice?: number;
   discount?: number;
   imageUrl: string;

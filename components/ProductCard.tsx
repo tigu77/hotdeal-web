@@ -8,8 +8,15 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
-  const hasDiscount =
-    product.originalPrice && product.originalPrice > product.price;
+  const { originalPrice, salePrice, wowPrice, price, isWow } = product;
+
+  // 할인율 계산: 와우가 있으면 와우 기준, 없으면 판매가 기준
+  const basePrice = originalPrice || salePrice || 0;
+  const finalPrice = isWow && wowPrice != null ? wowPrice : price;
+  const discountPercent =
+    basePrice > 0 && finalPrice < basePrice
+      ? Math.round(((basePrice - finalPrice) / basePrice) * 100)
+      : product.discount || 0;
 
   return (
     <a
@@ -37,11 +44,6 @@ export default function ProductCard({ product }: ProductCardProps) {
             🚀
           </span>
         )}
-        {product.isWow && (
-          <span className="absolute top-1 left-1 bg-purple-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full">
-            W
-          </span>
-        )}
       </div>
 
       {/* 정보 */}
@@ -53,27 +55,47 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         {/* 가격 블록 */}
         <div className="mt-1.5">
-          {hasDiscount && (
+          {/* 원가 + 할인율 */}
+          {basePrice > 0 && discountPercent > 0 && (
             <div className="flex items-center gap-1.5 mb-0.5">
               <span className="text-xs text-gray-400 line-through">
-                {formatPrice(product.originalPrice!)}
+                {formatPrice(basePrice)}
               </span>
               <span className="text-xs font-bold text-red-500">
-                {product.discount ?? Math.round(((product.originalPrice! - product.price) / product.originalPrice!) * 100)}%↓
+                {discountPercent}%↓
               </span>
             </div>
           )}
-          {product.price > 0 && (
+
+          {/* 판매가 */}
+          {salePrice != null && salePrice > 0 && (
             <div className="flex items-center gap-1.5">
-              <span className="text-lg font-bold text-orange-600">
-                {formatPrice(product.price)}
+              <span className={`font-bold ${isWow ? 'text-sm text-gray-500' : 'text-lg text-orange-600'}`}>
+                {formatPrice(salePrice)}
               </span>
-              {product.isWow && (
-                <span className="text-[10px] text-purple-600 font-semibold bg-purple-50 px-1.5 py-0.5 rounded">
-                  와우가
-                </span>
+              {!isWow && (
+                <span className="text-[10px] text-gray-400">판매가</span>
               )}
             </div>
+          )}
+
+          {/* 와우가 */}
+          {isWow && wowPrice != null && (
+            <div className="flex items-center gap-1.5">
+              <span className="text-lg font-bold text-purple-600">
+                {formatPrice(wowPrice)}
+              </span>
+              <span className="text-[10px] text-white font-semibold bg-purple-500 px-1.5 py-0.5 rounded">
+                와우가
+              </span>
+            </div>
+          )}
+
+          {/* salePrice/wowPrice 둘 다 없으면 price 표시 */}
+          {!salePrice && !wowPrice && price > 0 && (
+            <span className="text-lg font-bold text-orange-600">
+              {formatPrice(price)}
+            </span>
           )}
         </div>
 
