@@ -67,8 +67,15 @@ export default function ProductCard({ product }: ProductCardProps) {
             </div>
           )}
 
-          {/* 와우 상품: 와우가만 표시 / 일반 상품: 판매가 표시 */}
-          {isWow && (wowPrice != null || price != null) ? (
+          {/* 판매가 */}
+          {(salePrice || price) > 0 && (
+            <span className="text-lg font-bold text-orange-600">
+              {formatPrice(salePrice || price)}
+            </span>
+          )}
+
+          {/* 와우가 (있을 때만) */}
+          {isWow && (wowPrice != null || price != null) && (
             <div className="flex items-center gap-1.5">
               <span className="text-lg font-bold text-purple-600">
                 {formatPrice(wowPrice ?? price)}
@@ -77,10 +84,6 @@ export default function ProductCard({ product }: ProductCardProps) {
                 와우
               </span>
             </div>
-          ) : (
-            <span className="text-lg font-bold text-orange-600">
-              {formatPrice(salePrice || price)}
-            </span>
           )}
         </div>
 
