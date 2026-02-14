@@ -10,9 +10,9 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   const { originalPrice, salePrice, wowPrice, price, isWow } = product;
 
-  // 할인율 계산: 와우가 있으면 와우 기준, 없으면 판매가 기준
-  const basePrice = originalPrice || salePrice || 0;
-  const finalPrice = isWow && wowPrice != null ? wowPrice : price;
+  // 할인율: 와우가 있으면 와우 기준, 없으면 판매가 기준
+  const basePrice = originalPrice || 0;
+  const finalPrice = isWow && wowPrice != null ? wowPrice : (salePrice || price);
   const discountPercent =
     basePrice > 0 && finalPrice < basePrice
       ? Math.round(((basePrice - finalPrice) / basePrice) * 100)
@@ -67,26 +67,23 @@ export default function ProductCard({ product }: ProductCardProps) {
             </div>
           )}
 
-          {/* 판매가 */}
+          {/* 할인가 (판매가) */}
           {salePrice != null && salePrice > 0 && (
             <div className="flex items-center gap-1.5">
-              <span className={`font-bold ${isWow ? 'text-sm text-gray-500' : 'text-lg text-orange-600'}`}>
+              <span className="text-lg font-bold text-orange-600">
                 {formatPrice(salePrice)}
               </span>
-              {!isWow && (
-                <span className="text-[10px] text-gray-400">판매가</span>
-              )}
             </div>
           )}
 
-          {/* 와우가 */}
-          {isWow && wowPrice != null && (
+          {/* 와우 할인가 (0원도 표시) */}
+          {isWow && wowPrice != null && wowPrice >= 0 && (
             <div className="flex items-center gap-1.5">
-              <span className="text-lg font-bold text-purple-600">
+              <span className="text-lg font-bold text-red-500">
                 {formatPrice(wowPrice)}
               </span>
-              <span className="text-[10px] text-white font-semibold bg-purple-500 px-1.5 py-0.5 rounded">
-                와우가
+              <span className="text-[10px] text-white font-semibold bg-red-500 px-1.5 py-0.5 rounded">
+                와우
               </span>
             </div>
           )}
