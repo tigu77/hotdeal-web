@@ -11,6 +11,7 @@ export interface Product {
   affiliateUrl: string;
   category: CategoryId | string;
   tags: string[];
+  isWow?: boolean;          // 와우 회원가 여부
   isRocket?: boolean;
   isFreeShipping?: boolean;
   rating?: number;

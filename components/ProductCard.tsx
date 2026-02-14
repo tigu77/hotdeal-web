@@ -37,6 +37,11 @@ export default function ProductCard({ product }: ProductCardProps) {
             🚀
           </span>
         )}
+        {product.isWow && (
+          <span className="absolute top-1 left-1 bg-purple-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full">
+            W
+          </span>
+        )}
       </div>
 
       {/* 정보 */}
@@ -59,9 +64,16 @@ export default function ProductCard({ product }: ProductCardProps) {
             </div>
           )}
           {product.price > 0 && (
-            <span className="text-lg font-bold text-orange-600">
-              {formatPrice(product.price)}
-            </span>
+            <div className="flex items-center gap-1.5">
+              <span className="text-lg font-bold text-orange-600">
+                {formatPrice(product.price)}
+              </span>
+              {product.isWow && (
+                <span className="text-[10px] text-purple-600 font-semibold bg-purple-50 px-1.5 py-0.5 rounded">
+                  와우가
+                </span>
+              )}
+            </div>
           )}
         </div>
 
