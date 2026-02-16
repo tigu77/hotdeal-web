@@ -1,86 +1,94 @@
 "use client";
 
-import Script from "next/script";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function CoupangBanner() {
-  const [loaded, setLoaded] = useState(false);
   const [visible, setVisible] = useState(true);
+  const bannerRef = useRef<HTMLDivElement>(null);
+  const initialized = useRef(false);
 
   useEffect(() => {
-    if (loaded && typeof window !== "undefined" && (window as any).PartnersCoupang) {
-      new (window as any).PartnersCoupang.G({
-        id: 965423,
-        template: "carousel",
-        trackingCode: "AF6113349",
-        width: "680",
-        height: "100",
-        tsource: "",
-      });
-    }
-  }, [loaded]);
+    if (!bannerRef.current || initialized.current) return;
+    initialized.current = true;
 
-  // iframe 너비를 100%로 강제
-  useEffect(() => {
-    if (!loaded) return;
-    const timer = setInterval(() => {
-      const iframes = document.querySelectorAll('iframe[title*="Coupang"]');
-      iframes.forEach((iframe) => {
-        (iframe as HTMLIFrameElement).style.width = "100%";
-        (iframe as HTMLIFrameElement).style.maxWidth = "100%";
-      });
-      if (iframes.length > 0) clearInterval(timer);
-    }, 500);
-    return () => clearInterval(timer);
-  }, [loaded]);
+    // 스크립트를 배너 컨테이너 안에 직접 삽입
+    const script1 = document.createElement("script");
+    script1.src = "https://ads-partners.coupang.com/g.js";
+    script1.async = true;
+    script1.onload = () => {
+      if ((window as any).PartnersCoupang) {
+        const script2 = document.createElement("script");
+        script2.textContent = `new PartnersCoupang.G({"id":965423,"template":"carousel","trackingCode":"AF6113349","width":"680","height":"100","tsource":""});`;
+        bannerRef.current?.appendChild(script2);
+      }
+
+      // iframe 너비 100%로 강제
+      setTimeout(() => {
+        const iframes = bannerRef.current?.querySelectorAll("iframe");
+        iframes?.forEach((iframe) => {
+          iframe.style.width = "100%";
+          iframe.style.maxWidth = "100%";
+        });
+      }, 1000);
+
+      setTimeout(() => {
+        const iframes = bannerRef.current?.querySelectorAll("iframe");
+        iframes?.forEach((iframe) => {
+          iframe.style.width = "100%";
+          iframe.style.maxWidth = "100%";
+        });
+      }, 3000);
+    };
+    bannerRef.current.appendChild(script1);
+  }, []);
 
   if (!visible) return null;
 
   return (
-    <>
-      <Script
-        src="https://ads-partners.coupang.com/g.js"
-        strategy="afterInteractive"
-        onLoad={() => setLoaded(true)}
-      />
-      <div
+    <div
+      style={{
+        position: "fixed",
+        bottom: 0,
+        left: 0,
+        right: 0,
+        zIndex: 9999,
+        backgroundColor: "rgba(255,255,255,0.97)",
+        backdropFilter: "blur(8px)",
+        borderTop: "1px solid #e5e7eb",
+        padding: "4px 0",
+      }}
+    >
+      <button
+        onClick={() => setVisible(false)}
         style={{
-          position: "fixed",
-          bottom: 0,
-          left: 0,
-          right: 0,
-          zIndex: 9999,
-          backgroundColor: "rgba(255,255,255,0.95)",
-          backdropFilter: "blur(8px)",
-          borderTop: "1px solid #e5e7eb",
-          padding: "4px 0",
+          position: "absolute",
+          top: 2,
+          right: 8,
+          background: "rgba(0,0,0,0.15)",
+          border: "none",
+          borderRadius: "50%",
+          width: 22,
+          height: 22,
+          cursor: "pointer",
+          fontSize: 12,
+          lineHeight: "22px",
+          textAlign: "center",
+          color: "#666",
+          zIndex: 10000,
+        }}
+        aria-label="배너 닫기"
+      >
+        ✕
+      </button>
+      <div
+        ref={bannerRef}
+        style={{
+          width: "100%",
           display: "flex",
           justifyContent: "center",
+          overflow: "hidden",
         }}
-      >
-        <button
-          onClick={() => setVisible(false)}
-          style={{
-            position: "absolute",
-            top: 2,
-            right: 8,
-            background: "rgba(0,0,0,0.1)",
-            border: "none",
-            borderRadius: "50%",
-            width: 24,
-            height: 24,
-            cursor: "pointer",
-            fontSize: 14,
-            lineHeight: "24px",
-            textAlign: "center",
-            color: "#666",
-            zIndex: 10000,
-          }}
-          aria-label="배너 닫기"
-        >
-          ✕
-        </button>
-      </div>
-    </>
+      />
+    </div>
   );
 }
