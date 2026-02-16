@@ -64,14 +64,9 @@ export default function ProductCard({ product }: ProductCardProps) {
           )}
 
           {/* 판매가 */}
-          {!isWow && (salePrice || price) > 0 && (
+          {(salePrice ?? price ?? 0) > 0 && (
             <span className="text-lg font-bold text-orange-600">
-              {formatPrice(salePrice || price)}
-            </span>
-          )}
-          {isWow && (salePrice ?? 0) > 0 && (
-            <span className="text-sm text-gray-500">
-              {formatPrice(salePrice!)}
+              {formatPrice((salePrice || price)!)}
             </span>
           )}
 
