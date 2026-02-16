@@ -39,11 +39,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             <span className="text-3xl">🛒</span>
           </div>
         )}
-        {product.isRocket && (
-          <span className="absolute bottom-1 left-1 bg-blue-600 text-white text-[10px] font-semibold px-1.5 py-0.5 rounded">
-            로켓
-          </span>
-        )}
+{/* 로켓 뱃지 제거 */}
       </div>
 
       {/* 정보 */}
