@@ -1,6 +1,96 @@
 [
   {
-    "id": "1771230705238",
+    "id": "1771258325899",
+    "title": "수려한 보윤 탄력 크림 5종 세트 - 기초세트",
+    "description": "",
+    "price": 44740,
+    "salePrice": 47700,
+    "wowPrice": 44740,
+    "originalPrice": 53000,
+    "discount": 16,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2025/12/02/15/7/8a7c3e23-3a08-4639-8392-4dc0a5169e07.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dNC9pg",
+    "productUrl": "https://link.coupang.com/a/dNC9pg",
+    "category": "beauty",
+    "tags": [],
+    "isWow": true,
+    "isRocket": true,
+    "postedAt": "2026-02-16T16:12:05.899Z"
+  },
+  {
+    "id": "1771258323134",
+    "title": "바세린 데일리 모이스처 핸드크림, 500ml, 2개 - 핸드크림",
+    "description": "",
+    "price": 8620,
+    "salePrice": 8810,
+    "wowPrice": 8620,
+    "originalPrice": 10500,
+    "discount": 18,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/0775/123174065f9ff14cecdf8e4bc6aeba5e012ccdfd9fe46f9e08b84c1949ac.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dNC70c",
+    "productUrl": "https://link.coupang.com/a/dNC70c",
+    "category": "beauty",
+    "tags": [],
+    "isWow": true,
+    "isRocket": true,
+    "postedAt": "2026-02-16T16:12:03.134Z"
+  },
+  {
+    "id": "1771258320389",
+    "title": "르무통 스타일2 발 편한 메리노울 운동화 - 운동화/스니커즈",
+    "description": "",
+    "price": 104900,
+    "salePrice": 118000,
+    "wowPrice": 104900,
+    "originalPrice": 149000,
+    "discount": 30,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/c692/6c91d6b2d6429628bed49b48cb0d8806722cadf8e027f71994af98b15048.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dNC7Aq",
+    "productUrl": "https://link.coupang.com/a/dNC7Aq",
+    "category": "fashion",
+    "tags": [],
+    "isWow": true,
+    "isRocket": true,
+    "postedAt": "2026-02-16T16:12:00.389Z"
+  },
+  {
+    "id": "1771258317898",
+    "title": "하오하오 핑크 라면 77g, 30개 - 봉지라면",
+    "description": "",
+    "price": 10000,
+    "salePrice": 11500,
+    "wowPrice": 10000,
+    "originalPrice": 14900,
+    "discount": 33,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/935797262988399-b22eefcc-e446-48e9-a666-54dd13b60b42.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dNC67i",
+    "productUrl": "https://link.coupang.com/a/dNC67i",
+    "category": "food",
+    "tags": [],
+    "isWow": true,
+    "isRocket": true,
+    "postedAt": "2026-02-16T16:11:57.898Z"
+  },
+  {
+    "id": "1771258305442",
+    "title": "오슬로 브리오슈 미니 텀블러 - 텀블러/쉐이커",
+    "description": "",
+    "price": 13920,
+    "salePrice": 17400,
+    "wowPrice": 13920,
+    "originalPrice": 24000,
+    "discount": 42,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2024/07/29/17/2/60af8089-b51f-44c1-9c5c-9848343eb2be.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dNsMAa",
+    "productUrl": "https://link.coupang.com/a/dNsMAa",
+    "category": "kitchen",
+    "tags": [],
+    "isWow": true,
+    "isRocket": true,
+    "postedAt": "2026-02-16T16:11:45.442Z"
+  },
+  {
+    "id": "1771258302943",
     "title": "Apple 2025 에어팟 프로 3 USB-C 블루투스 이어폰 - 블루투스 이어폰",
     "description": "",
     "price": 340030,
@@ -13,10 +103,10 @@
     "category": "digital",
     "tags": [],
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:45.238Z"
+    "postedAt": "2026-02-16T16:11:42.943Z"
   },
   {
-    "id": "1771230702761",
+    "id": "1771258300456",
     "title": "홈플래닛 140cm 자바라 스탠드 탭 패드 태블릿 스마트폰 거치대 대형 - 거치대",
     "description": "",
     "price": 18990,
@@ -29,15 +119,15 @@
     "category": "digital",
     "tags": [],
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:42.761Z"
+    "postedAt": "2026-02-16T16:11:40.456Z"
   },
   {
-    "id": "1771230700280",
+    "id": "1771258297970",
     "title": "필립스 3000 시리즈 무선 전기 주전자 - 전기포트",
     "description": "",
-    "price": 22260,
-    "salePrice": 23910,
-    "wowPrice": 22260,
+    "price": 22250,
+    "salePrice": 23900,
+    "wowPrice": 22250,
     "originalPrice": 45000,
     "discount": 51,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/1025_amir_coupang_oct_80k/7ee2/189c2a945b4cf40229b71a9b0fad53a8e1b874a7548600a6ab13664002ce.jpg",
@@ -47,10 +137,10 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:40.280Z"
+    "postedAt": "2026-02-16T16:11:37.970Z"
   },
   {
-    "id": "1771230697775",
+    "id": "1771258295468",
     "title": "필립스 보풀제거기 - 보풀제거기",
     "description": "",
     "price": 11400,
@@ -65,24 +155,25 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:37.775Z"
+    "postedAt": "2026-02-16T16:11:35.468Z"
   },
   {
-    "id": "1771230695267",
+    "id": "1771258292973",
     "title": "로지텍 유선마우스 - 유선마우스",
     "description": "",
     "price": 9860,
     "salePrice": 9860,
+    "originalPrice": 9860,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/1880744397357937-0bf9aaf0-6c87-4089-9d3c-5b88b376fb78.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dMrzTr",
     "productUrl": "https://link.coupang.com/a/dMrzTr",
     "category": "digital",
     "tags": [],
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:35.267Z"
+    "postedAt": "2026-02-16T16:11:32.973Z"
   },
   {
-    "id": "1771230692777",
+    "id": "1771258290481",
     "title": "에버튼하우스 에그쿠커 - 에그쿠커",
     "description": "",
     "price": 8270,
@@ -97,24 +188,25 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:32.779Z"
+    "postedAt": "2026-02-16T16:11:30.483Z"
   },
   {
-    "id": "1771230690270",
+    "id": "1771258287984",
     "title": "로지텍 G102IC 2세대 LIGHTSYNC 게이밍 유선마우스 - 유선마우스",
     "description": "",
     "price": 22150,
     "salePrice": 22150,
+    "originalPrice": 22150,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/1025_amir_coupang_oct_80k/243b/566c5e1c6edc04f8a07a96374c7d03275399cb239fbdc3201a3677c73562.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dMryLt",
     "productUrl": "https://link.coupang.com/a/dMryLt",
     "category": "digital",
     "tags": [],
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:30.270Z"
+    "postedAt": "2026-02-16T16:11:27.984Z"
   },
   {
-    "id": "1771230687783",
+    "id": "1771258285484",
     "title": "타포 홈 보안 WIFI 카메라 실내용 - CCTV/IP카메라",
     "description": "",
     "price": 35140,
@@ -129,17 +221,17 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:27.783Z"
+    "postedAt": "2026-02-16T16:11:25.484Z"
   },
   {
-    "id": "1771230685263",
+    "id": "1771258282961",
     "title": "HNHusa 메가 알부민 1000mg 타블렛, 180정, 3개 - 비타민/건강식품",
     "description": "",
-    "price": 241120,
-    "salePrice": 282700,
-    "wowPrice": 241120,
+    "price": 282700,
+    "salePrice": 376940,
+    "wowPrice": 282700,
     "originalPrice": 399600,
-    "discount": 40,
+    "discount": 29,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/1e29/e60f2ad7bc103a4e98eaf0766ae41f1070f186a1357b45648ac0288ac4dd.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dNlj3E",
     "productUrl": "https://link.coupang.com/a/dNlj3E",
@@ -147,10 +239,10 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:25.263Z"
+    "postedAt": "2026-02-16T16:11:22.961Z"
   },
   {
-    "id": "1771230682761",
+    "id": "1771258280453",
     "title": "블루밍 올터치 리모컨 방수비데 - 전원식",
     "description": "",
     "price": 209000,
@@ -165,10 +257,10 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:22.761Z"
+    "postedAt": "2026-02-16T16:11:20.453Z"
   },
   {
-    "id": "1771230680262",
+    "id": "1771258277828",
     "title": "BACHA COFFEE 밀라노 모닝 커피 기프트박스 - 티백/드립백커피",
     "description": "",
     "price": 55000,
@@ -183,12 +275,10 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:20.262Z",
-    "expiresAt": "2026-02-16T21:59:59.677Z",
-    "soldPercent": 12
+    "postedAt": "2026-02-16T16:11:17.828Z"
   },
   {
-    "id": "1771230677765",
+    "id": "1771258275256",
     "title": "다노클리닉 AS 아쿠아세럼 모발관리 수분 헤어에센스, 250ml, 2개 - 헤어에센스/오일",
     "description": "",
     "price": 20900,
@@ -203,12 +293,10 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:17.766Z",
-    "expiresAt": "2026-02-16T21:59:59.677Z",
-    "soldPercent": 10
+    "postedAt": "2026-02-16T16:11:15.256Z"
   },
   {
-    "id": "1771230675271",
+    "id": "1771258272670",
     "title": "키친유 미피 스텐 유아 스푼 포크 젓가락 세트 - 스푼포크세트",
     "description": "",
     "price": 12360,
@@ -223,10 +311,10 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:15.271Z"
+    "postedAt": "2026-02-16T16:11:12.670Z"
   },
   {
-    "id": "1771230672774",
+    "id": "1771258270173",
     "title": "락토핏 정품 골드 80포, 160g, 3개 - MCT오일/영양제",
     "description": "",
     "price": 42680,
@@ -241,15 +329,17 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:12.774Z"
+    "postedAt": "2026-02-16T16:11:10.173Z"
   },
   {
-    "id": "1771230670267",
+    "id": "1771258267675",
     "title": "HACCP 제주산 더덕!! 포천할매 생더덕무침 - 더덕",
     "description": "",
-    "price": 72100,
+    "price": 24020,
     "salePrice": 25460,
-    "wowPrice": 72100,
+    "wowPrice": 24020,
+    "originalPrice": 49900,
+    "discount": 52,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/5efb/d087adeb31b67572bc113f69fc99b227ec48ea78719c7b35549cb08759fb.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dNledN",
     "productUrl": "https://link.coupang.com/a/dNledN",
@@ -257,19 +347,17 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:10.268Z",
-    "expiresAt": "2026-02-16T21:59:00.677Z",
-    "soldPercent": 10
+    "postedAt": "2026-02-16T16:11:07.676Z"
   },
   {
-    "id": "1771230667772",
+    "id": "1771258265174",
     "title": "물한방울없이 국내산 통째로갈아만든 자연비책 CCA주스, 100ml, 90개 - 과일/야채음료",
     "description": "",
-    "price": 56100,
+    "price": 72100,
     "salePrice": 76000,
-    "wowPrice": 56100,
+    "wowPrice": 72100,
     "originalPrice": 180000,
-    "discount": 69,
+    "discount": 60,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/8197/72995f37abb8ae0e82bd51d77838a1906bb968d40fdc58cdc1d8ce928009.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dNldwR",
     "productUrl": "https://link.coupang.com/a/dNldwR",
@@ -277,12 +365,10 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:07.772Z",
-    "expiresAt": "2026-02-16T21:59:59.677Z",
-    "soldPercent": 33
+    "postedAt": "2026-02-16T16:11:05.174Z"
   },
   {
-    "id": "1771230665282",
+    "id": "1771258262678",
     "title": "벨라쿠진 인덕션 잼팟 머슬린 팬 9L + 유리뚜껑 세트 - 곰솥/다용도솥",
     "description": "",
     "price": 40900,
@@ -297,10 +383,10 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:05.282Z"
+    "postedAt": "2026-02-16T16:11:02.678Z"
   },
   {
-    "id": "1771230662792",
+    "id": "1771258260185",
     "title": "해피콜 솔라리스 다이아몬드 IH 궁중팬, 28cm, 1개 - 궁중팬/웍",
     "description": "",
     "price": 23900,
@@ -315,12 +401,10 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:02.794Z",
-    "expiresAt": "2026-02-16T21:59:59.677Z",
-    "soldPercent": 12
+    "postedAt": "2026-02-16T16:11:00.186Z"
   },
   {
-    "id": "1771230660290",
+    "id": "1771258257685",
     "title": "CJ제일제당 특별한 NE호 선물세트 - 햄/돈육통조림세트",
     "description": "",
     "price": 32920,
@@ -335,6 +419,6 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:00.291Z"
+    "postedAt": "2026-02-16T16:10:57.686Z"
   }
 ]
