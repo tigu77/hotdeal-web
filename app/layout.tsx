@@ -9,7 +9,12 @@ export const metadata: Metadata = {
   description: "매일 엄선된 최저가 상품을 추천합니다. 쿠팡 베스트, 골드박스, 타임세일 핫딜 모음.",
   keywords: ["핫딜", "최저가", "쿠팡", "추천", "베스트", "골드박스"],
   icons: {
-    icon: "/icon.svg",
+    icon: [
+      { url: "/favicon.png", sizes: "32x32", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/apple-touch-icon.png",
   },
   openGraph: {
     title: "핫딜 알리미 | 매일 최저가 추천",
