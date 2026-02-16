@@ -73,6 +73,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SPGEYB1T06" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-SPGEYB1T06');`,
+          }}
+        />
+      </head>
       <body className={`${geist.className} antialiased`}>
         <WebSiteJsonLd />
         {children}
