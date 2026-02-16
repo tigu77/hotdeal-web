@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import type { Product } from "@/types";
 import { formatPrice, timeAgo } from "@/lib/format";
 
@@ -7,16 +8,54 @@ interface ProductCardProps {
   product: Product;
 }
 
+function useCountdown(expiresAt?: string) {
+  const [remaining, setRemaining] = useState("");
+  const [expired, setExpired] = useState(false);
+
+  useEffect(() => {
+    if (!expiresAt) return;
+
+    const update = () => {
+      const diff = new Date(expiresAt).getTime() - Date.now();
+      if (diff <= 0) {
+        setExpired(true);
+        setRemaining("종료");
+        return;
+      }
+      const h = Math.floor(diff / 3600000);
+      const m = Math.floor((diff % 3600000) / 60000);
+      const s = Math.floor((diff % 60000) / 1000);
+      setRemaining(
+        `${h.toString().padStart(2, "0")}:${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`
+      );
+    };
+
+    update();
+    const interval = setInterval(update, 1000);
+    return () => clearInterval(interval);
+  }, [expiresAt]);
+
+  return { remaining, expired };
+}
+
 export default function ProductCard({ product }: ProductCardProps) {
   const { originalPrice, salePrice, wowPrice, price, isWow } = product;
+  const { remaining, expired } = useCountdown(product.expiresAt);
 
-  // 할인율: 와우가 있으면 와우 기준, 없으면 판매가 기준
   const basePrice = originalPrice || 0;
-  const finalPrice = isWow && wowPrice != null && wowPrice !== undefined ? wowPrice : (salePrice || price);
+  const finalPrice =
+    isWow && wowPrice != null && wowPrice !== undefined
+      ? wowPrice
+      : salePrice || price;
   const discountPercent =
     basePrice > 0 && finalPrice < basePrice
       ? Math.round(((basePrice - finalPrice) / basePrice) * 100)
       : product.discount || 0;
+
+  const soldPercent = product.soldPercent || 0;
+  const isAlmostGone = soldPercent >= 80;
+
+  if (expired) return null; // 만료된 상품 숨김
 
   return (
     <a
@@ -39,7 +78,11 @@ export default function ProductCard({ product }: ProductCardProps) {
             <span className="text-3xl">🛒</span>
           </div>
         )}
-{/* 로켓 뱃지 제거 */}
+        {isAlmostGone && (
+          <span className="absolute top-1 left-1 bg-red-500 text-white text-[9px] font-bold px-1.5 py-0.5 rounded animate-pulse">
+            🔥 매진임박
+          </span>
+        )}
       </div>
 
       {/* 정보 */}
@@ -51,7 +94,6 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         {/* 가격 블록 */}
         <div className="mt-1.5">
-          {/* 원가 + 할인율 */}
           {basePrice > 0 && discountPercent > 0 && (
             <div className="flex items-center gap-1.5 mb-0.5">
               <span className="text-xs text-gray-400 line-through">
@@ -63,18 +105,16 @@ export default function ProductCard({ product }: ProductCardProps) {
             </div>
           )}
 
-          {/* 판매가 */}
           {(salePrice ?? price ?? 0) > 0 && (
             <span className="text-lg font-bold text-orange-600">
               {formatPrice((salePrice || price)!)}
             </span>
           )}
 
-          {/* 와우가 (있을 때만) */}
           {isWow && wowPrice != null && (
             <div className="flex items-center gap-1.5">
               <span className="text-lg font-bold text-purple-600">
-                {wowPrice === 0 ? '무료' : formatPrice(wowPrice)}
+                {wowPrice === 0 ? "무료" : formatPrice(wowPrice)}
               </span>
               <span className="text-[10px] text-white font-semibold bg-purple-500 px-1.5 py-0.5 rounded">
                 와우
@@ -83,15 +123,35 @@ export default function ProductCard({ product }: ProductCardProps) {
           )}
         </div>
 
-        {/* 메타 */}
+        {/* 타이머 + 판매율 */}
         <div className="flex items-center gap-2 mt-1">
-          <span className="text-[11px] text-gray-400">
-            {timeAgo(product.postedAt)}
-          </span>
-          {product.rating != null && (
+          {remaining && (
+            <span className="text-[11px] font-medium text-red-500 flex items-center gap-0.5">
+              ⏰ {remaining}
+            </span>
+          )}
+          {soldPercent > 0 && (
+            <div className="flex items-center gap-1 flex-1">
+              <div className="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden max-w-[60px]">
+                <div
+                  className={`h-full rounded-full transition-all ${
+                    soldPercent >= 80
+                      ? "bg-red-500"
+                      : soldPercent >= 50
+                        ? "bg-orange-400"
+                        : "bg-green-400"
+                  }`}
+                  style={{ width: `${Math.min(soldPercent, 100)}%` }}
+                />
+              </div>
+              <span className="text-[10px] text-gray-400">
+                {soldPercent}%
+              </span>
+            </div>
+          )}
+          {!remaining && !soldPercent && (
             <span className="text-[11px] text-gray-400">
-              ★ {product.rating}
-              {product.reviewCount != null && `(${product.reviewCount.toLocaleString()})`}
+              {timeAgo(product.postedAt)}
             </span>
           )}
         </div>

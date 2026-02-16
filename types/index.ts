@@ -18,5 +18,7 @@ export interface Product {
   isFreeShipping?: boolean;
   rating?: number;
   reviewCount?: number;
+  soldPercent?: number;
+  expiresAt?: string;
   postedAt: string;
 }
