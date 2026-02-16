@@ -206,8 +206,8 @@ export default async function ProductPage({
           </a>
 
           {/* 파트너스 고지 */}
-          <p className="text-[11px] text-gray-400 text-center mt-3 leading-relaxed">
-            이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의
+          <p className="text-xs text-gray-500 text-center mt-4 bg-gray-100 rounded-lg px-3 py-2 leading-relaxed">
+            💡 이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의
             수수료를 제공받습니다.
           </p>
         </div>

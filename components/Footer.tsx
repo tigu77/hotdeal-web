@@ -20,9 +20,9 @@ export default function Footer() {
           📢 텔레그램에서 실시간 알림 받기
         </a>
 
-        <div className="pt-4 border-t border-gray-200 space-y-1">
-          <p className="text-xs text-gray-400">
-            이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의
+        <div className="pt-4 border-t border-gray-200 space-y-2">
+          <p className="text-sm text-gray-600 font-medium bg-gray-100 rounded-lg px-4 py-2.5 inline-block">
+            💡 이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의
             수수료를 제공받습니다.
           </p>
           <p className="text-xs text-gray-400">
