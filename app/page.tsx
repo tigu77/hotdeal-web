@@ -4,6 +4,7 @@ import { useState } from "react";
 import Header from "@/components/Header";
 import ProductCard from "@/components/ProductCard";
 import Footer from "@/components/Footer";
+import CoupangBanner from "@/components/CoupangBanner";
 import { getProducts } from "@/data/products";
 import { SITE } from "@/lib/constants";
 
@@ -26,6 +27,9 @@ export default function Home() {
           </h2>
           <p className="text-gray-500">{SITE.description}</p>
         </section>
+
+        {/* 쿠팡 다이나믹 배너 */}
+        <CoupangBanner />
 
         {/* 상품 목록 */}
         {products.length > 0 ? (
