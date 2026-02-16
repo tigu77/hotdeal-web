@@ -20,22 +20,67 @@ export default function CoupangBanner() {
     }
   }, [loaded]);
 
+  // iframe 너비를 100%로 강제
+  useEffect(() => {
+    if (!loaded) return;
+    const timer = setInterval(() => {
+      const iframes = document.querySelectorAll('iframe[title*="Coupang"]');
+      iframes.forEach((iframe) => {
+        (iframe as HTMLIFrameElement).style.width = "100%";
+        (iframe as HTMLIFrameElement).style.maxWidth = "100%";
+      });
+      if (iframes.length > 0) clearInterval(timer);
+    }, 500);
+    return () => clearInterval(timer);
+  }, [loaded]);
+
   if (!visible) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 flex justify-center bg-white/95 backdrop-blur-sm border-t border-gray-200 py-1">
-      <button
-        onClick={() => setVisible(false)}
-        className="absolute top-1 right-2 text-gray-400 hover:text-gray-600 text-lg font-bold z-10"
-        aria-label="배너 닫기"
-      >
-        ✕
-      </button>
+    <>
       <Script
         src="https://ads-partners.coupang.com/g.js"
         strategy="afterInteractive"
         onLoad={() => setLoaded(true)}
       />
-    </div>
+      <div
+        style={{
+          position: "fixed",
+          bottom: 0,
+          left: 0,
+          right: 0,
+          zIndex: 9999,
+          backgroundColor: "rgba(255,255,255,0.95)",
+          backdropFilter: "blur(8px)",
+          borderTop: "1px solid #e5e7eb",
+          padding: "4px 0",
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <button
+          onClick={() => setVisible(false)}
+          style={{
+            position: "absolute",
+            top: 2,
+            right: 8,
+            background: "rgba(0,0,0,0.1)",
+            border: "none",
+            borderRadius: "50%",
+            width: 24,
+            height: 24,
+            cursor: "pointer",
+            fontSize: 14,
+            lineHeight: "24px",
+            textAlign: "center",
+            color: "#666",
+            zIndex: 10000,
+          }}
+          aria-label="배너 닫기"
+        >
+          ✕
+        </button>
+      </div>
+    </>
   );
 }
