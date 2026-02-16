@@ -1,13 +1,42 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import { WebSiteJsonLd } from "./JsonLd";
 import "./globals.css";
 
 const geist = Geist({ subsets: ["latin"] });
 
+const SITE_URL = "https://hotdeal-web-peach.vercel.app";
+
 export const metadata: Metadata = {
-  title: "핫딜 알리미 | 매일 최저가 추천",
-  description: "매일 엄선된 최저가 상품을 추천합니다. 쿠팡 베스트, 골드박스, 타임세일 핫딜 모음.",
-  keywords: ["핫딜", "최저가", "쿠팡", "추천", "베스트", "골드박스"],
+  title: "핫딜 알리미 | 매일 엄선된 쿠팡 최저가 핫딜 추천",
+  description:
+    "매일 엄선된 쿠팡 최저가 핫딜을 추천합니다. 골드박스, 타임세일, 베스트 상품을 한눈에 비교하고 최대 할인가로 구매하세요.",
+  keywords: [
+    "핫딜",
+    "최저가",
+    "쿠팡",
+    "쿠팡 핫딜",
+    "골드박스",
+    "타임세일",
+    "쿠팡 추천",
+    "오늘의 특가",
+    "최저가 비교",
+  ],
+  metadataBase: new URL(SITE_URL),
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   icons: {
     icon: [
       { url: "/favicon.png", sizes: "32x32", type: "image/png" },
@@ -18,9 +47,19 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "핫딜 알리미 | 매일 최저가 추천",
-    description: "매일 엄선된 최저가 상품을 추천합니다.",
+    title: "핫딜 알리미 | 매일 엄선된 쿠팡 최저가 핫딜 추천",
+    description:
+      "매일 엄선된 쿠팡 최저가 핫딜을 추천합니다. 골드박스, 타임세일, 베스트 상품을 한눈에!",
+    url: SITE_URL,
+    siteName: "핫딜 알리미",
     type: "website",
+    locale: "ko_KR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "핫딜 알리미 | 매일 엄선된 쿠팡 최저가 핫딜 추천",
+    description:
+      "매일 엄선된 쿠팡 최저가 핫딜을 추천합니다. 골드박스, 타임세일, 베스트 상품을 한눈에!",
   },
 };
 
@@ -32,6 +71,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className={`${geist.className} antialiased`}>
+        <WebSiteJsonLd />
         {children}
         {/* 쿠팡 다이나믹 배너 - 하단 고정 */}
         <div

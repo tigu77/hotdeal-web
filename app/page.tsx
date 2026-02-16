@@ -59,10 +59,10 @@ export default function Home() {
 
       <main className="max-w-6xl mx-auto px-4 py-8">
         {/* 히어로 + 검색 */}
-        <section className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-3">
+        <section aria-label="검색" className="text-center mb-8">
+          <h1 className="text-3xl font-bold text-gray-900 mb-3">
             오늘의 <span className="text-orange-500">핫딜</span> 🔥
-          </h2>
+          </h1>
           <p className="text-gray-500 mb-5">{SITE.description}</p>
 
           {/* 검색바 */}
@@ -110,17 +110,17 @@ export default function Home() {
 
         {/* 상품 목록 */}
         {products.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          <section aria-label="상품 목록" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {products.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
-          </div>
+          </section>
         ) : (
           <EmptyState query={searchQuery} />
         )}
 
         {/* 텔레그램 CTA */}
-        <section className="mt-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl p-8 text-center text-white">
+        <aside className="mt-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl p-8 text-center text-white">
           <h3 className="text-2xl font-bold mb-3">핫딜 놓치지 마세요!</h3>
           <p className="text-orange-100 mb-6">
             텔레그램에서 실시간 최저가 알림을 받아보세요
@@ -133,7 +133,7 @@ export default function Home() {
           >
             📢 텔레그램 구독하기
           </a>
-        </section>
+        </aside>
       </main>
 
       <Footer />
