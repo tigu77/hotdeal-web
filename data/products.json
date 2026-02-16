@@ -15,7 +15,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:12:05.899Z"
+    "postedAt": "2026-02-16T16:12:05.899Z",
+    "channelPosted": true
   },
   {
     "id": "1771258323134",
@@ -35,7 +36,8 @@
     "isRocket": true,
     "postedAt": "2026-02-16T16:12:03.134Z",
     "expiresAt": "2026-02-16T21:59:00.401Z",
-    "soldPercent": 15
+    "soldPercent": 15,
+    "channelPosted": true
   },
   {
     "id": "1771258320389",
@@ -53,7 +55,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:12:00.389Z"
+    "postedAt": "2026-02-16T16:12:00.389Z",
+    "channelPosted": true
   },
   {
     "id": "1771258317898",
@@ -71,7 +74,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:57.898Z"
+    "postedAt": "2026-02-16T16:11:57.898Z",
+    "channelPosted": true
   },
   {
     "id": "1771258305442",
@@ -89,7 +93,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:45.442Z"
+    "postedAt": "2026-02-16T16:11:45.442Z",
+    "channelPosted": true
   },
   {
     "id": "1771258302943",
@@ -105,7 +110,8 @@
     "category": "digital",
     "tags": [],
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:42.943Z"
+    "postedAt": "2026-02-16T16:11:42.943Z",
+    "channelPosted": true
   },
   {
     "id": "1771258300456",
@@ -121,7 +127,8 @@
     "category": "digital",
     "tags": [],
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:40.456Z"
+    "postedAt": "2026-02-16T16:11:40.456Z",
+    "channelPosted": true
   },
   {
     "id": "1771258297970",
@@ -139,7 +146,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:37.970Z"
+    "postedAt": "2026-02-16T16:11:37.970Z",
+    "channelPosted": true
   },
   {
     "id": "1771258295468",
@@ -157,7 +165,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:35.468Z"
+    "postedAt": "2026-02-16T16:11:35.468Z",
+    "channelPosted": true
   },
   {
     "id": "1771258292973",
@@ -172,7 +181,8 @@
     "category": "digital",
     "tags": [],
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:32.973Z"
+    "postedAt": "2026-02-16T16:11:32.973Z",
+    "channelPosted": true
   },
   {
     "id": "1771258290481",
@@ -190,7 +200,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:30.483Z"
+    "postedAt": "2026-02-16T16:11:30.483Z",
+    "channelPosted": true
   },
   {
     "id": "1771258287984",
@@ -205,7 +216,8 @@
     "category": "digital",
     "tags": [],
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:27.984Z"
+    "postedAt": "2026-02-16T16:11:27.984Z",
+    "channelPosted": true
   },
   {
     "id": "1771258285484",
@@ -223,7 +235,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:25.484Z"
+    "postedAt": "2026-02-16T16:11:25.484Z",
+    "channelPosted": true
   },
   {
     "id": "1771258282961",
@@ -241,7 +254,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:22.961Z"
+    "postedAt": "2026-02-16T16:11:22.961Z",
+    "channelPosted": true
   },
   {
     "id": "1771258280453",
@@ -259,7 +273,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:20.453Z"
+    "postedAt": "2026-02-16T16:11:20.453Z",
+    "channelPosted": true
   },
   {
     "id": "1771258277828",
@@ -279,7 +294,8 @@
     "isRocket": true,
     "postedAt": "2026-02-16T16:11:17.828Z",
     "expiresAt": "2026-02-16T21:59:59.401Z",
-    "soldPercent": 20
+    "soldPercent": 20,
+    "channelPosted": true
   },
   {
     "id": "1771258275256",
@@ -299,7 +315,8 @@
     "isRocket": true,
     "postedAt": "2026-02-16T16:11:15.256Z",
     "expiresAt": "2026-02-16T21:59:59.401Z",
-    "soldPercent": 18
+    "soldPercent": 18,
+    "channelPosted": true
   },
   {
     "id": "1771258272670",
@@ -317,7 +334,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:12.670Z"
+    "postedAt": "2026-02-16T16:11:12.670Z",
+    "channelPosted": true
   },
   {
     "id": "1771258270173",
@@ -335,7 +353,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:10.173Z"
+    "postedAt": "2026-02-16T16:11:10.173Z",
+    "channelPosted": true
   },
   {
     "id": "1771258267675",
@@ -355,7 +374,8 @@
     "isRocket": true,
     "postedAt": "2026-02-16T16:11:07.676Z",
     "expiresAt": "2026-02-16T21:59:00.401Z",
-    "soldPercent": 15
+    "soldPercent": 15,
+    "channelPosted": true
   },
   {
     "id": "1771258265174",
@@ -373,7 +393,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:05.174Z"
+    "postedAt": "2026-02-16T16:11:05.174Z",
+    "channelPosted": true
   },
   {
     "id": "1771258262678",
@@ -391,7 +412,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:02.678Z"
+    "postedAt": "2026-02-16T16:11:02.678Z",
+    "channelPosted": true
   },
   {
     "id": "1771258260185",
@@ -409,7 +431,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:11:00.186Z"
+    "postedAt": "2026-02-16T16:11:00.186Z",
+    "channelPosted": true
   },
   {
     "id": "1771258257685",
@@ -427,6 +450,7 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T16:10:57.686Z"
+    "postedAt": "2026-02-16T16:10:57.686Z",
+    "channelPosted": true
   }
 ]
