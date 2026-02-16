@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import { getProducts } from "@/data/products";
 import { SITE } from "@/lib/constants";
 
-type SortType = "latest" | "discount" | "price-low" | "price-high";
+type SortType = "latest" | "ending" | "discount" | "price-low" | "price-high";
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
@@ -25,6 +25,13 @@ export default function Home() {
 
     // 정렬
     switch (sortBy) {
+      case "ending":
+        items = [...items].sort((a, b) => {
+          const aExp = a.expiresAt ? new Date(a.expiresAt).getTime() : Infinity;
+          const bExp = b.expiresAt ? new Date(b.expiresAt).getTime() : Infinity;
+          return aExp - bExp;
+        });
+        break;
       case "discount":
         items = [...items].sort((a, b) => (b.discount || 0) - (a.discount || 0));
         break;
@@ -94,6 +101,7 @@ export default function Home() {
             className="text-sm border border-gray-200 rounded-lg px-3 py-1.5 bg-white text-gray-600 focus:outline-none focus:border-orange-400"
           >
             <option value="latest">최신순</option>
+            <option value="ending">마감임박순</option>
             <option value="discount">할인율순</option>
             <option value="price-low">가격 낮은순</option>
             <option value="price-high">가격 높은순</option>
