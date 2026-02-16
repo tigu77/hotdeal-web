@@ -12,7 +12,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
   // 할인율: 와우가 있으면 와우 기준, 없으면 판매가 기준
   const basePrice = originalPrice || 0;
-  const finalPrice = isWow && wowPrice != null ? wowPrice : (salePrice || price);
+  const finalPrice = isWow && wowPrice != null && wowPrice !== undefined ? wowPrice : (salePrice || price);
   const discountPercent =
     basePrice > 0 && finalPrice < basePrice
       ? Math.round(((basePrice - finalPrice) / basePrice) * 100)
@@ -68,17 +68,22 @@ export default function ProductCard({ product }: ProductCardProps) {
           )}
 
           {/* 판매가 */}
-          {(salePrice || price) > 0 && (
+          {!isWow && (salePrice || price) > 0 && (
             <span className="text-lg font-bold text-orange-600">
               {formatPrice(salePrice || price)}
             </span>
           )}
+          {isWow && (salePrice ?? 0) > 0 && (
+            <span className="text-sm text-gray-500">
+              {formatPrice(salePrice!)}
+            </span>
+          )}
 
           {/* 와우가 (있을 때만) */}
-          {isWow && (wowPrice != null || price != null) && (
+          {isWow && wowPrice != null && (
             <div className="flex items-center gap-1.5">
               <span className="text-lg font-bold text-purple-600">
-                {formatPrice(wowPrice ?? price)}
+                {wowPrice === 0 ? '무료' : formatPrice(wowPrice)}
               </span>
               <span className="text-[10px] text-white font-semibold bg-purple-500 px-1.5 py-0.5 rounded">
                 와우

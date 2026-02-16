@@ -80,7 +80,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T04:17:11.942Z"
+    "postedAt": "2026-02-16T04:17:11.942Z",
+    "wowPrice": 0
   },
   {
     "id": "1771215429209",
@@ -246,7 +247,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-14T15:18:18.799Z"
+    "postedAt": "2026-02-14T15:18:18.799Z",
+    "wowPrice": 0
   },
   {
     "id": "1771082296257",
@@ -261,7 +263,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-14T15:18:16.257Z"
+    "postedAt": "2026-02-14T15:18:16.257Z",
+    "wowPrice": 0
   },
   {
     "id": "1771082293742",
@@ -276,7 +279,8 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-14T15:18:13.742Z"
+    "postedAt": "2026-02-14T15:18:13.742Z",
+    "wowPrice": 0
   },
   {
     "id": "1771082291252",
