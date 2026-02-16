@@ -13,7 +13,7 @@ export default function Home() {
   const products = getProducts(selectedCategory);
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 pb-40">
       <Header
         selectedCategory={selectedCategory}
         onCategoryChange={setSelectedCategory}
@@ -27,9 +27,6 @@ export default function Home() {
           </h2>
           <p className="text-gray-500">{SITE.description}</p>
         </section>
-
-        {/* 쿠팡 다이나믹 배너 */}
-        <CoupangBanner />
 
         {/* 상품 목록 */}
         {products.length > 0 ? (
@@ -60,6 +57,7 @@ export default function Home() {
       </main>
 
       <Footer />
+      <CoupangBanner />
     </div>
   );
 }

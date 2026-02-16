@@ -1,10 +1,9 @@
 "use client";
 
 import Script from "next/script";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function CoupangBanner() {
-  const containerRef = useRef<HTMLDivElement>(null);
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
@@ -21,10 +20,7 @@ export default function CoupangBanner() {
   }, [loaded]);
 
   return (
-    <div
-      ref={containerRef}
-      className="w-full flex justify-center my-6 overflow-hidden rounded-xl"
-    >
+    <div className="fixed bottom-0 left-0 right-0 z-50 flex justify-center bg-white/95 backdrop-blur-sm border-t border-gray-200 py-2">
       <Script
         src="https://ads-partners.coupang.com/g.js"
         strategy="afterInteractive"
