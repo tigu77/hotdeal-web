@@ -13,7 +13,7 @@ export default function Home() {
   const products = getProducts(selectedCategory);
 
   return (
-    <div className="min-h-screen bg-gray-50 pb-40">
+    <div className="min-h-screen bg-gray-50 pb-28">
       <Header
         selectedCategory={selectedCategory}
         onCategoryChange={setSelectedCategory}
