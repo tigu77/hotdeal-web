@@ -4,7 +4,7 @@ import { useState } from "react";
 import Header from "@/components/Header";
 import ProductCard from "@/components/ProductCard";
 import Footer from "@/components/Footer";
-import CoupangBanner from "@/components/CoupangBanner";
+// 배너는 layout.tsx에서 처리
 import { getProducts } from "@/data/products";
 import { SITE } from "@/lib/constants";
 
@@ -57,7 +57,6 @@ export default function Home() {
       </main>
 
       <Footer />
-      <CoupangBanner />
     </div>
   );
 }
