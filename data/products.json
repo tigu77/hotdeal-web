@@ -201,7 +201,9 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:17.766Z"
+    "postedAt": "2026-02-16T08:31:17.766Z",
+    "expiresAt": "2026-02-16T21:59:59.677Z",
+    "soldPercent": 10
   },
   {
     "id": "1771230675271",
@@ -271,7 +273,9 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:07.772Z"
+    "postedAt": "2026-02-16T08:31:07.772Z",
+    "expiresAt": "2026-02-16T21:59:59.677Z",
+    "soldPercent": 33
   },
   {
     "id": "1771230665282",
@@ -307,7 +311,9 @@
     "tags": [],
     "isWow": true,
     "isRocket": true,
-    "postedAt": "2026-02-16T08:31:02.794Z"
+    "postedAt": "2026-02-16T08:31:02.794Z",
+    "expiresAt": "2026-02-16T21:59:59.677Z",
+    "soldPercent": 12
   },
   {
     "id": "1771230660290",
