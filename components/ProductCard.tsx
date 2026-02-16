@@ -11,6 +11,7 @@ interface ProductCardProps {
 function useCountdown(expiresAt?: string) {
   const [remaining, setRemaining] = useState("");
   const [expired, setExpired] = useState(false);
+  const [isUrgent, setIsUrgent] = useState(false);
 
   useEffect(() => {
     if (!expiresAt) return;
@@ -25,6 +26,7 @@ function useCountdown(expiresAt?: string) {
       const h = Math.floor(diff / 3600000);
       const m = Math.floor((diff % 3600000) / 60000);
       const s = Math.floor((diff % 60000) / 1000);
+      setIsUrgent(diff < 3600000); // 1시간 미만
       setRemaining(
         `${h.toString().padStart(2, "0")}:${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`
       );
@@ -35,12 +37,12 @@ function useCountdown(expiresAt?: string) {
     return () => clearInterval(interval);
   }, [expiresAt]);
 
-  return { remaining, expired };
+  return { remaining, expired, isUrgent };
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
   const { originalPrice, salePrice, wowPrice, price, isWow } = product;
-  const { remaining, expired } = useCountdown(product.expiresAt);
+  const { remaining, expired, isUrgent } = useCountdown(product.expiresAt);
 
   const basePrice = originalPrice || 0;
   const finalPrice =
@@ -124,28 +126,35 @@ export default function ProductCard({ product }: ProductCardProps) {
         </div>
 
         {/* 타이머 + 판매율 */}
-        <div className="flex items-center gap-2 mt-1">
+        <div className="flex flex-col gap-1 mt-1.5">
           {remaining && (
-            <span className="text-[11px] font-medium text-red-500 flex items-center gap-0.5">
-              ⏰ {remaining}
-            </span>
+            <div className="flex items-center gap-1.5">
+              <span className={`text-xs font-bold tabular-nums tracking-tight ${
+                isUrgent ? "text-red-600 animate-pulse" : "text-orange-500"
+              }`}>
+                ⏰ {remaining}
+              </span>
+              <span className="text-[10px] text-gray-400">남음</span>
+            </div>
           )}
           {soldPercent > 0 && (
-            <div className="flex items-center gap-1 flex-1">
-              <div className="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden max-w-[60px]">
+            <div className="flex items-center gap-1.5">
+              <div className="flex-1 h-2 bg-gray-100 rounded-full overflow-hidden max-w-[80px]">
                 <div
                   className={`h-full rounded-full transition-all ${
                     soldPercent >= 80
                       ? "bg-red-500"
                       : soldPercent >= 50
                         ? "bg-orange-400"
-                        : "bg-green-400"
+                        : "bg-blue-400"
                   }`}
                   style={{ width: `${Math.min(soldPercent, 100)}%` }}
                 />
               </div>
-              <span className="text-[10px] text-gray-400">
-                {soldPercent}%
+              <span className={`text-[11px] font-medium ${
+                soldPercent >= 80 ? "text-red-500" : "text-gray-500"
+              }`}>
+                {soldPercent}% 판매
               </span>
             </div>
           )}
