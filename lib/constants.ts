@@ -12,6 +12,7 @@ export const CATEGORIES = [
   { id: "digital", name: "가전/디지털", emoji: "🖥️" },
   { id: "living", name: "생활용품", emoji: "🏠" },
   { id: "food", name: "식품", emoji: "🍜" },
+  { id: "health", name: "건강", emoji: "💊" },
   { id: "baby", name: "육아용품", emoji: "👶" },
   { id: "beauty", name: "뷰티", emoji: "💄" },
   { id: "fashion", name: "패션", emoji: "👕" },
