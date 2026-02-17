@@ -1,7 +1,25 @@
 import type { Product } from "@/types";
 import raw from "./products.json";
 
-const allProducts: Product[] = raw as Product[];
+const allProducts: Product[] = (raw as any[]).map((p) => ({
+  id: p.id || '',
+  title: p.title || '',
+  description: p.description || '',
+  price: p.price || 0,
+  salePrice: p.salePrice,
+  wowPrice: p.wowPrice,
+  originalPrice: p.originalPrice,
+  discount: p.discount,
+  imageUrl: p.imageUrl || p.image || '',
+  affiliateUrl: p.affiliateUrl || p.url || '',
+  category: p.category || 'general',
+  tags: p.tags || [],
+  isWow: !!p.wowPrice,
+  isRocket: p.isRocket,
+  soldPercent: p.soldPercent,
+  expiresAt: p.expiresAt,
+  postedAt: p.postedAt || new Date().toISOString(),
+}));
 
 /**
  * 중복 제거 + 최신순 정렬된 상품 목록
