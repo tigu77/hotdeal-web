@@ -1,11 +1,12 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import Header from "@/components/Header";
 import ProductCard from "@/components/ProductCard";
 import Footer from "@/components/Footer";
 import { getProducts } from "@/data/products";
 import { SITE } from "@/lib/constants";
+import { trackCategoryFilter, trackSearch, trackSort } from "@/lib/analytics";
 
 type SortType = "latest" | "popular" | "ending" | "discount" | "price-low" | "price-high";
 
@@ -13,6 +14,17 @@ export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState<SortType>("latest");
+
+  // 검색 트래킹 (디바운스 500ms)
+  const searchTimer = useRef<NodeJS.Timeout>();
+  useEffect(() => {
+    if (!searchQuery.trim()) return;
+    clearTimeout(searchTimer.current);
+    searchTimer.current = setTimeout(() => {
+      trackSearch(searchQuery.trim(), products.length);
+    }, 500);
+    return () => clearTimeout(searchTimer.current);
+  }, [searchQuery]);
 
   const products = useMemo(() => {
     let items = getProducts(selectedCategory);
@@ -60,6 +72,7 @@ export default function Home() {
         onCategoryChange={(cat) => {
           setSelectedCategory(cat);
           setSearchQuery("");
+          trackCategoryFilter(cat || "전체");
         }}
       />
 
@@ -110,7 +123,7 @@ export default function Home() {
 
           <select
             value={sortBy}
-            onChange={(e) => setSortBy(e.target.value as SortType)}
+            onChange={(e) => { setSortBy(e.target.value as SortType); trackSort(e.target.value); }}
             className="text-sm border border-gray-200 rounded-lg px-3 py-1.5 bg-white text-gray-600 focus:outline-none focus:border-orange-400"
           >
             <option value="latest">최신순</option>

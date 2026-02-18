@@ -6,6 +6,7 @@ import { formatPrice } from "@/lib/format";
 import { SITE, CATEGORIES } from "@/lib/constants";
 import CountdownTimer from "@/components/CountdownTimer";
 import SoldBar from "./SoldBar";
+import { PurchaseButton, TelegramButton, RecommendCard } from "./TrackingButtons";
 
 function getProductById(id: string) {
   return getProducts().find((p) => p.id === id) || null;
@@ -212,14 +213,13 @@ export default async function ProductPage({
           )}
 
           {/* CTA */}
-          <a
-            href={product.affiliateUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block w-full text-center bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 rounded-2xl text-lg transition-colors mt-4"
-          >
-            🛒 쿠팡에서 구매하기
-          </a>
+          <PurchaseButton
+            productId={product.id}
+            title={product.title}
+            price={finalPrice}
+            category={product.category}
+            affiliateUrl={product.affiliateUrl}
+          />
 
           {/* 파트너스 고지 */}
           <p className="text-xs text-gray-500 text-center mt-4 bg-gray-100 rounded-lg px-3 py-2 leading-relaxed">
@@ -238,11 +238,7 @@ export default async function ProductPage({
               {relatedProducts.map((p) => {
                 const pFinal = p.isWow && p.wowPrice != null ? p.wowPrice : p.salePrice || p.price;
                 return (
-                  <Link
-                    key={p.id}
-                    href={`/product/${p.id}`}
-                    className="bg-white rounded-2xl p-3 shadow-sm border border-gray-100 hover:border-orange-200 hover:shadow-md transition-all group"
-                  >
+                  <RecommendCard key={p.id} product={p}>
                     <div className="aspect-square rounded-xl overflow-hidden bg-gray-50 mb-2">
                       <img
                         src={p.imageUrl?.replace(/\/\d+x\d+ex\//, '/492x492ex/')}
@@ -262,7 +258,7 @@ export default async function ProductPage({
                         {p.discount}%↓
                       </span>
                     )}
-                  </Link>
+                  </RecommendCard>
                 );
               })}
             </div>
