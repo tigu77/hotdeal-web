@@ -1,6 +1,7 @@
 "use client";
 
 import { CATEGORIES, SITE } from "@/lib/constants";
+import SiteShareButton from "./SiteShareButton";
 
 interface HeaderProps {
   selectedCategory: string | null;
@@ -23,14 +24,17 @@ export default function Header({
             </h1>
           </div>
 
-          <a
-            href={SITE.telegram}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-sky-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-sky-600 transition-colors"
-          >
-            📢 텔레그램 구독
-          </a>
+          <div className="flex items-center gap-1">
+            <SiteShareButton />
+            <a
+              href={SITE.telegram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-sky-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-sky-600 transition-colors"
+            >
+              📢 텔레그램 구독
+            </a>
+          </div>
         </div>
 
         {/* 카테고리 필터 */}
