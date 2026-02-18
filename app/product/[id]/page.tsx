@@ -5,6 +5,7 @@ import { getProducts } from "@/data/products";
 import { formatPrice } from "@/lib/format";
 import { SITE, CATEGORIES } from "@/lib/constants";
 import CountdownTimer from "@/components/CountdownTimer";
+import ShareButtons from "@/components/ShareButtons";
 import SoldBar from "./SoldBar";
 import { PurchaseButton, TelegramButton, RecommendCard } from "./TrackingButtons";
 
@@ -219,6 +220,13 @@ export default async function ProductPage({
             price={finalPrice}
             category={product.category}
             affiliateUrl={product.affiliateUrl}
+          />
+
+          {/* 공유 버튼 */}
+          <ShareButtons
+            productId={product.id}
+            title={product.title}
+            discount={discountPercent}
           />
 
           {/* 파트너스 고지 */}
