@@ -111,7 +111,7 @@ export default async function ProductPage({
         <div className="relative w-full aspect-square max-w-md mx-auto rounded-2xl overflow-hidden bg-white shadow-sm mb-6">
           {product.imageUrl ? (
             <img
-              src={product.imageUrl}
+              src={product.imageUrl.replace(/\/\d+x\d+ex\//, '/492x492ex/')}
               alt={product.title}
               className="w-full h-full object-contain"
             />
