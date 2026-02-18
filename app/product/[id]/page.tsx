@@ -245,7 +245,7 @@ export default async function ProductPage({
                   >
                     <div className="aspect-square rounded-xl overflow-hidden bg-gray-50 mb-2">
                       <img
-                        src={p.imageUrl}
+                        src={p.imageUrl?.replace(/\/\d+x\d+ex\//, '/492x492ex/')}
                         alt={p.title}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         loading="lazy"
