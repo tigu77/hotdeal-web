@@ -15,17 +15,6 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState<SortType>("latest");
 
-  // 검색 트래킹 (디바운스 500ms)
-  const searchTimer = useRef<NodeJS.Timeout>();
-  useEffect(() => {
-    if (!searchQuery.trim()) return;
-    clearTimeout(searchTimer.current);
-    searchTimer.current = setTimeout(() => {
-      trackSearch(searchQuery.trim(), products.length);
-    }, 500);
-    return () => clearTimeout(searchTimer.current);
-  }, [searchQuery]);
-
   const products = useMemo(() => {
     let items = getProducts(selectedCategory);
 
@@ -64,6 +53,17 @@ export default function Home() {
 
     return items;
   }, [selectedCategory, searchQuery, sortBy]);
+
+  // 검색 트래킹 (디바운스 500ms)
+  const searchTimer = useRef<NodeJS.Timeout>(null);
+  useEffect(() => {
+    if (!searchQuery.trim()) return;
+    if (searchTimer.current) clearTimeout(searchTimer.current);
+    searchTimer.current = setTimeout(() => {
+      trackSearch(searchQuery.trim(), products.length);
+    }, 500);
+    return () => { if (searchTimer.current) clearTimeout(searchTimer.current); };
+  }, [searchQuery, products.length]);
 
   return (
     <div className="min-h-screen bg-gray-50 pb-28">
