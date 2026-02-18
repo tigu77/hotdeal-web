@@ -59,7 +59,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
   return (
     <a
-      href={product.affiliateUrl}
+      href={`/product/${product.id}`}
       className="group flex gap-3 p-3 bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-orange-200"
     >
       {/* 썸네일 */}

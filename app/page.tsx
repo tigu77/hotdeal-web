@@ -20,7 +20,10 @@ export default function Home() {
     // 검색 필터
     if (searchQuery.trim()) {
       const q = searchQuery.trim().toLowerCase();
-      items = items.filter((p) => p.title.toLowerCase().includes(q));
+      items = items.filter((p) =>
+        p.title.toLowerCase().includes(q) ||
+        (p.tags && p.tags.some((t) => t.toLowerCase().includes(q)))
+      );
     }
 
     // 정렬

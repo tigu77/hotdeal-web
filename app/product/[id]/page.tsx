@@ -26,10 +26,12 @@ export async function generateMetadata({
 
   const title = `${product.title} | 핫딜 알리미`;
   const description = `${product.title} - ${formatPrice(product.price)}${product.discount ? ` (${product.discount}% 할인)` : ""}. 쿠팡 최저가 핫딜!`;
+  const keywords = ["핫딜", "최저가", "쿠팡", product.title, ...(product.tags || [])];
 
   return {
     title,
     description,
+    keywords,
     openGraph: {
       title,
       description,
@@ -147,9 +149,23 @@ export default async function ProductPage({
           </div>
 
           {/* 상품명 */}
-          <h1 className="text-xl font-bold text-gray-900 mb-4 leading-snug">
+          <h1 className="text-xl font-bold text-gray-900 mb-3 leading-snug">
             {product.title}
           </h1>
+
+          {/* 태그 */}
+          {product.tags && product.tags.length > 0 && (
+            <div className="flex flex-wrap gap-1.5 mb-4">
+              {product.tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full"
+                >
+                  #{tag}
+                </span>
+              ))}
+            </div>
+          )}
 
           {/* 가격 */}
           <div className="space-y-1 mb-4">
