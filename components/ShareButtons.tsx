@@ -41,32 +41,26 @@ export default function ShareButtons({ productId, title, discount }: ShareButton
         await navigator.share({ title, text, url });
         return;
       } catch {
-        // user cancelled or error — fall through to copy
+        // user cancelled — fall through to copy
       }
     }
     // fallback: copy link
     await copyToClipboard(url);
   };
 
-  const handleCopy = async () => {
-    const url = `${baseUrl}?utm_source=copy&utm_medium=share`;
-    await copyToClipboard(url);
-  };
-
   return (
-    <div className="flex items-center gap-2 mt-3">
-      <button
-        onClick={handleShare}
-        className="flex-1 flex items-center justify-center gap-1.5 px-3 py-2 bg-zinc-800 hover:bg-zinc-700 text-zinc-200 text-xs font-medium rounded-lg transition-colors"
-      >
-        📤 공유하기
-      </button>
-      <button
-        onClick={handleCopy}
-        className="flex-1 flex items-center justify-center gap-1.5 px-3 py-2 bg-zinc-800 hover:bg-zinc-700 text-zinc-200 text-xs font-medium rounded-lg transition-colors"
-      >
-        📋 {copied ? "복사됨!" : "링크복사"}
-      </button>
-    </div>
+    <button
+      onClick={handleShare}
+      className="relative flex-shrink-0 flex items-center justify-center w-14 h-14 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-2xl transition-colors"
+      aria-label="공유하기"
+    >
+      {copied ? (
+        <span className="text-xs font-medium text-green-600">복사됨!</span>
+      ) : (
+        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+        </svg>
+      )}
+    </button>
   );
 }

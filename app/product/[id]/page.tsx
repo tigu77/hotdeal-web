@@ -213,21 +213,21 @@ export default async function ProductPage({
             <SoldBar soldPercent={product.soldPercent} />
           )}
 
-          {/* CTA */}
-          <PurchaseButton
-            productId={product.id}
-            title={product.title}
-            price={finalPrice}
-            category={product.category}
-            affiliateUrl={product.affiliateUrl}
-          />
-
-          {/* 공유 버튼 */}
-          <ShareButtons
-            productId={product.id}
-            title={product.title}
-            discount={discountPercent}
-          />
+          {/* CTA + 공유 */}
+          <div className="flex items-center gap-2 mt-4">
+            <PurchaseButton
+              productId={product.id}
+              title={product.title}
+              price={finalPrice}
+              category={product.category}
+              affiliateUrl={product.affiliateUrl}
+            />
+            <ShareButtons
+              productId={product.id}
+              title={product.title}
+              discount={discountPercent}
+            />
+          </div>
 
           {/* 파트너스 고지 */}
           <p className="text-xs text-gray-500 text-center mt-4 bg-gray-100 rounded-lg px-3 py-2 leading-relaxed">

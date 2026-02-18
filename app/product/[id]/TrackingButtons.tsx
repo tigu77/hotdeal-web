@@ -11,7 +11,7 @@ export function PurchaseButton({ productId, title, price, category, affiliateUrl
       target="_blank"
       rel="noopener noreferrer"
       onClick={() => trackPurchaseClick(productId, title, price, category)}
-      className="block w-full text-center bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 rounded-2xl text-lg transition-colors mt-4"
+      className="flex-1 block text-center bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 rounded-2xl text-lg transition-colors"
     >
       🛒 쿠팡에서 구매하기
     </a>
