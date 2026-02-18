@@ -168,31 +168,31 @@ export default async function ProductPage({
             </div>
           )}
 
-          {/* 가격 */}
-          <div className="space-y-1 mb-4">
+          {/* 가격 블록 — 카드 스타일 통일 */}
+          <div className="mb-4">
             {basePrice > 0 && discountPercent > 0 && (
-              <div className="flex items-center gap-2">
-                <span className="text-sm text-gray-400">원가</span>
+              <div className="flex items-center gap-1.5 mb-1">
                 <span className="text-sm text-gray-400 line-through">
                   {formatPrice(basePrice)}
                 </span>
-              </div>
-            )}
-            {(salePrice ?? price ?? 0) > 0 && (
-              <div className="flex items-center gap-2">
-                <span className="text-sm text-gray-500">판매가</span>
-                <span className={`text-xl font-bold ${isWow && wowPrice != null ? "text-gray-500" : "text-orange-600"}`}>
-                  {formatPrice((salePrice || price)!)}
+                <span className="text-sm font-bold text-red-500">
+                  {discountPercent}%↓
                 </span>
               </div>
             )}
+
+            {(salePrice ?? price ?? 0) > 0 && (
+              <span className="text-2xl font-bold text-orange-600">
+                {formatPrice((salePrice || price)!)}
+              </span>
+            )}
+
             {isWow && wowPrice != null && (
-              <div className="flex items-center gap-2">
-                <span className="text-sm text-purple-500">와우할인가</span>
+              <div className="flex items-center gap-1.5 mt-1">
                 <span className="text-2xl font-bold text-purple-600">
                   {wowPrice === 0 ? "무료" : formatPrice(wowPrice)}
                 </span>
-                <span className="text-xs text-white font-semibold bg-purple-500 px-2 py-0.5 rounded">
+                <span className="text-xs text-white font-semibold bg-purple-500 px-1.5 py-0.5 rounded">
                   와우
                 </span>
               </div>
@@ -236,7 +236,10 @@ export default async function ProductPage({
             </h2>
             <div className="grid grid-cols-2 gap-3">
               {relatedProducts.map((p) => {
+                const pBase = p.originalPrice || 0;
                 const pFinal = p.isWow && p.wowPrice != null ? p.wowPrice : p.salePrice || p.price;
+                const pDiscount = pBase > 0 && pFinal < pBase
+                  ? Math.round(((pBase - pFinal) / pBase) * 100) : p.discount || 0;
                 return (
                   <RecommendCard key={p.id} product={p}>
                     <div className="aspect-square rounded-xl overflow-hidden bg-gray-50 mb-2">
@@ -250,14 +253,31 @@ export default async function ProductPage({
                     <h3 className="text-xs font-medium text-gray-800 line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors">
                       {p.title}
                     </h3>
-                    <span className="text-sm font-bold text-orange-600">
-                      {formatPrice(pFinal)}
-                    </span>
-                    {p.discount && p.discount > 0 && (
-                      <span className="text-xs text-red-500 font-bold ml-1">
-                        {p.discount}%↓
+                    <div className="mt-1">
+                      {pBase > 0 && pDiscount > 0 && (
+                        <div className="flex items-center gap-1 mb-0.5">
+                          <span className="text-[10px] text-gray-400 line-through">
+                            {formatPrice(pBase)}
+                          </span>
+                          <span className="text-[10px] font-bold text-red-500">
+                            {pDiscount}%↓
+                          </span>
+                        </div>
+                      )}
+                      <span className="text-sm font-bold text-orange-600">
+                        {formatPrice((p.salePrice || p.price)!)}
                       </span>
-                    )}
+                      {p.isWow && p.wowPrice != null && (
+                        <div className="flex items-center gap-1 mt-0.5">
+                          <span className="text-sm font-bold text-purple-600">
+                            {formatPrice(p.wowPrice)}
+                          </span>
+                          <span className="text-[9px] text-white font-semibold bg-purple-500 px-1 py-0.5 rounded">
+                            와우
+                          </span>
+                        </div>
+                      )}
+                    </div>
                   </RecommendCard>
                 );
               })}
