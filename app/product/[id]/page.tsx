@@ -37,7 +37,7 @@ export async function generateMetadata({
       description,
       url: `${SITE.url}/product/${product.id}`,
       siteName: SITE.name,
-      images: product.imageUrl ? [{ url: product.imageUrl, width: 492, height: 492 }] : [],
+      images: product.imageUrl ? [{ url: product.imageUrl, width: 230, height: 230 }] : [],
       type: "article",
       locale: "ko_KR",
     },
