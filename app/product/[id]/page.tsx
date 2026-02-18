@@ -110,7 +110,7 @@ export default async function ProductPage({
 
       <main className="max-w-3xl mx-auto px-4 py-6">
         {/* 상품 이미지 */}
-        <div className="relative w-full aspect-square max-w-md mx-auto rounded-2xl overflow-hidden bg-white shadow-sm mb-6">
+        <div className="relative w-full aspect-[4/3] max-w-sm mx-auto rounded-2xl overflow-hidden bg-white shadow-sm mb-4">
           {product.imageUrl ? (
             <img
               src={product.imageUrl.replace(/\/\d+x\d+ex\//, '/492x492ex/')}
