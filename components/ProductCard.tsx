@@ -57,8 +57,6 @@ export default function ProductCard({ product }: ProductCardProps) {
   const soldPercent = product.soldPercent || 0;
   const isAlmostGone = soldPercent >= 80;
 
-  if (expired) return null; // 만료된 상품 숨김
-
   return (
     <a
       href={product.affiliateUrl}

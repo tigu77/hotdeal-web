@@ -26,9 +26,12 @@ const allProducts: Product[] = (raw as any[]).map((p) => ({
  * - title 기준 중복 제거, 최신 것만 유지
  */
 export function getProducts(category?: string | null): Product[] {
-  const sorted = [...allProducts].sort(
-    (a, b) => new Date(b.postedAt).getTime() - new Date(a.postedAt).getTime()
-  );
+  const now = Date.now();
+  const sorted = [...allProducts]
+    .filter((p) => !p.expiresAt || new Date(p.expiresAt).getTime() > now)
+    .sort(
+      (a, b) => new Date(b.postedAt).getTime() - new Date(a.postedAt).getTime()
+    );
 
   // 같은 title이면 최신 것만 유지
   const seen = new Set<string>();
