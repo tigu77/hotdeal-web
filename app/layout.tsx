@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import { WebSiteJsonLd } from "./JsonLd";
+import ScrollToTop from "../components/ScrollToTop";
 import "./globals.css";
 
 const geist = Geist({ subsets: ["latin"] });
@@ -84,6 +85,7 @@ export default function RootLayout({
       <body className={`${geist.className} antialiased`}>
         <WebSiteJsonLd />
         {children}
+        <ScrollToTop />
         {/* 쿠팡 다이나믹 배너 - 하단 고정 */}
         <div
           id="coupang-banner-wrap"
