@@ -48,6 +48,13 @@ export default function Header({
             active={!wishlistMode && selectedCategory === null}
             onClick={() => onCategoryChange(null)}
           />
+          {onWishlistToggle && (
+            <CategoryTab
+              label="❤️ 찜"
+              active={!!wishlistMode}
+              onClick={onWishlistToggle}
+            />
+          )}
           {CATEGORIES.map((cat) => (
             <CategoryTab
               key={cat.id}
@@ -56,13 +63,6 @@ export default function Header({
               onClick={() => onCategoryChange(cat.id)}
             />
           ))}
-          {onWishlistToggle && (
-            <CategoryTab
-              label="❤️ 찜"
-              active={!!wishlistMode}
-              onClick={onWishlistToggle}
-            />
-          )}
         </nav>
       </div>
     </header>
