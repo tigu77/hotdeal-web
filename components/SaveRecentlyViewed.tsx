@@ -7,6 +7,7 @@ interface RecentItem {
   title: string;
   imageUrl: string;
   price: number;
+  discount?: number;
   affiliateUrl: string;
   timestamp: number;
 }
@@ -19,6 +20,7 @@ export default function SaveRecentlyViewed({
   title,
   imageUrl,
   price,
+  discount,
   affiliateUrl,
 }: Omit<RecentItem, "timestamp">) {
   useEffect(() => {
@@ -27,13 +29,13 @@ export default function SaveRecentlyViewed({
         localStorage.getItem(STORAGE_KEY) || "[]"
       );
       const filtered = stored.filter((item) => item.productId !== productId);
-      filtered.unshift({ productId, title, imageUrl, price, affiliateUrl, timestamp: Date.now() });
+      filtered.unshift({ productId, title, imageUrl, price, discount, affiliateUrl, timestamp: Date.now() });
       localStorage.setItem(
         STORAGE_KEY,
         JSON.stringify(filtered.slice(0, MAX_ITEMS))
       );
     } catch {}
-  }, [productId, title, imageUrl, price, affiliateUrl]);
+  }, [productId, title, imageUrl, price, discount, affiliateUrl]);
 
   return null;
 }

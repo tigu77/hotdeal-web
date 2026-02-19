@@ -9,6 +9,7 @@ interface RecentItem {
   title: string;
   imageUrl: string;
   price: number;
+  discount?: number;
   affiliateUrl: string;
   timestamp: number;
 }
@@ -73,9 +74,16 @@ export default function RecentlyViewed() {
             <h3 className="text-xs font-medium text-gray-800 line-clamp-1 group-hover:text-orange-600 transition-colors">
               {item.title}
             </h3>
-            <span className="text-xs font-bold text-orange-600">
-              {formatPrice(item.price)}
-            </span>
+            <div className="flex items-center gap-1">
+              <span className="text-xs font-bold text-orange-600">
+                {formatPrice(item.price)}
+              </span>
+              {item.discount && item.discount > 0 && (
+                <span className="text-[10px] font-bold text-red-500">
+                  {item.discount}%
+                </span>
+              )}
+            </div>
           </a>
         ))}
       </div>
