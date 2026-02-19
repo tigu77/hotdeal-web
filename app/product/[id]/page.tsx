@@ -112,6 +112,8 @@ export default async function ProductPage({
         affiliateUrl={product.affiliateUrl}
         soldPercent={product.soldPercent}
         expiresAt={product.expiresAt}
+        rating={product.rating}
+        reviewCount={product.reviewCount}
       />
       {/* 상단 네비 */}
       <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100">
@@ -183,6 +185,16 @@ export default async function ProductPage({
                   #{tag}
                 </span>
               ))}
+            </div>
+          )}
+
+          {/* 별점/리뷰 */}
+          {product.rating != null && product.rating > 0 && (
+            <div className="flex items-center gap-1.5 mb-3">
+              <span className="text-yellow-500 text-sm">⭐ {product.rating.toFixed(1)}</span>
+              {product.reviewCount != null && product.reviewCount > 0 && (
+                <span className="text-sm text-gray-500">({product.reviewCount.toLocaleString()}개 리뷰)</span>
+              )}
             </div>
           )}
 

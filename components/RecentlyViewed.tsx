@@ -18,6 +18,8 @@ interface RecentItem {
   affiliateUrl: string;
   soldPercent?: number;
   expiresAt?: string;
+  rating?: number;
+  reviewCount?: number;
   timestamp: number;
 }
 
@@ -86,6 +88,14 @@ export default function RecentlyViewed() {
                   </span>
                 )}
               </div>
+              {item.rating != null && item.rating > 0 && (
+                <div className="flex items-center gap-0.5">
+                  <span className="text-[10px] text-yellow-500">⭐{item.rating.toFixed(1)}</span>
+                  {item.reviewCount != null && item.reviewCount > 0 && (
+                    <span className="text-[10px] text-gray-400">({item.reviewCount.toLocaleString()})</span>
+                  )}
+                </div>
+              )}
             </a>
           );
         })}

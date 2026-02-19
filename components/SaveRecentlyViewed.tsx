@@ -16,6 +16,8 @@ interface RecentItem {
   affiliateUrl: string;
   soldPercent?: number;
   expiresAt?: string;
+  rating?: number;
+  reviewCount?: number;
   timestamp: number;
 }
 
@@ -36,6 +38,8 @@ export default function SaveRecentlyViewed({
   affiliateUrl,
   soldPercent,
   expiresAt,
+  rating,
+  reviewCount,
 }: Omit<RecentItem, "timestamp">) {
   useEffect(() => {
     try {
@@ -46,7 +50,7 @@ export default function SaveRecentlyViewed({
       filtered.unshift({
         productId, title, imageUrl, price,
         salePrice, wowPrice, originalPrice, discount,
-        isWow, isRocket, affiliateUrl, soldPercent, expiresAt,
+        isWow, isRocket, affiliateUrl, soldPercent, expiresAt, rating, reviewCount,
         timestamp: Date.now(),
       });
       localStorage.setItem(
@@ -54,7 +58,7 @@ export default function SaveRecentlyViewed({
         JSON.stringify(filtered.slice(0, MAX_ITEMS))
       );
     } catch {}
-  }, [productId, title, imageUrl, price, salePrice, wowPrice, originalPrice, discount, isWow, isRocket, affiliateUrl, soldPercent, expiresAt]);
+  }, [productId, title, imageUrl, price, salePrice, wowPrice, originalPrice, discount, isWow, isRocket, affiliateUrl, soldPercent, expiresAt, rating, reviewCount]);
 
   return null;
 }
