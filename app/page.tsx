@@ -15,6 +15,11 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState<SortType>("latest");
 
+  // 카테고리 변경 시 스크롤 초기화
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [selectedCategory]);
+
   const products = useMemo(() => {
     let items = getProducts(selectedCategory);
 
