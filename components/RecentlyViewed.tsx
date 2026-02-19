@@ -85,24 +85,16 @@ export default function RecentlyViewed() {
               <h3 className="text-xs font-medium text-gray-800 line-clamp-1 group-hover:text-orange-600 transition-colors">
                 {item.title}
               </h3>
-              <div className="flex items-center gap-1 flex-wrap">
+              <div className="flex items-center gap-1">
                 <span className={`text-xs font-bold ${priceColor}`}>
                   {displayPrice === 0 ? "무료" : formatPrice(displayPrice)}
                 </span>
-                {item.isWow && (
-                  <span className="text-[8px] text-white font-semibold bg-purple-500 px-1 py-0.5 rounded leading-none">
-                    W
+                {item.discount != null && item.discount > 0 && (
+                  <span className="text-[10px] font-bold text-red-500">
+                    {item.discount}%↓
                   </span>
                 )}
-                {item.isRocket && (
-                  <span className="text-[10px] leading-none">🚀</span>
-                )}
               </div>
-              {item.discount != null && item.discount > 0 && (
-                <span className="text-[10px] font-bold text-red-500">
-                  {item.discount}%↓
-                </span>
-              )}
             </a>
           );
         })}
