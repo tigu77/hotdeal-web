@@ -78,9 +78,9 @@ export default function RecentlyViewed() {
               <span className="text-xs font-bold text-orange-600">
                 {formatPrice(item.price)}
               </span>
-              {item.discount && item.discount > 0 && (
+              {item.discount != null && item.discount > 0 && (
                 <span className="text-[10px] font-bold text-red-500">
-                  {item.discount}%
+                  {item.discount}%↓
                 </span>
               )}
             </div>
