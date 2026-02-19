@@ -11,7 +11,7 @@ import { trackCategoryFilter, trackSearch, trackSort } from "@/lib/analytics";
 import { getWishlist } from "@/lib/wishlist";
 import { formatPrice } from "@/lib/format";
 
-type SortType = "latest" | "popular" | "ending" | "discount" | "price-low" | "price-high";
+type SortType = "latest" | "popular" | "ending" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
@@ -75,6 +75,12 @@ export default function Home() {
         break;
       case "price-high":
         items = [...items].sort((a, b) => (b.price || 0) - (a.price || 0));
+        break;
+      case "rating":
+        items = [...items].sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        break;
+      case "reviews":
+        items = [...items].sort((a, b) => (b.reviewCount || 0) - (a.reviewCount || 0));
         break;
       // latest는 기본 (getProducts가 이미 최신순)
     }
@@ -166,6 +172,8 @@ export default function Home() {
             <option value="discount">할인율순</option>
             <option value="price-low">가격 낮은순</option>
             <option value="price-high">가격 높은순</option>
+            <option value="rating">별점순</option>
+            <option value="reviews">리뷰수순</option>
           </select>
         </div>
 

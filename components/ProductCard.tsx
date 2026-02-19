@@ -108,14 +108,23 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         {/* 가격 블록 */}
         <div className="mt-1.5">
-          {basePrice > 0 && discountPercent > 0 && (
-            <div className="flex items-center gap-1.5 mb-0.5">
-              <span className="text-xs text-gray-400 line-through">
-                {formatPrice(basePrice)}
-              </span>
-              <span className="text-xs font-bold text-red-500">
-                {discountPercent}%↓
-              </span>
+          {(basePrice > 0 && discountPercent > 0 || (product.rating != null && product.rating > 0)) && (
+            <div className="flex items-center gap-1.5 mb-0.5 flex-wrap">
+              {basePrice > 0 && discountPercent > 0 && (
+                <>
+                  <span className="text-xs text-gray-400 line-through">
+                    {formatPrice(basePrice)}
+                  </span>
+                  <span className="text-xs font-bold text-red-500">
+                    {discountPercent}%↓
+                  </span>
+                </>
+              )}
+              {product.rating != null && product.rating > 0 && (
+                <span className="text-[11px] text-yellow-500">
+                  ⭐{product.rating.toFixed(1)}{product.reviewCount != null && product.reviewCount > 0 && ` (${product.reviewCount.toLocaleString()})`}
+                </span>
+              )}
             </div>
           )}
 
@@ -170,15 +179,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               </span>
             </div>
           )}
-          {(product.rating != null && product.rating > 0) && (
-            <div className="flex items-center gap-1">
-              <span className="text-[11px] text-yellow-500">⭐ {product.rating.toFixed(1)}</span>
-              {product.reviewCount != null && product.reviewCount > 0 && (
-                <span className="text-[11px] text-gray-400">({product.reviewCount.toLocaleString()})</span>
-              )}
-            </div>
-          )}
-          {!remaining && !soldPercent && !(product.rating != null && product.rating > 0) && (
+          {!remaining && !soldPercent && (
             <span className="text-[11px] text-gray-400">
               {timeAgo(product.postedAt)}
             </span>
