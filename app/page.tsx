@@ -4,6 +4,7 @@ import { useState, useMemo, useEffect, useRef } from "react";
 import Header from "@/components/Header";
 import ProductCard from "@/components/ProductCard";
 import Footer from "@/components/Footer";
+import RecentlyViewed from "@/components/RecentlyViewed";
 import { getProducts } from "@/data/products";
 import { SITE } from "@/lib/constants";
 import { trackCategoryFilter, trackSearch, trackSort } from "@/lib/analytics";
@@ -139,6 +140,9 @@ export default function Home() {
             <option value="price-high">가격 높은순</option>
           </select>
         </div>
+
+        {/* 최근 본 상품 */}
+        <RecentlyViewed />
 
         {/* 상품 목록 */}
         {products.length > 0 ? (
