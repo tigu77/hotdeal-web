@@ -22,3 +22,22 @@ export function calcDiscountPercent(
   if (original <= 0 || current <= 0) return 0;
   return Math.round(((original - current) / original) * 100);
 }
+
+/** 상품 객체에서 최종 할인율을 계산하는 헬퍼 */
+export function getDiscountPercent(product: {
+  originalPrice?: number;
+  salePrice?: number;
+  wowPrice?: number;
+  price: number;
+  isWow?: boolean;
+  discount?: number;
+}): number {
+  const basePrice = product.originalPrice || 0;
+  const finalPrice =
+    product.isWow && product.wowPrice != null
+      ? product.wowPrice
+      : product.salePrice || product.price;
+  return basePrice > 0 && finalPrice < basePrice
+    ? calcDiscountPercent(basePrice, finalPrice)
+    : product.discount || 0;
+}

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import type { Product } from "@/types";
-import { formatPrice, timeAgo } from "@/lib/format";
+import { formatPrice, timeAgo, calcDiscountPercent } from "@/lib/format";
 import { trackProductClick } from "@/lib/analytics";
 import WishlistButton from "@/components/WishlistButton";
 
@@ -53,7 +53,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       : salePrice || price;
   const discountPercent =
     basePrice > 0 && finalPrice < basePrice
-      ? Math.round(((basePrice - finalPrice) / basePrice) * 100)
+      ? calcDiscountPercent(basePrice, finalPrice)
       : product.discount || 0;
 
   const soldPercent = product.soldPercent || 0;

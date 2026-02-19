@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProducts } from "@/data/products";
-import { formatPrice } from "@/lib/format";
+import { formatPrice, calcDiscountPercent, getDiscountPercent } from "@/lib/format";
 import { SITE, CATEGORIES } from "@/lib/constants";
 import CountdownTimer from "@/components/CountdownTimer";
 import ShareButtons from "@/components/ShareButtons";
@@ -71,7 +71,7 @@ export default async function ProductPage({
   const finalPrice = isWow && wowPrice != null ? wowPrice : salePrice || price;
   const discountPercent =
     basePrice > 0 && finalPrice < basePrice
-      ? Math.round(((basePrice - finalPrice) / basePrice) * 100)
+      ? calcDiscountPercent(basePrice, finalPrice)
       : discount || 0;
 
   const categoryInfo = CATEGORIES.find((c) => c.id === product.category);
@@ -265,8 +265,7 @@ export default async function ProductPage({
               {relatedProducts.map((p) => {
                 const pBase = p.originalPrice || 0;
                 const pFinal = p.isWow && p.wowPrice != null ? p.wowPrice : p.salePrice || p.price;
-                const pDiscount = pBase > 0 && pFinal < pBase
-                  ? Math.round(((pBase - pFinal) / pBase) * 100) : p.discount || 0;
+                const pDiscount = getDiscountPercent(p);
                 return (
                   <RecommendCard key={p.id} product={p}>
                     <div className="aspect-square rounded-xl overflow-hidden bg-gray-50 mb-2">
