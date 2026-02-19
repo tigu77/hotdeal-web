@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import type { Product } from "@/types";
 import { formatPrice, timeAgo } from "@/lib/format";
 import { trackProductClick } from "@/lib/analytics";
+import WishlistButton from "@/components/WishlistButton";
 
 interface ProductCardProps {
   product: Product;
@@ -66,6 +67,14 @@ export default function ProductCard({ product }: ProductCardProps) {
     >
       {/* 썸네일 */}
       <div className="relative w-24 h-24 flex-shrink-0 rounded-xl overflow-hidden bg-gray-50">
+        <WishlistButton
+          productId={product.id}
+          title={product.title}
+          imageUrl={product.imageUrl}
+          price={finalPrice}
+          discount={discountPercent}
+          affiliateUrl={product.affiliateUrl}
+        />
         {product.imageUrl ? (
           <img
             src={product.imageUrl}

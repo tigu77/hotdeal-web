@@ -9,6 +9,7 @@ import ShareButtons from "@/components/ShareButtons";
 import SoldBar from "./SoldBar";
 import { PurchaseButton, TelegramButton, RecommendCard } from "./TrackingButtons";
 import SaveRecentlyViewed from "@/components/SaveRecentlyViewed";
+import WishlistButton from "@/components/WishlistButton";
 
 function getProductById(id: string) {
   return getProducts().find((p) => p.id === id) || null;
@@ -222,8 +223,17 @@ export default async function ProductPage({
             <SoldBar soldPercent={product.soldPercent} />
           )}
 
-          {/* CTA + 공유 */}
+          {/* CTA + 공유 + 찜 */}
           <div className="flex items-center gap-2 mt-4">
+            <WishlistButton
+              productId={product.id}
+              title={product.title}
+              imageUrl={product.imageUrl}
+              price={finalPrice}
+              discount={discountPercent}
+              affiliateUrl={product.affiliateUrl}
+              variant="detail"
+            />
             <PurchaseButton
               productId={product.id}
               title={product.title}

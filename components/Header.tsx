@@ -6,11 +6,15 @@ import SiteShareButton from "./SiteShareButton";
 interface HeaderProps {
   selectedCategory: string | null;
   onCategoryChange: (category: string | null) => void;
+  wishlistMode?: boolean;
+  onWishlistToggle?: () => void;
 }
 
 export default function Header({
   selectedCategory,
   onCategoryChange,
+  wishlistMode,
+  onWishlistToggle,
 }: HeaderProps) {
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-100">
@@ -41,17 +45,24 @@ export default function Header({
         <nav className="flex gap-1 pb-3 overflow-x-auto scrollbar-hide">
           <CategoryTab
             label="🔥 전체"
-            active={selectedCategory === null}
+            active={!wishlistMode && selectedCategory === null}
             onClick={() => onCategoryChange(null)}
           />
           {CATEGORIES.map((cat) => (
             <CategoryTab
               key={cat.id}
               label={`${cat.emoji} ${cat.name}`}
-              active={selectedCategory === cat.id}
+              active={!wishlistMode && selectedCategory === cat.id}
               onClick={() => onCategoryChange(cat.id)}
             />
           ))}
+          {onWishlistToggle && (
+            <CategoryTab
+              label="❤️ 찜"
+              active={!!wishlistMode}
+              onClick={onWishlistToggle}
+            />
+          )}
         </nav>
       </div>
     </header>

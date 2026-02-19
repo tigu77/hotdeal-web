@@ -8,6 +8,8 @@ import RecentlyViewed from "@/components/RecentlyViewed";
 import { getProducts } from "@/data/products";
 import { SITE } from "@/lib/constants";
 import { trackCategoryFilter, trackSearch, trackSort } from "@/lib/analytics";
+import { getWishlist } from "@/lib/wishlist";
+import { formatPrice } from "@/lib/format";
 
 type SortType = "latest" | "popular" | "ending" | "discount" | "price-low" | "price-high";
 
@@ -15,13 +17,33 @@ export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState<SortType>("latest");
+  const [wishlistMode, setWishlistMode] = useState(false);
+  const [wishlistVersion, setWishlistVersion] = useState(0);
+
+  // Listen for wishlist changes
+  useEffect(() => {
+    const handler = () => setWishlistVersion((v) => v + 1);
+    window.addEventListener("wishlist-changed", handler);
+    return () => window.removeEventListener("wishlist-changed", handler);
+  }, []);
 
   // 카테고리 변경 시 스크롤 초기화
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [selectedCategory]);
 
+  // Wishlist items with expired status
+  const wishlistItems = useMemo(() => {
+    if (!wishlistMode) return [];
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const _v = wishlistVersion; // trigger recalc
+    const wl = getWishlist();
+    const activeIds = new Set(getProducts().map((p) => p.id));
+    return wl.map((item) => ({ ...item, expired: !activeIds.has(item.productId) }));
+  }, [wishlistMode, wishlistVersion]);
+
   const products = useMemo(() => {
+    if (wishlistMode) return []; // handled separately
     let items = getProducts(selectedCategory);
 
     // 검색 필터
@@ -58,7 +80,7 @@ export default function Home() {
     }
 
     return items;
-  }, [selectedCategory, searchQuery, sortBy]);
+  }, [selectedCategory, searchQuery, sortBy, wishlistMode]);
 
   // 검색 트래킹 (디바운스 500ms)
   const searchTimer = useRef<NodeJS.Timeout>(null);
@@ -78,7 +100,13 @@ export default function Home() {
         onCategoryChange={(cat) => {
           setSelectedCategory(cat);
           setSearchQuery("");
+          setWishlistMode(false);
           trackCategoryFilter(cat || "전체");
+        }}
+        wishlistMode={wishlistMode}
+        onWishlistToggle={() => {
+          setWishlistMode((prev) => !prev);
+          if (!wishlistMode) setSelectedCategory(null);
         }}
       />
 
@@ -145,7 +173,50 @@ export default function Home() {
         <RecentlyViewed />
 
         {/* 상품 목록 */}
-        {products.length > 0 ? (
+        {wishlistMode ? (
+          wishlistItems.length > 0 ? (
+            <section aria-label="찜한 상품" className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+              {wishlistItems.map((item) => (
+                <a
+                  key={item.productId}
+                  href={item.expired ? item.affiliateUrl : `/product/${item.productId}`}
+                  target={item.expired ? "_blank" : undefined}
+                  rel={item.expired ? "noopener noreferrer" : undefined}
+                  className={`group bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-all ${item.expired ? "opacity-50" : ""}`}
+                >
+                  <div className="relative aspect-square bg-gray-50">
+                    {item.imageUrl ? (
+                      <img src={item.imageUrl} alt={item.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200">
+                        <span className="text-3xl">🛒</span>
+                      </div>
+                    )}
+                    {item.expired && (
+                      <div className="absolute inset-0 flex items-center justify-center bg-black/30">
+                        <span className="text-xs font-bold text-white bg-gray-700 px-2 py-0.5 rounded">만료</span>
+                      </div>
+                    )}
+                  </div>
+                  <div className="p-2.5">
+                    <h3 className="text-xs font-medium text-gray-800 line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors">{item.title}</h3>
+                    <div className="flex items-center gap-1">
+                      <span className="text-sm font-bold text-orange-600">{formatPrice(item.price)}</span>
+                      {item.discount != null && item.discount > 0 && (
+                        <span className="text-[10px] font-bold text-red-500">{item.discount}%↓</span>
+                      )}
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </section>
+          ) : (
+            <div className="text-center py-20">
+              <p className="text-gray-400 text-lg">찜한 상품이 없어요</p>
+              <p className="text-gray-300 mt-2">마음에 드는 상품의 ❤️ 를 눌러보세요!</p>
+            </div>
+          )
+        ) : products.length > 0 ? (
           <section aria-label="상품 목록" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {products.map((product) => (
               <ProductCard key={product.id} product={product} />
