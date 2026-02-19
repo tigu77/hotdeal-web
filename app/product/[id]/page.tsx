@@ -103,8 +103,15 @@ export default async function ProductPage({
         title={product.title}
         imageUrl={product.imageUrl}
         price={finalPrice}
+        salePrice={salePrice}
+        wowPrice={wowPrice}
+        originalPrice={originalPrice}
         discount={discountPercent}
+        isWow={isWow}
+        isRocket={product.isRocket}
         affiliateUrl={product.affiliateUrl}
+        soldPercent={product.soldPercent}
+        expiresAt={product.expiresAt}
       />
       {/* 상단 네비 */}
       <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100">

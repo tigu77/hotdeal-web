@@ -7,8 +7,15 @@ interface RecentItem {
   title: string;
   imageUrl: string;
   price: number;
+  salePrice?: number;
+  wowPrice?: number;
+  originalPrice?: number;
   discount?: number;
+  isWow?: boolean;
+  isRocket?: boolean;
   affiliateUrl: string;
+  soldPercent?: number;
+  expiresAt?: string;
   timestamp: number;
 }
 
@@ -20,8 +27,15 @@ export default function SaveRecentlyViewed({
   title,
   imageUrl,
   price,
+  salePrice,
+  wowPrice,
+  originalPrice,
   discount,
+  isWow,
+  isRocket,
   affiliateUrl,
+  soldPercent,
+  expiresAt,
 }: Omit<RecentItem, "timestamp">) {
   useEffect(() => {
     try {
@@ -29,13 +43,18 @@ export default function SaveRecentlyViewed({
         localStorage.getItem(STORAGE_KEY) || "[]"
       );
       const filtered = stored.filter((item) => item.productId !== productId);
-      filtered.unshift({ productId, title, imageUrl, price, discount, affiliateUrl, timestamp: Date.now() });
+      filtered.unshift({
+        productId, title, imageUrl, price,
+        salePrice, wowPrice, originalPrice, discount,
+        isWow, isRocket, affiliateUrl, soldPercent, expiresAt,
+        timestamp: Date.now(),
+      });
       localStorage.setItem(
         STORAGE_KEY,
         JSON.stringify(filtered.slice(0, MAX_ITEMS))
       );
     } catch {}
-  }, [productId, title, imageUrl, price, discount, affiliateUrl]);
+  }, [productId, title, imageUrl, price, salePrice, wowPrice, originalPrice, discount, isWow, isRocket, affiliateUrl, soldPercent, expiresAt]);
 
   return null;
 }
