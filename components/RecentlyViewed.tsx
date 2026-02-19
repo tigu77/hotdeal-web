@@ -34,12 +34,12 @@ export default function RecentlyViewed() {
       if (stored.length === 0) return;
 
       const activeIds = new Set(getProducts().map((p) => p.id));
-      setItems(
-        stored.map((item) => ({
-          ...item,
-          expired: !activeIds.has(item.productId),
-        }))
-      );
+      // 만료 상품 제거 — 진행 중인 것만 보여줌
+      const active = stored.filter((item) => activeIds.has(item.productId));
+      if (active.length !== stored.length) {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(active));
+      }
+      setItems(active.map((item) => ({ ...item, expired: false })));
     } catch {}
   }, []);
 
@@ -56,10 +56,8 @@ export default function RecentlyViewed() {
           return (
             <a
               key={item.productId}
-              href={item.expired ? item.affiliateUrl : `/product/${item.productId}`}
-              target={item.expired ? "_blank" : undefined}
-              rel={item.expired ? "noopener noreferrer" : undefined}
-              className={`flex-shrink-0 w-28 group ${item.expired ? "opacity-50" : ""}`}
+              href={`/product/${item.productId}`}
+              className="flex-shrink-0 w-28 group"
             >
               <div className="relative w-28 h-28 rounded-xl overflow-hidden bg-gray-50 mb-1.5">
                 {item.imageUrl ? (
@@ -72,13 +70,6 @@ export default function RecentlyViewed() {
                 ) : (
                   <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200">
                     <span className="text-2xl">🛒</span>
-                  </div>
-                )}
-                {item.expired && (
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                    <span className="text-[10px] font-bold text-white bg-gray-700 px-2 py-0.5 rounded">
-                      만료
-                    </span>
                   </div>
                 )}
               </div>

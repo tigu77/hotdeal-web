@@ -32,14 +32,14 @@ export default function Home() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [selectedCategory]);
 
-  // Wishlist items with expired status
+  // Wishlist items — 진행 중인 것만 보여줌
   const wishlistItems = useMemo(() => {
     if (!wishlistMode) return [];
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const _v = wishlistVersion; // trigger recalc
     const wl = getWishlist();
     const activeIds = new Set(getProducts().map((p) => p.id));
-    return wl.map((item) => ({ ...item, expired: !activeIds.has(item.productId) }));
+    return wl.filter((item) => activeIds.has(item.productId));
   }, [wishlistMode, wishlistVersion]);
 
   const products = useMemo(() => {
@@ -179,10 +179,8 @@ export default function Home() {
               {wishlistItems.map((item) => (
                 <a
                   key={item.productId}
-                  href={item.expired ? item.affiliateUrl : `/product/${item.productId}`}
-                  target={item.expired ? "_blank" : undefined}
-                  rel={item.expired ? "noopener noreferrer" : undefined}
-                  className={`group bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-all ${item.expired ? "opacity-50" : ""}`}
+                  href={`/product/${item.productId}`}
+                  className="group bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-all"
                 >
                   <div className="relative aspect-square bg-gray-50">
                     {item.imageUrl ? (
@@ -190,11 +188,6 @@ export default function Home() {
                     ) : (
                       <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200">
                         <span className="text-3xl">🛒</span>
-                      </div>
-                    )}
-                    {item.expired && (
-                      <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                        <span className="text-xs font-bold text-white bg-gray-700 px-2 py-0.5 rounded">만료</span>
                       </div>
                     )}
                   </div>
