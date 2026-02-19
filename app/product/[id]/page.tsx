@@ -103,7 +103,7 @@ export default async function ProductPage({
         title={product.title}
         imageUrl={product.imageUrl}
         price={finalPrice}
-        discount={product.discount}
+        discount={discountPercent}
         affiliateUrl={product.affiliateUrl}
       />
       {/* 상단 네비 */}
