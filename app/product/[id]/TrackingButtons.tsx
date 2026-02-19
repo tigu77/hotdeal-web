@@ -33,12 +33,14 @@ export function TelegramButton({ url, location }: { url: string; location: strin
 }
 
 export function RecommendCard({ product, children }: {
-  product: { id: string; title: string };
+  product: { id: string; title: string; affiliateUrl: string };
   children: React.ReactNode;
 }) {
   return (
     <a
-      href={`/product/${product.id}`}
+      href={product.affiliateUrl}
+      target="_blank"
+      rel="noopener noreferrer"
       onClick={() => trackRecommendClick(product.id, product.title)}
       className="bg-white rounded-2xl p-3 shadow-sm border border-gray-100 hover:border-orange-200 hover:shadow-md transition-all group"
     >

@@ -60,11 +60,16 @@ export default function ProductCard({ product }: ProductCardProps) {
   const isAlmostGone = soldPercent >= 80;
 
   return (
-    <a
-      href={`/product/${product.id}`}
-      onClick={() => trackProductClick(product.id, product.title, product.category)}
-      className="group flex gap-3 p-3 bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-orange-200"
-    >
+    <div className="group relative flex gap-3 p-3 bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-orange-200">
+      {/* 카드 전체 클릭 → 파트너스 링크 */}
+      <a
+        href={product.affiliateUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={() => trackProductClick(product.id, product.title, product.category)}
+        className="absolute inset-0 z-10"
+        aria-label={product.title}
+      />
       {/* 썸네일 */}
       <div className="relative w-24 h-24 flex-shrink-0 rounded-xl overflow-hidden bg-gray-50">
         <WishlistButton
@@ -179,7 +184,15 @@ export default function ProductCard({ product }: ProductCardProps) {
             </span>
           )}
         </div>
+        {/* 상세보기 버튼 */}
+        <a
+          href={`/product/${product.id}`}
+          className="relative z-20 mt-1 inline-flex items-center text-[11px] text-gray-400 hover:text-orange-500 transition-colors"
+          onClick={(e) => e.stopPropagation()}
+        >
+          상세보기 →
+        </a>
       </div>
-    </a>
+    </div>
   );
 }
