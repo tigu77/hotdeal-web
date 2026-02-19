@@ -184,14 +184,6 @@ export default function ProductCard({ product }: ProductCardProps) {
             </span>
           )}
         </div>
-        {/* 상세보기 버튼 */}
-        <a
-          href={`/product/${product.id}`}
-          className="relative z-20 mt-1 inline-flex items-center text-[11px] text-gray-400 hover:text-orange-500 transition-colors"
-          onClick={(e) => e.stopPropagation()}
-        >
-          상세보기 →
-        </a>
       </div>
     </div>
   );
