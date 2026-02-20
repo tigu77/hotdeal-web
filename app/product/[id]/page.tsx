@@ -275,7 +275,12 @@ export default async function ProductPage({
                 const pDiscount = getDiscountPercent(p);
                 return (
                   <RecommendCard key={p.id} product={p}>
-                    <div className="aspect-square rounded-xl overflow-hidden bg-gray-50 mb-2">
+                    <div className={`aspect-square rounded-xl overflow-hidden bg-gray-50 mb-2 relative ${p.isSoldOut ? 'opacity-50 grayscale' : ''}`}>
+                      {p.isSoldOut && (
+                        <div className="absolute inset-0 bg-black/60 flex items-center justify-center rounded-xl z-[1]">
+                          <span className="text-white text-[11px] font-bold">한정수량 마감</span>
+                        </div>
+                      )}
                       <img
                         src={p.imageUrl?.replace(/\/\d+x\d+ex\//, '/492x492ex/')}
                         alt={p.title}
