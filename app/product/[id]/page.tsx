@@ -268,49 +268,43 @@ export default async function ProductPage({
             <h2 className="text-lg font-bold text-gray-900 mb-4">
               {categoryInfo ? `${categoryInfo.emoji} 같은 카테고리 추천` : "🔥 다른 추천 상품"}
             </h2>
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-3 gap-2">
               {relatedProducts.map((p) => {
                 const pBase = p.originalPrice || 0;
-                const pFinal = p.isWow && p.wowPrice != null ? p.wowPrice : p.salePrice || p.price;
                 const pDiscount = getDiscountPercent(p);
                 return (
                   <RecommendCard key={p.id} product={p}>
-                    <div className={`aspect-square rounded-xl overflow-hidden bg-gray-50 mb-2 relative ${p.isSoldOut ? 'opacity-50 grayscale' : ''}`}>
-                      {p.isSoldOut && (
-                        <div className="absolute inset-0 bg-black/60 flex items-center justify-center rounded-xl z-[1]">
-                          <span className="text-white text-[11px] font-bold">한정수량 마감</span>
-                        </div>
-                      )}
+                    <div className="aspect-square rounded-lg overflow-hidden bg-gray-50 mb-1.5 relative">
                       <img
-                        src={p.imageUrl?.replace(/\/\d+x\d+ex\//, '/492x492ex/')}
+                        src={p.imageUrl?.replace(/\/\d+x\d+ex\//, '/230x230ex/')}
                         alt={p.title}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         loading="lazy"
                       />
-                    </div>
-                    <h3 className="text-xs font-medium text-gray-800 line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors">
-                      {p.title}
-                    </h3>
-                    <div className="mt-1">
-                      {pBase > 0 && pDiscount > 0 && (
-                        <div className="flex items-center gap-1 mb-0.5">
-                          <span className="text-[10px] text-gray-400 line-through">
-                            {formatPrice(pBase)}
-                          </span>
-                          <span className="text-[10px] font-bold text-red-500">
-                            {pDiscount}%↓
-                          </span>
+                      {p.soldPercent != null && p.soldPercent >= 70 && (
+                        <div className="absolute top-1 left-1 bg-red-500 text-white text-[8px] font-bold px-1 py-0.5 rounded">
+                          {p.soldPercent}% 판매
                         </div>
                       )}
-                      <span className="text-sm font-bold text-orange-600">
+                    </div>
+                    <h3 className="text-[11px] font-medium text-gray-800 line-clamp-2 mb-0.5 group-hover:text-orange-600 transition-colors leading-tight">
+                      {p.title}
+                    </h3>
+                    <div className="mt-0.5">
+                      {pBase > 0 && pDiscount > 0 && (
+                        <span className="text-[9px] font-bold text-red-500 mr-1">
+                          {pDiscount}%↓
+                        </span>
+                      )}
+                      <span className="text-xs font-bold text-orange-600">
                         {formatPrice((p.salePrice || p.price)!)}
                       </span>
                       {p.isWow && p.wowPrice != null && (
-                        <div className="flex items-center gap-1 mt-0.5">
-                          <span className="text-sm font-bold text-purple-600">
+                        <div className="flex items-center gap-0.5 mt-0.5">
+                          <span className="text-xs font-bold text-purple-600">
                             {formatPrice(p.wowPrice)}
                           </span>
-                          <span className="text-[9px] text-white font-semibold bg-purple-500 px-1 py-0.5 rounded">
+                          <span className="text-[8px] text-white font-semibold bg-purple-500 px-0.5 py-px rounded">
                             와우
                           </span>
                         </div>
