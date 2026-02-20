@@ -24,7 +24,7 @@
     "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1027,
-    "soldPercent": 93,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.131Z",
     "channelPosted": true,
     "postedAt": ""
@@ -106,7 +106,7 @@
     "isSoldOut": true,
     "rating": 5,
     "reviewCount": 610,
-    "soldPercent": 80,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.942Z",
     "channelPosted": true,
     "postedAt": ""
@@ -418,7 +418,7 @@
     "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 1320,
-    "soldPercent": 88,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.850Z",
     "channelPosted": true,
     "postedAt": ""
@@ -558,7 +558,7 @@
     "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 4976,
-    "soldPercent": 91,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.355Z",
     "channelPosted": true,
     "postedAt": ""
@@ -864,7 +864,7 @@
     "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 643,
-    "soldPercent": 86,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.355Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1347,7 +1347,7 @@
     "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 26,
-    "soldPercent": 98,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.942Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1376,7 +1376,7 @@
     "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1520,
-    "soldPercent": 97,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.258Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1954,7 +1954,7 @@
     "isSoldOut": true,
     "rating": 5,
     "reviewCount": 7223,
-    "soldPercent": 97,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.942Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2468,13 +2468,14 @@
     "category": "digital",
     "tags": [
       "가전/디지털",
-      "와우할인"
+      "와우할인",
+      "매진임박"
     ],
     "isWow": true,
     "isSoldOut": true,
     "rating": 5,
     "reviewCount": 233,
-    "soldPercent": 39,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.066Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2795,7 +2796,7 @@
     "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1340,
-    "soldPercent": 93,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.942Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2880,7 +2881,7 @@
     "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1241,
-    "soldPercent": 99,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:43.214Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3109,13 +3110,14 @@
     "category": "general",
     "tags": [
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isSoldOut": true,
     "rating": 5,
     "reviewCount": 246,
-    "soldPercent": 28,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.066Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3405,7 +3407,7 @@
     "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 5617,
-    "soldPercent": 85,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.850Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3932,7 +3934,7 @@
     "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 3304,
-    "soldPercent": 90,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.675Z",
     "channelPosted": true,
     "postedAt": ""
@@ -4463,12 +4465,14 @@
     "category": "general",
     "tags": [
       "와우할인",
-      "50%이상할인"
+      "50%이상할인",
+      "매진임박"
     ],
     "isWow": true,
     "isSoldOut": true,
     "rating": 5,
     "reviewCount": 277,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T21:59:12.131Z",
     "channelPosted": true,
     "postedAt": ""
@@ -4499,7 +4503,7 @@
     "isSoldOut": true,
     "rating": 5,
     "reviewCount": 15490,
-    "soldPercent": 96,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.850Z",
     "channelPosted": true,
     "postedAt": ""
@@ -4679,7 +4683,7 @@
     "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 2798,
-    "soldPercent": 98,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.070Z",
     "channelPosted": true,
     "postedAt": ""
@@ -4740,7 +4744,7 @@
     "isSoldOut": true,
     "rating": 5,
     "reviewCount": 2238,
-    "soldPercent": 96,
+    "soldPercent": 100,
     "expiresAt": "2026-02-20T22:00:42.355Z",
     "channelPosted": true,
     "postedAt": ""
