@@ -8,6 +8,7 @@ import WishlistButton from "@/components/WishlistButton";
 
 interface ProductCardProps {
   product: Product;
+  compact?: boolean;
 }
 
 function useCountdown(expiresAt?: string) {
@@ -42,7 +43,7 @@ function useCountdown(expiresAt?: string) {
   return { remaining, expired, isUrgent };
 }
 
-export default function ProductCard({ product }: ProductCardProps) {
+export default function ProductCard({ product, compact = false }: ProductCardProps) {
   const { originalPrice, salePrice, wowPrice, price, isWow } = product;
   const { remaining, expired, isUrgent } = useCountdown(product.expiresAt);
 
@@ -60,79 +61,151 @@ export default function ProductCard({ product }: ProductCardProps) {
   const isAlmostGone = soldPercent >= 80;
   const isSoldOut = product.isSoldOut || false;
 
-  return (
-    <div className={`group relative flex gap-3 p-3 bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-orange-200 ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
-      {/* 카드 전체 클릭 → 파트너스 링크 */}
-      <a
-        href={product.affiliateUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        onClick={() => {
-          trackProductClick(product.id, product.title, product.category);
-          try {
-            const STORAGE_KEY = "recentlyViewed";
-            const MAX_ITEMS = 20;
-            const stored: string[] = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
-            const filtered = stored.filter((id) => id !== product.id);
-            filtered.unshift(product.id);
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(filtered.slice(0, MAX_ITEMS)));
-          } catch {}
-        }}
-        className="absolute inset-0 z-10"
-        aria-label={product.title}
-      />
-      {/* 썸네일 */}
-      <div className="relative w-24 h-24 flex-shrink-0 rounded-xl overflow-hidden bg-gray-50">
-        <WishlistButton
-          productId={product.id}
-          title={product.title}
-          imageUrl={product.imageUrl}
-          price={finalPrice}
-          discount={discountPercent}
-          affiliateUrl={product.affiliateUrl}
+  // ── 공통 클릭 핸들러 ──
+  const handleClick = () => {
+    trackProductClick(product.id, product.title, product.category);
+    try {
+      const STORAGE_KEY = "recentlyViewed";
+      const MAX_ITEMS = 20;
+      const stored: string[] = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+      const filtered = stored.filter((id) => id !== product.id);
+      filtered.unshift(product.id);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(filtered.slice(0, MAX_ITEMS)));
+    } catch {}
+  };
+
+  // ── 공통 요소 ──
+  const clickOverlay = (
+    <a
+      href={product.affiliateUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      onClick={handleClick}
+      className="absolute inset-0 z-10"
+      aria-label={product.title}
+    />
+  );
+
+  const wishlistBtn = (
+    <WishlistButton
+      productId={product.id}
+      title={product.title}
+      imageUrl={product.imageUrl}
+      price={finalPrice}
+      discount={discountPercent}
+      affiliateUrl={product.affiliateUrl}
+    />
+  );
+
+  const thumbnail = (src: string, cls: string) => (
+    <img src={src} alt={product.title} className={cls} loading="lazy" />
+  );
+
+  const soldOutBadge = isSoldOut ? (
+    <div className="absolute inset-0 bg-black/60 flex items-center justify-center rounded-xl z-[1]">
+      <span className="text-white text-[11px] font-bold">한정수량 마감</span>
+    </div>
+  ) : isAlmostGone ? (
+    <span className={`absolute top-1 left-1 bg-red-500 text-white font-bold px-1.5 py-0.5 rounded animate-pulse ${compact ? 'text-[8px]' : 'text-[9px]'}`}>
+      🔥 매진임박
+    </span>
+  ) : null;
+
+  const soldBar = soldPercent > 0 && (
+    <div className="flex items-center gap-1.5">
+      <div className={`flex-1 bg-gray-100 rounded-full overflow-hidden ${compact ? 'h-1.5' : 'h-2 max-w-[80px]'}`}>
+        <div
+          className={`h-full rounded-full transition-all ${
+            soldPercent >= 80 ? "bg-red-500" : soldPercent >= 50 ? "bg-orange-400" : "bg-blue-400"
+          }`}
+          style={{ width: `${Math.min(soldPercent, 100)}%` }}
         />
-        {product.imageUrl ? (
-          <img
-            src={product.imageUrl}
-            alt={product.title}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            loading="lazy"
-          />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200">
-            <span className="text-3xl">🛒</span>
+      </div>
+      <span className={`font-bold ${compact ? 'text-[9px]' : 'text-[11px]'} ${soldPercent >= 80 ? "text-red-500" : "text-gray-500"}`}>
+        {soldPercent}% 판매
+      </span>
+    </div>
+  );
+
+  // ── compact 모드 (세로형 3열) ──
+  if (compact) {
+    return (
+      <div className={`group relative p-2 bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-orange-200 ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
+        {clickOverlay}
+        <div className="relative aspect-square rounded-lg overflow-hidden bg-gray-50 mb-1.5">
+          {wishlistBtn}
+          {product.imageUrl ? thumbnail(product.imageUrl.replace(/\/\d+x\d+ex\//, '/230x230ex/'), "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300") : (
+            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200"><span className="text-2xl">🛒</span></div>
+          )}
+          {soldOutBadge}
+        </div>
+        <h3 className="font-semibold text-gray-900 text-[11px] leading-tight line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors">
+          {product.title}
+        </h3>
+        <div>
+          {basePrice > 0 && discountPercent > 0 && (
+            <div className="flex items-center gap-1 mb-0.5">
+              <span className="text-[9px] text-gray-400 line-through">{formatPrice(basePrice)}</span>
+              <span className="text-[9px] font-bold text-red-500">{discountPercent}%↓</span>
+            </div>
+          )}
+          {(salePrice ?? price ?? 0) > 0 && (
+            <span className="text-xs font-bold text-orange-600">{formatPrice((salePrice || price)!)}</span>
+          )}
+          {isWow && wowPrice != null && (
+            <div className="flex items-center gap-0.5 mt-0.5">
+              <span className="text-xs font-bold text-purple-600">{wowPrice === 0 ? "무료" : formatPrice(wowPrice)}</span>
+              <span className="text-[8px] text-white font-semibold bg-purple-500 px-0.5 py-px rounded">와우</span>
+            </div>
+          )}
+        </div>
+        {product.rating != null && product.rating > 0 && (
+          <div className="mt-0.5 text-[9px]">
+            <span className="text-yellow-500 font-bold">⭐{product.rating.toFixed(1)}</span>
+            {product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
           </div>
         )}
-        {isSoldOut ? (
-          <div className="absolute inset-0 bg-black/60 flex items-center justify-center rounded-xl z-[1]">
-            <span className="text-white text-[11px] font-bold">한정수량 마감</span>
+        {remaining && (
+          <div className="mt-0.5">
+            <span className={`text-[10px] font-bold tabular-nums ${isUrgent ? "text-red-600 animate-pulse" : "text-orange-500"}`}>
+              ⏰ {remaining}
+            </span>
           </div>
-        ) : isAlmostGone ? (
-          <span className="absolute top-1 left-1 bg-red-500 text-white text-[9px] font-bold px-1.5 py-0.5 rounded animate-pulse">
-            🔥 매진임박
-          </span>
-        ) : null}
+        )}
+        <div className="mt-1">{soldBar}</div>
+        {!remaining && !soldPercent && (
+          <span className="text-[9px] text-gray-400">{timeAgo(product.postedAt)}</span>
+        )}
+      </div>
+    );
+  }
+
+  // ── 기본 모드 (가로형 리스트) ──
+  return (
+    <div className={`group relative flex gap-3 p-3 bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-orange-200 ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
+      {clickOverlay}
+      {/* 썸네일 */}
+      <div className="relative w-24 h-24 flex-shrink-0 rounded-xl overflow-hidden bg-gray-50">
+        {wishlistBtn}
+        {product.imageUrl ? thumbnail(product.imageUrl, "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300") : (
+          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200"><span className="text-3xl">🛒</span></div>
+        )}
+        {soldOutBadge}
       </div>
 
       {/* 정보 */}
       <div className="flex-1 min-w-0 flex flex-col justify-between">
-        {/* 상품명 */}
         <h3 className="font-semibold text-gray-900 text-sm leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors">
           {product.title}
         </h3>
 
-        {/* 가격 블록 */}
         <div className="mt-1.5">
           {(basePrice > 0 && discountPercent > 0 || (product.rating != null && product.rating > 0)) && (
             <div className="flex items-center gap-1.5 mb-0.5 flex-wrap">
               {basePrice > 0 && discountPercent > 0 && (
                 <>
-                  <span className="text-xs text-gray-400 line-through">
-                    {formatPrice(basePrice)}
-                  </span>
-                  <span className="text-xs font-bold text-red-500">
-                    {discountPercent}%↓
-                  </span>
+                  <span className="text-xs text-gray-400 line-through">{formatPrice(basePrice)}</span>
+                  <span className="text-xs font-bold text-red-500">{discountPercent}%↓</span>
                 </>
               )}
               {product.rating != null && product.rating > 0 && (
@@ -145,60 +218,29 @@ export default function ProductCard({ product }: ProductCardProps) {
           )}
 
           {(salePrice ?? price ?? 0) > 0 && (
-            <span className="text-lg font-bold text-orange-600">
-              {formatPrice((salePrice || price)!)}
-            </span>
+            <span className="text-lg font-bold text-orange-600">{formatPrice((salePrice || price)!)}</span>
           )}
 
           {isWow && wowPrice != null && (
             <div className="flex items-center gap-1.5">
-              <span className="text-lg font-bold text-purple-600">
-                {wowPrice === 0 ? "무료" : formatPrice(wowPrice)}
-              </span>
-              <span className="text-[10px] text-white font-semibold bg-purple-500 px-1.5 py-0.5 rounded">
-                와우
-              </span>
+              <span className="text-lg font-bold text-purple-600">{wowPrice === 0 ? "무료" : formatPrice(wowPrice)}</span>
+              <span className="text-[10px] text-white font-semibold bg-purple-500 px-1.5 py-0.5 rounded">와우</span>
             </div>
           )}
         </div>
 
-        {/* 타이머 + 판매율 */}
         <div className="flex flex-col gap-1 mt-1.5">
           {remaining && (
             <div className="flex items-center gap-1.5">
-              <span className={`text-xs font-bold tabular-nums tracking-tight ${
-                isUrgent ? "text-red-600 animate-pulse" : "text-orange-500"
-              }`}>
+              <span className={`text-xs font-bold tabular-nums tracking-tight ${isUrgent ? "text-red-600 animate-pulse" : "text-orange-500"}`}>
                 ⏰ {remaining}
               </span>
               <span className="text-[10px] text-gray-400">남음</span>
             </div>
           )}
-          {soldPercent > 0 && (
-            <div className="flex items-center gap-1.5">
-              <div className="flex-1 h-2 bg-gray-100 rounded-full overflow-hidden max-w-[80px]">
-                <div
-                  className={`h-full rounded-full transition-all ${
-                    soldPercent >= 80
-                      ? "bg-red-500"
-                      : soldPercent >= 50
-                        ? "bg-orange-400"
-                        : "bg-blue-400"
-                  }`}
-                  style={{ width: `${Math.min(soldPercent, 100)}%` }}
-                />
-              </div>
-              <span className={`text-[11px] font-bold ${
-                soldPercent >= 80 ? "text-red-500" : "text-gray-500"
-              }`}>
-                {soldPercent}% 판매
-              </span>
-            </div>
-          )}
+          {soldBar}
           {!remaining && !soldPercent && (
-            <span className="text-[11px] text-gray-400">
-              {timeAgo(product.postedAt)}
-            </span>
+            <span className="text-[11px] text-gray-400">{timeAgo(product.postedAt)}</span>
           )}
         </div>
       </div>

@@ -269,9 +269,9 @@ export default async function ProductPage({
             <h2 className="text-lg font-bold text-gray-900 mb-4">
               {categoryInfo ? `${categoryInfo.emoji} 같은 카테고리 추천` : "🔥 다른 추천 상품"}
             </h2>
-            <div className="flex flex-col gap-3">
+            <div className="grid grid-cols-3 gap-2">
               {relatedProducts.map((p) => (
-                <ProductCard key={p.id} product={p} />
+                <ProductCard key={p.id} product={p} compact />
               ))}
             </div>
           </div>
