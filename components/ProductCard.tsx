@@ -76,7 +76,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             filtered.unshift({
               productId: product.id, title: product.title, imageUrl: product.imageUrl,
               price: product.price, salePrice: product.salePrice, wowPrice: product.wowPrice,
-              originalPrice: product.originalPrice, discount: product.discount,
+              originalPrice: product.originalPrice, discount: discountPercent,
               isWow: product.isWow, isRocket: product.isRocket, affiliateUrl: product.affiliateUrl,
               soldPercent: product.soldPercent, expiresAt: product.expiresAt,
               rating: product.rating, reviewCount: product.reviewCount,

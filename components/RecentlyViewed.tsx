@@ -67,7 +67,9 @@ export default function RecentlyViewed() {
           return (
             <a
               key={item.productId}
-              href={`/product/${item.productId}`}
+              href={item.affiliateUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex-shrink-0 w-28 group"
             >
               <div className="relative w-28 h-28 rounded-xl overflow-hidden bg-gray-50 mb-1.5">
