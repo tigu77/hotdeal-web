@@ -271,9 +271,12 @@ export default async function ProductPage({
             <div className="grid grid-cols-3 gap-2">
               {relatedProducts.map((p) => {
                 const pBase = p.originalPrice || 0;
-                const pDiscount = getDiscountPercent(p);
+                const pFinal = p.isWow && p.wowPrice != null ? p.wowPrice : p.salePrice || p.price;
+                const pDiscount = pBase > 0 && pFinal && pFinal < pBase ? calcDiscountPercent(pBase, pFinal) : getDiscountPercent(p);
+                const soldPct = p.soldPercent || 0;
                 return (
                   <RecommendCard key={p.id} product={p}>
+                    {/* 썸네일 */}
                     <div className="aspect-square rounded-lg overflow-hidden bg-gray-50 mb-1.5 relative">
                       <img
                         src={p.imageUrl?.replace(/\/\d+x\d+ex\//, '/230x230ex/')}
@@ -281,35 +284,57 @@ export default async function ProductPage({
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         loading="lazy"
                       />
-                      {p.soldPercent != null && p.soldPercent >= 70 && (
-                        <div className="absolute top-1 left-1 bg-red-500 text-white text-[8px] font-bold px-1 py-0.5 rounded">
-                          {p.soldPercent}% 판매
-                        </div>
+                      {soldPct >= 80 && (
+                        <span className="absolute top-1 left-1 bg-red-500 text-white text-[8px] font-bold px-1 py-0.5 rounded animate-pulse">
+                          🔥 매진임박
+                        </span>
                       )}
                     </div>
-                    <h3 className="text-[11px] font-medium text-gray-800 line-clamp-2 mb-0.5 group-hover:text-orange-600 transition-colors leading-tight">
+                    {/* 상품명 */}
+                    <h3 className="text-[11px] font-semibold text-gray-900 line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors leading-tight">
                       {p.title}
                     </h3>
-                    <div className="mt-0.5">
+                    {/* 가격 */}
+                    <div>
                       {pBase > 0 && pDiscount > 0 && (
-                        <span className="text-[9px] font-bold text-red-500 mr-1">
-                          {pDiscount}%↓
-                        </span>
+                        <div className="flex items-center gap-1 mb-0.5">
+                          <span className="text-[9px] text-gray-400 line-through">{formatPrice(pBase)}</span>
+                          <span className="text-[9px] font-bold text-red-500">{pDiscount}%↓</span>
+                        </div>
                       )}
                       <span className="text-xs font-bold text-orange-600">
                         {formatPrice((p.salePrice || p.price)!)}
                       </span>
                       {p.isWow && p.wowPrice != null && (
                         <div className="flex items-center gap-0.5 mt-0.5">
-                          <span className="text-xs font-bold text-purple-600">
-                            {formatPrice(p.wowPrice)}
-                          </span>
-                          <span className="text-[8px] text-white font-semibold bg-purple-500 px-0.5 py-px rounded">
-                            와우
-                          </span>
+                          <span className="text-xs font-bold text-purple-600">{formatPrice(p.wowPrice)}</span>
+                          <span className="text-[8px] text-white font-semibold bg-purple-500 px-0.5 py-px rounded">와우</span>
                         </div>
                       )}
                     </div>
+                    {/* 별점 */}
+                    {p.rating != null && p.rating > 0 && (
+                      <div className="mt-0.5 text-[9px]">
+                        <span className="text-yellow-500 font-bold">⭐{p.rating.toFixed(1)}</span>
+                        {p.reviewCount != null && p.reviewCount > 0 && (
+                          <span className="text-gray-400"> ({p.reviewCount.toLocaleString()})</span>
+                        )}
+                      </div>
+                    )}
+                    {/* 판매율 바 */}
+                    {soldPct > 0 && (
+                      <div className="flex items-center gap-1 mt-1">
+                        <div className="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                          <div
+                            className={`h-full rounded-full ${soldPct >= 80 ? 'bg-red-500' : soldPct >= 50 ? 'bg-orange-400' : 'bg-blue-400'}`}
+                            style={{ width: `${Math.min(soldPct, 100)}%` }}
+                          />
+                        </div>
+                        <span className={`text-[9px] font-medium ${soldPct >= 80 ? 'text-red-500' : 'text-gray-500'}`}>
+                          {soldPct}%
+                        </span>
+                      </div>
+                    )}
                   </RecommendCard>
                 );
               })}
