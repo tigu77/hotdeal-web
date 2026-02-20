@@ -37,12 +37,18 @@ export default function RecentlyViewed() {
         );
         if (stored.length === 0) { setItems([]); return; }
 
-        const activeIds = new Set(getProducts().map((p) => p.id));
-        const active = stored.filter((item) => activeIds.has(item.productId));
-        if (active.length !== stored.length) {
-          localStorage.setItem(STORAGE_KEY, JSON.stringify(active));
+        const products = getProducts();
+        const productMap = new Map(products.map((p) => [p.id, p]));
+        const active = stored.filter((item) => productMap.has(item.productId));
+        // 현재 상품 데이터로 isSoldOut 동기화
+        const synced = active.map((item) => {
+          const current = productMap.get(item.productId);
+          return { ...item, isSoldOut: current?.isSoldOut || false };
+        });
+        if (synced.length !== stored.length) {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(synced));
         }
-        setItems(active.map((item) => ({ ...item, expired: false })));
+        setItems(synced.map((item) => ({ ...item, expired: false })));
       } catch {}
     };
 
