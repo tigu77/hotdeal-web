@@ -90,7 +90,7 @@ export default async function ProductPage({
       "@type": "Offer",
       price: finalPrice,
       priceCurrency: "KRW",
-      availability: "https://schema.org/InStock",
+      availability: product.isSoldOut ? "https://schema.org/SoldOut" : "https://schema.org/InStock",
       url: product.affiliateUrl,
       seller: { "@type": "Organization", name: "쿠팡" },
     },
@@ -125,11 +125,15 @@ export default async function ProductPage({
               <span className="text-6xl">🛒</span>
             </div>
           )}
-          {discountPercent > 0 && (
+          {product.isSoldOut ? (
+            <div className="absolute inset-0 bg-black/60 flex items-center justify-center z-[1]">
+              <span className="text-white text-lg font-bold">한정수량 마감</span>
+            </div>
+          ) : discountPercent > 0 ? (
             <span className="absolute top-3 left-3 bg-red-500 text-white text-sm font-bold px-3 py-1 rounded-full">
               {discountPercent}% OFF
             </span>
-          )}
+          ) : null}
         </div>
 
         {/* 상품 정보 */}
