@@ -21,6 +21,7 @@
       "청소기"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1027,
     "soldPercent": 93,
@@ -102,6 +103,7 @@
       "매진임박"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 610,
     "soldPercent": 80,
@@ -413,6 +415,7 @@
       "매진임박"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 1320,
     "soldPercent": 88,
@@ -552,6 +555,7 @@
       "매진임박"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 4976,
     "soldPercent": 91,
@@ -857,6 +861,7 @@
       "캐리어"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 643,
     "soldPercent": 86,
@@ -1339,6 +1344,7 @@
       "매진임박"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 26,
     "soldPercent": 98,
@@ -1367,6 +1373,7 @@
       "세트상품"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1520,
     "soldPercent": 97,
@@ -1944,6 +1951,7 @@
       "매진임박"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 7223,
     "soldPercent": 97,
@@ -2463,6 +2471,7 @@
       "와우할인"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 233,
     "soldPercent": 39,
@@ -2783,6 +2792,7 @@
       "매진임박"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1340,
     "soldPercent": 93,
@@ -2867,6 +2877,7 @@
       "매진임박"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1241,
     "soldPercent": 99,
@@ -3101,6 +3112,7 @@
       "만원이하"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 246,
     "soldPercent": 28,
@@ -3390,6 +3402,7 @@
       "매진임박"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 5617,
     "soldPercent": 85,
@@ -3916,6 +3929,7 @@
       "휴대용"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 3304,
     "soldPercent": 90,
@@ -4452,6 +4466,7 @@
       "50%이상할인"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 277,
     "expiresAt": "2026-02-20T21:59:12.131Z",
@@ -4481,6 +4496,7 @@
       "리필"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 15490,
     "soldPercent": 96,
@@ -4660,6 +4676,7 @@
       "매진임박"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 2798,
     "soldPercent": 98,
@@ -4720,6 +4737,7 @@
       "인덕션"
     ],
     "isWow": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 2238,
     "soldPercent": 96,
