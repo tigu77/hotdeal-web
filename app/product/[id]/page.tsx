@@ -137,7 +137,7 @@ export default async function ProductPage({
         </div>
 
         {/* 상품 정보 */}
-        <div className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100 mb-4">
+        <div className={`bg-white rounded-2xl p-5 shadow-sm border border-gray-100 mb-4 ${product.isSoldOut ? 'opacity-50 grayscale' : ''}`}>
           {/* 카테고리 + 배지 */}
           <div className="flex items-center gap-2 mb-2">
             {categoryInfo && (
