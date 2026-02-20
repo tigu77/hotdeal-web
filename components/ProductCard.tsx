@@ -122,7 +122,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               )}
               {product.rating != null && product.rating > 0 && (
                 <span className="text-[11px]">
-                  <span className="text-yellow-500">⭐{product.rating.toFixed(1)}</span>
+                  <span className="text-yellow-500 font-bold">⭐{product.rating.toFixed(1)}</span>
                   {product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
                 </span>
               )}
