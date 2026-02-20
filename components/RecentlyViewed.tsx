@@ -29,20 +29,29 @@ export default function RecentlyViewed() {
   const [items, setItems] = useState<(RecentItem & { expired: boolean })[]>([]);
 
   useEffect(() => {
-    try {
-      const stored: RecentItem[] = JSON.parse(
-        localStorage.getItem(STORAGE_KEY) || "[]"
-      );
-      if (stored.length === 0) return;
+    const loadRecent = () => {
+      try {
+        const stored: RecentItem[] = JSON.parse(
+          localStorage.getItem(STORAGE_KEY) || "[]"
+        );
+        if (stored.length === 0) { setItems([]); return; }
 
-      const activeIds = new Set(getProducts().map((p) => p.id));
-      // 만료 상품 제거 — 진행 중인 것만 보여줌
-      const active = stored.filter((item) => activeIds.has(item.productId));
-      if (active.length !== stored.length) {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(active));
-      }
-      setItems(active.map((item) => ({ ...item, expired: false })));
-    } catch {}
+        const activeIds = new Set(getProducts().map((p) => p.id));
+        const active = stored.filter((item) => activeIds.has(item.productId));
+        if (active.length !== stored.length) {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(active));
+        }
+        setItems(active.map((item) => ({ ...item, expired: false })));
+      } catch {}
+    };
+
+    loadRecent();
+
+    const onVisible = () => {
+      if (document.visibilityState === "visible") loadRecent();
+    };
+    document.addEventListener("visibilitychange", onVisible);
+    return () => document.removeEventListener("visibilitychange", onVisible);
   }, []);
 
   if (items.length === 0) return null;
