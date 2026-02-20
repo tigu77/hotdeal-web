@@ -38,10 +38,16 @@ export default function RecentlyViewed() {
   useEffect(() => {
     const loadRecent = () => {
       try {
-        const stored: string[] = JSON.parse(
+        let stored: string[] = JSON.parse(
           localStorage.getItem(STORAGE_KEY) || "[]"
         );
         if (stored.length === 0) { setItems([]); return; }
+
+        // 마이그레이션: 옛날 형식(객체 배열) → productId 배열
+        if (typeof stored[0] === "object") {
+          stored = (stored as any[]).map((item: any) => item.productId).filter(Boolean);
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(stored));
+        }
 
         // productId 목록 → 현재 상품 데이터에서 찾기
         const products = getProducts();
