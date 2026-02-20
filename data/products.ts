@@ -16,6 +16,7 @@ const allProducts: Product[] = (raw as any[]).map((p) => ({
   tags: p.tags || [],
   isWow: !!p.wowPrice,
   isRocket: p.isRocket,
+  isSoldOut: p.isSoldOut,
   soldPercent: p.soldPercent,
   expiresAt: p.expiresAt,
   postedAt: p.postedAt || new Date().toISOString(),

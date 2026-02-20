@@ -58,9 +58,10 @@ export default function ProductCard({ product }: ProductCardProps) {
 
   const soldPercent = product.soldPercent || 0;
   const isAlmostGone = soldPercent >= 80;
+  const isSoldOut = product.isSoldOut || false;
 
   return (
-    <div className="group relative flex gap-3 p-3 bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-orange-200">
+    <div className={`group relative flex gap-3 p-3 bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-orange-200 ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
       {/* 카드 전체 클릭 → 파트너스 링크 */}
       <a
         href={product.affiliateUrl}
@@ -110,11 +111,15 @@ export default function ProductCard({ product }: ProductCardProps) {
             <span className="text-3xl">🛒</span>
           </div>
         )}
-        {isAlmostGone && (
+        {isSoldOut ? (
+          <span className="absolute top-1 left-1 bg-gray-600 text-white text-[9px] font-bold px-1.5 py-0.5 rounded">
+            품절
+          </span>
+        ) : isAlmostGone ? (
           <span className="absolute top-1 left-1 bg-red-500 text-white text-[9px] font-bold px-1.5 py-0.5 rounded animate-pulse">
             🔥 매진임박
           </span>
-        )}
+        ) : null}
       </div>
 
       {/* 정보 */}

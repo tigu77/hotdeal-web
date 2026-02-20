@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { getProducts } from "@/data/products";
 import { formatPrice } from "@/lib/format";
 
@@ -54,12 +54,64 @@ export default function RecentlyViewed() {
     return () => document.removeEventListener("visibilitychange", onVisible);
   }, []);
 
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
+
+  const updateScrollState = () => {
+    const el = scrollRef.current;
+    if (!el) return;
+    setCanScrollLeft(el.scrollLeft > 0);
+    setCanScrollRight(el.scrollLeft + el.clientWidth < el.scrollWidth - 1);
+  };
+
+  useEffect(() => {
+    updateScrollState();
+    const el = scrollRef.current;
+    if (!el) return;
+    el.addEventListener("scroll", updateScrollState);
+    return () => el.removeEventListener("scroll", updateScrollState);
+  }, [items]);
+
+  const scroll = (dir: "left" | "right") => {
+    const el = scrollRef.current;
+    if (!el) return;
+    el.scrollBy({ left: dir === "left" ? -300 : 300, behavior: "smooth" });
+  };
+
   if (items.length === 0) return null;
 
   return (
     <section className="mb-6">
       <h2 className="text-lg font-bold text-gray-900 mb-3">🕐 최근 본 상품</h2>
-      <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
+      <div className="relative group/scroll">
+        {canScrollLeft && (
+          <button
+            onClick={() => scroll("left")}
+            className="absolute left-0 top-1/2 -translate-y-1/2 z-20 w-8 h-8 bg-white/90 shadow-md rounded-full flex items-center justify-center text-gray-600 hover:bg-white hover:text-orange-500 transition-all hidden md:flex"
+            aria-label="왼쪽으로"
+          >
+            ‹
+          </button>
+        )}
+        {canScrollRight && (
+          <button
+            onClick={() => scroll("right")}
+            className="absolute right-0 top-1/2 -translate-y-1/2 z-20 w-8 h-8 bg-white/90 shadow-md rounded-full flex items-center justify-center text-gray-600 hover:bg-white hover:text-orange-500 transition-all hidden md:flex"
+            aria-label="오른쪽으로"
+          >
+            ›
+          </button>
+        )}
+      <div
+        ref={scrollRef}
+        onWheel={(e) => {
+          if (Math.abs(e.deltaX) < Math.abs(e.deltaY)) {
+            e.preventDefault();
+            scrollRef.current?.scrollBy({ left: e.deltaY });
+          }
+        }}
+        className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
         {items.map((item) => {
           const displayPrice = item.isWow && item.wowPrice != null ? item.wowPrice : (item.salePrice || item.price);
           const priceColor = item.isWow ? "text-purple-600" : "text-orange-600";
@@ -110,6 +162,7 @@ export default function RecentlyViewed() {
             </a>
           );
         })}
+      </div>
       </div>
     </section>
   );
