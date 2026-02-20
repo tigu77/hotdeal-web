@@ -72,18 +72,9 @@ export default function ProductCard({ product }: ProductCardProps) {
           try {
             const STORAGE_KEY = "recentlyViewed";
             const MAX_ITEMS = 20;
-            const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
-            const filtered = stored.filter((item: any) => item.productId !== product.id);
-            filtered.unshift({
-              productId: product.id, title: product.title, imageUrl: product.imageUrl,
-              price: product.price, salePrice: product.salePrice, wowPrice: product.wowPrice,
-              originalPrice: product.originalPrice, discount: discountPercent,
-              isWow: product.isWow, isRocket: product.isRocket, affiliateUrl: product.affiliateUrl,
-              soldPercent: product.soldPercent, expiresAt: product.expiresAt,
-              rating: product.rating, reviewCount: product.reviewCount,
-              isSoldOut: product.isSoldOut,
-              timestamp: Date.now(),
-            });
+            const stored: string[] = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+            const filtered = stored.filter((id) => id !== product.id);
+            filtered.unshift(product.id);
             localStorage.setItem(STORAGE_KEY, JSON.stringify(filtered.slice(0, MAX_ITEMS)));
           } catch {}
         }}

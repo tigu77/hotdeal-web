@@ -2,65 +2,14 @@
 
 import { useState, useEffect, useRef } from "react";
 import { getProducts } from "@/data/products";
+import type { Product } from "@/types";
 import { formatPrice } from "@/lib/format";
 
-interface RecentItem {
-  productId: string;
-  title: string;
-  imageUrl: string;
-  price: number;
-  salePrice?: number;
-  wowPrice?: number;
-  originalPrice?: number;
-  discount?: number;
-  isWow?: boolean;
-  isRocket?: boolean;
-  affiliateUrl: string;
-  soldPercent?: number;
-  expiresAt?: string;
-  rating?: number;
-  reviewCount?: number;
-  isSoldOut?: boolean;
-  timestamp: number;
-}
-
 const STORAGE_KEY = "recentlyViewed";
+const MAX_ITEMS = 20;
 
 export default function RecentlyViewed() {
-  const [items, setItems] = useState<(RecentItem & { expired: boolean })[]>([]);
-
-  useEffect(() => {
-    const loadRecent = () => {
-      try {
-        const stored: RecentItem[] = JSON.parse(
-          localStorage.getItem(STORAGE_KEY) || "[]"
-        );
-        if (stored.length === 0) { setItems([]); return; }
-
-        const products = getProducts();
-        const productMap = new Map(products.map((p) => [p.id, p]));
-        const active = stored.filter((item) => productMap.has(item.productId));
-        // 현재 상품 데이터로 isSoldOut 동기화
-        const synced = active.map((item) => {
-          const current = productMap.get(item.productId);
-          return { ...item, isSoldOut: current?.isSoldOut || false };
-        });
-        if (synced.length !== stored.length) {
-          localStorage.setItem(STORAGE_KEY, JSON.stringify(synced));
-        }
-        setItems(synced.map((item) => ({ ...item, expired: false })));
-      } catch {}
-    };
-
-    loadRecent();
-
-    const onVisible = () => {
-      if (document.visibilityState === "visible") loadRecent();
-    };
-    document.addEventListener("visibilitychange", onVisible);
-    return () => document.removeEventListener("visibilitychange", onVisible);
-  }, []);
-
+  const [items, setItems] = useState<Product[]>([]);
   const scrollRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(false);
@@ -85,6 +34,46 @@ export default function RecentlyViewed() {
     if (!el) return;
     el.scrollBy({ left: dir === "left" ? -300 : 300, behavior: "smooth" });
   };
+
+  useEffect(() => {
+    const loadRecent = () => {
+      try {
+        const stored: string[] = JSON.parse(
+          localStorage.getItem(STORAGE_KEY) || "[]"
+        );
+        if (stored.length === 0) { setItems([]); return; }
+
+        // productId 목록 → 현재 상품 데이터에서 찾기
+        const products = getProducts();
+        const productMap = new Map(products.map((p) => [p.id, p]));
+
+        const found: Product[] = [];
+        const validIds: string[] = [];
+        for (const id of stored) {
+          const p = productMap.get(id);
+          if (p) {
+            found.push(p);
+            validIds.push(id);
+          }
+        }
+
+        // 삭제된 상품 정리
+        if (validIds.length !== stored.length) {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(validIds));
+        }
+
+        setItems(found);
+      } catch {}
+    };
+
+    loadRecent();
+
+    const onVisible = () => {
+      if (document.visibilityState === "visible") loadRecent();
+    };
+    document.addEventListener("visibilitychange", onVisible);
+    return () => document.removeEventListener("visibilitychange", onVisible);
+  }, []);
 
   if (items.length === 0) return null;
 
@@ -118,14 +107,18 @@ export default function RecentlyViewed() {
             scrollRef.current?.scrollBy({ left: e.deltaY });
           }
         }}
-        className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
+        className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide"
+      >
         {items.map((item) => {
           const displayPrice = item.isWow && item.wowPrice != null ? item.wowPrice : (item.salePrice || item.price);
           const priceColor = item.isWow ? "text-purple-600" : "text-orange-600";
+          const discount = item.originalPrice && item.originalPrice > displayPrice
+            ? Math.round((1 - displayPrice / item.originalPrice) * 100)
+            : item.discount || 0;
 
           return (
             <a
-              key={item.productId}
+              key={item.id}
               href={item.affiliateUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -157,9 +150,9 @@ export default function RecentlyViewed() {
                 <span className={`text-xs font-bold ${priceColor}`}>
                   {displayPrice === 0 ? "무료" : formatPrice(displayPrice)}
                 </span>
-                {item.discount != null && item.discount > 0 && (
+                {discount > 0 && (
                   <span className="text-[10px] font-bold text-red-500">
-                    {item.discount}%↓
+                    {discount}%↓
                   </span>
                 )}
               </div>
