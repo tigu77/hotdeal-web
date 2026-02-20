@@ -21,12 +21,12 @@ export default function Header({
       <div className="max-w-6xl mx-auto px-4">
         {/* 로고 & 텔레그램 */}
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center gap-2">
+          <a href="/" className="flex items-center gap-2 no-underline">
             <span className="text-2xl">🔥</span>
             <h1 className="text-xl font-bold text-gray-900">
               핫딜 <span className="text-orange-500">알리미</span>
             </h1>
-          </div>
+          </a>
 
           <div className="flex items-center gap-1">
             <SiteShareButton />
