@@ -6,11 +6,10 @@ import ProductCard from "@/components/ProductCard";
 import Footer from "@/components/Footer";
 import RecentlyViewed from "@/components/RecentlyViewed";
 import { getProducts } from "@/data/products";
+import type { Product } from "@/types";
 import { SITE } from "@/lib/constants";
 import { trackCategoryFilter, trackSearch, trackSort } from "@/lib/analytics";
 import { getWishlist } from "@/lib/wishlist";
-import { formatPrice } from "@/lib/format";
-
 type SortType = "latest" | "popular" | "ending" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
 
 export default function Home() {
@@ -32,14 +31,20 @@ export default function Home() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [selectedCategory]);
 
-  // Wishlist items — 진행 중인 것만 보여줌
-  const wishlistItems = useMemo(() => {
+  // Wishlist items — 진행 중인 것만 보여줌 (Product 객체로 반환)
+  const wishlistProducts = useMemo(() => {
     if (!wishlistMode) return [];
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const _v = wishlistVersion; // trigger recalc
     const wl = getWishlist();
-    const activeIds = new Set(getProducts().map((p) => p.id));
-    return wl.filter((item) => activeIds.has(item.productId));
+    const allProducts = getProducts();
+    const productMap = new Map(allProducts.map((p) => [p.id, p]));
+    const results: Product[] = [];
+    for (const item of wl) {
+      const p = productMap.get(item.productId);
+      if (p) results.push(p);
+    }
+    return results;
   }, [wishlistMode, wishlistVersion]);
 
   const products = useMemo(() => {
@@ -182,33 +187,10 @@ export default function Home() {
 
         {/* 상품 목록 */}
         {wishlistMode ? (
-          wishlistItems.length > 0 ? (
-            <section aria-label="찜한 상품" className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-              {wishlistItems.map((item) => (
-                <a
-                  key={item.productId}
-                  href={`/product/${item.productId}`}
-                  className="group bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-all"
-                >
-                  <div className="relative aspect-square bg-gray-50">
-                    {item.imageUrl ? (
-                      <img src={item.imageUrl} alt={item.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
-                    ) : (
-                      <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200">
-                        <span className="text-3xl">🛒</span>
-                      </div>
-                    )}
-                  </div>
-                  <div className="p-2.5">
-                    <h3 className="text-xs font-medium text-gray-800 line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors">{item.title}</h3>
-                    <div className="flex items-center gap-1">
-                      <span className="text-sm font-bold text-orange-600">{formatPrice(item.price)}</span>
-                      {item.discount != null && item.discount > 0 && (
-                        <span className="text-[10px] font-bold text-red-500">{item.discount}%↓</span>
-                      )}
-                    </div>
-                  </div>
-                </a>
+          wishlistProducts.length > 0 ? (
+            <section aria-label="찜한 상품" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {wishlistProducts.map((product) => (
+                <ProductCard key={product.id} product={product} />
               ))}
             </section>
           ) : (
