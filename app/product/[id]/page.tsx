@@ -77,8 +77,7 @@ export default async function ProductPage({
   const categoryInfo = CATEGORIES.find((c) => c.id === product.category);
   const relatedProducts = getProducts(product.category as string)
     .filter((p) => p.id !== product.id && !p.isSoldOut)
-    .sort((a, b) => (b.soldPercent || 0) - (a.soldPercent || 0))
-    .slice(0, 4);
+    .sort((a, b) => (b.soldPercent || 0) - (a.soldPercent || 0));
 
   // JSON-LD
   const jsonLd = {
