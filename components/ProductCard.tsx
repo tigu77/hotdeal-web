@@ -66,7 +66,25 @@ export default function ProductCard({ product }: ProductCardProps) {
         href={product.affiliateUrl}
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => trackProductClick(product.id, product.title, product.category)}
+        onClick={() => {
+          trackProductClick(product.id, product.title, product.category);
+          try {
+            const STORAGE_KEY = "recentlyViewed";
+            const MAX_ITEMS = 20;
+            const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+            const filtered = stored.filter((item: any) => item.productId !== product.id);
+            filtered.unshift({
+              productId: product.id, title: product.title, imageUrl: product.imageUrl,
+              price: product.price, salePrice: product.salePrice, wowPrice: product.wowPrice,
+              originalPrice: product.originalPrice, discount: product.discount,
+              isWow: product.isWow, isRocket: product.isRocket, affiliateUrl: product.affiliateUrl,
+              soldPercent: product.soldPercent, expiresAt: product.expiresAt,
+              rating: product.rating, reviewCount: product.reviewCount,
+              timestamp: Date.now(),
+            });
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(filtered.slice(0, MAX_ITEMS)));
+          } catch {}
+        }}
         className="absolute inset-0 z-10"
         aria-label={product.title}
       />
