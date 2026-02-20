@@ -113,7 +113,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         )}
         {isSoldOut ? (
           <span className="absolute top-1 left-1 bg-gray-600 text-white text-[9px] font-bold px-1.5 py-0.5 rounded">
-            품절
+            한정수량 마감
           </span>
         ) : isAlmostGone ? (
           <span className="absolute top-1 left-1 bg-red-500 text-white text-[9px] font-bold px-1.5 py-0.5 rounded animate-pulse">
