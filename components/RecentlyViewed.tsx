@@ -126,9 +126,9 @@ export default function RecentlyViewed() {
             >
               <div className="relative w-28 h-28 rounded-xl overflow-hidden bg-gray-50 mb-1.5">
                 {item.isSoldOut && (
-                  <span className="absolute top-1 left-1 z-10 bg-gray-600 text-white text-[8px] font-bold px-1 py-0.5 rounded">
-                    한정수량 마감
-                  </span>
+                  <div className="absolute inset-0 bg-black/40 flex items-center justify-center rounded-xl z-[1]">
+                    <span className="text-white text-[9px] font-bold">한정수량 마감</span>
+                  </div>
                 )}
                 {item.imageUrl ? (
                   <img
