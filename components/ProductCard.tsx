@@ -188,7 +188,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                   style={{ width: `${Math.min(soldPercent, 100)}%` }}
                 />
               </div>
-              <span className={`text-[11px] font-medium ${
+              <span className={`text-[11px] font-bold ${
                 soldPercent >= 80 ? "text-red-500" : "text-gray-500"
               }`}>
                 {soldPercent}% 판매
