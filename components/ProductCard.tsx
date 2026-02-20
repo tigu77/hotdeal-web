@@ -81,6 +81,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               isWow: product.isWow, isRocket: product.isRocket, affiliateUrl: product.affiliateUrl,
               soldPercent: product.soldPercent, expiresAt: product.expiresAt,
               rating: product.rating, reviewCount: product.reviewCount,
+              isSoldOut: product.isSoldOut,
               timestamp: Date.now(),
             });
             localStorage.setItem(STORAGE_KEY, JSON.stringify(filtered.slice(0, MAX_ITEMS)));

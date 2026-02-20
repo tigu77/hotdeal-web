@@ -20,6 +20,7 @@ interface RecentItem {
   expiresAt?: string;
   rating?: number;
   reviewCount?: number;
+  isSoldOut?: boolean;
   timestamp: number;
 }
 
@@ -122,9 +123,14 @@ export default function RecentlyViewed() {
               href={item.affiliateUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-shrink-0 w-28 group"
+              className={`flex-shrink-0 w-28 group ${item.isSoldOut ? 'opacity-50 grayscale' : ''}`}
             >
               <div className="relative w-28 h-28 rounded-xl overflow-hidden bg-gray-50 mb-1.5">
+                {item.isSoldOut && (
+                  <span className="absolute top-1 left-1 z-10 bg-gray-600 text-white text-[8px] font-bold px-1 py-0.5 rounded">
+                    한정수량 마감
+                  </span>
+                )}
                 {item.imageUrl ? (
                   <img
                     src={item.imageUrl}
