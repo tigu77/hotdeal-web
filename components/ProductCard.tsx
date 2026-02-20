@@ -104,7 +104,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           </div>
         )}
         {isSoldOut ? (
-          <div className="absolute inset-0 bg-black/60 flex items-center justify-center rounded-xl z-[1]">
+          <div className="absolute inset-0 bg-black/70 flex items-center justify-center rounded-xl z-[1]">
             <span className="text-white text-[15px] font-bold">한정수량 마감</span>
           </div>
         ) : isAlmostGone ? (
