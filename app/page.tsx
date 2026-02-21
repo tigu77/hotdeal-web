@@ -12,12 +12,25 @@ import { trackCategoryFilter, trackSearch, trackSort } from "@/lib/analytics";
 import { getWishlist } from "@/lib/wishlist";
 type SortType = "latest" | "popular" | "ending" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
 
+function useIsMobile(breakpoint = 640) {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const mq = window.matchMedia(`(max-width: ${breakpoint - 1}px)`);
+    setIsMobile(mq.matches);
+    const handler = (e: MediaQueryListEvent) => setIsMobile(e.matches);
+    mq.addEventListener("change", handler);
+    return () => mq.removeEventListener("change", handler);
+  }, [breakpoint]);
+  return isMobile;
+}
+
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState<SortType>("latest");
   const [wishlistMode, setWishlistMode] = useState(false);
   const [wishlistVersion, setWishlistVersion] = useState(0);
+  const isMobile = useIsMobile();
 
   // Listen for wishlist changes
   useEffect(() => {
@@ -188,9 +201,9 @@ export default function Home() {
         {/* 상품 목록 */}
         {wishlistMode ? (
           wishlistProducts.length > 0 ? (
-            <section aria-label="찜한 상품" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <section aria-label="찜한 상품" className={`grid gap-3 ${isMobile ? 'grid-cols-2' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
               {wishlistProducts.map((product) => (
-                <ProductCard key={product.id} product={product} />
+                <ProductCard key={product.id} product={product} compact={isMobile} />
               ))}
             </section>
           ) : (
@@ -200,9 +213,9 @@ export default function Home() {
             </div>
           )
         ) : products.length > 0 ? (
-          <section aria-label="상품 목록" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          <section aria-label="상품 목록" className={`grid gap-3 ${isMobile ? 'grid-cols-2' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
             {products.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard key={product.id} product={product} compact={isMobile} />
             ))}
           </section>
         ) : (
