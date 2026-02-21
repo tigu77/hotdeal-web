@@ -100,7 +100,7 @@ export default async function ProductPage({
 
   return (
     <div className="min-h-screen bg-gray-50 pb-28">
-      <SaveRecentlyViewed productId={product.id} />
+      <SaveRecentlyViewed productId={product.id} title={product.title} category={product.category} />
       {/* 상단 네비 */}
       <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100">
         <div className="max-w-3xl mx-auto px-4 py-3 flex items-center gap-3">

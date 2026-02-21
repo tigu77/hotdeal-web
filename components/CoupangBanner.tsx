@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { trackBannerAction } from "@/lib/analytics";
 
 export default function CoupangBanner() {
   const [visible, setVisible] = useState(true);
@@ -59,7 +60,7 @@ export default function CoupangBanner() {
       }}
     >
       <button
-        onClick={() => setVisible(false)}
+        onClick={() => { trackBannerAction('close'); setVisible(false); }}
         style={{
           position: "absolute",
           top: 2,

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { isInWishlist, toggleWishlist } from "@/lib/wishlist";
+import { trackWishlistToggle } from "@/lib/analytics";
 
 interface WishlistButtonProps {
   productId: string;
@@ -36,7 +37,9 @@ export default function WishlistButton({
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
+    const wasWishlisted = isInWishlist(productId);
     toggleWishlist({ productId, title, imageUrl, price, discount, affiliateUrl });
+    trackWishlistToggle(productId, wasWishlisted ? 'remove' : 'add');
     setAnimate(true);
     setTimeout(() => setAnimate(false), 300);
   };

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackShareClick } from "@/lib/analytics";
 
 interface ShareButtonsProps {
   productId: string;
@@ -39,6 +40,7 @@ export default function ShareButtons({ productId, title, discount }: ShareButton
     if (typeof navigator !== "undefined" && navigator.share) {
       try {
         await navigator.share({ title, text, url });
+        trackShareClick(productId, 'native_share');
         return;
       } catch {
         // user cancelled — fall through to copy
@@ -46,6 +48,7 @@ export default function ShareButtons({ productId, title, discount }: ShareButton
     }
     // fallback: copy link
     await copyToClipboard(url);
+    trackShareClick(productId, 'copy_link');
   };
 
   return (

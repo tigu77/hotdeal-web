@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackSiteShare } from "@/lib/analytics";
 
 interface SiteShareButtonProps {
   title?: string;
@@ -39,12 +40,14 @@ export default function SiteShareButton({
     if (typeof navigator !== "undefined" && navigator.share) {
       try {
         await navigator.share({ title, url: shareUrl });
+        trackSiteShare('native_share');
         return;
       } catch {
         // user cancelled
       }
     }
     await copyToClipboard(shareUrl);
+    trackSiteShare('copy_link');
   };
 
   return (

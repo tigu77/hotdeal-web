@@ -8,7 +8,7 @@ import RecentlyViewed from "@/components/RecentlyViewed";
 import { getProducts } from "@/data/products";
 import type { Product } from "@/types";
 import { SITE } from "@/lib/constants";
-import { trackCategoryFilter, trackSearch, trackSort } from "@/lib/analytics";
+import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab } from "@/lib/analytics";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { getWishlist } from "@/lib/wishlist";
 type SortType = "latest" | "popular" | "ending" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
@@ -130,8 +130,10 @@ export default function Home() {
         }}
         wishlistMode={wishlistMode}
         onWishlistToggle={() => {
-          setWishlistMode((prev) => !prev);
-          if (!wishlistMode) setSelectedCategory(null);
+          const next = !wishlistMode;
+          setWishlistMode(next);
+          trackWishlistTab(next);
+          if (next) setSelectedCategory(null);
         }}
       />
 
