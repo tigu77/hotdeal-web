@@ -7,6 +7,7 @@ import { SITE, CATEGORIES } from "@/lib/constants";
 import CountdownTimer from "@/components/CountdownTimer";
 import ShareButtons from "@/components/ShareButtons";
 import SoldBar from "./SoldBar";
+import { getDisplaySoldPercent } from "@/lib/product";
 import { PurchaseButton, TelegramButton, RecommendCard } from "./TrackingButtons";
 import SaveRecentlyViewed from "@/components/SaveRecentlyViewed";
 import WishlistButton from "@/components/WishlistButton";
@@ -227,9 +228,10 @@ export default async function ProductPage({
           )}
 
           {/* 판매율 */}
-          {(product.soldPercent != null && product.soldPercent > 0 || product.isSoldOut) && (
-            <SoldBar soldPercent={product.isSoldOut ? 100 : product.soldPercent!} />
-          )}
+          {(() => {
+            const sp = getDisplaySoldPercent(product);
+            return sp > 0 ? <SoldBar soldPercent={sp} /> : null;
+          })()}
 
           {/* CTA + 공유 + 찜 */}
           <div className="flex items-center gap-2 mt-4">

@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import type { Product } from "@/types";
 import { formatPrice, timeAgo, calcDiscountPercent } from "@/lib/format";
+import { getDisplaySoldPercent } from "@/lib/product";
 import { trackProductClick } from "@/lib/analytics";
 import WishlistButton from "@/components/WishlistButton";
 
@@ -58,7 +59,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
       : product.discount || 0;
 
   const isSoldOut = product.isSoldOut || false;
-  const soldPercent = isSoldOut ? 100 : (product.soldPercent || 0);
+  const soldPercent = getDisplaySoldPercent(product);
   const isAlmostGone = soldPercent >= 80;
 
   // ── 공통 클릭 핸들러 ──

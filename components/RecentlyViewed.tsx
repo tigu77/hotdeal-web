@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { getProducts } from "@/data/products";
 import type { Product } from "@/types";
 import { formatPrice } from "@/lib/format";
+import { getDisplaySoldPercent } from "@/lib/product";
 
 const STORAGE_KEY = "recentlyViewed";
 const MAX_ITEMS = 20;
@@ -170,23 +171,26 @@ export default function RecentlyViewed() {
                   )}
                 </div>
               )}
-              {item.soldPercent != null && item.soldPercent > 0 && (
-                <div className="flex items-center gap-1 mt-0.5">
-                  <div className="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                    <div
-                      className={`h-full rounded-full ${
-                        item.soldPercent >= 80 ? 'bg-red-500' : item.soldPercent >= 50 ? 'bg-orange-400' : 'bg-blue-400'
-                      }`}
-                      style={{ width: `${Math.min(item.soldPercent, 100)}%` }}
-                    />
+              {(() => {
+                const sp = getDisplaySoldPercent(item);
+                return sp > 0 ? (
+                  <div className="flex items-center gap-1 mt-0.5">
+                    <div className="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                      <div
+                        className={`h-full rounded-full ${
+                          sp >= 80 ? 'bg-red-500' : sp >= 50 ? 'bg-orange-400' : 'bg-blue-400'
+                        }`}
+                        style={{ width: `${Math.min(sp, 100)}%` }}
+                      />
+                    </div>
+                    <span className={`text-[9px] font-bold whitespace-nowrap ${
+                      sp >= 80 ? 'text-red-500' : 'text-gray-500'
+                    }`}>
+                      {sp}%
+                    </span>
                   </div>
-                  <span className={`text-[9px] font-bold whitespace-nowrap ${
-                    item.soldPercent >= 80 ? 'text-red-500' : 'text-gray-500'
-                  }`}>
-                    {item.soldPercent}%
-                  </span>
-                </div>
-              )}
+                ) : null;
+              })()}
             </a>
           );
         })}
