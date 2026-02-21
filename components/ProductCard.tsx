@@ -133,7 +133,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
     return (
       <div className={`group relative p-2.5 bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-orange-200 ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
         {clickOverlay}
-        <div className="relative aspect-[4/3] rounded-lg overflow-hidden bg-gray-50 mb-2">
+        <div className="relative aspect-square rounded-lg overflow-hidden bg-gray-50 mb-2">
           {wishlistBtn}
           {product.imageUrl ? thumbnail(product.imageUrl.replace(/\/\d+x\d+ex\//, '/230x230ex/'), "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300") : (
             <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200"><span className="text-2xl">🛒</span></div>
@@ -147,7 +147,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
           {basePrice > 0 && discountPercent > 0 && (
             <div className="flex items-center gap-1 mb-0.5">
               <span className="text-[11px] text-gray-400 line-through">{formatPrice(basePrice)}</span>
-              <span className="text-[11px] font-bold text-red-500">{discountPercent}%↓</span>
+              <span className="text-sm font-extrabold text-red-500">{discountPercent}%↓</span>
             </div>
           )}
           {(salePrice ?? price ?? 0) > 0 && (
@@ -206,7 +206,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
               {basePrice > 0 && discountPercent > 0 && (
                 <>
                   <span className="text-xs text-gray-400 line-through">{formatPrice(basePrice)}</span>
-                  <span className="text-xs font-bold text-red-500">{discountPercent}%↓</span>
+                  <span className="text-sm font-extrabold text-red-500">{discountPercent}%↓</span>
                 </>
               )}
               {product.rating != null && product.rating > 0 && (
