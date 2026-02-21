@@ -57,9 +57,9 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
       ? calcDiscountPercent(basePrice, finalPrice)
       : product.discount || 0;
 
-  const soldPercent = product.soldPercent || 0;
-  const isAlmostGone = soldPercent >= 80;
   const isSoldOut = product.isSoldOut || false;
+  const soldPercent = isSoldOut ? 100 : (product.soldPercent || 0);
+  const isAlmostGone = soldPercent >= 80;
 
   // ── 공통 클릭 핸들러 ──
   const handleClick = () => {

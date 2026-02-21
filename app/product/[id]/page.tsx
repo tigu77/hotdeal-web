@@ -227,8 +227,8 @@ export default async function ProductPage({
           )}
 
           {/* 판매율 */}
-          {product.soldPercent != null && product.soldPercent > 0 && (
-            <SoldBar soldPercent={product.soldPercent} />
+          {(product.soldPercent != null && product.soldPercent > 0 || product.isSoldOut) && (
+            <SoldBar soldPercent={product.isSoldOut ? 100 : product.soldPercent!} />
           )}
 
           {/* CTA + 공유 + 찜 */}
