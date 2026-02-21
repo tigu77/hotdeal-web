@@ -113,7 +113,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
 
   const soldBar = soldPercent > 0 && (
     <div className="flex items-center gap-1.5">
-      <div className={`flex-1 bg-gray-100 rounded-full overflow-hidden ${compact ? 'h-1.5' : 'h-2 max-w-[80px]'}`}>
+      <div className={`flex-1 bg-gray-100 rounded-full overflow-hidden ${compact ? 'h-2' : 'h-2 max-w-[80px]'}`}>
         <div
           className={`h-full rounded-full transition-all ${
             soldPercent >= 80 ? "bg-red-500" : soldPercent >= 50 ? "bg-orange-400" : "bg-blue-400"
@@ -121,60 +121,60 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
           style={{ width: `${Math.min(soldPercent, 100)}%` }}
         />
       </div>
-      <span className={`font-bold ${compact ? 'text-[9px]' : 'text-[11px]'} ${soldPercent >= 80 ? "text-red-500" : "text-gray-500"}`}>
+      <span className={`font-bold ${compact ? 'text-[11px]' : 'text-[11px]'} ${soldPercent >= 80 ? "text-red-500" : "text-gray-500"}`}>
         {soldPercent}% 판매
       </span>
     </div>
   );
 
-  // ── compact 모드 (세로형 3열) ──
+  // ── compact 모드 (세로형 2열) ──
   if (compact) {
     return (
-      <div className={`group relative p-2 bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-orange-200 ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
+      <div className={`group relative p-2.5 bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-orange-200 ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
         {clickOverlay}
-        <div className="relative aspect-square rounded-lg overflow-hidden bg-gray-50 mb-1.5">
+        <div className="relative aspect-[4/3] rounded-lg overflow-hidden bg-gray-50 mb-2">
           {wishlistBtn}
           {product.imageUrl ? thumbnail(product.imageUrl.replace(/\/\d+x\d+ex\//, '/230x230ex/'), "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300") : (
             <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200"><span className="text-2xl">🛒</span></div>
           )}
           {soldOutBadge}
         </div>
-        <h3 className="font-semibold text-gray-900 text-[11px] leading-tight line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors">
+        <h3 className="font-semibold text-gray-900 text-xs leading-snug line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors">
           {product.title}
         </h3>
         <div>
           {basePrice > 0 && discountPercent > 0 && (
             <div className="flex items-center gap-1 mb-0.5">
-              <span className="text-[9px] text-gray-400 line-through">{formatPrice(basePrice)}</span>
-              <span className="text-[9px] font-bold text-red-500">{discountPercent}%↓</span>
+              <span className="text-[11px] text-gray-400 line-through">{formatPrice(basePrice)}</span>
+              <span className="text-[11px] font-bold text-red-500">{discountPercent}%↓</span>
             </div>
           )}
           {(salePrice ?? price ?? 0) > 0 && (
-            <span className="text-xs font-bold text-orange-600">{formatPrice((salePrice || price)!)}</span>
+            <span className="text-sm font-bold text-orange-600">{formatPrice((salePrice || price)!)}</span>
           )}
           {isWow && wowPrice != null && (
-            <div className="flex items-center gap-0.5 mt-0.5">
-              <span className="text-xs font-bold text-purple-600">{wowPrice === 0 ? "무료" : formatPrice(wowPrice)}</span>
-              <span className="text-[8px] text-white font-semibold bg-purple-500 px-0.5 py-px rounded">와우</span>
+            <div className="flex items-center gap-1 mt-0.5">
+              <span className="text-sm font-bold text-purple-600">{wowPrice === 0 ? "무료" : formatPrice(wowPrice)}</span>
+              <span className="text-[9px] text-white font-semibold bg-purple-500 px-1 py-0.5 rounded">와우</span>
             </div>
           )}
         </div>
         {product.rating != null && product.rating > 0 && (
-          <div className="mt-0.5 text-[9px]">
+          <div className="mt-1 text-[11px]">
             <span className="text-yellow-500 font-bold">⭐{product.rating.toFixed(1)}</span>
             {product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
           </div>
         )}
         {remaining && (
-          <div className="mt-0.5">
-            <span className={`text-[10px] font-bold tabular-nums ${isUrgent ? "text-red-600 animate-pulse" : "text-orange-500"}`}>
+          <div className="mt-1">
+            <span className={`text-[11px] font-bold tabular-nums ${isUrgent ? "text-red-600 animate-pulse" : "text-orange-500"}`}>
               ⏰ {remaining}
             </span>
           </div>
         )}
         <div className="mt-1">{soldBar}</div>
         {!remaining && !soldPercent && (
-          <span className="text-[9px] text-gray-400">{timeAgo(product.postedAt)}</span>
+          <span className="text-[10px] text-gray-400">{timeAgo(product.postedAt)}</span>
         )}
       </div>
     );
