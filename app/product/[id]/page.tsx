@@ -180,7 +180,7 @@ export default async function ProductPage({
           {/* 별점/리뷰 */}
           {product.rating != null && product.rating > 0 && (
             <div className="flex items-center gap-1.5 mb-3">
-              <span className="text-yellow-500 text-sm">⭐ {product.rating.toFixed(1)}</span>
+              <span className="text-yellow-500 text-sm font-bold">⭐ {product.rating.toFixed(1)}</span>
               {product.reviewCount != null && product.reviewCount > 0 && (
                 <span className="text-sm text-gray-500">({product.reviewCount.toLocaleString()}개 리뷰)</span>
               )}
