@@ -1,5 +1,194 @@
 [
   {
+    "id": "1333039253",
+    "title": "이어수산 볶음용 멸치 (냉동), 300g, 1개",
+    "description": "",
+    "price": 8200,
+    "salePrice": 9300,
+    "wowPrice": 8200,
+    "originalPrice": 9300,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/5476586375827155-aec3cc61-6977-4f93-809a-fe193933f353.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dP05cJ",
+    "productUrl": "https://www.coupang.com/vp/products/1333039253?itemId=16276050997&vendorItemId=83468726460&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "1333039253",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 26534,
+    "soldPercent": 4,
+    "expiresAt": "2026-02-21T22:00:19.450Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7427602181",
+    "title": "벤딕트 전기차 충전기 휴대용 비상용 완속 충전 케이블 16A 220V, 화이트",
+    "description": "",
+    "price": 211610,
+    "salePrice": 222750,
+    "wowPrice": 211610,
+    "originalPrice": 222750,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2024/11/01/9/0/4f3f5bfc-bf5b-4e4b-9b7f-9e04b09b2db0.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dP04uF",
+    "productUrl": "https://www.coupang.com/vp/products/7427602181?itemId=19283676701&vendorItemId=91400443082&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7427602181",
+    "category": "digital",
+    "tags": [
+      "가전/디지털",
+      "로켓배송",
+      "와우할인",
+      "휴대용",
+      "충전기"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 241,
+    "soldPercent": 10,
+    "expiresAt": "2026-02-21T22:00:20.450Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7694333017",
+    "title": "제니퍼룸 전자동 에스프레소 커피머신, JR-EM0212WHDP, 화이트",
+    "description": "",
+    "price": 295200,
+    "salePrice": 369000,
+    "wowPrice": 295200,
+    "originalPrice": 369000,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/608510962764349-c13b8142-d7b0-4055-982d-dde94f2dc826.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dP039u",
+    "productUrl": "https://www.coupang.com/vp/products/7694333017?itemId=2378317082&vendorItemId=70373864990&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7694333017",
+    "category": "digital",
+    "tags": [
+      "가전/디지털",
+      "로켓배송",
+      "와우할인"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 868,
+    "soldPercent": 11,
+    "expiresAt": "2026-02-21T22:00:31.450Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8663389066",
+    "title": "FIZX 푸쉬업바 메가그립 ONE SIZE, FXPU-01, DeepRed",
+    "description": "",
+    "price": 21290,
+    "salePrice": 26620,
+    "wowPrice": 21290,
+    "originalPrice": 26620,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/07/07/18/5/660b1042-d5eb-4454-967e-2b4bf9a70687.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dP03O0",
+    "productUrl": "https://www.coupang.com/vp/products/8663389066?itemId=25144321764&vendorItemId=92967119629&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8663389066",
+    "category": "beauty",
+    "tags": [
+      "뷰티",
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 347,
+    "soldPercent": 6,
+    "expiresAt": "2026-02-21T22:00:17.450Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7715947237",
+    "title": "POM 원더풀 석류 프레시컷, 120g, 2개",
+    "description": "",
+    "price": 6990,
+    "salePrice": 8480,
+    "wowPrice": 6990,
+    "originalPrice": 8480,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/uzy6p1pv/35bcccaeaa88421d8c80b4a7fa5be498.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dP03sY",
+    "productUrl": "https://www.coupang.com/vp/products/7715947237?itemId=20695182670&vendorItemId=87766678184&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7715947237",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 5460,
+    "soldPercent": 10,
+    "expiresAt": "2026-02-21T22:00:29.450Z",
+    "postedAt": ""
+  },
+  {
+    "id": "4880477111",
+    "title": "땀골프 여성용 논슬립 골프장갑 양손용, 혼합색상, 1개",
+    "description": "",
+    "price": 8350,
+    "salePrice": 9830,
+    "wowPrice": 8350,
+    "originalPrice": 9830,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/791799294903072-084edc86-e165-49a5-9d0e-183ec25f5b9a.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dP02LR",
+    "productUrl": "https://www.coupang.com/vp/products/4880477111?itemId=6353679131&vendorItemId=73648963151&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "4880477111",
+    "category": "beauty",
+    "tags": [
+      "뷰티",
+      "로켓배송",
+      "와우할인",
+      "만원이하",
+      "여성용"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 4158,
+    "soldPercent": 18,
+    "expiresAt": "2026-02-21T22:00:24.450Z",
+    "postedAt": ""
+  },
+  {
+    "id": "1142386751",
+    "title": "다향 엄선된 원료육으로 만든 다향훈제오리, 540g, 1개",
+    "description": "",
+    "price": 10620,
+    "salePrice": 11370,
+    "wowPrice": 10620,
+    "originalPrice": 12320,
+    "discount": 7,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/494862303123279-a2a92f38-3141-4d88-920a-aeb5a6580b3b.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dP02n1",
+    "productUrl": "https://www.coupang.com/vp/products/1142386751?itemId=2113736909&vendorItemId=70112385089&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "1142386751",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 62682,
+    "soldPercent": 7,
+    "expiresAt": "2026-02-21T22:00:26.450Z",
+    "postedAt": ""
+  },
+  {
     "id": "9212878209",
     "title": "굽네 닭가슴살 갈비맛 만두 6개입 (냉동), 180g, 4개",
     "description": "",
@@ -24,6 +213,7 @@
     "reviewCount": 2407,
     "soldPercent": 8,
     "expiresAt": "2026-02-21T22:00:28.450Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -51,6 +241,7 @@
     "reviewCount": 43262,
     "soldPercent": 10,
     "expiresAt": "2026-02-21T22:00:31.450Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -79,6 +270,7 @@
     "reviewCount": 9141,
     "soldPercent": 8,
     "expiresAt": "2026-02-21T22:00:27.450Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -107,6 +299,7 @@
     "reviewCount": 603,
     "soldPercent": 10,
     "expiresAt": "2026-02-21T22:00:17.450Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -135,6 +328,7 @@
     "reviewCount": 472,
     "soldPercent": 9,
     "expiresAt": "2026-02-21T22:00:28.450Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -163,6 +357,7 @@
     "reviewCount": 1580,
     "soldPercent": 19,
     "expiresAt": "2026-02-21T22:00:38.450Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -189,6 +384,7 @@
     "reviewCount": 1389,
     "soldPercent": 18,
     "expiresAt": "2026-02-21T22:00:37.450Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
