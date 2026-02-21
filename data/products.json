@@ -1,5 +1,250 @@
 [
   {
+    "id": "7335913233",
+    "title": "셰프초이스 오리지널 쭈꾸미볶음, 350g, 1개",
+    "description": "",
+    "price": 9900,
+    "salePrice": 11980,
+    "wowPrice": 9900,
+    "originalPrice": 15900,
+    "discount": 24,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1171080727452070-8d40c0c2-88f3-4412-9b57-66684fdda15a.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dQzXqT",
+    "productUrl": "https://www.coupang.com/vp/products/7335913233?itemId=18843827973&vendorItemId=85973385080&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7335913233",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 5183,
+    "soldPercent": 3,
+    "expiresAt": "2026-02-22T22:00:33.156Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7871935374",
+    "title": "크린랩 플러스 크린장갑, 500개입, 1개",
+    "description": "",
+    "price": 11070,
+    "salePrice": 13500,
+    "wowPrice": 11070,
+    "originalPrice": 18170,
+    "discount": 25,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/333615474237868-22912ecf-ab5c-4915-b5ac-021104b1b07b.png",
+    "affiliateUrl": "https://link.coupang.com/a/dQzWQ5",
+    "productUrl": "https://www.coupang.com/vp/products/7871935374?itemId=24140639585&vendorItemId=88560434978&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7871935374",
+    "category": "fashion",
+    "tags": [
+      "패션",
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 11115,
+    "soldPercent": 1,
+    "expiresAt": "2026-02-22T22:00:18.156Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7679518856",
+    "title": "폴레드 올에이지 360 회전확장형 카시트 고정형 + 락킹벨트, 멜로우베이지",
+    "description": "",
+    "price": 396000,
+    "salePrice": 440000,
+    "wowPrice": 396000,
+    "originalPrice": 600000,
+    "discount": 26,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2024/03/27/16/9/143010c0-e30c-4cda-a8fa-e281d18684e1.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dQzWyS",
+    "productUrl": "https://www.coupang.com/vp/products/7679518856?itemId=22206840143&vendorItemId=89252949116&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7679518856",
+    "category": "baby",
+    "tags": [
+      "육아용품",
+      "로켓배송",
+      "와우할인"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 66,
+    "expiresAt": "2026-02-22T22:00:13.156Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7594832230",
+    "title": "싱크대 배수구 탈수 거름망 + 스텐 싱크 커버 STS304, 1개",
+    "description": "",
+    "price": 15370,
+    "salePrice": 25630,
+    "wowPrice": 15370,
+    "originalPrice": 35000,
+    "discount": 26,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/9d24/f2db1bd5d51ca6ab486f94dc67a9a63942190ab975cd4a563fc5a4e3a4d5.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dQzWhV",
+    "productUrl": "https://www.coupang.com/vp/products/7594832230?itemId=20077278841&vendorItemId=90907803852&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7594832230",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 340,
+    "soldPercent": 2,
+    "expiresAt": "2026-02-22T22:00:18.156Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7540120909",
+    "title": "스포츠리서치 유청 단백질 아이솔레이트 더치 초콜릿 맛, 1개, 1.03kg",
+    "description": "",
+    "price": 46940,
+    "salePrice": 49610,
+    "wowPrice": 46940,
+    "originalPrice": 67050,
+    "discount": 26,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/9c82/f09ac164bc461b7f796ac0e405f7d8567d9d231b7640e37fefa96f257d51.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dQzVZP",
+    "productUrl": "https://www.coupang.com/vp/products/7540120909?itemId=22812356321&vendorItemId=89847224392&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7540120909",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "5만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 166,
+    "soldPercent": 1,
+    "expiresAt": "2026-02-22T22:00:19.156Z",
+    "postedAt": ""
+  },
+  {
+    "id": "9380092434",
+    "title": "[25년산] 삼광미 10kg 상등급 국내산 단일품종 정미소김씨(GAP인증시설 도정), 1개",
+    "description": "",
+    "price": 32900,
+    "salePrice": 32900,
+    "wowPrice": 32900,
+    "originalPrice": 45000,
+    "discount": 26,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/52dc/e523608e21155f1459e3d72cff73c9292271ce564f83888053e9ecc5051b.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dQzVJC",
+    "productUrl": "https://www.coupang.com/vp/products/9380092434?itemId=27846813354&vendorItemId=88370429633&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "9380092434",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "5만원이하",
+      "국산"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 1992,
+    "soldPercent": 13,
+    "expiresAt": "2026-02-22T21:59:32.156Z",
+    "postedAt": ""
+  },
+  {
+    "id": "6266869094",
+    "title": "로레알파리 엘세브 토탈 리페어 5 인스턴트 미라클 헤어팩, 700ml, 1개",
+    "description": "",
+    "price": 21160,
+    "salePrice": 24900,
+    "wowPrice": 21160,
+    "originalPrice": 33900,
+    "discount": 26,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/10240506455533536-5fbca12e-dd78-47c0-a891-07d8e83054fa.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dQzVsl",
+    "productUrl": "https://www.coupang.com/vp/products/6266869094?itemId=20391912527&vendorItemId=82491743136&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "6266869094",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 41629,
+    "expiresAt": "2026-02-22T22:00:35.156Z",
+    "postedAt": ""
+  },
+  {
+    "id": "1556548",
+    "title": "맨하탄토이 윈켈 클래식 박스 치발기, 단품, 혼합색상, 1개",
+    "description": "",
+    "price": 15900,
+    "salePrice": 18900,
+    "wowPrice": 15900,
+    "originalPrice": 26000,
+    "discount": 27,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/111718882038138-83dfa068-a11a-4fc0-ab41-9e8fb6e1d306.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dQzU7b",
+    "productUrl": "https://www.coupang.com/vp/products/1556548?itemId=198924&vendorItemId=3000132612&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "1556548",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 11726,
+    "soldPercent": 6,
+    "expiresAt": "2026-02-22T22:00:14.156Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7497623760",
+    "title": "뉴트리디데이 프리미엄 루테인 골드, 90정, 1개",
+    "description": "",
+    "price": 8330,
+    "salePrice": 11900,
+    "wowPrice": 8330,
+    "originalPrice": 16500,
+    "discount": 27,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/322714536704564-ee912586-0534-4973-8776-096401edb6b4.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dQzUQd",
+    "productUrl": "https://www.coupang.com/vp/products/7497623760?itemId=20460060171&vendorItemId=4556332568&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7497623760",
+    "category": "health",
+    "tags": [
+      "건강",
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 42931,
+    "soldPercent": 3,
+    "expiresAt": "2026-02-22T22:00:40.156Z",
+    "postedAt": ""
+  },
+  {
     "id": "7721329539",
     "title": "요미몬 사운드북: 인기동요 15곡 + 영어동요 5곡 + 효과음 5종 아기 그림책, 그린, 유비윈",
     "description": "",
@@ -24,6 +269,7 @@
     "rating": 5,
     "reviewCount": 466,
     "expiresAt": "2026-02-22T22:00:11.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -52,6 +298,7 @@
     "reviewCount": 51992,
     "soldPercent": 2,
     "expiresAt": "2026-02-22T22:00:18.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -80,6 +327,7 @@
     "reviewCount": 3320,
     "soldPercent": 1,
     "expiresAt": "2026-02-22T21:59:33.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -107,6 +355,7 @@
     "reviewCount": 52906,
     "soldPercent": 4,
     "expiresAt": "2026-02-22T22:00:38.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -134,6 +383,7 @@
     "reviewCount": 1809,
     "soldPercent": 1,
     "expiresAt": "2026-02-22T22:00:39.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -163,6 +413,7 @@
     "reviewCount": 22167,
     "soldPercent": 5,
     "expiresAt": "2026-02-22T22:00:16.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -192,6 +443,7 @@
     "reviewCount": 2986,
     "soldPercent": 3,
     "expiresAt": "2026-02-22T22:00:18.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -218,6 +470,7 @@
     "rating": 5,
     "reviewCount": 692,
     "expiresAt": "2026-02-22T22:00:20.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -246,6 +499,7 @@
     "rating": 4.5,
     "reviewCount": 879,
     "expiresAt": "2026-02-22T21:59:29.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
