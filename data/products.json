@@ -1,5 +1,197 @@
 [
   {
+    "id": "9212878209",
+    "title": "굽네 닭가슴살 갈비맛 만두 6개입 (냉동), 180g, 4개",
+    "description": "",
+    "price": 9240,
+    "salePrice": 11560,
+    "wowPrice": 9240,
+    "originalPrice": 11560,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/8q0nti8x/886843c7bfe1433d9b9c15a9117da5de.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dP0TQr",
+    "productUrl": "https://www.coupang.com/vp/products/9212878209?itemId=21121043403&vendorItemId=94183831681&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "9212878209",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 2407,
+    "soldPercent": 8,
+    "expiresAt": "2026-02-21T22:00:28.450Z",
+    "postedAt": ""
+  },
+  {
+    "id": "1371175530",
+    "title": "풀무원 고소한 유부초밥 4인분, 330g, 1개",
+    "description": "",
+    "price": 5000,
+    "salePrice": 5490,
+    "wowPrice": 5000,
+    "originalPrice": 6480,
+    "discount": 15,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/132639828802940-b5cce459-2cf5-4e69-9d40-1a3bb393b106.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dP0TuZ",
+    "productUrl": "https://www.coupang.com/vp/products/1371175530?itemId=2403791227&vendorItemId=70398567571&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "1371175530",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 43262,
+    "soldPercent": 10,
+    "expiresAt": "2026-02-21T22:00:31.450Z",
+    "postedAt": ""
+  },
+  {
+    "id": "6724110186",
+    "title": "따옴 오가닉 주스 사과 & 청포도 & 당근 & 레드비트, 120ml, 24개",
+    "description": "",
+    "price": 12990,
+    "salePrice": 16240,
+    "wowPrice": 12990,
+    "originalPrice": 16240,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/a961/abee83f534c4158377022df49fcdf35d6a45475002764ca2ff69486934fc.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dP0Tai",
+    "productUrl": "https://www.coupang.com/vp/products/6724110186?itemId=15645946389&vendorItemId=82861963879&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "6724110186",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "사과"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 9141,
+    "soldPercent": 8,
+    "expiresAt": "2026-02-21T22:00:27.450Z",
+    "postedAt": ""
+  },
+  {
+    "id": "6645833613",
+    "title": "디아스침대 루이 호텔식 평상형 침대 + 매트리스 + 멀티패널 방문설치, 화이트",
+    "description": "",
+    "price": 469000,
+    "salePrice": 697000,
+    "wowPrice": 469000,
+    "originalPrice": 697000,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2022/07/15/15/2/496bbdbc-1986-411a-b383-9caf8d0dce51.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dP0SOV",
+    "productUrl": "https://www.coupang.com/vp/products/6645833613?itemId=15268786852&vendorItemId=88836610404&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "6645833613",
+    "category": "living",
+    "tags": [
+      "생활용품",
+      "로켓배송",
+      "와우할인",
+      "방문설치",
+      "매트리스"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 603,
+    "soldPercent": 10,
+    "expiresAt": "2026-02-21T22:00:17.450Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8832895571",
+    "title": "하이뮨 일동후디스 프로틴 밸런스 액티브 쿠키앤크림, 250ml, 18개",
+    "description": "",
+    "price": 23900,
+    "salePrice": 32300,
+    "wowPrice": 23900,
+    "originalPrice": 32300,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/06/13/10/4/469d1135-01e1-4111-9243-f2f906a537f5.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dP0Swl",
+    "productUrl": "https://www.coupang.com/vp/products/8832895571?itemId=25752635728&vendorItemId=92740913914&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8832895571",
+    "category": "health",
+    "tags": [
+      "건강",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "프로틴"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 472,
+    "soldPercent": 9,
+    "expiresAt": "2026-02-21T22:00:28.450Z",
+    "postedAt": ""
+  },
+  {
+    "id": "2275952339",
+    "title": "키친아트 인덕션 트리플 냄비팬, 20cm, 1개",
+    "description": "",
+    "price": 11980,
+    "salePrice": 14100,
+    "wowPrice": 11980,
+    "originalPrice": 14100,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/da87/e7a01f1bf4524b9300bfb4e4928949dd804192e882bc0d5d7fa93f0aa276.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dP0RxH",
+    "productUrl": "https://www.coupang.com/vp/products/2275952339?itemId=3905580239&vendorItemId=73451870009&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "2275952339",
+    "category": "digital",
+    "tags": [
+      "가전/디지털",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "인덕션"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 1580,
+    "soldPercent": 19,
+    "expiresAt": "2026-02-21T22:00:38.450Z",
+    "postedAt": ""
+  },
+  {
+    "id": "9238439802",
+    "title": "Dole 칠레산 Right Now 바로먹는 후숙 아보카도, 1kg, 1개",
+    "description": "",
+    "price": 10990,
+    "salePrice": 12990,
+    "wowPrice": 10990,
+    "originalPrice": 12990,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/blgztdam/4883c0b21ac348db9ade77c7b8d0c62d.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dP0RbQ",
+    "productUrl": "https://www.coupang.com/vp/products/9238439802?itemId=27316271505&vendorItemId=94282700246&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "9238439802",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 1389,
+    "soldPercent": 18,
+    "expiresAt": "2026-02-21T22:00:37.450Z",
+    "postedAt": ""
+  },
+  {
     "id": "8830112246",
     "title": "맘앤마음 셀프시공 유아 롤매트, 헤링본화이트",
     "description": "",
@@ -25,6 +217,7 @@
     "reviewCount": 9667,
     "soldPercent": 39,
     "expiresAt": "2026-02-21T22:00:29.450Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -52,6 +245,7 @@
     "reviewCount": 112,
     "soldPercent": 6,
     "expiresAt": "2026-02-21T22:00:20.450Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -78,6 +272,7 @@
     "reviewCount": 11047,
     "soldPercent": 12,
     "expiresAt": "2026-02-21T22:00:33.450Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -106,6 +301,7 @@
     "reviewCount": 19540,
     "soldPercent": 29,
     "expiresAt": "2026-02-21T22:00:35.450Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -133,6 +329,7 @@
     "reviewCount": 61910,
     "soldPercent": 14,
     "expiresAt": "2026-02-21T22:00:34.450Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -160,6 +357,7 @@
     "reviewCount": 18327,
     "soldPercent": 22,
     "expiresAt": "2026-02-21T22:00:40.450Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -187,6 +385,7 @@
     "reviewCount": 1918,
     "soldPercent": 21,
     "expiresAt": "2026-02-21T22:00:39.450Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
