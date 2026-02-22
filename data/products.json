@@ -477,6 +477,7 @@
     "rating": 4.5,
     "reviewCount": 42254,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -502,6 +503,7 @@
     "rating": 5,
     "reviewCount": 10104,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -527,6 +529,7 @@
     "rating": 4.5,
     "reviewCount": 1185,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -553,6 +556,7 @@
     "rating": 4.5,
     "reviewCount": 5645,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -579,6 +583,7 @@
     "rating": 4.5,
     "reviewCount": 191,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -604,6 +609,7 @@
     "rating": 4.5,
     "reviewCount": 5823,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -630,6 +636,7 @@
     "rating": 5,
     "reviewCount": 1121,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -657,6 +664,7 @@
     "rating": 5,
     "reviewCount": 19900,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -684,6 +692,7 @@
     "rating": 5,
     "reviewCount": 82,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -710,6 +719,249 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1737,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
+    "postedAt": ""
+  },
+  {
+    "id": "8057666239",
+    "title": "멜리언스 해외여행용 5포트 초고속충전 멀티 어댑터 화이트 PD35W ML-OL1, 1개",
+    "description": "",
+    "price": 28960,
+    "salePrice": 34900,
+    "wowPrice": 28960,
+    "originalPrice": 34900,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/10044648906972-085aec57-baca-48b4-bd5d-431a6515ed82.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbmzt",
+    "productUrl": "https://www.coupang.com/vp/products/8057666239?itemId=18456830075&vendorItemId=92725969521&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8057666239",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 3667,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "6480958336",
+    "title": "파로마 레아 LED 멀티수납침대 프레임 + 본넬 매트리스 세트 방문설치, 오크",
+    "description": "",
+    "price": 229000,
+    "salePrice": 343000,
+    "wowPrice": 229000,
+    "originalPrice": 343000,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/lwykikeh/a03ebc75b5df4bcc89a221e669253ca0.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbmRl",
+    "productUrl": "https://www.coupang.com/vp/products/6480958336?itemId=14187616067&vendorItemId=88836577975&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "6480958336",
+    "category": "living",
+    "tags": [
+      "생활용품",
+      "로켓배송",
+      "와우할인",
+      "세트상품",
+      "방문설치",
+      "매트리스"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 790,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8915578510",
+    "title": "르메이드 인덕션 에나멜 무쇠 주물 양수 냄비, 20cm, 크림쿼츠, 1개",
+    "description": "",
+    "price": 33900,
+    "salePrice": 43900,
+    "wowPrice": 33900,
+    "originalPrice": 43900,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/283740609216224-d1bd3c6e-a0f7-41db-950f-e7af1294f0c4.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbm6E",
+    "productUrl": "https://www.coupang.com/vp/products/8915578510?itemId=26048619075&vendorItemId=93109749101&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8915578510",
+    "category": "digital",
+    "tags": [
+      "가전/디지털",
+      "로켓배송",
+      "와우할인",
+      "5만원이하",
+      "인덕션"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 246,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "6728979019",
+    "title": "카카오프렌즈 쿠션 마우스패드, 라이언, 1개",
+    "description": "",
+    "price": 7600,
+    "salePrice": 8500,
+    "wowPrice": 7600,
+    "originalPrice": 8500,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/07/07/10/0/3e41a5d0-e693-432e-8098-e0b027fa4e0c.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbnnp",
+    "productUrl": "https://www.coupang.com/vp/products/6728979019?itemId=14789015553&vendorItemId=92963699872&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "6728979019",
+    "category": "digital",
+    "tags": [
+      "가전/디지털",
+      "로켓배송",
+      "와우할인",
+      "만원이하",
+      "마우스"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 554,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "9024105469",
+    "title": "지파워 휴대용 6중날 3p 포함 충전식 보풀제거기, SRLR01, 아이보리",
+    "description": "",
+    "price": 8900,
+    "salePrice": 19900,
+    "wowPrice": 8900,
+    "originalPrice": 19900,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/09/09/14/4/91d059d6-de6b-49a1-8b65-df53b18fda95.png",
+    "affiliateUrl": "https://link.coupang.com/a/dRbnEE",
+    "productUrl": "https://www.coupang.com/vp/products/9024105469?itemId=26562509943&vendorItemId=93536187748&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "9024105469",
+    "category": "living",
+    "tags": [
+      "생활용품",
+      "로켓배송",
+      "와우할인",
+      "만원이하",
+      "50%이상할인",
+      "휴대용"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 78,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8583181423",
+    "title": "labe 프리미엄 건습식 코드길이 8m 업소용청소기, LB-WDBUVC2000GR, 그레이",
+    "description": "",
+    "price": 47900,
+    "salePrice": 57900,
+    "wowPrice": 47900,
+    "originalPrice": 57900,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/59063658808589-8ea5e272-0faa-451b-8a68-3bd78e54b14e.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbnU2",
+    "productUrl": "https://www.coupang.com/vp/products/8583181423?itemId=24880616221&vendorItemId=91887401716&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8583181423",
+    "category": "digital",
+    "tags": [
+      "가전/디지털",
+      "로켓배송",
+      "와우할인",
+      "5만원이하",
+      "청소기"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 249,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8591108061",
+    "title": "와이드뷰 HD 스마트TV + 와이드무빙뷰 삼탠바이미 V3 세트, 81cm(32인치), GTWV320HD11(TV),EKWBYME78W(스탠드), 스탠드형, 고객직접설치",
+    "description": "",
+    "price": 230030,
+    "salePrice": 270630,
+    "wowPrice": 230030,
+    "originalPrice": 270630,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/02/10/17/2/4a9c976a-27a6-4c6b-9bfc-9cff0a078b62.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRboa7",
+    "productUrl": "https://www.coupang.com/vp/products/8591108061?itemId=24910885265&vendorItemId=91917307728&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8591108061",
+    "category": "fashion",
+    "tags": [
+      "패션",
+      "로켓배송",
+      "와우할인",
+      "세트상품"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 1384,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "6784715012",
+    "title": "쿠쿠 전자레인지 다이얼식 20L, CMW-A201DW",
+    "description": "",
+    "price": 52600,
+    "salePrice": 62020,
+    "wowPrice": 52600,
+    "originalPrice": 62020,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1739905866850695-52c0e620-29f6-47c8-9f08-66f8f62b67e7.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbosC",
+    "productUrl": "https://www.coupang.com/vp/products/6784715012?itemId=15967393537&vendorItemId=5493101444&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "6784715012",
+    "category": "digital",
+    "tags": [
+      "가전/디지털",
+      "로켓배송",
+      "와우할인",
+      "전자레인지"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 38881,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "9198818845",
+    "title": "다우니 7일향수 초고농축 섬유유연제 화이트티 리필, 4.1L, 1개",
+    "description": "",
+    "price": 18900,
+    "salePrice": 22900,
+    "wowPrice": 18900,
+    "originalPrice": 22900,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/243794926592159-6fab925a-3258-4a57-add1-e6070508e1ef.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRboHO",
+    "productUrl": "https://www.coupang.com/vp/products/9198818845?itemId=26803409471&vendorItemId=93773827036&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "9198818845",
+    "category": "beauty",
+    "tags": [
+      "뷰티",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "리필",
+      "섬유유연제"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 1157,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   }
