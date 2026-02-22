@@ -1,5 +1,35 @@
 [
   {
+    "id": "7738003363",
+    "title": "고소하게 늘어나는 모짜렐라 슈레드치즈, 1kg, 1개입, 1개",
+    "description": "",
+    "price": 0,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/595790499870890-0c041445-ed62-4192-abde-bf46604911b7.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dQBbfB",
+    "productUrl": "https://www.coupang.com/vp/products/7738003363?itemId=20811219094&vendorItemId=87880059667&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7738003363",
+    "category": "food",
+    "tags": [
+      "식품"
+    ],
+    "isWow": false,
+    "postedAt": ""
+  },
+  {
+    "id": "8969439000",
+    "title": "센트휴 소연골 콘드로이친 1200 MBP, 3개, 60정",
+    "description": "",
+    "price": 0,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/6678/e266aa49cfc721e0e295f45a4c882d15cbaffa59f9319a23f2d880afdb76.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dQBaWv",
+    "productUrl": "https://www.coupang.com/vp/products/8969439000?itemId=26250159772&vendorItemId=93280096696&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8969439000",
+    "category": "general",
+    "tags": [],
+    "isWow": false,
+    "postedAt": ""
+  },
+  {
     "id": "7936248000",
     "title": "오비안 모던 규조토 욕실 주방 발매트 대형, 베이지스트라이프",
     "description": "",
@@ -14,6 +44,7 @@
       "대용량"
     ],
     "isWow": false,
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -36,6 +67,7 @@
     "isWow": false,
     "isRocket": true,
     "expiresAt": "2026-02-22T22:00:12.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -59,6 +91,7 @@
     "isRocket": true,
     "soldPercent": 1,
     "expiresAt": "2026-02-22T22:00:13.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -80,6 +113,7 @@
     "isRocket": true,
     "soldPercent": 20,
     "expiresAt": "2026-02-22T22:00:13.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -102,6 +136,7 @@
     "isWow": false,
     "isRocket": true,
     "expiresAt": "2026-02-22T22:00:15.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -124,6 +159,7 @@
     "isRocket": true,
     "soldPercent": 1,
     "expiresAt": "2026-02-22T22:00:16.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -145,6 +181,7 @@
     "isWow": false,
     "isRocket": true,
     "expiresAt": "2026-02-22T22:00:16.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -168,6 +205,7 @@
     "isRocket": true,
     "soldPercent": 2,
     "expiresAt": "2026-02-22T22:00:17.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -190,6 +228,7 @@
     "isRocket": true,
     "soldPercent": 2,
     "expiresAt": "2026-02-22T22:00:21.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -211,6 +250,7 @@
     "isRocket": true,
     "soldPercent": 4,
     "expiresAt": "2026-02-22T22:00:21.156Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
