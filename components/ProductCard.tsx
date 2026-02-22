@@ -166,7 +166,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
             {product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
           </div>
         )}
-        {remaining && (
+        {remaining && !isSoldOut && (
           <div className="mt-1">
             <span className={`text-[11px] font-bold tabular-nums ${isUrgent ? "text-red-600 animate-pulse" : "text-orange-500"}`}>
               ⏰ {remaining}
@@ -231,7 +231,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
         </div>
 
         <div className="flex flex-col gap-1 mt-1.5">
-          {remaining && (
+          {remaining && !isSoldOut && (
             <div className="flex items-center gap-1.5">
               <span className={`text-xs font-bold tabular-nums tracking-tight ${isUrgent ? "text-red-600 animate-pulse" : "text-orange-500"}`}>
                 ⏰ {remaining}

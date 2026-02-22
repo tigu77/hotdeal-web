@@ -220,7 +220,7 @@ export default async function ProductPage({
           </div>
 
           {/* 카운트다운 */}
-          {product.expiresAt && (
+          {product.expiresAt && !product.isSoldOut && (
             <div className="flex items-center gap-2 mb-4 p-3 bg-orange-50 rounded-xl">
               <CountdownTimer expiresAt={product.expiresAt} />
               <span className="text-sm text-gray-500">남음</span>
