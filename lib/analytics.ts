@@ -108,3 +108,8 @@ export function trackBannerAction(action: 'close') {
 export function trackSiteShare(method: string) {
   trackEvent('site_share', { method });
 }
+
+// 채널 유입 추적
+export function trackChannelVisit(source: string, medium: string, campaign: string) {
+  trackEvent('channel_visit', { source, medium, campaign });
+}
