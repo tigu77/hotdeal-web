@@ -999,6 +999,7 @@
     "rating": 4.5,
     "reviewCount": 135,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -1024,6 +1025,7 @@
     "rating": 5,
     "reviewCount": 423,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -1049,6 +1051,7 @@
     "rating": 5,
     "reviewCount": 266,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -1075,6 +1078,7 @@
     "rating": 5,
     "reviewCount": 16902,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -1102,6 +1106,7 @@
     "rating": 5,
     "reviewCount": 5687,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -1127,6 +1132,7 @@
     "rating": 5,
     "reviewCount": 6061,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -1155,6 +1161,7 @@
     "reviewCount": 24577,
     "soldPercent": 1,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -1180,6 +1187,7 @@
     "rating": 5,
     "reviewCount": 171521,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -1206,6 +1214,219 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 16686,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
+    "postedAt": ""
+  },
+  {
+    "id": "6964996972",
+    "title": "마이비데 클린케어 화장실용 물티슈 캡형, 80매, 8개",
+    "description": "",
+    "price": 17160,
+    "salePrice": 24170,
+    "wowPrice": 17160,
+    "originalPrice": 24170,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/955002757207791-5da504cc-65af-4418-a3b9-85a33ebf7bc2.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbICV",
+    "productUrl": "https://www.coupang.com/vp/products/6964996972?itemId=16969608474&vendorItemId=84146435125&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "6964996972",
+    "category": "digital",
+    "tags": [
+      "가전/디지털",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "물티슈"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 39496,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8174473713",
+    "title": "코카콜라 제로, 190ml, 30개",
+    "description": "",
+    "price": 13600,
+    "salePrice": 16800,
+    "wowPrice": 13600,
+    "originalPrice": 16800,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/23103282589396-86aa575a-80ec-4486-8ab7-a381c556474a.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbIVj",
+    "productUrl": "https://www.coupang.com/vp/products/8174473713?itemId=23903013427&vendorItemId=88377301608&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8174473713",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 98937,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "24406364",
+    "title": "잠스트 JK-BAND 무릎보호대, 1개, 블랙",
+    "description": "",
+    "price": 14850,
+    "salePrice": 19800,
+    "wowPrice": 14850,
+    "originalPrice": 20000,
+    "discount": 1,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2228391346781797-01b81208-7f9a-4c5b-bf31-a4e03a905c45.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbJcP",
+    "productUrl": "https://www.coupang.com/vp/products/24406364?itemId=95036609&vendorItemId=3017191640&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "24406364",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 11521,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8179929853",
+    "title": "비타500 프레쉬, 100ml, 50개",
+    "description": "",
+    "price": 20710,
+    "salePrice": 26900,
+    "wowPrice": 20710,
+    "originalPrice": 27500,
+    "discount": 2,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/321482339403120-ef5b9137-fdc3-43dc-98a5-6d903abdbaf9.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbJtP",
+    "productUrl": "https://www.coupang.com/vp/products/8179929853?itemId=19223336072&vendorItemId=81540012669&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8179929853",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 12365,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "4798201469",
+    "title": "고래사어묵 생생한 야채 사각어묵, 300g, 2봉",
+    "description": "",
+    "price": 8100,
+    "salePrice": 9000,
+    "wowPrice": 8100,
+    "originalPrice": 9900,
+    "discount": 9,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/793963852126454-1e39fb64-39c2-4f5d-97fb-0221213f4905.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbJJC",
+    "productUrl": "https://www.coupang.com/vp/products/4798201469?itemId=6156553987&vendorItemId=73452758215&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "4798201469",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 77208,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8785655895",
+    "title": "설향 딸기 중과, 500g, 1개",
+    "description": "",
+    "price": 6490,
+    "salePrice": 6490,
+    "wowPrice": 6490,
+    "originalPrice": 7190,
+    "discount": 9,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/115060604773928-d16e4039-496f-49e8-863b-5af03bd38df9.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbJ0a",
+    "productUrl": "https://www.coupang.com/vp/products/8785655895?itemId=25820485069&vendorItemId=79852251776&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8785655895",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "만원이하",
+      "딸기"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 44124,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "116173944",
+    "title": "롯데웰푸드 티코 밀크초코 아이스크림 (냉동), 34ml, 15개입, 1개",
+    "description": "",
+    "price": 6400,
+    "salePrice": 7200,
+    "wowPrice": 6400,
+    "originalPrice": 8000,
+    "discount": 10,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/75679041009004-c07f2bb0-24f9-4344-8ea5-5b237d44f320.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbKhT",
+    "productUrl": "https://www.coupang.com/vp/products/116173944?itemId=351024085&vendorItemId=3855512693&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "116173944",
+    "category": "beauty",
+    "tags": [
+      "뷰티",
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 31629,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7879025150",
+    "title": "곰곰 프로틴바, 400g, 1개",
+    "description": "",
+    "price": 7650,
+    "salePrice": 8490,
+    "wowPrice": 7650,
+    "originalPrice": 9600,
+    "discount": 11,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/233710054552606-953d25f1-3c26-4682-868e-3b048303645c.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbKAb",
+    "productUrl": "https://www.coupang.com/vp/products/7879025150?itemId=21543373534&vendorItemId=88596219174&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7879025150",
+    "category": "health",
+    "tags": [
+      "건강",
+      "로켓배송",
+      "와우할인",
+      "만원이하",
+      "프로틴"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 478,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   }
