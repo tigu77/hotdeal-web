@@ -57,6 +57,7 @@ export const metadata: Metadata = {
     siteName: "핫딜 알리미",
     type: "website",
     locale: "ko_KR",
+    images: [{ url: "/icon-512.png", width: 512, height: 512, alt: "핫딜 알리미" }],
   },
   twitter: {
     card: "summary_large_image",
