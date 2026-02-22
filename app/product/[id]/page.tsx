@@ -230,7 +230,7 @@ export default async function ProductPage({
           {/* 판매율 */}
           {(() => {
             const sp = getDisplaySoldPercent(product);
-            return sp > 0 ? <SoldBar soldPercent={sp} /> : null;
+            return sp >= 0 ? <SoldBar soldPercent={sp} /> : null;
           })()}
 
           {/* CTA + 공유 + 찜 */}

@@ -112,7 +112,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
     </span>
   ) : null;
 
-  const soldBar = soldPercent > 0 && (
+  const soldBar = soldPercent >= 0 && (
     <div className="flex items-center gap-1.5">
       <div className={`flex-1 bg-gray-100 rounded-full overflow-hidden ${compact ? 'h-2' : 'h-2 max-w-[80px]'}`}>
         <div
