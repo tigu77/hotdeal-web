@@ -11,7 +11,7 @@ import { SITE } from "@/lib/constants";
 import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab, trackChannelVisit } from "@/lib/analytics";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { getWishlist } from "@/lib/wishlist";
-type SortType = "latest" | "popular" | "ending" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
+type SortType = "popular" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
 
 function useIsMobile(breakpoint = 640) {
   const [isMobile, setIsMobile] = useState(false);
@@ -28,7 +28,7 @@ function useIsMobile(breakpoint = 640) {
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
-  const [sortBy, setSortBy] = useState<SortType>("latest");
+  const [sortBy, setSortBy] = useState<SortType>("popular");
   const [wishlistMode, setWishlistMode] = useState(false);
   const [wishlistVersion, setWishlistVersion] = useState(0);
   const isMobile = useIsMobile();
@@ -93,13 +93,6 @@ export default function Home() {
           if (a.isSoldOut && !b.isSoldOut) return 1;
           if (!a.isSoldOut && b.isSoldOut) return -1;
           return getDisplaySoldPercent(b) - getDisplaySoldPercent(a);
-        });
-        break;
-      case "ending":
-        items = [...items].sort((a, b) => {
-          const aExp = a.expiresAt ? new Date(a.expiresAt).getTime() : Infinity;
-          const bExp = b.expiresAt ? new Date(b.expiresAt).getTime() : Infinity;
-          return aExp - bExp;
         });
         break;
       case "discount":
@@ -203,9 +196,7 @@ export default function Home() {
             onChange={(e) => { setSortBy(e.target.value as SortType); trackSort(e.target.value); }}
             className="text-sm border border-gray-200 rounded-lg px-3 py-1.5 bg-white text-gray-600 focus:outline-none focus:border-orange-400"
           >
-            <option value="latest">최신순</option>
             <option value="popular">인기순</option>
-            <option value="ending">마감임박순</option>
             <option value="discount">할인율순</option>
             <option value="price-low">가격 낮은순</option>
             <option value="price-high">가격 높은순</option>
