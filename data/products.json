@@ -209,6 +209,7 @@
     "rating": 5,
     "reviewCount": 986,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -235,6 +236,7 @@
     "rating": 4.5,
     "reviewCount": 4937,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -262,6 +264,7 @@
     "rating": 4.5,
     "reviewCount": 6297,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -288,6 +291,7 @@
     "rating": 5,
     "reviewCount": 20965,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -314,6 +318,7 @@
     "rating": 4.5,
     "reviewCount": 4299,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -339,6 +344,7 @@
     "rating": 5,
     "reviewCount": 21139,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -364,6 +370,7 @@
     "rating": 4.5,
     "reviewCount": 17,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -390,6 +397,7 @@
     "rating": 5,
     "reviewCount": 591,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -416,6 +424,7 @@
     "rating": 4.5,
     "reviewCount": 3895,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -440,6 +449,267 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2336,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
+    "postedAt": ""
+  },
+  {
+    "id": "311582774",
+    "title": "미각제빵소 버터롤, 520g, 1개입, 1개",
+    "description": "",
+    "price": 5950,
+    "salePrice": 7000,
+    "wowPrice": 5950,
+    "originalPrice": 7000,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/7d05/677a0e53d6dfc285faebd71ccb7fcd26aa7d90a86006223eee7ada544150.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbcW8",
+    "productUrl": "https://www.coupang.com/vp/products/311582774?itemId=983385243&vendorItemId=5403264692&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "311582774",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 42254,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "6199704521",
+    "title": "오뚜기 리얼 멕시칸 브리또 치폴레살사치킨 (냉동), 125g, 3개입, 1개",
+    "description": "",
+    "price": 6720,
+    "salePrice": 8980,
+    "wowPrice": 6720,
+    "originalPrice": 8980,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/10008376287935-afdf22a4-cd72-44ca-92c4-c2c98dc645a7.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbdc8",
+    "productUrl": "https://www.coupang.com/vp/products/6199704521?itemId=965163942&vendorItemId=5369494564&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "6199704521",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 10104,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8635306782",
+    "title": "북방도화새우살 포장횟감 20미 (냉동), 1개, 60g(L)",
+    "description": "",
+    "price": 5990,
+    "salePrice": 6700,
+    "wowPrice": 5990,
+    "originalPrice": 6700,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/nf0qe64o/e4617ad009e44d3584742543fecaa1e4.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbdu8",
+    "productUrl": "https://www.coupang.com/vp/products/8635306782?itemId=25055000857&vendorItemId=92059405203&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8635306782",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 1185,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7518120449",
+    "title": "이미지 볶음용 지리 멸치, 200g, 1개",
+    "description": "",
+    "price": 5900,
+    "salePrice": 6900,
+    "wowPrice": 5900,
+    "originalPrice": 6900,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/eef2/9bd47811d0d8e1be1feb8f00d68eda46d9957486e8d015f66179f9742901.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbdKQ",
+    "productUrl": "https://www.coupang.com/vp/products/7518120449?itemId=19713018436&vendorItemId=3359546851&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7518120449",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 5645,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "9153685312",
+    "title": "김판수과메기 해풍 맞은 구룡포 야채 세트, 1개, 530g",
+    "description": "",
+    "price": 23800,
+    "salePrice": 25900,
+    "wowPrice": 23800,
+    "originalPrice": 25900,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/qkrrnes3/c37eee5bdff74d16a81300f90383ecae.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbd1E",
+    "productUrl": "https://www.coupang.com/vp/products/9153685312?itemId=26956652976&vendorItemId=93925671624&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "9153685312",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "세트상품"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 191,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "6631700799",
+    "title": "주문진어시장건어물 맛진미 오징어채 (냉동), 300g, 1개",
+    "description": "",
+    "price": 12490,
+    "salePrice": 14990,
+    "wowPrice": 12490,
+    "originalPrice": 14990,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2022/05/11/13/9/c55dc0b1-e542-4859-bcaa-a1b275244af2.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbef7",
+    "productUrl": "https://www.coupang.com/vp/products/6631700799?itemId=15121054023&vendorItemId=82342791319&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "6631700799",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 5823,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8816166947",
+    "title": "쉐프스토리 갓성비 치즈 핫도그 (냉동), 80g, 1개, 10개입",
+    "description": "",
+    "price": 5990,
+    "salePrice": 9990,
+    "wowPrice": 5990,
+    "originalPrice": 9990,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/ujzukznj/ebbeb08bf0394fc2b48e15e4429f7a6c.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbexv",
+    "productUrl": "https://www.coupang.com/vp/products/8816166947?itemId=25689107843&vendorItemId=92678347448&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8816166947",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 1121,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "6497434597",
+    "title": "한끼통살 그릴드 닭가슴살 5종 x 2p 세트 (냉동), 100g, 1개입, 10개",
+    "description": "",
+    "price": 19310,
+    "salePrice": 22600,
+    "wowPrice": 19310,
+    "originalPrice": 22600,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1749066651551845-151893e1-da1f-45f7-90a6-f837f174229f.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbeL8",
+    "productUrl": "https://www.coupang.com/vp/products/6497434597?itemId=14289924180&vendorItemId=81534852735&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "6497434597",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "세트상품"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 19900,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8991847152",
+    "title": "샥즈 오픈핏 2+ T921 골전도 블루투스 이어폰, 블랙BK",
+    "description": "",
+    "price": 148900,
+    "salePrice": 289000,
+    "wowPrice": 148900,
+    "originalPrice": 289000,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/57a82264-39ba-420e-b613-a9d3e1fa5d48_fixing_v2.png",
+    "affiliateUrl": "https://link.coupang.com/a/dRbe2V",
+    "productUrl": "https://www.coupang.com/vp/products/8991847152?itemId=26339967266&vendorItemId=93317060091&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8991847152",
+    "category": "digital",
+    "tags": [
+      "가전/디지털",
+      "로켓배송",
+      "와우할인",
+      "무선",
+      "이어폰"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 82,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8982535310",
+    "title": "Tiger Pavilion 원터치 접이식 이동가능 철제 스탠드 선반, 5단, 화이트",
+    "description": "",
+    "price": 21990,
+    "salePrice": 23490,
+    "wowPrice": 21990,
+    "originalPrice": 23490,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/321b/9e11435a26c47e075ec6ddb1dc79b291c8393442648d9c48d611ec0b95bb.jpeg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbfkn",
+    "productUrl": "https://www.coupang.com/vp/products/8982535310?itemId=26374270009&vendorItemId=93278252063&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8982535310",
+    "category": "living",
+    "tags": [
+      "생활용품",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "접이식"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 1737,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   }
