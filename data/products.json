@@ -746,6 +746,7 @@
     "rating": 5,
     "reviewCount": 3667,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -774,6 +775,7 @@
     "rating": 4.5,
     "reviewCount": 790,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -801,6 +803,7 @@
     "rating": 5,
     "reviewCount": 246,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -828,6 +831,7 @@
     "rating": 5,
     "reviewCount": 554,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -856,6 +860,7 @@
     "rating": 5,
     "reviewCount": 78,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -883,6 +888,7 @@
     "rating": 4.5,
     "reviewCount": 249,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -909,6 +915,7 @@
     "rating": 5,
     "reviewCount": 1384,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -935,6 +942,7 @@
     "rating": 5,
     "reviewCount": 38881,
     "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -962,6 +970,242 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1157,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "channelPosted": true,
+    "postedAt": ""
+  },
+  {
+    "id": "8918804238",
+    "title": "홈플래닛 360° 회전 노즐 가습기 5L, H1003B2, 화이트",
+    "description": "",
+    "price": 22990,
+    "salePrice": 24990,
+    "wowPrice": 22990,
+    "originalPrice": 24990,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/616794472549756-d8b7fe8f-c9da-48a3-8d95-91f203d74036.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbwTi",
+    "productUrl": "https://www.coupang.com/vp/products/8918804238?itemId=26060940727&vendorItemId=93042234056&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8918804238",
+    "category": "digital",
+    "tags": [
+      "가전/디지털",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "가습기"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 135,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "9301916281",
+    "title": "웅진 깊을수록 무라벨, 24개, 2L",
+    "description": "",
+    "price": 10490,
+    "salePrice": 13120,
+    "wowPrice": 10490,
+    "originalPrice": 13120,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/931898606862937-1eba5704-8bb3-44c3-870a-6223c3923599.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbxbv",
+    "productUrl": "https://www.coupang.com/vp/products/9301916281?itemId=27565508864&vendorItemId=94529483580&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "9301916281",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 423,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "9165791088",
+    "title": "자연은 더말린 유자, 20개, 500ml",
+    "description": "",
+    "price": 11710,
+    "salePrice": 16500,
+    "wowPrice": 11710,
+    "originalPrice": 16500,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/10/30/11/2/382cd447-2505-4a24-b2af-cf00a1d42f19.png",
+    "affiliateUrl": "https://link.coupang.com/a/dRbxry",
+    "productUrl": "https://www.coupang.com/vp/products/9165791088?itemId=27005337165&vendorItemId=93941930287&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "9165791088",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 266,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7090409838",
+    "title": "위트빅스 오리지날 시리얼, 1.2kg, 1개",
+    "description": "",
+    "price": 10550,
+    "salePrice": 14070,
+    "wowPrice": 10550,
+    "originalPrice": 14070,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/9a78/1ced62e3facab7e3b3a50d148226cc1223d9695ecc5fc91aa9ffd1c0326b.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbxIS",
+    "productUrl": "https://www.coupang.com/vp/products/7090409838?itemId=15268526996&vendorItemId=82489076941&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7090409838",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 16902,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "6724113992",
+    "title": "따옴 유기농 오렌지 & 청포도 & 당근 & 브로콜리 주스, 120ml, 24개",
+    "description": "",
+    "price": 12990,
+    "salePrice": 16240,
+    "wowPrice": 12990,
+    "originalPrice": 16240,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/eb39e7df-c74b-4a1b-96b7-060345ad9344_fixing_v2.png",
+    "affiliateUrl": "https://link.coupang.com/a/dRbxZM",
+    "productUrl": "https://www.coupang.com/vp/products/6724113992?itemId=15645965423&vendorItemId=82861979320&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "6724113992",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "친환경"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 5687,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7936809011",
+    "title": "티젠 콤부차 매실, 5g, 50개입, 1개",
+    "description": "",
+    "price": 11520,
+    "salePrice": 16000,
+    "wowPrice": 11520,
+    "originalPrice": 16000,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/9ec0/f3bedf06a4e0a5cf5fb8f34a374210a828a11eb6e253b927ecb2665b20e8.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbyhU",
+    "productUrl": "https://www.coupang.com/vp/products/7936809011?itemId=21848636293&vendorItemId=88896910089&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7936809011",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 6061,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "240186584",
+    "title": "슈가로로 스파클링 사과 음료, 350ml, 24개",
+    "description": "",
+    "price": 12290,
+    "salePrice": 17570,
+    "wowPrice": 12290,
+    "originalPrice": 17570,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/25cd/9680efc431b866f092649c04b3c13adfe18236e24133cd1a7d2fb34be3b0.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbyzc",
+    "productUrl": "https://www.coupang.com/vp/products/240186584?itemId=763978169&vendorItemId=86330037186&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "240186584",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "사과"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 24577,
+    "soldPercent": 1,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "6212866716",
+    "title": "몽베스트 위드어스 무라벨 생수, 330ml, 40개",
+    "description": "",
+    "price": 9810,
+    "salePrice": 10900,
+    "wowPrice": 9810,
+    "originalPrice": 10900,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/76279203476331-4cf91164-68b1-4649-ad00-9243268a4846.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRbyPg",
+    "productUrl": "https://www.coupang.com/vp/products/6212866716?itemId=17718604208&vendorItemId=86467813521&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "6212866716",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 171521,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7839893765",
+    "title": "셀렉스 프로틴 로우슈거 음료, 190ml, 190g, 24개",
+    "description": "",
+    "price": 19730,
+    "salePrice": 27800,
+    "wowPrice": 19730,
+    "originalPrice": 27800,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/199968625966215-7f494f3f-3f37-4bf3-aa45-d684c676dd0e.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRby5i",
+    "productUrl": "https://www.coupang.com/vp/products/7839893765?itemId=21339632780&vendorItemId=84288230465&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7839893765",
+    "category": "health",
+    "tags": [
+      "건강",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "프로틴"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 16686,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   }
