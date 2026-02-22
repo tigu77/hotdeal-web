@@ -13,6 +13,8 @@
       "식품"
     ],
     "isWow": false,
+    "isSoldOut": true,
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -27,6 +29,8 @@
     "category": "general",
     "tags": [],
     "isWow": false,
+    "isSoldOut": true,
+    "channelPosted": true,
     "postedAt": ""
   },
   {
@@ -44,6 +48,7 @@
       "대용량"
     ],
     "isWow": false,
+    "isSoldOut": true,
     "channelPosted": true,
     "postedAt": ""
   },
@@ -66,6 +71,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 4,
     "expiresAt": "2026-02-22T22:00:12.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -89,7 +95,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 1,
+    "soldPercent": 5,
     "expiresAt": "2026-02-22T22:00:13.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -107,11 +113,12 @@
     "category": "general",
     "tags": [
       "로켓배송",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 20,
+    "soldPercent": 83,
     "expiresAt": "2026-02-22T22:00:13.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -120,9 +127,9 @@
     "id": "8596103075",
     "title": "시저 어덜트 강아지 건식사료, 칠면조, 1kg, 1개",
     "description": "",
-    "price": 9300,
-    "salePrice": 9300,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/32470756659788-02a21769-56ce-45fa-8560-fa71250dc017.jpg",
+    "price": 15610,
+    "salePrice": 15610,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/51534049532630-7392a544-be75-435f-9712-74bb5458179a.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQA2Fa",
     "productUrl": "https://www.coupang.com/vp/products/8596103075?itemId=21440892320&vendorItemId=3000580597&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "8596103075",
@@ -130,11 +137,12 @@
     "tags": [
       "반려동물",
       "로켓배송",
-      "만원이하",
+      "3만원이하",
       "강아지"
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 4,
     "expiresAt": "2026-02-22T22:00:15.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -157,7 +165,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 1,
+    "soldPercent": 9,
     "expiresAt": "2026-02-22T22:00:16.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -168,7 +176,7 @@
     "description": "",
     "price": 10500,
     "salePrice": 10500,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/09/05/18/5/ec136da1-697c-4bc0-bc50-976c62b1cd99.jpg",
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/09/05/17/2/e2e5ee69-c7f9-484f-871e-ee082900a56c.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQA11g",
     "productUrl": "https://www.coupang.com/vp/products/9022459404?itemId=26590301249&vendorItemId=93524837994&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "9022459404",
@@ -180,6 +188,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 10,
     "expiresAt": "2026-02-22T22:00:16.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -203,7 +212,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 2,
+    "soldPercent": 10,
     "expiresAt": "2026-02-22T22:00:17.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -226,7 +235,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 2,
+    "soldPercent": 21,
     "expiresAt": "2026-02-22T22:00:21.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -248,7 +257,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 4,
+    "soldPercent": 30,
     "expiresAt": "2026-02-22T22:00:21.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -269,7 +278,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 1,
+    "soldPercent": 5,
     "expiresAt": "2026-02-22T22:00:22.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -294,6 +303,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 3,
     "expiresAt": "2026-02-22T22:00:22.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -315,7 +325,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 3,
+    "soldPercent": 15,
     "expiresAt": "2026-02-22T22:00:23.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -326,7 +336,7 @@
     "description": "",
     "price": 39900,
     "salePrice": 39900,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1168486336480379-697a0e92-ae52-484a-ae0e-2f5d0b6d8613.jpg",
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/3639/ea5fa8ffecb7dd80693a5e90db3c6a8a0ec430028ea7158871c126419a09.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQATAU",
     "productUrl": "https://www.coupang.com/vp/products/4548468621?itemId=5516766994&vendorItemId=72816322228&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "4548468621",
@@ -341,6 +351,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 21,
     "expiresAt": "2026-02-22T22:00:24.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -364,7 +375,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 15,
+    "soldPercent": 16,
     "expiresAt": "2026-02-22T22:00:25.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -375,7 +386,7 @@
     "description": "",
     "price": 17900,
     "salePrice": 17900,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/6462254856541-63ff45f3-7882-434c-9706-6bb5bca72c15.jpg",
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2022/11/22/15/8/bfd900e8-b08f-4864-939f-73fef602f5d0.png",
     "affiliateUrl": "https://link.coupang.com/a/dQAROC",
     "productUrl": "https://www.coupang.com/vp/products/8530167007?itemId=2735040906&vendorItemId=70725146975&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "8530167007",
@@ -387,7 +398,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 2,
+    "soldPercent": 40,
     "expiresAt": "2026-02-22T22:00:26.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -411,6 +422,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 14,
     "expiresAt": "2026-02-22T22:00:26.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -432,7 +444,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 6,
+    "soldPercent": 25,
     "expiresAt": "2026-02-22T22:00:27.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -441,9 +453,9 @@
     "id": "6248821928",
     "title": "오성정밀 고용량 누전 멀티탭 3구 OSN323, 1.5m, 화이트, 1개",
     "description": "",
-    "price": 21880,
-    "salePrice": 21880,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/5186/90c3988b082aa28f9df2c946016eae79f03e4281845db7c1e16c15f5a92e.jpg",
+    "price": 29510,
+    "salePrice": 29510,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/15ac/60040775ab04a6bb75909aae62cd70a1633fe3f6fbaaada0366e467403ed.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQAJqb",
     "productUrl": "https://www.coupang.com/vp/products/6248821928?itemId=18409541144&vendorItemId=85552041993&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "6248821928",
@@ -454,7 +466,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 1,
+    "soldPercent": 12,
     "expiresAt": "2026-02-22T22:00:27.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -475,6 +487,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 45,
     "expiresAt": "2026-02-22T22:00:29.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -496,7 +509,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 1,
+    "soldPercent": 4,
     "expiresAt": "2026-02-22T22:00:33.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -519,6 +532,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 3,
     "expiresAt": "2026-02-22T22:00:33.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -540,6 +554,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 6,
     "expiresAt": "2026-02-22T22:00:33.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -561,7 +576,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 4,
+    "soldPercent": 21,
     "expiresAt": "2026-02-22T22:00:33.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -583,7 +598,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 1,
+    "soldPercent": 8,
     "expiresAt": "2026-02-22T22:00:34.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -606,7 +621,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 1,
+    "soldPercent": 10,
     "expiresAt": "2026-02-22T22:00:34.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -629,7 +644,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 3,
+    "soldPercent": 30,
     "expiresAt": "2026-02-22T22:00:34.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -652,7 +667,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 3,
+    "soldPercent": 24,
     "expiresAt": "2026-02-22T22:00:35.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -675,7 +690,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 1,
+    "soldPercent": 10,
     "expiresAt": "2026-02-22T22:00:35.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -698,6 +713,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 3,
     "expiresAt": "2026-02-22T22:00:35.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -721,6 +737,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 4,
     "expiresAt": "2026-02-22T22:00:38.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -742,6 +759,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 2,
     "expiresAt": "2026-02-22T22:00:40.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -766,7 +784,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 8,
+    "soldPercent": 23,
     "expiresAt": "2026-02-22T22:00:40.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -789,7 +807,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 3,
+    "soldPercent": 11,
     "expiresAt": "2026-02-22T22:00:40.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -813,7 +831,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 1,
+    "soldPercent": 5,
     "expiresAt": "2026-02-22T22:00:40.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -835,7 +853,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 7,
+    "soldPercent": 25,
     "expiresAt": "2026-02-22T22:00:40.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -861,6 +879,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 2,
     "expiresAt": "2026-02-22T22:00:17.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -884,7 +903,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 1,
+    "soldPercent": 9,
     "expiresAt": "2026-02-22T22:00:33.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -908,7 +927,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 1,
+    "soldPercent": 4,
     "expiresAt": "2026-02-22T22:00:21.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -934,7 +953,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 1,
+    "soldPercent": 15,
     "expiresAt": "2026-02-22T22:00:21.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -959,6 +978,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 3,
     "expiresAt": "2026-02-22T22:00:39.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -984,7 +1004,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 3,
+    "soldPercent": 26,
     "expiresAt": "2026-02-22T22:00:20.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1003,12 +1023,11 @@
     "productId": "1334556079",
     "category": "general",
     "tags": [
-      "로켓배송",
       "3만원이하",
       "딸기"
     ],
     "isWow": false,
-    "isRocket": true,
+    "isSoldOut": true,
     "soldPercent": 3,
     "expiresAt": "2026-02-22T22:00:34.156Z",
     "channelPosted": true,
@@ -1034,7 +1053,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 1,
+    "soldPercent": 3,
     "expiresAt": "2026-02-22T22:00:12.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1059,7 +1078,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 3,
+    "soldPercent": 10,
     "expiresAt": "2026-02-22T22:00:39.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1083,6 +1102,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 2,
     "expiresAt": "2026-02-22T22:00:13.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1107,6 +1127,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 3,
     "expiresAt": "2026-02-22T22:00:15.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1132,6 +1153,7 @@
     ],
     "isWow": false,
     "isRocket": true,
+    "soldPercent": 12,
     "expiresAt": "2026-02-22T22:00:40.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1159,7 +1181,7 @@
     "isRocket": true,
     "rating": 4,
     "reviewCount": 4336,
-    "soldPercent": 1,
+    "soldPercent": 7,
     "expiresAt": "2026-02-22T21:59:29.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1189,6 +1211,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 31,
+    "soldPercent": 7,
     "expiresAt": "2026-02-22T22:00:12.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1198,11 +1221,11 @@
     "title": "온슬로 레티놀 미간 주름 패치, 2개, 45개입",
     "description": "",
     "price": 30220,
-    "salePrice": 35800,
+    "salePrice": 17900,
     "wowPrice": 30220,
-    "originalPrice": 43620,
-    "discount": 17,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/images/ed4e0810-ae12-41fe-9ba6-d86ccfa3dc0a4058397661318912683.png",
+    "originalPrice": 22350,
+    "discount": 19,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/a264/a4bbfa0fbcc7ec815c94b427f2e82948c8238f6f8b40faf9c6843c5a8cd4.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQAdZE",
     "productUrl": "https://www.coupang.com/vp/products/8746853643?itemId=25811535628&vendorItemId=93971791217&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "8746853643",
@@ -1216,7 +1239,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2265,
-    "soldPercent": 1,
+    "soldPercent": 20,
     "expiresAt": "2026-02-22T21:59:33.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1226,11 +1249,11 @@
     "title": "더샘 커버 퍼펙션 컨실러 펜슬 2g, 1개, 0.5 아이스 베이지",
     "description": "",
     "price": 6720,
-    "salePrice": 8100,
+    "salePrice": 6650,
     "wowPrice": 6720,
-    "originalPrice": 9900,
-    "discount": 18,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/61339250621712-2ee47458-ace2-47ce-aa61-5c8dfc5da27f.jpg",
+    "originalPrice": 7000,
+    "discount": 5,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/61339183423314-4b5da8fd-d630-4f44-a325-13ae84c009f6.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQAdGO",
     "productUrl": "https://www.coupang.com/vp/products/6871997469?itemId=21844086200&vendorItemId=90474799525&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "6871997469",
@@ -1244,6 +1267,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 3100,
+    "soldPercent": 11,
     "expiresAt": "2026-02-22T22:00:17.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1271,7 +1295,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1955,
-    "soldPercent": 2,
+    "soldPercent": 23,
     "expiresAt": "2026-02-22T22:00:14.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1328,6 +1352,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 13473,
+    "soldPercent": 5,
     "expiresAt": "2026-02-22T22:00:35.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1357,6 +1382,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2447,
+    "soldPercent": 3,
     "expiresAt": "2026-02-22T21:59:28.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1366,11 +1392,11 @@
     "title": "로킷헬스케어 Fisetin 캡슐, 1개, 60정",
     "description": "",
     "price": 32460,
-    "salePrice": 36160,
+    "salePrice": 103390,
     "wowPrice": 32460,
-    "originalPrice": 46370,
+    "originalPrice": 132560,
     "discount": 22,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/8731a697-c676-474e-a7af-de1cc8df1bb7_fixing_v2.png",
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/2768/ea38fdbaa07e67422cfc3da3f0a57df4d83c30bdce268ce54e65d6628f89.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQz6m1",
     "productUrl": "https://www.coupang.com/vp/products/5633181187?itemId=23978556719&vendorItemId=90999790934&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "5633181187",
@@ -1386,7 +1412,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 375,
-    "soldPercent": 1,
+    "soldPercent": 4,
     "expiresAt": "2026-02-22T22:00:20.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1416,7 +1442,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 48722,
-    "soldPercent": 2,
+    "soldPercent": 11,
     "expiresAt": "2026-02-22T22:00:37.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1444,7 +1470,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1053,
-    "soldPercent": 1,
+    "soldPercent": 5,
     "expiresAt": "2026-02-22T22:00:16.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1473,6 +1499,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 35908,
+    "soldPercent": 5,
     "expiresAt": "2026-02-22T22:00:11.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1486,7 +1513,7 @@
     "wowPrice": 12290,
     "originalPrice": 25000,
     "discount": 24,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/246096370575055-c143ae5d-82e0-4e7a-8fe1-34deb8384fec.jpg",
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/68547418292981-3082d1ab-8315-4ef2-9b75-6fb6ebcf4a7e.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQz5ei",
     "productUrl": "https://www.coupang.com/vp/products/7991806412?itemId=23799585149&vendorItemId=90823521072&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "7991806412",
@@ -1502,7 +1529,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1190,
-    "soldPercent": 1,
+    "soldPercent": 72,
     "expiresAt": "2026-02-22T22:00:21.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1532,7 +1559,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1710,
-    "soldPercent": 1,
+    "soldPercent": 13,
     "expiresAt": "2026-02-22T22:00:26.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1560,7 +1587,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 5183,
-    "soldPercent": 3,
+    "soldPercent": 24,
     "expiresAt": "2026-02-22T22:00:33.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1589,7 +1616,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 11115,
-    "soldPercent": 1,
+    "soldPercent": 6,
     "expiresAt": "2026-02-22T22:00:18.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1617,6 +1644,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 66,
+    "soldPercent": 10,
     "expiresAt": "2026-02-22T22:00:13.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1644,7 +1672,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 340,
-    "soldPercent": 2,
+    "soldPercent": 12,
     "expiresAt": "2026-02-22T22:00:18.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1673,7 +1701,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 166,
-    "soldPercent": 1,
+    "soldPercent": 2,
     "expiresAt": "2026-02-22T22:00:19.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1683,11 +1711,11 @@
     "title": "[25년산] 삼광미 10kg 상등급 국내산 단일품종 정미소김씨(GAP인증시설 도정), 1개",
     "description": "",
     "price": 32900,
-    "salePrice": 32900,
+    "salePrice": 64850,
     "wowPrice": 32900,
-    "originalPrice": 45000,
-    "discount": 26,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/52dc/e523608e21155f1459e3d72cff73c9292271ce564f83888053e9ecc5051b.jpg",
+    "originalPrice": 85000,
+    "discount": 23,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/ab19/9e7e02cd58e3567647c673666c1f3f6feb3689e1e75137db8c291c4f63a8.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQzVJC",
     "productUrl": "https://www.coupang.com/vp/products/9380092434?itemId=27846813354&vendorItemId=88370429633&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "9380092434",
@@ -1702,7 +1730,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1992,
-    "soldPercent": 13,
+    "soldPercent": 45,
     "expiresAt": "2026-02-22T21:59:32.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1730,6 +1758,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 41629,
+    "soldPercent": 1,
     "expiresAt": "2026-02-22T22:00:35.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1757,7 +1786,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 11726,
-    "soldPercent": 6,
+    "soldPercent": 28,
     "expiresAt": "2026-02-22T22:00:14.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1767,11 +1796,11 @@
     "title": "뉴트리디데이 프리미엄 루테인 골드, 90정, 1개",
     "description": "",
     "price": 8330,
-    "salePrice": 11900,
+    "salePrice": 21900,
     "wowPrice": 8330,
-    "originalPrice": 16500,
-    "discount": 27,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/322714536704564-ee912586-0534-4973-8776-096401edb6b4.jpg",
+    "originalPrice": 33000,
+    "discount": 33,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/322714602402612-befcf36e-4e7b-4a10-a625-db2ba6e76030.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQzUQd",
     "productUrl": "https://www.coupang.com/vp/products/7497623760?itemId=20460060171&vendorItemId=4556332568&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "7497623760",
@@ -1786,7 +1815,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 42931,
-    "soldPercent": 3,
+    "soldPercent": 25,
     "expiresAt": "2026-02-22T22:00:40.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1815,6 +1844,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 466,
+    "soldPercent": 8,
     "expiresAt": "2026-02-22T22:00:11.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1843,7 +1873,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 51992,
-    "soldPercent": 2,
+    "soldPercent": 11,
     "expiresAt": "2026-02-22T22:00:18.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1872,7 +1902,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 3320,
-    "soldPercent": 1,
+    "soldPercent": 5,
     "expiresAt": "2026-02-22T21:59:33.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1900,7 +1930,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 52906,
-    "soldPercent": 4,
+    "soldPercent": 20,
     "expiresAt": "2026-02-22T22:00:38.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1928,7 +1958,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1809,
-    "soldPercent": 1,
+    "soldPercent": 4,
     "expiresAt": "2026-02-22T22:00:39.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1958,7 +1988,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 22167,
-    "soldPercent": 5,
+    "soldPercent": 17,
     "expiresAt": "2026-02-22T22:00:16.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1988,7 +2018,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2986,
-    "soldPercent": 3,
+    "soldPercent": 7,
     "expiresAt": "2026-02-22T22:00:18.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2001,7 +2031,7 @@
     "salePrice": 63300,
     "wowPrice": 61500,
     "originalPrice": 106600,
-    "discount": 29,
+    "discount": 40,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/stage/manual/058d1ef3c6257bb1ae49424d70987ecbca7cb014e221faa137f299a2988d_1750903456383.JPG",
     "affiliateUrl": "https://link.coupang.com/a/dQzLJh",
     "productUrl": "https://www.coupang.com/vp/products/7735164204?itemId=20795926254&vendorItemId=82974139854&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -2016,6 +2046,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 692,
+    "soldPercent": 5,
     "expiresAt": "2026-02-22T22:00:20.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2074,6 +2105,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 964,
+    "soldPercent": 20,
     "expiresAt": "2026-02-22T21:59:31.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2101,6 +2133,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 7,
+    "soldPercent": 1,
     "expiresAt": "2026-02-22T22:00:10.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2129,7 +2162,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 66,
-    "soldPercent": 2,
+    "soldPercent": 10,
     "expiresAt": "2026-02-22T22:00:11.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2187,6 +2220,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 578,
+    "soldPercent": 1,
     "expiresAt": "2026-02-22T22:00:17.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2217,7 +2251,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 52469,
-    "soldPercent": 2,
+    "soldPercent": 14,
     "expiresAt": "2026-02-22T22:00:18.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2246,7 +2280,7 @@
     "isWow": true,
     "isRocket": true,
     "rating": 5,
-    "soldPercent": 3,
+    "soldPercent": 13,
     "expiresAt": "2026-02-22T22:00:29.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2274,7 +2308,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 18744,
-    "soldPercent": 1,
+    "soldPercent": 5,
     "expiresAt": "2026-02-22T22:00:40.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2288,7 +2322,7 @@
     "wowPrice": 9590,
     "originalPrice": 20000,
     "discount": 31,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/10/06/10/4/54825fce-a2f2-4710-aa49-551a69b78e33.jpg",
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/10/06/10/8/a44f54bb-88e1-475d-90b0-e9b392d385c9.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQzwQN",
     "productUrl": "https://www.coupang.com/vp/products/7633070924?itemId=20263198040&vendorItemId=87366315122&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "7633070924",
@@ -2304,7 +2338,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2624,
-    "soldPercent": 1,
+    "soldPercent": 18,
     "expiresAt": "2026-02-22T22:00:16.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2318,7 +2352,7 @@
     "wowPrice": 48000,
     "originalPrice": 89000,
     "discount": 31,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2020/11/16/13/0/88c990b5-7c47-4c7c-a643-3115df67eedc.jpg",
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/560228823390565-932e956e-c206-4aea-8391-c69608735f46.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQzwAo",
     "productUrl": "https://www.coupang.com/vp/products/1987199303?itemId=5083113233&vendorItemId=72392754769&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "1987199303",
@@ -2334,6 +2368,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 16549,
+    "soldPercent": 70,
     "expiresAt": "2026-02-22T22:00:30.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2363,7 +2398,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 939,
-    "soldPercent": 3,
+    "soldPercent": 13,
     "expiresAt": "2026-02-22T22:00:39.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2373,11 +2408,11 @@
     "title": "1+1 HOMEY NEST 완벽 빛차단 3중직 단열 방풍 암막커튼 거실 커텐 아일렛형",
     "description": "",
     "price": 52290,
-    "salePrice": 53910,
+    "salePrice": 35910,
     "wowPrice": 52290,
-    "originalPrice": 80000,
-    "discount": 32,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/4180/757b3f340f8967de18056e287141b63300fb3db586fba3985ab6ba12deb1.png",
+    "originalPrice": 60000,
+    "discount": 40,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/ee18/c4b55fe5027b3fed8b28325e13f2c0b3f6fbe12738145012ac14c7052e8f.png",
     "affiliateUrl": "https://link.coupang.com/a/dQzv1x",
     "productUrl": "https://www.coupang.com/vp/products/8729454920?itemId=25363114709&vendorItemId=92357370272&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "8729454920",
@@ -2405,7 +2440,7 @@
     "wowPrice": 49490,
     "originalPrice": 104700,
     "discount": 33,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/08/04/13/1/880059f0-bed4-4015-bdd2-ac6176922e35.jpg",
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/08/04/13/2/7f298d40-e35e-4bd7-a430-f38ad4de83d9.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQzvJs",
     "productUrl": "https://www.coupang.com/vp/products/8955319204?itemId=26198885830&vendorItemId=93218150761&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "8955319204",
@@ -2423,7 +2458,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 194,
-    "soldPercent": 2,
+    "soldPercent": 6,
     "expiresAt": "2026-02-22T22:00:23.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2433,11 +2468,11 @@
     "title": "더자리 데일리 프레쉬 누빔 침대패드 고정밴드형, 밀키차콜그레이",
     "description": "",
     "price": 10320,
-    "salePrice": 12900,
+    "salePrice": 16500,
     "wowPrice": 10320,
-    "originalPrice": 19300,
-    "discount": 33,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/865195844722128-4c54caef-3f94-4831-af07-7a1f715d11f0.jpg",
+    "originalPrice": 25000,
+    "discount": 34,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2176900789629532-efb72719-56a8-4d1b-97b8-80e491e52ec8.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQzvsD",
     "productUrl": "https://www.coupang.com/vp/products/284748034?itemId=801783548&vendorItemId=5264374547&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "284748034",
@@ -2452,7 +2487,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 29824,
-    "soldPercent": 1,
+    "soldPercent": 40,
     "expiresAt": "2026-02-22T22:00:27.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2510,6 +2545,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 858,
+    "soldPercent": 3,
     "expiresAt": "2026-02-22T22:00:22.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2523,7 +2559,7 @@
     "wowPrice": 17800,
     "originalPrice": 35000,
     "discount": 34,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/09/18/10/6/16de9c4b-8cb2-4777-9cbd-78baff40b951.jpg",
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/09/18/10/5/597eb2f8-d91b-40cd-8df0-c68f4d7be496.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQzurb",
     "productUrl": "https://www.coupang.com/vp/products/9071620972?itemId=26641689049&vendorItemId=93614396420&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "9071620972",
@@ -2541,6 +2577,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 105,
+    "soldPercent": 13,
     "expiresAt": "2026-02-22T22:00:23.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2554,7 +2591,7 @@
     "wowPrice": 207000,
     "originalPrice": 424000,
     "discount": 34,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/233539384485368-de565a8b-47a5-4389-85f7-c8367f4d79da.jpg",
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1118450755678901-5e791b16-64b0-4b96-a048-e5d246254b7c.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQzoG7",
     "productUrl": "https://www.coupang.com/vp/products/8032290517?itemId=22463508427&vendorItemId=89506646895&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "8032290517",
@@ -2568,6 +2605,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 202,
+    "soldPercent": 20,
     "expiresAt": "2026-02-22T22:00:26.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2596,7 +2634,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 31910,
-    "soldPercent": 1,
+    "soldPercent": 8,
     "expiresAt": "2026-02-22T21:59:33.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2625,7 +2663,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 170010,
-    "soldPercent": 2,
+    "soldPercent": 9,
     "expiresAt": "2026-02-22T22:00:38.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2683,6 +2721,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 377,
+    "soldPercent": 12,
     "expiresAt": "2026-02-22T22:00:14.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2710,7 +2749,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 288,
-    "soldPercent": 1,
+    "soldPercent": 8,
     "expiresAt": "2026-02-22T22:00:13.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2739,6 +2778,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1148,
+    "soldPercent": 19,
     "expiresAt": "2026-02-22T22:00:17.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2767,7 +2807,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 826,
-    "soldPercent": 1,
+    "soldPercent": 5,
     "expiresAt": "2026-02-22T22:00:19.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2798,6 +2838,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 93,
+    "soldPercent": 2,
     "expiresAt": "2026-02-22T22:00:22.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2828,7 +2869,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 6607,
-    "soldPercent": 2,
+    "soldPercent": 10,
     "expiresAt": "2026-02-22T22:00:36.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2858,7 +2899,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 124728,
-    "soldPercent": 3,
+    "soldPercent": 15,
     "expiresAt": "2026-02-22T22:00:38.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2868,11 +2909,11 @@
     "title": "스포츠트라이브 뉴 S1 플러스 축구공, STQS1-5PLS, 1개",
     "description": "",
     "price": 49640,
-    "salePrice": 68000,
+    "salePrice": 60000,
     "wowPrice": 49640,
-    "originalPrice": 112000,
-    "discount": 39,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/954013279207981-4da56fc7-3793-4bd5-9d35-ff50fc8c4814.jpg",
+    "originalPrice": 100000,
+    "discount": 40,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/12/26/9/5/e1b15dda-e3da-4ec3-bba4-0dd14f2c9cc0.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQzeYO",
     "productUrl": "https://www.coupang.com/vp/products/7290704694?itemId=18633462819&vendorItemId=85768712382&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "7290704694",
@@ -2887,6 +2928,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 637,
+    "soldPercent": 30,
     "expiresAt": "2026-02-22T22:00:14.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2916,7 +2958,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 218,
-    "soldPercent": 2,
+    "soldPercent": 6,
     "expiresAt": "2026-02-22T22:00:26.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2929,7 +2971,7 @@
     "salePrice": 18900,
     "wowPrice": 14990,
     "originalPrice": 24900,
-    "discount": 39,
+    "discount": 24,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1190205731367983-fe403bcc-a162-4d42-87db-c08d2862fce6.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQzerw",
     "productUrl": "https://www.coupang.com/vp/products/9018686149?itemId=26440991348&vendorItemId=93416608351&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -2944,7 +2986,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 257,
-    "soldPercent": 3,
+    "soldPercent": 18,
     "expiresAt": "2026-02-22T22:00:34.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -2975,6 +3017,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1363,
+    "soldPercent": 70,
     "expiresAt": "2026-02-22T22:00:14.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3003,7 +3046,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 25,
-    "soldPercent": 2,
+    "soldPercent": 24,
     "expiresAt": "2026-02-22T22:00:19.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3033,6 +3076,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 3188,
+    "soldPercent": 3,
     "expiresAt": "2026-02-22T21:59:29.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3060,7 +3104,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2864,
-    "soldPercent": 20,
+    "soldPercent": 23,
     "expiresAt": "2026-02-22T21:59:29.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3089,7 +3133,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4092,
-    "soldPercent": 2,
+    "soldPercent": 11,
     "expiresAt": "2026-02-22T22:00:37.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3118,7 +3162,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 50,
-    "soldPercent": 1,
+    "soldPercent": 9,
     "expiresAt": "2026-02-22T22:00:12.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3128,11 +3172,11 @@
     "title": "에디슨 프리미엄 실리콘 트레이닝 컵, 옐로우, 1개, 200ml",
     "description": "",
     "price": 10690,
-    "salePrice": 13400,
+    "salePrice": 12400,
     "wowPrice": 10690,
-    "originalPrice": 23200,
-    "discount": 42,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/533168498207319-6a8023a5-dbcb-4b8d-900d-551327051dd1.jpg",
+    "originalPrice": 19800,
+    "discount": 37,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/543415649630384-fce49b55-c252-4a2d-bb52-7b1ec0d4bfe2.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQy5WE",
     "productUrl": "https://www.coupang.com/vp/products/6615548304?itemId=15018950547&vendorItemId=82241672206&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "6615548304",
@@ -3147,7 +3191,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 5977,
-    "soldPercent": 3,
+    "soldPercent": 55,
     "expiresAt": "2026-02-22T22:00:19.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3175,6 +3219,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 147209,
+    "soldPercent": 3,
     "expiresAt": "2026-02-22T21:59:30.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3231,7 +3276,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 269298,
-    "soldPercent": 1,
+    "soldPercent": 8,
     "expiresAt": "2026-02-22T22:00:35.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3260,7 +3305,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 69327,
-    "soldPercent": 1,
+    "soldPercent": 7,
     "expiresAt": "2026-02-22T22:00:36.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3290,7 +3335,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1038,
-    "soldPercent": 1,
+    "soldPercent": 8,
     "expiresAt": "2026-02-22T22:00:11.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3318,7 +3363,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 9467,
-    "soldPercent": 2,
+    "soldPercent": 5,
     "expiresAt": "2026-02-22T22:00:24.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3348,7 +3393,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3134,
-    "soldPercent": 3,
+    "soldPercent": 25,
     "expiresAt": "2026-02-22T22:00:26.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3379,7 +3424,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 7235,
-    "soldPercent": 1,
+    "soldPercent": 4,
     "expiresAt": "2026-02-22T22:00:37.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3409,7 +3454,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 28365,
-    "soldPercent": 3,
+    "soldPercent": 13,
     "expiresAt": "2026-02-22T22:00:40.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3439,7 +3484,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 538,
-    "soldPercent": 5,
+    "soldPercent": 15,
     "expiresAt": "2026-02-22T21:59:33.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3467,7 +3512,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 67882,
-    "soldPercent": 6,
+    "soldPercent": 26,
     "expiresAt": "2026-02-22T22:00:40.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3496,7 +3541,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 515,
-    "soldPercent": 4,
+    "soldPercent": 12,
     "expiresAt": "2026-02-22T22:00:27.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3528,7 +3573,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2078,
-    "soldPercent": 4,
+    "soldPercent": 36,
     "expiresAt": "2026-02-22T21:59:33.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3559,7 +3604,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2272,
-    "soldPercent": 10,
+    "soldPercent": 20,
     "expiresAt": "2026-02-22T21:59:33.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3589,7 +3634,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1086,
-    "soldPercent": 2,
+    "soldPercent": 13,
     "expiresAt": "2026-02-22T22:00:19.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3599,11 +3644,11 @@
     "title": "콜라겐 마스크 콜라겐 마스크팩 콜라겐 랩핑팩 콜라겐 물광 랩핑팩 저분자 콜라겐팩 저분자 콜라겐 마스크팩 콜라겐 물광 랩마스크 콜라겐 물광팩 콜라겐 나이트 랩핑 마스크 각질제거팩, 4개, 1개입",
     "description": "",
     "price": 34010,
-    "salePrice": 35810,
+    "salePrice": 9010,
     "wowPrice": 34010,
-    "originalPrice": 69000,
-    "discount": 48,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/images/fb709aaa-f0c3-47df-949c-4fb7fbf5fd0711914462804867161493.png",
+    "originalPrice": 15310,
+    "discount": 41,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/0810/752cfa104029f2b480f57271d5bd9dddbaa490b2ebf11fb2985bbf3cd6a3.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQyQnX",
     "productUrl": "https://www.coupang.com/vp/products/8696952769?itemId=25655084626&vendorItemId=92644885488&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "8696952769",
@@ -3619,6 +3664,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 3465,
+    "soldPercent": 2,
     "expiresAt": "2026-02-22T21:59:31.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3646,7 +3692,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3467,
-    "soldPercent": 3,
+    "soldPercent": 15,
     "expiresAt": "2026-02-22T22:00:40.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3678,7 +3724,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 340,
-    "soldPercent": 2,
+    "soldPercent": 8,
     "expiresAt": "2026-02-22T22:00:23.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3710,7 +3756,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 5490,
-    "soldPercent": 1,
+    "soldPercent": 5,
     "expiresAt": "2026-02-22T22:00:37.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3740,7 +3786,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 102525,
-    "soldPercent": 3,
+    "soldPercent": 15,
     "expiresAt": "2026-02-22T22:00:40.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3750,11 +3796,11 @@
     "title": "웁쉬 스며들개 고흡수 강아지 배변패드 두툼형 피톤치드향, 4개, 20개입",
     "description": "",
     "price": 37650,
-    "salePrice": 39610,
+    "salePrice": 12420,
     "wowPrice": 37650,
-    "originalPrice": 79200,
-    "discount": 52,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/images/5d4122bb-8c36-4a0e-8675-521a0b85a6b67743271334878306958.png",
+    "originalPrice": 19800,
+    "discount": 37,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/07b3/d07f19cc6f1dd0de4704b01a888094ae3b3d53a4c6d0f0d82d54b71c65ef.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQyPaO",
     "productUrl": "https://www.coupang.com/vp/products/9237181833?itemId=27795076034&vendorItemId=94755245167&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "9237181833",
@@ -3764,13 +3810,13 @@
       "로켓배송",
       "와우할인",
       "5만원이하",
-      "50%이상할인",
       "강아지"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2100,
+    "soldPercent": 48,
     "expiresAt": "2026-02-22T21:59:32.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3799,6 +3845,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 284,
+    "soldPercent": 7,
     "expiresAt": "2026-02-22T22:00:24.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3827,6 +3874,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 11459,
+    "soldPercent": 3,
     "expiresAt": "2026-02-22T21:59:29.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3856,7 +3904,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 11129,
-    "soldPercent": 3,
+    "soldPercent": 13,
     "expiresAt": "2026-02-22T22:00:37.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3886,7 +3934,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 5303,
-    "soldPercent": 2,
+    "soldPercent": 11,
     "expiresAt": "2026-02-22T22:00:38.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3916,7 +3964,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 21271,
-    "soldPercent": 2,
+    "soldPercent": 8,
     "expiresAt": "2026-02-22T22:00:15.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3946,7 +3994,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 679,
-    "soldPercent": 1,
+    "soldPercent": 3,
     "expiresAt": "2026-02-22T22:00:22.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -3977,7 +4025,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2649,
-    "soldPercent": 2,
+    "soldPercent": 9,
     "expiresAt": "2026-02-22T22:00:37.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -4008,7 +4056,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 50,
-    "soldPercent": 3,
+    "soldPercent": 22,
     "expiresAt": "2026-02-22T22:00:29.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -4037,7 +4085,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 7735,
-    "soldPercent": 1,
+    "soldPercent": 6,
     "expiresAt": "2026-02-22T22:00:24.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -4068,6 +4116,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 44,
+    "soldPercent": 4,
     "expiresAt": "2026-02-22T22:00:19.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -4077,11 +4126,11 @@
     "title": "베네통키즈 아동용 컬러 블록 책가방 SETQCBGP8311IVOS",
     "description": "",
     "price": 57100,
-    "salePrice": 61440,
+    "salePrice": 78720,
     "wowPrice": 57100,
     "originalPrice": 149000,
-    "discount": 58,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/415011093092307-88442d3e-297c-400b-8895-74e12ede34a3.jpg",
+    "discount": 47,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/9132885662412666-df0469f1-e6df-413a-aaeb-fba31fa17154.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dQyDcs",
     "productUrl": "https://www.coupang.com/vp/products/6978291705?itemId=17027804246&vendorItemId=84203141394&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "6978291705",
@@ -4090,7 +4139,6 @@
       "육아용품",
       "로켓배송",
       "와우할인",
-      "50%이상할인",
       "세트상품",
       "아동용",
       "가방"
@@ -4099,6 +4147,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 37,
+    "soldPercent": 22,
     "expiresAt": "2026-02-22T22:00:29.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -4128,7 +4177,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 43942,
-    "soldPercent": 4,
+    "soldPercent": 13,
     "expiresAt": "2026-02-22T22:00:40.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -4158,7 +4207,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4445,
-    "soldPercent": 2,
+    "soldPercent": 15,
     "expiresAt": "2026-02-22T22:00:12.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -4190,7 +4239,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 168,
-    "soldPercent": 1,
+    "soldPercent": 5,
     "expiresAt": "2026-02-22T21:59:28.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -4222,7 +4271,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 3999,
-    "soldPercent": 2,
+    "soldPercent": 9,
     "expiresAt": "2026-02-22T22:00:23.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -4253,7 +4302,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1098,
-    "soldPercent": 26,
+    "soldPercent": 50,
     "expiresAt": "2026-02-22T22:00:20.156Z",
     "channelPosted": true,
     "postedAt": ""
@@ -4281,7 +4330,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 95004,
-    "soldPercent": 2,
+    "soldPercent": 11,
     "expiresAt": "2026-02-22T22:00:40.156Z",
     "channelPosted": true,
     "postedAt": ""
