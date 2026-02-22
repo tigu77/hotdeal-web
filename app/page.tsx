@@ -88,7 +88,12 @@ export default function Home() {
     // 정렬
     switch (sortBy) {
       case "popular":
-        items = [...items].sort((a, b) => getDisplaySoldPercent(b) - getDisplaySoldPercent(a));
+        items = [...items].sort((a, b) => {
+          // 품절은 맨 아래로
+          if (a.isSoldOut && !b.isSoldOut) return 1;
+          if (!a.isSoldOut && b.isSoldOut) return -1;
+          return getDisplaySoldPercent(b) - getDisplaySoldPercent(a);
+        });
         break;
       case "ending":
         items = [...items].sort((a, b) => {
