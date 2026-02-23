@@ -131,7 +131,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
   // ── compact 모드 (세로형 2열) ──
   if (compact) {
     return (
-      <div className={`group relative p-2.5 bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-orange-200 ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
+      <div className={`group relative p-2.5 bg-white rounded-xl shadow-sm hover:shadow-lg hover:scale-[1.02] active:scale-[1.01] transition-all duration-200 ease-out border border-gray-100 hover:border-orange-200 cursor-pointer ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
         {clickOverlay}
         <div className="relative aspect-square rounded-lg overflow-hidden bg-gray-50 mb-2">
           {wishlistBtn}
@@ -183,7 +183,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
 
   // ── 기본 모드 (가로형 리스트) ──
   return (
-    <div className={`group relative flex gap-3 p-3 bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-orange-200 ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
+    <div className={`group relative flex gap-3 p-3 bg-white rounded-2xl shadow-sm hover:shadow-lg hover:scale-[1.02] active:scale-[1.01] transition-all duration-200 ease-out border border-gray-100 hover:border-orange-200 cursor-pointer ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
       {clickOverlay}
       {/* 썸네일 */}
       <div className="relative w-24 h-24 flex-shrink-0 rounded-xl overflow-hidden bg-gray-50">

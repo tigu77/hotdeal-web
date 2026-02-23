@@ -1,5 +1,6 @@
 "use client";
 
+import { useRef, useState, useEffect, useCallback } from "react";
 import { CATEGORIES, SITE } from "@/lib/constants";
 import SiteShareButton from "./SiteShareButton";
 
@@ -16,6 +17,33 @@ export default function Header({
   wishlistMode,
   onWishlistToggle,
 }: HeaderProps) {
+  const navRef = useRef<HTMLElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
+
+  const checkScroll = useCallback(() => {
+    const el = navRef.current;
+    if (!el) return;
+    setCanScrollLeft(el.scrollLeft > 2);
+    setCanScrollRight(el.scrollLeft + el.clientWidth < el.scrollWidth - 2);
+  }, []);
+
+  useEffect(() => {
+    const el = navRef.current;
+    if (!el) return;
+    checkScroll();
+    el.addEventListener("scroll", checkScroll, { passive: true });
+    window.addEventListener("resize", checkScroll);
+    return () => {
+      el.removeEventListener("scroll", checkScroll);
+      window.removeEventListener("resize", checkScroll);
+    };
+  }, [checkScroll]);
+
+  const scrollNav = (dir: "left" | "right") => {
+    navRef.current?.scrollBy({ left: dir === "left" ? -160 : 160, behavior: "smooth" });
+  };
+
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-4">
@@ -41,29 +69,56 @@ export default function Header({
           </div>
         </div>
 
-        {/* 카테고리 필터 */}
-        <nav className="flex gap-1 pb-3 overflow-x-auto scrollbar-hide">
-          <CategoryTab
-            label="🔥 전체"
-            active={!wishlistMode && selectedCategory === null}
-            onClick={() => onCategoryChange(null)}
-          />
-          {onWishlistToggle && (
-            <CategoryTab
-              label="❤️ 찜"
-              active={!!wishlistMode}
-              onClick={onWishlistToggle}
-            />
+        {/* 카테고리 필터 (스크롤 힌트 포함) */}
+        <div className="relative">
+          {/* 왼쪽 그라데이션 + 화살표 */}
+          {canScrollLeft && (
+            <button
+              onClick={() => scrollNav("left")}
+              className="absolute left-0 top-0 bottom-0 z-10 flex items-center pl-0.5 pr-3 bg-gradient-to-r from-white/95 via-white/70 to-transparent pointer-events-auto"
+              aria-label="왼쪽으로 스크롤"
+            >
+              <span className="text-gray-400 text-sm font-bold">‹</span>
+            </button>
           )}
-          {CATEGORIES.map((cat) => (
+
+          <nav
+            ref={navRef}
+            className="flex gap-1 pb-3 overflow-x-auto scrollbar-hide"
+          >
             <CategoryTab
-              key={cat.id}
-              label={`${cat.emoji} ${cat.name}`}
-              active={!wishlistMode && selectedCategory === cat.id}
-              onClick={() => onCategoryChange(cat.id)}
+              label="🔥 전체"
+              active={!wishlistMode && selectedCategory === null}
+              onClick={() => onCategoryChange(null)}
             />
-          ))}
-        </nav>
+            {onWishlistToggle && (
+              <CategoryTab
+                label="❤️ 찜"
+                active={!!wishlistMode}
+                onClick={onWishlistToggle}
+              />
+            )}
+            {CATEGORIES.map((cat) => (
+              <CategoryTab
+                key={cat.id}
+                label={`${cat.emoji} ${cat.name}`}
+                active={!wishlistMode && selectedCategory === cat.id}
+                onClick={() => onCategoryChange(cat.id)}
+              />
+            ))}
+          </nav>
+
+          {/* 오른쪽 그라데이션 + 화살표 */}
+          {canScrollRight && (
+            <button
+              onClick={() => scrollNav("right")}
+              className="absolute right-0 top-0 bottom-0 z-10 flex items-center pr-0.5 pl-3 bg-gradient-to-l from-white/95 via-white/70 to-transparent pointer-events-auto"
+              aria-label="오른쪽으로 스크롤"
+            >
+              <span className="text-gray-400 text-sm font-bold">›</span>
+            </button>
+          )}
+        </div>
       </div>
     </header>
   );
