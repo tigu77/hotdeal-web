@@ -75,7 +75,7 @@
     "isRocket": true,
     "rating": 4,
     "reviewCount": 10561,
-    "soldPercent": 5,
+    "soldPercent": 13,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -102,7 +102,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 8724,
-    "soldPercent": 7,
+    "soldPercent": 17,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -129,7 +129,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1129,
-    "soldPercent": 5,
+    "soldPercent": 13,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -156,7 +156,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1015,
-    "soldPercent": 2,
+    "soldPercent": 5,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -184,7 +184,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2440,
-    "soldPercent": 1,
+    "soldPercent": 2,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -213,7 +213,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 986,
-    "soldPercent": 7,
+    "soldPercent": 13,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -241,7 +241,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 4937,
-    "soldPercent": 3,
+    "soldPercent": 9,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -264,13 +264,14 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "남성용"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 6297,
-    "soldPercent": 55,
+    "soldPercent": 85,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -298,7 +299,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 20965,
-    "soldPercent": 2,
+    "soldPercent": 4,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -326,7 +327,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 4299,
-    "soldPercent": 4,
+    "soldPercent": 9,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -353,7 +354,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 21139,
-    "soldPercent": 8,
+    "soldPercent": 44,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -407,7 +408,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 591,
-    "soldPercent": 2,
+    "soldPercent": 6,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -435,7 +436,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 3895,
-    "soldPercent": 9,
+    "soldPercent": 26,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -462,7 +463,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2336,
-    "soldPercent": 10,
+    "soldPercent": 26,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -490,7 +491,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 42254,
-    "soldPercent": 7,
+    "soldPercent": 22,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -517,7 +518,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 10104,
-    "soldPercent": 3,
+    "soldPercent": 11,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -544,7 +545,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1185,
-    "soldPercent": 6,
+    "soldPercent": 20,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -572,7 +573,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 5645,
-    "soldPercent": 3,
+    "soldPercent": 9,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -600,6 +601,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 191,
+    "soldPercent": 2,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -626,7 +628,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 5823,
-    "soldPercent": 9,
+    "soldPercent": 29,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -648,13 +650,14 @@
       "식품",
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1121,
-    "soldPercent": 21,
+    "soldPercent": 94,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -683,7 +686,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 19900,
-    "soldPercent": 4,
+    "soldPercent": 11,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -712,7 +715,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 82,
-    "soldPercent": 2,
+    "soldPercent": 9,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -741,7 +744,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1737,
-    "soldPercent": 10,
+    "soldPercent": 21,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -768,7 +771,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3667,
-    "soldPercent": 3,
+    "soldPercent": 10,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -798,7 +801,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 790,
-    "soldPercent": 8,
+    "soldPercent": 24,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -827,7 +830,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 246,
-    "soldPercent": 1,
+    "soldPercent": 7,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -856,7 +859,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 554,
-    "soldPercent": 10,
+    "soldPercent": 42,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -886,7 +889,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 78,
-    "soldPercent": 2,
+    "soldPercent": 6,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -915,6 +918,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 249,
+    "soldPercent": 1,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -942,7 +946,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1384,
-    "soldPercent": 2,
+    "soldPercent": 4,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -970,7 +974,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 38881,
-    "soldPercent": 2,
+    "soldPercent": 7,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1000,7 +1004,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1157,
-    "soldPercent": 4,
+    "soldPercent": 9,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1029,7 +1033,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 135,
-    "soldPercent": 1,
+    "soldPercent": 2,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1056,7 +1060,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 423,
-    "soldPercent": 1,
+    "soldPercent": 4,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1083,7 +1087,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 266,
-    "soldPercent": 2,
+    "soldPercent": 6,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1111,7 +1115,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 16902,
-    "soldPercent": 3,
+    "soldPercent": 6,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1140,7 +1144,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 5687,
-    "soldPercent": 3,
+    "soldPercent": 7,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1167,7 +1171,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 6061,
-    "soldPercent": 4,
+    "soldPercent": 9,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1196,7 +1200,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 24577,
-    "soldPercent": 8,
+    "soldPercent": 14,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1223,7 +1227,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 171521,
-    "soldPercent": 5,
+    "soldPercent": 12,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1252,7 +1256,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 16686,
-    "soldPercent": 11,
+    "soldPercent": 27,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1281,7 +1285,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 39496,
-    "soldPercent": 12,
+    "soldPercent": 26,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1308,7 +1312,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 98937,
-    "soldPercent": 5,
+    "soldPercent": 12,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1336,7 +1340,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 11521,
-    "soldPercent": 18,
+    "soldPercent": 28,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1364,7 +1368,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 12365,
-    "soldPercent": 7,
+    "soldPercent": 13,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1392,7 +1396,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 77208,
-    "soldPercent": 6,
+    "soldPercent": 18,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1421,7 +1425,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 44124,
-    "soldPercent": 3,
+    "soldPercent": 9,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1450,7 +1454,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 31629,
-    "soldPercent": 7,
+    "soldPercent": 21,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1480,7 +1484,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 478,
-    "soldPercent": 8,
+    "soldPercent": 20,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1508,7 +1512,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 52723,
-    "soldPercent": 7,
+    "soldPercent": 19,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1535,7 +1539,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 772,
-    "soldPercent": 5,
+    "soldPercent": 13,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1560,7 +1564,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 9,
+    "soldPercent": 21,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1583,7 +1587,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 9,
+    "soldPercent": 22,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1607,7 +1611,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 5,
+    "soldPercent": 10,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1630,7 +1634,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 6,
+    "soldPercent": 15,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1681,7 +1685,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 3,
+    "soldPercent": 13,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1708,7 +1712,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 551,
-    "soldPercent": 2,
+    "soldPercent": 3,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1735,7 +1739,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 22,
-    "soldPercent": 10,
+    "soldPercent": 60,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1757,14 +1761,13 @@
       "패션",
       "로켓배송",
       "와우할인",
-      "매진임박",
       "슬리퍼"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 936,
-    "soldPercent": 85,
+    "soldPercent": 20,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1792,7 +1795,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 320,
-    "soldPercent": 1,
+    "soldPercent": 6,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1820,6 +1823,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 11,
+    "soldPercent": 2,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1846,6 +1850,7 @@
     "isRocket": true,
     "rating": 4,
     "reviewCount": 8509,
+    "soldPercent": 1,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1874,7 +1879,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1217,
-    "soldPercent": 1,
+    "soldPercent": 3,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1931,7 +1936,283 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4279,
+    "soldPercent": 24,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "9024311617",
+    "title": "에너자이저 벨류 팩 알카라인 파워 건전지 AA 16p + 맥스 건전지 AA 2p, 18개입, 1개",
+    "description": "",
+    "price": 9240,
+    "salePrice": 13800,
+    "wowPrice": 9240,
+    "originalPrice": 17780,
+    "discount": 22,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/976333201745731-ad64a91f-de34-4c50-8089-c050433d97a1.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRfPe3",
+    "productUrl": "https://www.coupang.com/vp/products/9024311617?itemId=8312229778&vendorItemId=88768656190&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "9024311617",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 6787,
+    "soldPercent": 5,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8320448858",
+    "title": "하비티 모던 심플 원터치 저소음 페달 휴지통 10L, 화이트",
+    "description": "",
+    "price": 6990,
+    "salePrice": 8490,
+    "wowPrice": 6990,
+    "originalPrice": 11125,
+    "discount": 23,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/404652421598992-08886c52-de19-491b-8650-291d852ba116.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRfPx5",
+    "productUrl": "https://www.coupang.com/vp/products/8320448858?itemId=23435940620&vendorItemId=90462839299&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8320448858",
+    "category": "living",
+    "tags": [
+      "생활용품",
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 2118,
+    "soldPercent": 3,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8481254722",
+    "title": "보노하우스 라탄플러스 우드상판 서랍장, 모던 화이트, 6단",
+    "description": "",
+    "price": 61520,
+    "salePrice": 76900,
+    "wowPrice": 61520,
+    "originalPrice": 99900,
+    "discount": 23,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/97658022263170-3eee3265-5d7b-4d1f-bc88-398c96593d12.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRfPR9",
+    "productUrl": "https://www.coupang.com/vp/products/8481254722?itemId=24543313024&vendorItemId=91555751312&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8481254722",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 884,
     "soldPercent": 10,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7664690949",
+    "title": "테팔 인덕션 티타늄 1X 원픽 냄비팬 꿀고구마 옐로, 22cm, 1개",
+    "description": "",
+    "price": 24980,
+    "salePrice": 35900,
+    "wowPrice": 24980,
+    "originalPrice": 46800,
+    "discount": 23,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1381848859681366-4b79b70f-6e8d-46dc-b884-3cf7d715024c.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRfQba",
+    "productUrl": "https://www.coupang.com/vp/products/7664690949?itemId=20429261314&vendorItemId=87510437343&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7664690949",
+    "category": "digital",
+    "tags": [
+      "가전/디지털",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "인덕션"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 1398,
+    "soldPercent": 61,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "71925423",
+    "title": "래디어스 토츠 유아칫솔 6종 세트, 그린, 블루, 오렌지, 퍼플, 핑크, 화이트, 6개입, 1세트",
+    "description": "",
+    "price": 24480,
+    "salePrice": 30600,
+    "wowPrice": 24480,
+    "originalPrice": 40200,
+    "discount": 23,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/11/05/15/6/f5110d2b-99ef-4c81-a008-a83e8360decd.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRfQu0",
+    "productUrl": "https://www.coupang.com/vp/products/71925423?itemId=239782364&vendorItemId=93991978729&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "71925423",
+    "category": "baby",
+    "tags": [
+      "육아용품",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "세트상품",
+      "아동용"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 3397,
+    "soldPercent": 15,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8556543719",
+    "title": "록시땅 시어 버터 핸드 크림, 15개, 10g",
+    "description": "",
+    "price": 78270,
+    "salePrice": 82390,
+    "wowPrice": 78270,
+    "originalPrice": 109500,
+    "discount": 24,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/5e89/ab0342cb2e3650a26cc98433c36756f2f7fffddc1f5842edee3b8f9ded61.png",
+    "affiliateUrl": "https://link.coupang.com/a/dRfQQs",
+    "productUrl": "https://www.coupang.com/vp/products/8556543719?itemId=27625132021&vendorItemId=94588034104&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8556543719",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 112,
+    "soldPercent": 5,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7783867131",
+    "title": "하루견과 고마워요 믹스넛, 20g, 30개",
+    "description": "",
+    "price": 13760,
+    "salePrice": 17200,
+    "wowPrice": 13760,
+    "originalPrice": 22900,
+    "discount": 24,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/76906944410040-4f288996-5535-473c-84ed-b85a930a6c04.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRfRaQ",
+    "productUrl": "https://www.coupang.com/vp/products/7783867131?itemId=21043190581&vendorItemId=73982275395&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7783867131",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 2047,
+    "soldPercent": 8,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8589889073",
+    "title": "마롤로뜨 엘마월드 아기 무릎보호대 세트, 덕키, 1세트",
+    "description": "",
+    "price": 12660,
+    "salePrice": 14900,
+    "wowPrice": 12660,
+    "originalPrice": 19900,
+    "discount": 25,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/03/11/14/5/f86c8d64-5ab0-48e6-961c-04c1a3ff0266.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRfRuS",
+    "productUrl": "https://www.coupang.com/vp/products/8589889073?itemId=22934051535&vendorItemId=92083680442&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8589889073",
+    "category": "baby",
+    "tags": [
+      "육아용품",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "세트상품"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 44,
+    "soldPercent": 2,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8502566477",
+    "title": "바비브라운 인텐시브 스킨 세럼 파운데이션 쿠션 12g, 엑스트라 라이트, 1개",
+    "description": "",
+    "price": 72560,
+    "salePrice": 72560,
+    "originalPrice": 97000,
+    "discount": 25,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/311047339301492-747a2665-342c-4125-9cb5-b09537d3d4d4.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRfRQv",
+    "productUrl": "https://www.coupang.com/vp/products/8502566477?itemId=7969417456&vendorItemId=75258402004&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8502566477",
+    "category": "beauty",
+    "tags": [
+      "뷰티",
+      "로켓배송"
+    ],
+    "isWow": false,
+    "isRocket": true,
+    "soldPercent": 2,
+    "expiresAt": "2026-02-23T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "9234512037",
+    "title": "맘스럽 소다워시블루밍코튼 베이킹소다 액체세제 실내건조 고농축 특대용량, 4개, 3.1L",
+    "description": "",
+    "price": 9120,
+    "salePrice": 9600,
+    "wowPrice": 9120,
+    "originalPrice": 12900,
+    "discount": 25,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/806d/cb7b4ab136171216cead63717d376f1b725eafa8964bc08912e2012a143f.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRfSac",
+    "productUrl": "https://www.coupang.com/vp/products/9234512037?itemId=27300902353&vendorItemId=94267446625&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "9234512037",
+    "category": "kitchen",
+    "tags": [
+      "주방",
+      "로켓배송",
+      "와우할인",
+      "만원이하",
+      "대용량"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 340,
+    "soldPercent": 7,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   }
