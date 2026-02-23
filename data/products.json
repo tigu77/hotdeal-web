@@ -43,13 +43,15 @@
     "tags": [
       "육아용품",
       "로켓배송",
-      "와우할인"
+      "와우할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 23,
-    "soldPercent": 6,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -70,13 +72,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4,
     "reviewCount": 10561,
-    "soldPercent": 44,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -97,13 +101,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 8724,
-    "soldPercent": 72,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -124,13 +130,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 1129,
-    "soldPercent": 39,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -151,13 +159,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1015,
-    "soldPercent": 18,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -179,13 +189,15 @@
       "로켓배송",
       "와우할인",
       "5만원이하",
+      "매진임박",
       "세트상품"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 2440,
-    "soldPercent": 7,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -208,13 +220,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "고양이"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 986,
-    "soldPercent": 32,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -236,13 +250,15 @@
       "반려동물",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 4937,
-    "soldPercent": 34,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -265,13 +281,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "남성용"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 6297,
-    "soldPercent": 70,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -293,13 +311,15 @@
       "뷰티",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 20965,
-    "soldPercent": 14,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -321,13 +341,15 @@
       "건강",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 4299,
-    "soldPercent": 23,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -348,13 +370,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 21139,
-    "soldPercent": 59,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -380,9 +404,10 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 17,
-    "soldPercent": 83,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -404,13 +429,15 @@
       "건강",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 591,
-    "soldPercent": 27,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -437,9 +464,10 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 3895,
-    "soldPercent": 85,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -465,9 +493,10 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 2336,
-    "soldPercent": 91,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -494,9 +523,10 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 42254,
-    "soldPercent": 80,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -517,13 +547,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 10104,
-    "soldPercent": 25,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -544,13 +576,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 1185,
-    "soldPercent": 53,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -572,13 +606,15 @@
       "식품",
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 5645,
-    "soldPercent": 27,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -600,13 +636,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "세트상품"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 191,
-    "soldPercent": 5,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -688,13 +726,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "세트상품"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 19900,
-    "soldPercent": 46,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -716,14 +756,16 @@
       "가전/디지털",
       "로켓배송",
       "와우할인",
+      "매진임박",
       "무선",
       "이어폰"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 82,
-    "soldPercent": 25,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -751,9 +793,10 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 1737,
-    "soldPercent": 82,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -774,13 +817,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 3667,
-    "soldPercent": 51,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -835,13 +880,15 @@
       "로켓배송",
       "와우할인",
       "5만원이하",
+      "매진임박",
       "인덕션"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 246,
-    "soldPercent": 18,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -896,13 +943,15 @@
       "와우할인",
       "만원이하",
       "50%이상할인",
+      "매진임박",
       "휴대용"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 78,
-    "soldPercent": 18,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -925,13 +974,15 @@
       "로켓배송",
       "와우할인",
       "5만원이하",
+      "매진임박",
       "청소기"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 249,
-    "soldPercent": 14,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -953,13 +1004,15 @@
       "패션",
       "로켓배송",
       "와우할인",
+      "매진임박",
       "세트상품"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1384,
-    "soldPercent": 10,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -981,13 +1034,15 @@
       "가전/디지털",
       "로켓배송",
       "와우할인",
+      "매진임박",
       "전자레인지"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 38881,
-    "soldPercent": 52,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1010,14 +1065,16 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "리필",
       "섬유유연제"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1157,
-    "soldPercent": 27,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1040,13 +1097,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "가습기"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 135,
-    "soldPercent": 8,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1067,13 +1126,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 423,
-    "soldPercent": 21,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1094,13 +1155,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 266,
-    "soldPercent": 25,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1122,13 +1185,15 @@
       "식품",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 16902,
-    "soldPercent": 16,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1151,13 +1216,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "친환경"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 5687,
-    "soldPercent": 20,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1178,13 +1245,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 6061,
-    "soldPercent": 24,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1207,13 +1276,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "사과"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 24577,
-    "soldPercent": 44,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1234,13 +1305,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 171521,
-    "soldPercent": 44,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1263,13 +1336,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "프로틴"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 16686,
-    "soldPercent": 69,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1298,7 +1373,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 39496,
-    "soldPercent": 71,
+    "soldPercent": 73,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1325,7 +1400,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 98937,
-    "soldPercent": 48,
+    "soldPercent": 49,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1352,9 +1427,10 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 11521,
-    "soldPercent": 88,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1376,13 +1452,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 12365,
-    "soldPercent": 39,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1404,13 +1482,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 77208,
-    "soldPercent": 67,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1433,13 +1513,15 @@
       "로켓배송",
       "와우할인",
       "만원이하",
+      "매진임박",
       "딸기"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 44124,
-    "soldPercent": 48,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1467,9 +1549,10 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 31629,
-    "soldPercent": 81,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1498,9 +1581,10 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 478,
-    "soldPercent": 95,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "channelPosted": true,
     "postedAt": ""
@@ -1529,7 +1613,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 52723,
-    "soldPercent": 92,
+    "soldPercent": 94,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1550,13 +1634,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 772,
-    "soldPercent": 43,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1577,11 +1663,13 @@
       "식품",
       "로켓배송",
       "5만원이하",
+      "매진임박",
       "세트상품"
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 51,
+    "isSoldOut": true,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1605,7 +1693,7 @@
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 81,
+    "soldPercent": 83,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1625,11 +1713,13 @@
     "tags": [
       "뷰티",
       "로켓배송",
-      "5만원이하"
+      "5만원이하",
+      "매진임박"
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 26,
+    "isSoldOut": true,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1648,11 +1738,13 @@
     "category": "general",
     "tags": [
       "로켓배송",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 45,
+    "isSoldOut": true,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1703,11 +1795,13 @@
     "tags": [
       "로켓배송",
       "3만원이하",
+      "매진임박",
       "세트상품"
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 40,
+    "isSoldOut": true,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1728,13 +1822,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 551,
-    "soldPercent": 11,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1755,13 +1851,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 22,
-    "soldPercent": 60,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1783,13 +1881,15 @@
       "패션",
       "로켓배송",
       "와우할인",
+      "매진임박",
       "슬리퍼"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 936,
-    "soldPercent": 37,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1811,13 +1911,15 @@
       "가전/디지털",
       "로켓배송",
       "와우할인",
+      "매진임박",
       "청소기"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 320,
-    "soldPercent": 13,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1839,13 +1941,15 @@
       "육아용품",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 11,
-    "soldPercent": 3,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1866,13 +1970,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4,
     "reviewCount": 8509,
-    "soldPercent": 5,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1895,13 +2001,15 @@
       "로켓배송",
       "와우할인",
       "만원이하",
+      "매진임박",
       "칼"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 1217,
-    "soldPercent": 25,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1923,13 +2031,15 @@
       "뷰티",
       "로켓배송",
       "와우할인",
+      "매진임박",
       "세트상품"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 211,
-    "soldPercent": 6,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1960,7 +2070,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4279,
-    "soldPercent": 90,
+    "soldPercent": 92,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -1981,13 +2091,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 6787,
-    "soldPercent": 25,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2009,13 +2121,15 @@
       "생활용품",
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 2118,
-    "soldPercent": 10,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2035,13 +2149,15 @@
     "category": "general",
     "tags": [
       "로켓배송",
-      "와우할인"
+      "와우할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 884,
-    "soldPercent": 74,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2095,14 +2211,16 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "세트상품",
       "아동용"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 3397,
-    "soldPercent": 50,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2123,13 +2241,15 @@
     "tags": [
       "식품",
       "로켓배송",
-      "와우할인"
+      "와우할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 112,
-    "soldPercent": 55,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2151,13 +2271,15 @@
       "식품",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 2047,
-    "soldPercent": 25,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2180,13 +2302,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "세트상품"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 44,
-    "soldPercent": 3,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2205,11 +2329,13 @@
     "category": "beauty",
     "tags": [
       "뷰티",
-      "로켓배송"
+      "로켓배송",
+      "매진임박"
     ],
     "isWow": false,
     "isRocket": true,
-    "soldPercent": 20,
+    "isSoldOut": true,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2232,13 +2358,15 @@
       "로켓배송",
       "와우할인",
       "만원이하",
+      "매진임박",
       "대용량"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 340,
-    "soldPercent": 29,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2260,13 +2388,15 @@
       "반려동물",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 118994,
-    "soldPercent": 14,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2289,13 +2419,15 @@
       "로켓배송",
       "와우할인",
       "만원이하",
+      "매진임박",
       "세트상품"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 1060,
-    "soldPercent": 41,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2347,13 +2479,15 @@
       "식품",
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1755,
-    "soldPercent": 61,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2374,13 +2508,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 7689,
-    "soldPercent": 31,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2433,13 +2569,15 @@
       "주방",
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 228895,
-    "soldPercent": 70,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2462,14 +2600,16 @@
       "로켓배송",
       "와우할인",
       "5만원이하",
+      "매진임박",
       "세트상품",
       "선물추천"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4,
     "reviewCount": 74,
-    "soldPercent": 1,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2490,13 +2630,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 1403,
-    "soldPercent": 30,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2519,13 +2661,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "팬츠"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 1610,
-    "soldPercent": 22,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2574,13 +2718,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 40204,
-    "soldPercent": 51,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2602,14 +2748,16 @@
       "생활용품",
       "로켓배송",
       "와우할인",
+      "매진임박",
       "세트상품",
       "이불"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 429,
-    "soldPercent": 40,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2637,7 +2785,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 102923,
-    "soldPercent": 71,
+    "soldPercent": 73,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2658,13 +2806,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 8070,
-    "soldPercent": 22,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2685,13 +2835,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 4868,
-    "soldPercent": 39,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2714,13 +2866,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "세트상품"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 2073,
-    "soldPercent": 72,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2746,9 +2900,10 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 279,
-    "soldPercent": 80,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2770,13 +2925,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "국산"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 3095,
-    "soldPercent": 14,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2806,7 +2963,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 110,
-    "soldPercent": 64,
+    "soldPercent": 70,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2827,13 +2984,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1103,
-    "soldPercent": 35,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2855,13 +3014,15 @@
       "뷰티",
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 131889,
-    "soldPercent": 49,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2883,13 +3044,15 @@
       "생활용품",
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 366756,
-    "soldPercent": 60,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2911,13 +3074,15 @@
       "식품",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1517,
-    "soldPercent": 29,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2939,13 +3104,15 @@
       "로켓배송",
       "와우할인",
       "5만원이하",
+      "매진임박",
       "세트상품"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 74,
-    "soldPercent": 10,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2968,13 +3135,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "고양이"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 57626,
-    "soldPercent": 43,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -2997,14 +3166,16 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "세트상품",
       "아동용"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 7364,
-    "soldPercent": 20,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3027,14 +3198,16 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "대용량",
       "로션"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 120398,
-    "soldPercent": 53,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3057,13 +3230,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "클렌징"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 3740,
-    "soldPercent": 8,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3086,13 +3261,15 @@
       "로켓배송",
       "와우할인",
       "만원이하",
+      "매진임박",
       "칼"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 9887,
-    "soldPercent": 36,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3114,13 +3291,15 @@
       "식품",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 754,
-    "soldPercent": 14,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3143,13 +3322,15 @@
       "로켓배송",
       "와우할인",
       "만원이하",
+      "매진임박",
       "세트상품"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 5239,
-    "soldPercent": 57,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3172,13 +3353,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "수건"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 780,
-    "soldPercent": 58,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3200,13 +3383,15 @@
       "생활용품",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 8278,
-    "soldPercent": 70,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3227,13 +3412,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 126,
-    "soldPercent": 12,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3255,13 +3442,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "무선"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 422,
-    "soldPercent": 25,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3283,15 +3472,17 @@
       "패션",
       "로켓배송",
       "와우할인",
+      "매진임박",
       "휴대용",
       "여성용",
       "백팩"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 4,
-    "soldPercent": 66,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3348,7 +3539,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 11,
-    "soldPercent": 90,
+    "soldPercent": 95,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3399,13 +3590,15 @@
     "tags": [
       "생활용품",
       "로켓배송",
-      "와우할인"
+      "와우할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 3382,
-    "soldPercent": 72,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3428,14 +3621,16 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "친환경",
       "강아지"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 18239,
-    "soldPercent": 50,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3457,13 +3652,15 @@
       "뷰티",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 89506,
-    "soldPercent": 65,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3516,13 +3713,15 @@
       "식품",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 78480,
-    "soldPercent": 62,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3544,13 +3743,15 @@
       "로켓배송",
       "와우할인",
       "만원이하",
+      "매진임박",
       "친환경"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 5768,
-    "soldPercent": 42,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3573,14 +3774,16 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "아동용",
       "이불"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 6114,
-    "soldPercent": 42,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3601,13 +3804,15 @@
     "tags": [
       "식품",
       "로켓배송",
-      "와우할인"
+      "와우할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 511,
-    "soldPercent": 12,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3667,7 +3872,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 210,
-    "soldPercent": 65,
+    "soldPercent": 70,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3720,13 +3925,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "샴푸"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 19088,
-    "soldPercent": 39,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3748,13 +3955,15 @@
       "식품",
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 1799,
-    "soldPercent": 11,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3812,9 +4021,10 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 6355,
-    "soldPercent": 80,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3836,13 +4046,15 @@
       "뷰티",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 17026,
-    "soldPercent": 64,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3863,13 +4075,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 666,
-    "soldPercent": 15,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3922,13 +4136,15 @@
       "뷰티",
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 27070,
-    "soldPercent": 28,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3949,13 +4165,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 570,
-    "soldPercent": 18,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -3976,13 +4194,15 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "5만원이하"
+      "5만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 749,
-    "soldPercent": 40,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4004,13 +4224,15 @@
       "주방",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 2748,
-    "soldPercent": 56,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4032,14 +4254,16 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "세트상품",
       "휴대용"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 530,
-    "soldPercent": 46,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4061,13 +4285,15 @@
       "로켓배송",
       "와우할인",
       "만원이하",
-      "50%이상할인"
+      "50%이상할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 85264,
-    "soldPercent": 73,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4098,7 +4324,7 @@
     "isRocket": true,
     "isSoldOut": true,
     "rating": 4.5,
-    "reviewCount": 23917,
+    "reviewCount": 23922,
     "soldPercent": 96,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
@@ -4122,13 +4348,15 @@
       "로켓배송",
       "와우할인",
       "50%이상할인",
+      "매진임박",
       "세트상품"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 1419,
-    "soldPercent": 62,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4150,13 +4378,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
-      "50%이상할인"
+      "50%이상할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 2244,
-    "soldPercent": 67,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4179,13 +4409,15 @@
       "로켓배송",
       "와우할인",
       "만원이하",
-      "50%이상할인"
+      "50%이상할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 181,
-    "soldPercent": 16,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4209,13 +4441,15 @@
       "와우할인",
       "5만원이하",
       "50%이상할인",
+      "매진임박",
       "프로틴"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 22063,
-    "soldPercent": 52,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4237,13 +4471,15 @@
       "로켓배송",
       "와우할인",
       "만원이하",
-      "50%이상할인"
+      "50%이상할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 137662,
-    "soldPercent": 51,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4267,13 +4503,15 @@
       "와우할인",
       "3만원이하",
       "50%이상할인",
+      "매진임박",
       "비타민"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 56239,
-    "soldPercent": 31,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4328,13 +4566,15 @@
       "와우할인",
       "3만원이하",
       "50%이상할인",
+      "매진임박",
       "세트상품"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 17296,
-    "soldPercent": 60,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4356,13 +4596,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
-      "50%이상할인"
+      "50%이상할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 2495,
-    "soldPercent": 34,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4385,13 +4627,15 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
-      "50%이상할인"
+      "50%이상할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 22080,
-    "soldPercent": 21,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4448,14 +4692,16 @@
       "와우할인",
       "3만원이하",
       "50%이상할인",
+      "매진임박",
       "리필",
       "샴푸"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 5588,
-    "soldPercent": 7,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4479,13 +4725,15 @@
       "와우할인",
       "3만원이하",
       "50%이상할인",
+      "매진임박",
       "이불"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 5015,
-    "soldPercent": 11,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4515,7 +4763,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2044,
-    "soldPercent": 89,
+    "soldPercent": 90,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4538,13 +4786,15 @@
       "로켓배송",
       "와우할인",
       "만원이하",
-      "50%이상할인"
+      "50%이상할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 11126,
-    "soldPercent": 33,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4567,13 +4817,15 @@
       "로켓배송",
       "와우할인",
       "만원이하",
-      "50%이상할인"
+      "50%이상할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 11578,
-    "soldPercent": 28,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4595,13 +4847,15 @@
       "로켓배송",
       "와우할인",
       "만원이하",
-      "50%이상할인"
+      "50%이상할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 66691,
-    "soldPercent": 40,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4630,9 +4884,10 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1550,
-    "soldPercent": 92,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4656,13 +4911,15 @@
       "와우할인",
       "만원이하",
       "50%이상할인",
+      "매진임박",
       "도마"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1425,
-    "soldPercent": 31,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   },
@@ -4685,13 +4942,15 @@
       "와우할인",
       "3만원이하",
       "70%이상할인",
+      "매진임박",
       "디퓨저"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 173909,
-    "soldPercent": 79,
+    "soldPercent": 100,
     "expiresAt": "2026-02-23T22:00:00.000Z",
     "postedAt": ""
   }
