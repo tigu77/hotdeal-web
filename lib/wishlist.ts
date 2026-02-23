@@ -24,6 +24,18 @@ export function isInWishlist(productId: string): boolean {
   return getWishlist().some((item) => item.productId === productId);
 }
 
+/** 현재 상품 목록에 없는 찜 항목 자동 삭제 */
+export function pruneWishlist(activeProductIds: Set<string>): number {
+  const list = getWishlist();
+  const before = list.length;
+  const filtered = list.filter((item) => activeProductIds.has(item.productId));
+  if (filtered.length < before) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(filtered));
+    window.dispatchEvent(new Event("wishlist-changed"));
+  }
+  return before - filtered.length;
+}
+
 export function toggleWishlist(item: Omit<WishlistItem, "timestamp">): boolean {
   const list = getWishlist();
   const idx = list.findIndex((i) => i.productId === item.productId);

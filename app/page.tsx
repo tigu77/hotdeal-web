@@ -10,7 +10,7 @@ import type { Product } from "@/types";
 import { SITE } from "@/lib/constants";
 import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab, trackChannelVisit } from "@/lib/analytics";
 import { getDisplaySoldPercent } from "@/lib/product";
-import { getWishlist } from "@/lib/wishlist";
+import { getWishlist, pruneWishlist } from "@/lib/wishlist";
 type SortType = "popular" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
 
 function useIsMobile(breakpoint = 640) {
@@ -42,6 +42,13 @@ export default function Home() {
     if (source) {
       trackChannelVisit(source, medium || '', campaign || '');
     }
+  }, []);
+
+  // 페이지 로드 시 만료 상품 찜 자동 정리
+  useEffect(() => {
+    const allProducts = getProducts();
+    const activeIds = new Set(allProducts.map((p) => p.id));
+    pruneWishlist(activeIds);
   }, []);
 
   // Listen for wishlist changes
