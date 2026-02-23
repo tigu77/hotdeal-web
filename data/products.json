@@ -102,6 +102,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 356,
+    "soldPercent": 24,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -152,6 +153,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 9996,
+    "soldPercent": 2,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -178,6 +180,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 5900,
+    "soldPercent": 5,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -204,6 +207,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1659,
+    "soldPercent": 7,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -231,6 +235,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4063,
+    "soldPercent": 3,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -258,6 +263,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 39724,
+    "soldPercent": 4,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -285,6 +291,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2559,
+    "soldPercent": 15,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -311,6 +318,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 578,
+    "soldPercent": 2,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -336,6 +344,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 7337,
+    "soldPercent": 3,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -362,6 +371,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4925,
+    "soldPercent": 5,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -387,6 +397,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 4549,
+    "soldPercent": 5,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -414,6 +425,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 16841,
+    "soldPercent": 7,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -439,6 +451,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1498,
+    "soldPercent": 9,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -465,6 +478,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4656,
+    "soldPercent": 9,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -491,6 +505,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 45405,
+    "soldPercent": 4,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -518,6 +533,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 72391,
+    "soldPercent": 7,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -543,6 +559,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 269415,
+    "soldPercent": 6,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -568,6 +585,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 78918,
+    "soldPercent": 6,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -595,6 +613,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 27,
+    "soldPercent": 1,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -620,6 +639,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 387,
+    "soldPercent": 7,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -645,6 +665,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1151,
+    "soldPercent": 7,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -672,6 +693,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 5551,
+    "soldPercent": 7,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -698,6 +720,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 4702,
+    "soldPercent": 16,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -723,6 +746,7 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 834,
     "expiresAt": "2026-02-24T22:00:00.000Z",
@@ -753,6 +777,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 280,
+    "soldPercent": 4,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -777,6 +802,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 214,
+    "soldPercent": 5,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -802,6 +828,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 39,
+    "soldPercent": 1,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -829,6 +856,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 362,
+    "soldPercent": 12,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -880,6 +908,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1023,
+    "soldPercent": 5,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -905,6 +934,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 55,
+    "soldPercent": 4,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   },
@@ -929,6 +959,250 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 3929,
+    "soldPercent": 3,
+    "expiresAt": "2026-02-24T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "6514164187",
+    "title": "메종드펜세 퍼퓸 에어 프레셔너 20g, 2개, 오리엔탈우디",
+    "description": "",
+    "price": 13590,
+    "salePrice": 15900,
+    "wowPrice": 13590,
+    "originalPrice": 15900,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/4eab/94c2fc0bc295fb223663cb889da8d439b5bf3510b5d89b228442abb77083.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRRb4J",
+    "productUrl": "https://www.coupang.com/vp/products/6514164187?itemId=14402048059&vendorItemId=91060876524&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "6514164187",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 17385,
+    "soldPercent": 6,
+    "expiresAt": "2026-02-24T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7396118705",
+    "title": "허브크린 오물분해제 하수구 배수구 세정제 머리카락 분해 제거 막힘 해결, 1L, 1kg, 1개",
+    "description": "",
+    "price": 8800,
+    "salePrice": 11000,
+    "wowPrice": 8800,
+    "originalPrice": 11000,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/ce11/6f902faf32aec4d44f0a72315eb1c5c33e62af40ca3795f0c9218b922231.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRRcmq",
+    "productUrl": "https://www.coupang.com/vp/products/7396118705?itemId=19132690374&vendorItemId=4146246921&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7396118705",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 10295,
+    "soldPercent": 15,
+    "expiresAt": "2026-02-24T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8248299412",
+    "title": "신도산업 사면오뚜기 주차금지 입간판, 1세트, 오렌지",
+    "description": "",
+    "price": 16030,
+    "salePrice": 20030,
+    "wowPrice": 16030,
+    "originalPrice": 20030,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2024/07/22/15/6/995a3097-ddf5-4997-932a-6bbcd9a1da2c.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRRcGI",
+    "productUrl": "https://www.coupang.com/vp/products/8248299412?itemId=23742726956&vendorItemId=90767316938&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8248299412",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "세트상품"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 362,
+    "soldPercent": 26,
+    "expiresAt": "2026-02-24T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "5372913328",
+    "title": "뷰하우스 메이즈 원톤 암막커튼 2개 + 커튼봉 세트",
+    "description": "",
+    "price": 44700,
+    "salePrice": 59600,
+    "wowPrice": 44700,
+    "originalPrice": 59600,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/0054/2aee897b50f6d58db86e2abd203774365f4517e2063fcb05db026dc52066.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRRcZz",
+    "productUrl": "https://www.coupang.com/vp/products/5372913328?itemId=7958825078&vendorItemId=75247890236&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "5372913328",
+    "category": "living",
+    "tags": [
+      "생활용품",
+      "로켓배송",
+      "와우할인",
+      "5만원이하",
+      "세트상품",
+      "커튼"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 5710,
+    "soldPercent": 33,
+    "expiresAt": "2026-02-24T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "4705808410",
+    "title": "홈플래닛 LED 안티 블루라이트 학습용 스탠드",
+    "description": "",
+    "price": 21990,
+    "salePrice": 23520,
+    "wowPrice": 21990,
+    "originalPrice": 23520,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2149271300210480-d933f97c-a0c9-4acb-a395-8eef5d1e6e7a.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRRdj2",
+    "productUrl": "https://www.coupang.com/vp/products/4705808410?itemId=5932707773&vendorItemId=79901717766&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "4705808410",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 17704,
+    "soldPercent": 10,
+    "expiresAt": "2026-02-24T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "9334616536",
+    "title": "닥터유 프로 피넛버터크런치 단백질바 8p, 560g, 1개",
+    "description": "",
+    "price": 11920,
+    "salePrice": 17280,
+    "wowPrice": 11920,
+    "originalPrice": 17280,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/11/21/13/1/4e521d4e-6221-4238-9b70-2c7bf3ff7567.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRRdAR",
+    "productUrl": "https://www.coupang.com/vp/products/9334616536?itemId=27164192509&vendorItemId=94131904574&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "9334616536",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 155,
+    "soldPercent": 5,
+    "expiresAt": "2026-02-24T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "8154554124",
+    "title": "웅진빅토리아 에코 탄산음료 청포도 무라벨, 350ml, 20개",
+    "description": "",
+    "price": 7950,
+    "salePrice": 10600,
+    "wowPrice": 7950,
+    "originalPrice": 10600,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1053539072758008-ac841074-571a-4887-a6d5-a84d4d986b55.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRRecj",
+    "productUrl": "https://www.coupang.com/vp/products/8154554124?itemId=22351621060&vendorItemId=81715296293&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8154554124",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 9534,
+    "soldPercent": 10,
+    "expiresAt": "2026-02-24T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "7052864231",
+    "title": "웰키커 어린이 철분 & 비타민C, 120정, 1개",
+    "description": "",
+    "price": 12480,
+    "salePrice": 16000,
+    "wowPrice": 12480,
+    "originalPrice": 16000,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1847791501278411-3246c53f-8490-41f6-b8ab-2ea0ed332d3e.png",
+    "affiliateUrl": "https://link.coupang.com/a/dRReuU",
+    "productUrl": "https://www.coupang.com/vp/products/7052864231?itemId=17467225815&vendorItemId=72876347202&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "7052864231",
+    "category": "health",
+    "tags": [
+      "건강",
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "아동용",
+      "비타민"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 7939,
+    "soldPercent": 10,
+    "expiresAt": "2026-02-24T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
+    "id": "5548273115",
+    "title": "우리차 콘푸레이크 천마차, 18g, 110개입, 1개",
+    "description": "",
+    "price": 12470,
+    "salePrice": 17320,
+    "wowPrice": 12470,
+    "originalPrice": 17320,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/87d7/9ebb47b27c604539f9e8590cc92f81aae5e074d56674cfbe1e2d6a01ecaf.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dRReNg",
+    "productUrl": "https://www.coupang.com/vp/products/5548273115?itemId=1581241&vendorItemId=3001571677&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "5548273115",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 21424,
+    "soldPercent": 9,
     "expiresAt": "2026-02-24T22:00:00.000Z",
     "postedAt": ""
   }
