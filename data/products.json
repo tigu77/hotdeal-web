@@ -1,11 +1,40 @@
 [
   {
+    "id": "4945314310",
+    "title": "뭉구 손잡이 펜파우치, 브라운, 1개",
+    "description": "",
+    "price": 8410,
+    "salePrice": 9900,
+    "wowPrice": 8410,
+    "originalPrice": 10000,
+    "discount": 16,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/nynmc6lh/d172afd7b09b462a999a35d868feaabd.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dTe1cA",
+    "productUrl": "https://www.coupang.com/vp/products/4945314310?itemId=6522414145&vendorItemId=73816921702&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "4945314310",
+    "category": "living",
+    "tags": [
+      "생활용품",
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 1616,
+    "soldPercent": 7,
+    "expiresAt": "2026-02-26T22:00:00.000Z",
+    "postedAt": ""
+  },
+  {
     "id": "7709174992",
     "title": "라이프익스텐션 투-퍼-데이 멀티비타민 타블렛, 1개, 120정",
     "description": "",
     "price": 21980,
     "wowPrice": 21980,
     "originalPrice": 33310,
+    "discount": 34,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/f6f6/98cc5470b1aa9536c4e21e3ffea6e4f9996c154b74f0d1fe5bcb2fa0be20.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dS9rOF",
     "productUrl": "https://www.coupang.com/vp/products/7709174992?itemId=26193006276&vendorItemId=91328939124&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -18,11 +47,11 @@
       "비타민"
     ],
     "isWow": true,
-    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 4033,
+    "soldPercent": 36,
     "expiresAt": "2026-02-26T22:00:00.000Z",
-    "channelPosted": true,
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -33,6 +62,7 @@
     "salePrice": 78000,
     "wowPrice": 66300,
     "originalPrice": 78000,
+    "discount": 15,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/11/17/16/7/3254456e-740e-4742-8298-a4f37b2966d1.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dS9r6G",
     "productUrl": "https://www.coupang.com/vp/products/9192475293?itemId=27128447957&vendorItemId=94096452932&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -47,7 +77,9 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 82,
+    "soldPercent": 2,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -58,6 +90,7 @@
     "salePrice": 11200,
     "wowPrice": 8960,
     "originalPrice": 11200,
+    "discount": 20,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/143640000677448-6739f79c-bf49-43db-a3c7-ddc60a5236d6.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dS9skD",
     "productUrl": "https://www.coupang.com/vp/products/6612293008?itemId=14999226325&vendorItemId=82222108612&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -73,7 +106,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 314,
+    "soldPercent": 21,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -84,6 +119,7 @@
     "salePrice": 8640,
     "wowPrice": 7770,
     "originalPrice": 8640,
+    "discount": 10,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/59114631174004-b9e3b75e-7f5e-4aa3-9668-46893ab2aaa1.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dS9sz2",
     "productUrl": "https://www.coupang.com/vp/products/5244361519?itemId=7415916688&vendorItemId=74706891461&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -99,7 +135,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1128,
+    "soldPercent": 10,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -110,6 +148,7 @@
     "salePrice": 270000,
     "wowPrice": 250000,
     "originalPrice": 270000,
+    "discount": 7,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/03/25/12/4/7fdb168b-7c6c-4de8-b2f9-34f6401baf53.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dS9sRA",
     "productUrl": "https://www.coupang.com/vp/products/8938972939?itemId=25176678792&vendorItemId=92173694236&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -126,6 +165,7 @@
     "rating": 4.5,
     "reviewCount": 110,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -136,6 +176,7 @@
     "salePrice": 19900,
     "wowPrice": 16910,
     "originalPrice": 19900,
+    "discount": 15,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/d93b/d92c5494a715333578b7480fb17761f0c9d377bf33c5bc60a65b2bff0d3f.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dS9s6q",
     "productUrl": "https://www.coupang.com/vp/products/8750607842?itemId=11288878911&vendorItemId=78565625208&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -151,7 +192,9 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 10591,
+    "soldPercent": 50,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -172,6 +215,7 @@
     "isWow": false,
     "isRocket": true,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -182,6 +226,7 @@
     "salePrice": 17880,
     "wowPrice": 12510,
     "originalPrice": 17880,
+    "discount": 30,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1124134456450346-f92a923c-fbcf-4943-b2f7-01bbdf70ee63.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dS9tEP",
     "productUrl": "https://www.coupang.com/vp/products/8020472500?itemId=23986487538&vendorItemId=89456065391&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -198,7 +243,9 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2031,
+    "soldPercent": 14,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -209,6 +256,7 @@
     "salePrice": 15900,
     "wowPrice": 13990,
     "originalPrice": 15900,
+    "discount": 12,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/stage/manual/209672122302466-336bf44f-ae50-41b5-8a85-be03aba957e6_1752738394579.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dS9tVW",
     "productUrl": "https://www.coupang.com/vp/products/7144506708?itemId=17947954553&vendorItemId=85105695251&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -226,7 +274,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2162,
+    "soldPercent": 12,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -237,6 +287,7 @@
     "salePrice": 29000,
     "wowPrice": 19720,
     "originalPrice": 29000,
+    "discount": 32,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2593797433207717-aaccf359-c2fc-42e5-8852-d3017a027594.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dS9RRA",
     "productUrl": "https://www.coupang.com/vp/products/8503569688?itemId=20685914749&vendorItemId=94763640019&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -251,7 +302,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4,
+    "soldPercent": 1,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -262,6 +315,7 @@
     "salePrice": 38300,
     "wowPrice": 32550,
     "originalPrice": 38300,
+    "discount": 15,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/349813585817549-662b7882-a22f-488f-bcad-706ef5a56f66.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dS9R9C",
     "productUrl": "https://www.coupang.com/vp/products/8115326967?itemId=23006649733&vendorItemId=91137700760&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -279,7 +333,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 117,
+    "soldPercent": 8,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -290,6 +346,7 @@
     "salePrice": 7280,
     "wowPrice": 6880,
     "originalPrice": 7280,
+    "discount": 5,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/product/image/vendoritem/2019/09/06/3135756315/c26b2035-ee98-4991-bd03-793f726142f1.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dS9TwJ",
     "productUrl": "https://www.coupang.com/vp/products/20132024?itemId=79985666&vendorItemId=3135756315&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -305,7 +362,9 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 835,
+    "soldPercent": 7,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -316,6 +375,7 @@
     "salePrice": 15900,
     "wowPrice": 14900,
     "originalPrice": 15900,
+    "discount": 6,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/2e36/b41ca06d9fbcae1a243ea242b456a82c17359d0fead2421bb1a267184741.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dS9TO7",
     "productUrl": "https://www.coupang.com/vp/products/7457773866?itemId=19431451280&vendorItemId=86542696856&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -324,13 +384,16 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 595,
+    "soldPercent": 85,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -341,6 +404,7 @@
     "salePrice": 10900,
     "wowPrice": 9800,
     "originalPrice": 10900,
+    "discount": 10,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/128299815597599-31b9b29d-3a9c-41d0-b122-5357fe480f52.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dS9T7o",
     "productUrl": "https://www.coupang.com/vp/products/8523180586?itemId=24676061410&vendorItemId=91686189479&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -355,7 +419,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 363,
+    "soldPercent": 1,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -366,6 +432,7 @@
     "salePrice": 12900,
     "wowPrice": 11690,
     "originalPrice": 12900,
+    "discount": 9,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/pjhsmkeq/9dbc2a9510284d1aa6fc6bea49bc3c6f.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dS9Upw",
     "productUrl": "https://www.coupang.com/vp/products/8397135171?itemId=24271516604&vendorItemId=91288028099&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -380,7 +447,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1485,
+    "soldPercent": 8,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -391,6 +460,7 @@
     "salePrice": 8990,
     "wowPrice": 7510,
     "originalPrice": 8990,
+    "discount": 16,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2021/12/17/16/2/fc48c0fc-e9fd-46b1-8b3f-b4a3fe75bb77.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTakXn",
     "productUrl": "https://www.coupang.com/vp/products/6249264889?itemId=12658315002&vendorItemId=79925621427&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -405,7 +475,9 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 4537,
+    "soldPercent": 15,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -416,6 +488,7 @@
     "salePrice": 8500,
     "wowPrice": 4500,
     "originalPrice": 8500,
+    "discount": 47,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/z5d49ujj/f031e83369fc4e12abaf31c8b06deb8f.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTaleZ",
     "productUrl": "https://www.coupang.com/vp/products/7759434526?itemId=20921421955&vendorItemId=87988269227&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -424,13 +497,17 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 2943,
+    "soldPercent": 81,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -441,6 +518,7 @@
     "salePrice": 16000,
     "wowPrice": 13900,
     "originalPrice": 16000,
+    "discount": 13,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/4791428824379-6a49d4e2-2763-4e51-b599-b630ad8cfdc8.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTalwO",
     "productUrl": "https://www.coupang.com/vp/products/8976781037?itemId=26278822991&vendorItemId=93256854585&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -456,7 +534,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 760,
+    "soldPercent": 9,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -467,6 +547,7 @@
     "salePrice": 10900,
     "wowPrice": 8900,
     "originalPrice": 10900,
+    "discount": 18,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/16743736731780-2ec3aab4-8dff-41b6-935c-8107ee603d3e.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTalPu",
     "productUrl": "https://www.coupang.com/vp/products/9165631415?itemId=27004798036&vendorItemId=93973487866&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -481,7 +562,9 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 361,
+    "soldPercent": 19,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -492,6 +575,7 @@
     "salePrice": 13000,
     "wowPrice": 10400,
     "originalPrice": 13000,
+    "discount": 20,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/f821/f5846c0603ce6a6806263c688192031538e8d70a5177645c61118aea72df.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTal8s",
     "productUrl": "https://www.coupang.com/vp/products/7007253927?itemId=20658149949&vendorItemId=84378777469&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -506,7 +590,9 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 16540,
+    "soldPercent": 9,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -517,6 +603,7 @@
     "salePrice": 15990,
     "wowPrice": 13990,
     "originalPrice": 15990,
+    "discount": 13,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2020/12/15/17/6/eba92bf4-8f5e-430c-8f03-8f6b40a5239f.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTamph",
     "productUrl": "https://www.coupang.com/vp/products/4615750243?itemId=5712795224&vendorItemId=73011571014&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -531,7 +618,9 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 17866,
+    "soldPercent": 16,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -542,6 +631,7 @@
     "salePrice": 9990,
     "wowPrice": 8790,
     "originalPrice": 9990,
+    "discount": 12,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/58080588408613-30014625-e049-442c-af5c-644421e5f3f4.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTamIe",
     "productUrl": "https://www.coupang.com/vp/products/8181136736?itemId=23390462196&vendorItemId=90419036244&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -557,7 +647,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 7532,
+    "soldPercent": 18,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -568,6 +660,7 @@
     "salePrice": 89000,
     "wowPrice": 71200,
     "originalPrice": 89000,
+    "discount": 20,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1856408308355237-98ca0dd8-4b3c-4fbc-99e9-8d8b4dd78ba2.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTam1X",
     "productUrl": "https://www.coupang.com/vp/products/8750529633?itemId=21316675291&vendorItemId=88376121083&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -584,7 +677,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 135,
+    "soldPercent": 28,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -595,6 +690,7 @@
     "salePrice": 12500,
     "wowPrice": 10000,
     "originalPrice": 12500,
+    "discount": 20,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/72323804387427-2243b8f3-6808-4a3e-a603-56c37fc62524.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTanEE",
     "productUrl": "https://www.coupang.com/vp/products/6653422886?itemId=15253434857&vendorItemId=82474111624&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -610,7 +706,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 7733,
+    "soldPercent": 46,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -621,6 +719,7 @@
     "salePrice": 18900,
     "wowPrice": 16060,
     "originalPrice": 18900,
+    "discount": 15,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/806875102641617-db5f9506-2b53-457c-931b-e87f8e9d02c1.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTaOdX",
     "productUrl": "https://www.coupang.com/vp/products/8284045219?itemId=23884977120&vendorItemId=90907799428&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -636,8 +735,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 20535,
-    "soldPercent": 3,
+    "soldPercent": 21,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -648,6 +748,7 @@
     "salePrice": 57900,
     "wowPrice": 46320,
     "originalPrice": 57900,
+    "discount": 20,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/ac93/b9262325e129fa374eb88bbb5b0291a2a45034b271aec8665876c8457b17.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTaOxN",
     "productUrl": "https://www.coupang.com/vp/products/5708931484?itemId=9512972362&vendorItemId=76797755425&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -663,7 +764,9 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 848,
+    "soldPercent": 36,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -674,6 +777,7 @@
     "salePrice": 592000,
     "wowPrice": 399000,
     "originalPrice": 592000,
+    "discount": 33,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/5072414580716445-c276068d-48fa-4d55-a1c5-f6d0049b80d8.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTaOSC",
     "productUrl": "https://www.coupang.com/vp/products/7522869373?itemId=19734448022&vendorItemId=88837014868&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -688,7 +792,9 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 115,
+    "soldPercent": 60,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -699,6 +805,7 @@
     "salePrice": 8900,
     "wowPrice": 6940,
     "originalPrice": 8900,
+    "discount": 22,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/db6d/e5681a3ff5ee44567a6b8eea9534ca09ee567ab4dfef62c38c70b63aaf25.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTaPcY",
     "productUrl": "https://www.coupang.com/vp/products/6542739738?itemId=14573958705&vendorItemId=81816101821&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -714,7 +821,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 5453,
+    "soldPercent": 15,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -725,6 +834,7 @@
     "salePrice": 5830,
     "wowPrice": 4080,
     "originalPrice": 5830,
+    "discount": 30,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/233221915386784-8ad4fbd8-33ad-4f0b-ac4a-d2a0afe05d44.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTaPu2",
     "productUrl": "https://www.coupang.com/vp/products/8412935634?itemId=26215730736&vendorItemId=93194737452&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -739,7 +849,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 271,
+    "soldPercent": 3,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -750,6 +862,7 @@
     "salePrice": 37800,
     "wowPrice": 29800,
     "originalPrice": 37800,
+    "discount": 21,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/hkw9qxfq/0ef7a95cefa44a9a9f45c0f46a7154d4.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTaPOm",
     "productUrl": "https://www.coupang.com/vp/products/8539492067?itemId=24722806354&vendorItemId=91732011732&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -766,7 +879,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 271,
+    "soldPercent": 18,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -777,6 +892,7 @@
     "salePrice": 349000,
     "wowPrice": 300000,
     "originalPrice": 349000,
+    "discount": 14,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/09/08/14/3/60ef43d1-c72d-46bd-a541-03e0612d099f.png",
     "affiliateUrl": "https://link.coupang.com/a/dTaP8j",
     "productUrl": "https://www.coupang.com/vp/products/7999760913?itemId=22274418305&vendorItemId=87123795054&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -793,7 +909,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 32,
+    "soldPercent": 5,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -804,6 +922,7 @@
     "salePrice": 1849000,
     "wowPrice": 1549000,
     "originalPrice": 1849000,
+    "discount": 16,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2437422938297260-4832c331-8f10-4ae9-bb2e-d19894864785.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTaQrf",
     "productUrl": "https://www.coupang.com/vp/products/8064412325?itemId=22672564877&vendorItemId=87162806481&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -817,7 +936,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 73,
+    "soldPercent": 3,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -828,6 +949,7 @@
     "salePrice": 137200,
     "wowPrice": 123480,
     "originalPrice": 137200,
+    "discount": 10,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1758929827363531-6aff60f3-029d-4dec-afd0-edee7322cb81.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTaQOx",
     "productUrl": "https://www.coupang.com/vp/products/6120297837?itemId=11597010608&vendorItemId=3007282849&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -842,7 +964,9 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 9685,
+    "soldPercent": 11,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   },
   {
@@ -853,6 +977,7 @@
     "salePrice": 5290,
     "wowPrice": 4760,
     "originalPrice": 5290,
+    "discount": 10,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1557818588468892-598b2edd-ecdc-4296-83f1-d28201dbf4b0.jpg",
     "affiliateUrl": "https://link.coupang.com/a/dTaQ8S",
     "productUrl": "https://www.coupang.com/vp/products/8549642170?itemId=19537894968&vendorItemId=86646228159&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -869,7 +994,124 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3781,
+    "soldPercent": 12,
     "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
+    "postedAt": ""
+  },
+  {
+    "id": "8520311165",
+    "title": "헤이홈 원격 제어 콘센트 스마트 mini 플러그, EP2-H, 1개",
+    "description": "",
+    "price": 14720,
+    "salePrice": 18400,
+    "wowPrice": 14720,
+    "originalPrice": 18400,
+    "discount": 20,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/464978795235211-5dc5ca31-fe08-4714-843c-c36f02ae4feb.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dTe1yb",
+    "productUrl": "https://www.coupang.com/vp/products/8520311165?itemId=26157462767&vendorItemId=85586691678&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8520311165",
+    "category": "general",
+    "tags": [
+      "로켓배송",
+      "와우할인",
+      "3만원이하",
+      "러그"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 2639,
+    "soldPercent": 12,
+    "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
+    "postedAt": ""
+  },
+  {
+    "id": "8721979736",
+    "title": "필립스 SkinIQ 7000 시리즈 전기면도기, S7885/74, 아드리아틱 블루",
+    "description": "",
+    "price": 188900,
+    "salePrice": 219000,
+    "wowPrice": 188900,
+    "originalPrice": 219000,
+    "discount": 14,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/90605448885518-21290d2d-003b-4737-b369-61328cda2694.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dTe1Q3",
+    "productUrl": "https://www.coupang.com/vp/products/8721979736?itemId=25335754112&vendorItemId=88383693325&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8721979736",
+    "category": "beauty",
+    "tags": [
+      "뷰티",
+      "로켓배송",
+      "와우할인"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 418,
+    "soldPercent": 7,
+    "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
+    "postedAt": ""
+  },
+  {
+    "id": "8847798145",
+    "title": "영진약품 마시는 알부민 단백질 보충 활력 케어 데일리 영양 음료, 100ml, 10개",
+    "description": "",
+    "price": 6250,
+    "salePrice": 7800,
+    "wowPrice": 6250,
+    "originalPrice": 7800,
+    "discount": 20,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/1eb0/c627512636528826dd06e9c19f0035428f50b88db73cde822894242e184e.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dTe25T",
+    "productUrl": "https://www.coupang.com/vp/products/8847798145?itemId=25790910563&vendorItemId=94722751472&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8847798145",
+    "category": "health",
+    "tags": [
+      "건강",
+      "로켓배송",
+      "와우할인",
+      "만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 471,
+    "soldPercent": 48,
+    "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
+    "postedAt": ""
+  },
+  {
+    "id": "8244656841",
+    "title": "로아커 초콜릿 크리스피 커피, 12개, 50g",
+    "description": "",
+    "price": 28830,
+    "salePrice": 41190,
+    "wowPrice": 28830,
+    "originalPrice": 41190,
+    "discount": 30,
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1463740811579328-933e1af1-693c-41c0-9e59-ea6689a396c0.jpg",
+    "affiliateUrl": "https://link.coupang.com/a/dTe3pD",
+    "productUrl": "https://www.coupang.com/vp/products/8244656841?itemId=17360420198&vendorItemId=84530386260&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
+    "productId": "8244656841",
+    "category": "food",
+    "tags": [
+      "식품",
+      "로켓배송",
+      "와우할인",
+      "3만원이하"
+    ],
+    "isWow": true,
+    "isRocket": true,
+    "rating": 5,
+    "reviewCount": 101,
+    "soldPercent": 2,
+    "expiresAt": "2026-02-26T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": ""
   }
 ]
