@@ -150,7 +150,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
               <span className="text-sm font-extrabold text-red-500">{discountPercent}%↓</span>
             </div>
           )}
-          {(salePrice ?? price ?? 0) > 0 && (
+          {(salePrice ?? price ?? 0) > 0 && !(isWow && (salePrice || price) === wowPrice) && (
             <span className="text-sm font-bold text-orange-600">{formatPrice((salePrice || price)!)}</span>
           )}
           {isWow && wowPrice != null && (
@@ -218,7 +218,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
             </div>
           )}
 
-          {(salePrice ?? price ?? 0) > 0 && (
+          {(salePrice ?? price ?? 0) > 0 && !(isWow && (salePrice || price) === wowPrice) && (
             <span className="text-lg font-bold text-orange-600">{formatPrice((salePrice || price)!)}</span>
           )}
 

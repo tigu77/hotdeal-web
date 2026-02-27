@@ -201,7 +201,7 @@ export default async function ProductPage({
               </div>
             )}
 
-            {(salePrice ?? price ?? 0) > 0 && (
+            {(salePrice ?? price ?? 0) > 0 && !(isWow && (salePrice || price) === wowPrice) && (
               <span className="text-2xl font-bold text-orange-600">
                 {formatPrice((salePrice || price)!)}
               </span>
