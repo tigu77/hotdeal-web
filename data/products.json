@@ -24,7 +24,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 60,
-    "soldPercent": 21,
+    "soldPercent": 37,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -54,7 +54,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 13,
-    "soldPercent": 16,
+    "soldPercent": 26,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -113,7 +113,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1524,
-    "soldPercent": 38,
+    "soldPercent": 78,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -143,7 +143,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 772,
-    "soldPercent": 27,
+    "soldPercent": 41,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -174,7 +174,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 159,
-    "soldPercent": 13,
+    "soldPercent": 23,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -203,7 +203,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 251,
-    "soldPercent": 5,
+    "soldPercent": 7,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -230,7 +230,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2189,
-    "soldPercent": 18,
+    "soldPercent": 33,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -257,7 +257,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 24,
-    "soldPercent": 26,
+    "soldPercent": 53,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -284,6 +284,7 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 1407,
     "soldPercent": 56,
@@ -315,7 +316,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 494,
-    "soldPercent": 33,
+    "soldPercent": 68,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -343,7 +344,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 185,
-    "soldPercent": 19,
+    "soldPercent": 2,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -373,7 +374,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 3712,
-    "soldPercent": 13,
+    "soldPercent": 25,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -403,7 +404,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 72,
-    "soldPercent": 20,
+    "soldPercent": 34,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -432,7 +433,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3,
-    "soldPercent": 6,
+    "soldPercent": 13,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -460,7 +461,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 35,
-    "soldPercent": 18,
+    "soldPercent": 25,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -489,7 +490,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 918,
-    "soldPercent": 10,
+    "soldPercent": 20,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -517,7 +518,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 438,
-    "soldPercent": 22,
+    "soldPercent": 36,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -545,7 +546,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2808,
-    "soldPercent": 18,
+    "soldPercent": 33,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -571,6 +572,7 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 5617,
     "soldPercent": 48,
@@ -601,7 +603,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 7588,
-    "soldPercent": 14,
+    "soldPercent": 34,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -629,7 +631,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1054,
-    "soldPercent": 38,
+    "soldPercent": 79,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -651,13 +653,14 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2627,
-    "soldPercent": 37,
+    "soldPercent": 86,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -685,7 +688,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 14630,
-    "soldPercent": 13,
+    "soldPercent": 27,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -713,7 +716,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 13286,
-    "soldPercent": 17,
+    "soldPercent": 34,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -735,13 +738,14 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 289434,
-    "soldPercent": 35,
+    "soldPercent": 90,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -768,6 +772,7 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 872,
     "soldPercent": 56,
@@ -800,7 +805,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4264,
-    "soldPercent": 5,
+    "soldPercent": 8,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -827,6 +832,7 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 88991,
     "soldPercent": 88,
@@ -858,7 +864,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 809,
-    "soldPercent": 42,
+    "soldPercent": 77,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -886,7 +892,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 309,
-    "soldPercent": 2,
+    "soldPercent": 4,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -916,7 +922,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 23274,
-    "soldPercent": 29,
+    "soldPercent": 49,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -945,7 +951,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 30962,
-    "soldPercent": 14,
+    "soldPercent": 25,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1006,7 +1012,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3219,
-    "soldPercent": 9,
+    "soldPercent": 16,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1034,7 +1040,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 13095,
-    "soldPercent": 7,
+    "soldPercent": 15,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1062,7 +1068,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 107441,
-    "soldPercent": 14,
+    "soldPercent": 28,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1090,7 +1096,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 111625,
-    "soldPercent": 23,
+    "soldPercent": 39,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1118,7 +1124,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 5081,
-    "soldPercent": 29,
+    "soldPercent": 58,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1146,7 +1152,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 168879,
-    "soldPercent": 44,
+    "soldPercent": 77,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1172,6 +1178,7 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 21677,
     "soldPercent": 76,
@@ -1202,7 +1209,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 43794,
-    "soldPercent": 38,
+    "soldPercent": 64,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1232,7 +1239,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 17,
-    "soldPercent": 2,
+    "soldPercent": 1,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1260,7 +1267,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 73,
-    "soldPercent": 30,
+    "soldPercent": 52,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1289,6 +1296,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 391,
+    "soldPercent": 2,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1317,7 +1325,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 90205,
-    "soldPercent": 21,
+    "soldPercent": 34,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1340,13 +1348,14 @@
       "주방",
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2777,
-    "soldPercent": 42,
+    "soldPercent": 89,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1375,7 +1384,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 721,
-    "soldPercent": 27,
+    "soldPercent": 47,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1404,7 +1413,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1293,
-    "soldPercent": 8,
+    "soldPercent": 12,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1462,7 +1471,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 746,
-    "soldPercent": 13,
+    "soldPercent": 27,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1491,7 +1500,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3991,
-    "soldPercent": 22,
+    "soldPercent": 50,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1519,7 +1528,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 21885,
-    "soldPercent": 36,
+    "soldPercent": 57,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1548,7 +1557,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3133,
-    "soldPercent": 23,
+    "soldPercent": 36,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1572,14 +1581,13 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
-      "매진임박",
       "텀블러"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 5,
     "reviewCount": 28,
-    "soldPercent": 89,
+    "soldPercent": 59,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1602,6 +1610,7 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "국산",
       "접이식"
     ],
@@ -1609,7 +1618,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 22444,
-    "soldPercent": 28,
+    "soldPercent": 87,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1637,7 +1646,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 17237,
-    "soldPercent": 42,
+    "soldPercent": 69,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1666,7 +1675,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 841,
-    "soldPercent": 50,
+    "soldPercent": 78,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1727,7 +1736,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 33,
-    "soldPercent": 34,
+    "soldPercent": 61,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1750,13 +1759,14 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "국산"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 5866,
-    "soldPercent": 50,
+    "soldPercent": 82,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1786,7 +1796,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2265,
-    "soldPercent": 5,
+    "soldPercent": 11,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1847,7 +1857,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 390,
-    "soldPercent": 16,
+    "soldPercent": 29,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1870,13 +1880,14 @@
       "로켓배송",
       "와우할인",
       "50%이상할인",
+      "매진임박",
       "방문설치"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 574,
-    "soldPercent": 46,
+    "soldPercent": 83,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1935,7 +1946,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2368,
-    "soldPercent": 27,
+    "soldPercent": 50,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1965,7 +1976,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 540,
-    "soldPercent": 16,
+    "soldPercent": 22,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -1994,7 +2005,7 @@
     "isRocket": true,
     "rating": 4,
     "reviewCount": 672,
-    "soldPercent": 14,
+    "soldPercent": 22,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2022,7 +2033,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2179,
-    "soldPercent": 14,
+    "soldPercent": 20,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2054,7 +2065,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 101,
-    "soldPercent": 85,
+    "soldPercent": 83,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2077,13 +2088,14 @@
       "건강",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 128,
-    "soldPercent": 56,
+    "soldPercent": 83,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2111,7 +2123,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 8065,
-    "soldPercent": 30,
+    "soldPercent": 43,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2139,7 +2151,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 56,
-    "soldPercent": 12,
+    "soldPercent": 23,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2167,7 +2179,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1119,
-    "soldPercent": 15,
+    "soldPercent": 27,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2195,7 +2207,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 701,
-    "soldPercent": 9,
+    "soldPercent": 21,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2224,7 +2236,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 119040,
-    "soldPercent": 38,
+    "soldPercent": 62,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2246,13 +2258,14 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 640,
-    "soldPercent": 38,
+    "soldPercent": 88,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2282,7 +2295,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 3694,
-    "soldPercent": 19,
+    "soldPercent": 41,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2313,7 +2326,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1109,
-    "soldPercent": 20,
+    "soldPercent": 32,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2344,7 +2357,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 123,
-    "soldPercent": 56,
+    "soldPercent": 73,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2373,7 +2386,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 31242,
-    "soldPercent": 11,
+    "soldPercent": 23,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2404,7 +2417,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1855,
-    "soldPercent": 51,
+    "soldPercent": 79,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2432,7 +2445,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 285,
-    "soldPercent": 57,
+    "soldPercent": 48,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2462,7 +2475,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 17440,
-    "soldPercent": 41,
+    "soldPercent": 77,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2493,7 +2506,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 83,
-    "soldPercent": 22,
+    "soldPercent": 32,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2521,7 +2534,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2550,
-    "soldPercent": 50,
+    "soldPercent": 70,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2549,7 +2562,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 6262,
-    "soldPercent": 17,
+    "soldPercent": 24,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2573,7 +2586,6 @@
       "로켓배송",
       "와우할인",
       "50%이상할인",
-      "매진임박",
       "세트상품",
       "리필",
       "청소기"
@@ -2582,7 +2594,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 383,
-    "soldPercent": 80,
+    "soldPercent": 78,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2612,7 +2624,7 @@
     "isRocket": true,
     "rating": 4,
     "reviewCount": 1346,
-    "soldPercent": 41,
+    "soldPercent": 63,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2641,7 +2653,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 3,
-    "soldPercent": 4,
+    "soldPercent": 8,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2700,7 +2712,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 66,
-    "soldPercent": 26,
+    "soldPercent": 55,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2728,7 +2740,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 13320,
-    "soldPercent": 38,
+    "soldPercent": 71,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2758,7 +2770,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 311520,
-    "soldPercent": 36,
+    "soldPercent": 64,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2789,7 +2801,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 448,
-    "soldPercent": 79,
+    "soldPercent": 74,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2818,7 +2830,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1689,
-    "soldPercent": 16,
+    "soldPercent": 26,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2847,7 +2859,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 21866,
-    "soldPercent": 12,
+    "soldPercent": 21,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2878,7 +2890,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 10920,
-    "soldPercent": 25,
+    "soldPercent": 44,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2907,7 +2919,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1750,
-    "soldPercent": 16,
+    "soldPercent": 28,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2935,7 +2947,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 29,
-    "soldPercent": 6,
+    "soldPercent": 8,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2966,7 +2978,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 10,
-    "soldPercent": 5,
+    "soldPercent": 7,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -2994,7 +3006,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 3788,
-    "soldPercent": 18,
+    "soldPercent": 34,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3024,7 +3036,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1862,
-    "soldPercent": 24,
+    "soldPercent": 43,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3049,6 +3061,7 @@
       "와우할인",
       "3만원이하",
       "50%이상할인",
+      "매진임박",
       "세트상품",
       "선물추천",
       "디퓨저"
@@ -3057,7 +3070,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 36361,
-    "soldPercent": 43,
+    "soldPercent": 86,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3085,7 +3098,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2120,
-    "soldPercent": 19,
+    "soldPercent": 28,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3117,7 +3130,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2239,
-    "soldPercent": 29,
+    "soldPercent": 56,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3146,7 +3159,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 120270,
-    "soldPercent": 28,
+    "soldPercent": 55,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3177,7 +3190,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 154,
-    "soldPercent": 36,
+    "soldPercent": 64,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3200,13 +3213,14 @@
       "로켓배송",
       "와우할인",
       "50%이상할인",
+      "매진임박",
       "방문설치"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 157,
-    "soldPercent": 50,
+    "soldPercent": 95,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3236,7 +3250,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 269,
-    "soldPercent": 8,
+    "soldPercent": 14,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3267,7 +3281,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 32635,
-    "soldPercent": 29,
+    "soldPercent": 50,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3296,7 +3310,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 10252,
-    "soldPercent": 21,
+    "soldPercent": 35,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3327,7 +3341,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 268027,
-    "soldPercent": 24,
+    "soldPercent": 45,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3358,7 +3372,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 832,
-    "soldPercent": 38,
+    "soldPercent": 73,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3388,7 +3402,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1459,
-    "soldPercent": 20,
+    "soldPercent": 26,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3417,7 +3431,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 62,
-    "soldPercent": 7,
+    "soldPercent": 8,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3447,7 +3461,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1137,
-    "soldPercent": 31,
+    "soldPercent": 60,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3477,7 +3491,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 447,
-    "soldPercent": 8,
+    "soldPercent": 14,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3507,7 +3521,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 157,
-    "soldPercent": 33,
+    "soldPercent": 50,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3535,7 +3549,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1999,
-    "soldPercent": 12,
+    "soldPercent": 21,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3566,7 +3580,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1343,
-    "soldPercent": 24,
+    "soldPercent": 36,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3597,7 +3611,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 5398,
-    "soldPercent": 17,
+    "soldPercent": 37,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3629,7 +3643,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 61212,
-    "soldPercent": 24,
+    "soldPercent": 44,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3658,7 +3672,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1163,
-    "soldPercent": 3,
+    "soldPercent": 4,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3718,7 +3732,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 26808,
-    "soldPercent": 51,
+    "soldPercent": 67,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3749,7 +3763,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 6248,
-    "soldPercent": 19,
+    "soldPercent": 31,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3779,6 +3793,7 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 44,
     "soldPercent": 87,
@@ -3806,6 +3821,7 @@
       "와우할인",
       "3만원이하",
       "50%이상할인",
+      "매진임박",
       "세트상품",
       "로션"
     ],
@@ -3813,7 +3829,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 8998,
-    "soldPercent": 37,
+    "soldPercent": 84,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3844,7 +3860,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2161,
-    "soldPercent": 37,
+    "soldPercent": 63,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3875,7 +3891,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 52,
-    "soldPercent": 86,
+    "soldPercent": 80,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3906,7 +3922,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1291,
-    "soldPercent": 60,
+    "soldPercent": 72,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3937,7 +3953,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 17089,
-    "soldPercent": 19,
+    "soldPercent": 30,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3968,7 +3984,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4473,
-    "soldPercent": 28,
+    "soldPercent": 49,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -3998,7 +4014,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2465,
-    "soldPercent": 17,
+    "soldPercent": 27,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -4030,7 +4046,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 101,
-    "soldPercent": 50,
+    "soldPercent": 69,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -4061,7 +4077,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3008,
-    "soldPercent": 14,
+    "soldPercent": 27,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -4093,7 +4109,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 18388,
-    "soldPercent": 30,
+    "soldPercent": 47,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -4124,7 +4140,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2074,
-    "soldPercent": 24,
+    "soldPercent": 40,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -4155,7 +4171,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4435,
-    "soldPercent": 18,
+    "soldPercent": 28,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -4185,7 +4201,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 56705,
-    "soldPercent": 38,
+    "soldPercent": 68,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -4210,13 +4226,14 @@
       "와우할인",
       "3만원이하",
       "50%이상할인",
+      "매진임박",
       "텀블러"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 5,
     "reviewCount": 10916,
-    "soldPercent": 44,
+    "soldPercent": 82,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -4247,7 +4264,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2245,
-    "soldPercent": 25,
+    "soldPercent": 36,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -4278,6 +4295,7 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 4.5,
     "reviewCount": 678,
     "soldPercent": 94,
@@ -4310,7 +4328,7 @@
     "isRocket": true,
     "rating": 4,
     "reviewCount": 80400,
-    "soldPercent": 22,
+    "soldPercent": 42,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -4340,6 +4358,7 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 174,
     "soldPercent": 19,
@@ -4367,14 +4386,13 @@
       "와우할인",
       "3만원이하",
       "70%이상할인",
-      "매진임박",
       "이불"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 2814,
-    "soldPercent": 97,
+    "soldPercent": 60,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -4404,7 +4422,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1594,
-    "soldPercent": 20,
+    "soldPercent": 28,
     "expiresAt": "2026-02-28T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
