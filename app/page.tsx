@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import RecentlyViewed from "@/components/RecentlyViewed";
 import { getProducts } from "@/data/products";
 import type { Product } from "@/types";
-import { SITE, SOURCES } from "@/lib/constants";
+import { SITE } from "@/lib/constants";
 import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab, trackChannelVisit } from "@/lib/analytics";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { getWishlist, pruneWishlist } from "@/lib/wishlist";
@@ -145,6 +145,8 @@ export default function Home() {
           setWishlistMode(false);
           trackCategoryFilter(cat || "전체");
         }}
+        selectedSource={selectedSource}
+        onSourceChange={setSelectedSource}
         wishlistMode={wishlistMode}
         onWishlistToggle={() => {
           const next = !wishlistMode;
@@ -162,34 +164,6 @@ export default function Home() {
       </div>
 
       <main className="max-w-6xl mx-auto px-4 py-8">
-        {/* 소스 필터 */}
-        <div className="flex items-center justify-center gap-2 mb-6">
-          <button
-            onClick={() => setSelectedSource(null)}
-            className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
-              selectedSource === null
-                ? 'bg-gray-900 text-white shadow-sm'
-                : 'bg-white text-gray-600 border border-gray-200 hover:border-gray-400'
-            }`}
-          >
-            전체
-          </button>
-          {SOURCES.map((s) => (
-            <button
-              key={s.id}
-              onClick={() => setSelectedSource(selectedSource === s.id ? null : s.id)}
-              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all flex items-center gap-1.5 ${
-                selectedSource === s.id
-                  ? `${s.color} text-white shadow-sm`
-                  : `bg-white ${s.textColor} border ${s.borderColor} hover:opacity-80`
-              }`}
-            >
-              <span className={`w-2 h-2 rounded-full ${selectedSource === s.id ? 'bg-white' : s.color}`} />
-              {s.name}
-            </button>
-          ))}
-        </div>
-
         {/* 히어로 + 검색 */}
         <section aria-label="검색" className="text-center mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-3">
