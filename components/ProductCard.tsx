@@ -114,12 +114,12 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
     </span>
   ) : null;
 
-  const sourceIcon = (
-    <img
-      src={isNaver ? '/icons/naver.ico' : '/icons/coupang.ico'}
-      alt={isNaver ? '네이버' : '쿠팡'}
-      className="w-4 h-4 flex-shrink-0 inline-block"
-    />
+  const sourceBadge = (
+    <span className={`flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded ${
+      isNaver ? 'bg-green-500' : 'bg-red-500'
+    }`}>
+      {isNaver ? '네이버' : '쿠팡'}
+    </span>
   );
 
   const storeInfo = isNaver && product.storeName && (
@@ -155,7 +155,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
           {soldOutBadge}
         </div>
         <h3 className="font-semibold text-gray-900 text-xs leading-snug line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors flex items-start gap-1">
-          {sourceIcon}
+          {sourceBadge}
           <span>{product.title}</span>
         </h3>
         <div>
@@ -213,7 +213,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
       {/* 정보 */}
       <div className="flex-1 min-w-0 flex flex-col justify-between">
         <h3 className="font-semibold text-gray-900 text-sm leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors flex items-start gap-1">
-          {sourceIcon}
+          {sourceBadge}
           <span>{product.title}</span>
         </h3>
 
