@@ -114,12 +114,12 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
     </span>
   ) : null;
 
-  const sourceBadge = (pos: string) => (
-    <span className={`absolute ${pos} z-[2] text-[9px] font-bold text-white px-1.5 py-0.5 rounded ${
-      isNaver ? 'bg-green-500' : 'bg-red-500'
-    }`}>
-      {isNaver ? '네이버' : '쿠팡'}
-    </span>
+  const sourceIcon = (
+    <img
+      src={isNaver ? '/icons/naver.ico' : '/icons/coupang.ico'}
+      alt={isNaver ? '네이버' : '쿠팡'}
+      className="w-4 h-4 flex-shrink-0 inline-block"
+    />
   );
 
   const storeInfo = isNaver && product.storeName && (
@@ -149,14 +149,14 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
         {clickOverlay}
         <div className="relative aspect-square rounded-lg overflow-hidden bg-gray-50 mb-2">
           {wishlistBtn}
-          {sourceBadge('top-1 left-1')}
           {product.imageUrl ? thumbnail(product.imageUrl.replace(/\/\d+x\d+ex\//, '/230x230ex/'), "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300") : (
             <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200"><span className="text-2xl">🛒</span></div>
           )}
           {soldOutBadge}
         </div>
-        <h3 className="font-semibold text-gray-900 text-xs leading-snug line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors">
-          {product.title}
+        <h3 className="font-semibold text-gray-900 text-xs leading-snug line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors flex items-start gap-1">
+          {sourceIcon}
+          <span>{product.title}</span>
         </h3>
         <div>
           {basePrice > 0 && discountPercent > 0 && (
@@ -204,7 +204,6 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
       {/* 썸네일 */}
       <div className="relative w-24 h-24 flex-shrink-0 rounded-xl overflow-hidden bg-gray-50">
         {wishlistBtn}
-        {sourceBadge('top-1 left-1')}
         {product.imageUrl ? thumbnail(product.imageUrl, "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300") : (
           <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200"><span className="text-3xl">🛒</span></div>
         )}
@@ -213,8 +212,9 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
 
       {/* 정보 */}
       <div className="flex-1 min-w-0 flex flex-col justify-between">
-        <h3 className="font-semibold text-gray-900 text-sm leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors">
-          {product.title}
+        <h3 className="font-semibold text-gray-900 text-sm leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors flex items-start gap-1">
+          {sourceIcon}
+          <span>{product.title}</span>
         </h3>
 
         <div className="mt-1.5">
