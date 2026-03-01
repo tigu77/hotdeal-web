@@ -22,19 +22,27 @@ const allProducts: Product[] = (raw as any[]).map((p) => ({
   postedAt: p.postedAt || new Date().toISOString(),
   rating: p.rating,
   reviewCount: p.reviewCount,
+  source: p.source || 'coupang',
+  storeName: p.storeName,
 }));
 
 /**
  * 중복 제거 + 최신순 정렬된 상품 목록
  * - title 기준 중복 제거, 최신 것만 유지
  */
-export function getProducts(category?: string | null): Product[] {
+export function getProducts(category?: string | null, source?: string | null): Product[] {
   const now = Date.now();
-  const sorted = [...allProducts]
-    .filter((p) => !p.expiresAt || new Date(p.expiresAt).getTime() > now)
-    .sort(
-      (a, b) => new Date(b.postedAt).getTime() - new Date(a.postedAt).getTime()
-    );
+  let items = [...allProducts]
+    .filter((p) => !p.expiresAt || new Date(p.expiresAt).getTime() > now);
+
+  // 소스 필터
+  if (source) {
+    items = items.filter((p) => p.source === source);
+  }
+
+  const sorted = items.sort(
+    (a, b) => new Date(b.postedAt).getTime() - new Date(a.postedAt).getTime()
+  );
 
   // 같은 title이면 최신 것만 유지
   const seen = new Set<string>();

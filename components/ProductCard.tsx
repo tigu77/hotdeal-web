@@ -58,6 +58,8 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
       ? calcDiscountPercent(basePrice, finalPrice)
       : product.discount || 0;
 
+  const isNaver = product.source === 'naver';
+  const isCoupang = product.source !== 'naver';
   const isSoldOut = product.isSoldOut || false;
   const soldPercent = getDisplaySoldPercent(product);
   const isAlmostGone = soldPercent >= 80;
@@ -112,6 +114,18 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
     </span>
   ) : null;
 
+  const sourceBadge = (pos: string) => (
+    <span className={`absolute ${pos} z-[2] text-[9px] font-bold text-white px-1.5 py-0.5 rounded ${
+      isNaver ? 'bg-green-500' : 'bg-red-500'
+    }`}>
+      {isNaver ? '네이버' : '쿠팡'}
+    </span>
+  );
+
+  const storeInfo = isNaver && product.storeName && (
+    <span className="text-[11px] text-gray-500">🏪 {product.storeName}</span>
+  );
+
   const soldBar = soldPercent >= 0 && (
     <div className="flex items-center gap-1.5">
       <div className={`flex-1 bg-gray-100 rounded-full overflow-hidden ${compact ? 'h-2' : 'h-2 max-w-[80px]'}`}>
@@ -135,6 +149,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
         {clickOverlay}
         <div className="relative aspect-square rounded-lg overflow-hidden bg-gray-50 mb-2">
           {wishlistBtn}
+          {sourceBadge('top-1 left-1')}
           {product.imageUrl ? thumbnail(product.imageUrl.replace(/\/\d+x\d+ex\//, '/230x230ex/'), "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300") : (
             <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200"><span className="text-2xl">🛒</span></div>
           )}
@@ -166,15 +181,16 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
             {product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
           </div>
         )}
-        {remaining && !isSoldOut && (
+        {isCoupang && remaining && !isSoldOut && (
           <div className="mt-1">
             <span className={`text-[11px] font-bold tabular-nums ${isUrgent ? "text-red-600 animate-pulse" : "text-orange-500"}`}>
               ⏰ {remaining}
             </span>
           </div>
         )}
-        <div className="mt-1">{soldBar}</div>
-        {!remaining && !soldPercent && (
+        {isCoupang && <div className="mt-1">{soldBar}</div>}
+        {isNaver && <div className="mt-1">{storeInfo}</div>}
+        {!remaining && !soldPercent && !storeInfo && (
           <span className="text-[10px] text-gray-400">{timeAgo(product.postedAt)}</span>
         )}
       </div>
@@ -188,6 +204,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
       {/* 썸네일 */}
       <div className="relative w-24 h-24 flex-shrink-0 rounded-xl overflow-hidden bg-gray-50">
         {wishlistBtn}
+        {sourceBadge('top-1 left-1')}
         {product.imageUrl ? thumbnail(product.imageUrl, "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300") : (
           <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200"><span className="text-3xl">🛒</span></div>
         )}
@@ -231,7 +248,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
         </div>
 
         <div className="flex flex-col gap-1 mt-1.5">
-          {remaining && !isSoldOut && (
+          {isCoupang && remaining && !isSoldOut && (
             <div className="flex items-center gap-1.5">
               <span className={`text-xs font-bold tabular-nums tracking-tight ${isUrgent ? "text-red-600 animate-pulse" : "text-orange-500"}`}>
                 ⏰ {remaining}
@@ -239,8 +256,9 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
               <span className="text-[10px] text-gray-400">남음</span>
             </div>
           )}
-          {soldBar}
-          {!remaining && !soldPercent && (
+          {isCoupang && soldBar}
+          {isNaver && storeInfo}
+          {!remaining && !soldPercent && !storeInfo && (
             <span className="text-[11px] text-gray-400">{timeAgo(product.postedAt)}</span>
           )}
         </div>

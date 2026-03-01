@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import RecentlyViewed from "@/components/RecentlyViewed";
 import { getProducts } from "@/data/products";
 import type { Product } from "@/types";
-import { SITE } from "@/lib/constants";
+import { SITE, SOURCES } from "@/lib/constants";
 import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab, trackChannelVisit } from "@/lib/analytics";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { getWishlist, pruneWishlist } from "@/lib/wishlist";
@@ -28,6 +28,7 @@ function useIsMobile(breakpoint = 640) {
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const [selectedSource, setSelectedSource] = useState<string | null>(null);
   const [sortBy, setSortBy] = useState<SortType>("popular");
   const [wishlistMode, setWishlistMode] = useState(false);
   const [wishlistVersion, setWishlistVersion] = useState(0);
@@ -81,7 +82,7 @@ export default function Home() {
 
   const products = useMemo(() => {
     if (wishlistMode) return []; // handled separately
-    let items = getProducts(selectedCategory);
+    let items = getProducts(selectedCategory, selectedSource);
 
     // 검색 필터
     if (searchQuery.trim()) {
@@ -121,7 +122,7 @@ export default function Home() {
     }
 
     return items;
-  }, [selectedCategory, searchQuery, sortBy, wishlistMode]);
+  }, [selectedCategory, selectedSource, searchQuery, sortBy, wishlistMode]);
 
   // 검색 트래킹 (디바운스 500ms)
   const searchTimer = useRef<NodeJS.Timeout>(null);
@@ -156,11 +157,39 @@ export default function Home() {
       {/* 파트너스 고지 */}
       <div className="bg-gray-100 border-b border-gray-200">
         <p className="max-w-6xl mx-auto px-4 py-2 text-xs text-gray-500 text-center">
-          ℹ️ 이 사이트는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+          ℹ️ 이 사이트는 쿠팡 파트너스 및 네이버 쇼핑 커넥트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
         </p>
       </div>
 
       <main className="max-w-6xl mx-auto px-4 py-8">
+        {/* 소스 필터 */}
+        <div className="flex items-center justify-center gap-2 mb-6">
+          <button
+            onClick={() => setSelectedSource(null)}
+            className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
+              selectedSource === null
+                ? 'bg-gray-900 text-white shadow-sm'
+                : 'bg-white text-gray-600 border border-gray-200 hover:border-gray-400'
+            }`}
+          >
+            전체
+          </button>
+          {SOURCES.map((s) => (
+            <button
+              key={s.id}
+              onClick={() => setSelectedSource(selectedSource === s.id ? null : s.id)}
+              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all flex items-center gap-1.5 ${
+                selectedSource === s.id
+                  ? `${s.color} text-white shadow-sm`
+                  : `bg-white ${s.textColor} border ${s.borderColor} hover:opacity-80`
+              }`}
+            >
+              <span className={`w-2 h-2 rounded-full ${selectedSource === s.id ? 'bg-white' : s.color}`} />
+              {s.name}
+            </button>
+          ))}
+        </div>
+
         {/* 히어로 + 검색 */}
         <section aria-label="검색" className="text-center mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-3">

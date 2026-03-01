@@ -22,4 +22,6 @@ export interface Product {
   soldPercent?: number;
   expiresAt?: string;
   postedAt: string;
+  source?: 'coupang' | 'naver' | string;
+  storeName?: string;
 }
