@@ -8,7 +8,7 @@ import RecentlyViewed from "@/components/RecentlyViewed";
 import { getProducts } from "@/data/products";
 import type { Product } from "@/types";
 import { SITE } from "@/lib/constants";
-import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab, trackChannelVisit } from "@/lib/analytics";
+import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab, trackChannelVisit, trackSourceFilter } from "@/lib/analytics";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { getWishlist, pruneWishlist } from "@/lib/wishlist";
 type SortType = "recent" | "sold-rate" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
@@ -177,7 +177,7 @@ export default function Home() {
           trackCategoryFilter(cat || "전체");
         }}
         selectedSource={selectedSource}
-        onSourceChange={setSelectedSource}
+        onSourceChange={(s) => { setSelectedSource(s); trackSourceFilter(s || '전체'); }}
         availableSources={availableSources}
         wishlistMode={wishlistMode}
         onWishlistToggle={() => {

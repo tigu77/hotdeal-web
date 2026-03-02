@@ -116,7 +116,7 @@ export default function RecentlyViewed() {
               target="_blank"
               rel="noopener noreferrer"
               className={`flex-shrink-0 w-28 group ${item.isSoldOut ? 'opacity-50 grayscale' : ''}`}
-              onClick={() => trackRecentlyViewedClick(item.id, item.title)}
+              onClick={() => trackRecentlyViewedClick(item.id, item.title, item.source)}
             >
               <div className="relative w-28 h-28 rounded-xl overflow-hidden bg-gray-50 mb-1.5">
                 {item.isSoldOut && (

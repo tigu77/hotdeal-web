@@ -8,9 +8,10 @@ interface ShareButtonsProps {
   productId: string;
   title: string;
   discount?: number;
+  source?: string;
 }
 
-export default function ShareButtons({ productId, title, discount }: ShareButtonsProps) {
+export default function ShareButtons({ productId, title, discount, source }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
 
   const baseUrl = typeof window !== "undefined"
@@ -32,7 +33,7 @@ export default function ShareButtons({ productId, title, discount }: ShareButton
     if (typeof navigator !== "undefined" && navigator.share) {
       try {
         await navigator.share({ title, text, url });
-        trackShareClick(productId, 'native_share');
+        trackShareClick(productId, 'native_share', source);
         return;
       } catch {
         // user cancelled — fall through to copy
@@ -40,7 +41,7 @@ export default function ShareButtons({ productId, title, discount }: ShareButton
     }
     // fallback: copy link
     await copyAndNotify(url);
-    trackShareClick(productId, 'copy_link');
+    trackShareClick(productId, 'copy_link', source);
   };
 
   return (

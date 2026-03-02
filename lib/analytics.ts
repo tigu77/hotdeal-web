@@ -13,21 +13,23 @@ export function trackEvent(action: string, params?: Record<string, any>) {
 }
 
 // 상품 카드 클릭
-export function trackProductClick(productId: string, title: string, category?: string) {
+export function trackProductClick(productId: string, title: string, category?: string, source?: string) {
   trackEvent('select_item', {
     item_list_name: 'hotdeal_list',
     items: [{ item_id: productId, item_name: title, item_category: category }],
+    source: source || 'unknown',
   });
 }
 
 // 구매 버튼 클릭
-export function trackPurchaseClick(productId: string, title: string, price: number, category?: string) {
+export function trackPurchaseClick(productId: string, title: string, price: number, category?: string, source?: string) {
   trackEvent('purchase_click', {
     item_id: productId,
     item_name: title,
     item_category: category,
     value: price,
     currency: 'KRW',
+    source: source || 'unknown',
   });
 }
 
@@ -52,35 +54,39 @@ export function trackTelegramClick(location: string) {
 }
 
 // 추천 상품 클릭
-export function trackRecommendClick(productId: string, title: string) {
+export function trackRecommendClick(productId: string, title: string, source?: string) {
   trackEvent('recommend_click', {
     item_id: productId,
     item_name: title,
+    source: source || 'unknown',
   });
 }
 
 // 상세 페이지 조회
-export function trackDetailView(productId: string, title: string, category?: string) {
+export function trackDetailView(productId: string, title: string, category?: string, source?: string) {
   trackEvent('view_item', {
     item_id: productId,
     item_name: title,
     item_category: category,
+    source: source || 'unknown',
   });
 }
 
 // 공유 버튼 클릭
-export function trackShareClick(productId: string, method: string) {
+export function trackShareClick(productId: string, method: string, source?: string) {
   trackEvent('share', {
     item_id: productId,
     method,
+    source: source || 'unknown',
   });
 }
 
 // 찜 추가/제거
-export function trackWishlistToggle(productId: string, action: 'add' | 'remove') {
+export function trackWishlistToggle(productId: string, action: 'add' | 'remove', source?: string) {
   trackEvent('wishlist_toggle', {
     item_id: productId,
     action,
+    source: source || 'unknown',
   });
 }
 
@@ -92,10 +98,11 @@ export function trackWishlistTab(enabled: boolean) {
 }
 
 // 최근 본 상품 클릭
-export function trackRecentlyViewedClick(productId: string, title: string) {
+export function trackRecentlyViewedClick(productId: string, title: string, source?: string) {
   trackEvent('recently_viewed_click', {
     item_id: productId,
     item_name: title,
+    source: source || 'unknown',
   });
 }
 
@@ -107,6 +114,11 @@ export function trackBannerAction(action: 'close') {
 // 사이트 공유
 export function trackSiteShare(method: string) {
   trackEvent('site_share', { method });
+}
+
+// 소스 필터 변경
+export function trackSourceFilter(source: string) {
+  trackEvent('source_filter', { source: source || '전체' });
 }
 
 // 채널 유입 추적

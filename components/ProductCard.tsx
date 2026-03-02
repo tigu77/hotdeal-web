@@ -28,7 +28,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
 
   // ── 공통 클릭 핸들러 ──
   const handleClick = () => {
-    trackProductClick(product.id, product.title, product.category);
+    trackProductClick(product.id, product.title, product.category, product.source);
     saveRecentlyViewed(product.id);
   };
 
@@ -52,6 +52,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
       price={finalPrice}
       discount={discountPercent}
       affiliateUrl={product.affiliateUrl}
+      source={product.source}
     />
   );
 
