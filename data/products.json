@@ -80,6 +80,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 65,
+    "soldPercent": 1,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -198,7 +199,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 601,
-    "soldPercent": 4,
+    "soldPercent": 5,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -344,7 +345,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1125,
-    "soldPercent": 32,
+    "soldPercent": 57,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -373,7 +374,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 80463,
-    "soldPercent": 2,
+    "soldPercent": 3,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -458,7 +459,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 481,
-    "soldPercent": 2,
+    "soldPercent": 4,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -543,7 +544,7 @@
     "isRocket": true,
     "rating": 4,
     "reviewCount": 1880,
-    "soldPercent": 4,
+    "soldPercent": 20,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -572,7 +573,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1739,
-    "soldPercent": 7,
+    "soldPercent": 9,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -600,7 +601,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 36169,
-    "soldPercent": 21,
+    "soldPercent": 27,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -628,7 +629,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 31639,
-    "soldPercent": 6,
+    "soldPercent": 8,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -656,7 +657,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 39599,
-    "soldPercent": 3,
+    "soldPercent": 4,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -684,7 +685,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 681,
-    "soldPercent": 6,
+    "soldPercent": 8,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -713,7 +714,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 10887,
-    "soldPercent": 5,
+    "soldPercent": 6,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -741,7 +742,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2569,
-    "soldPercent": 6,
+    "soldPercent": 10,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -771,7 +772,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 12127,
-    "soldPercent": 7,
+    "soldPercent": 8,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -799,7 +800,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 169159,
-    "soldPercent": 6,
+    "soldPercent": 8,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -828,7 +829,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 405,
-    "soldPercent": 60,
+    "soldPercent": 75,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -857,7 +858,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 725,
-    "soldPercent": 8,
+    "soldPercent": 10,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -885,7 +886,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 111717,
-    "soldPercent": 7,
+    "soldPercent": 9,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -944,7 +945,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 134,
-    "soldPercent": 11,
+    "soldPercent": 13,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
@@ -972,7 +973,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 59726,
-    "soldPercent": 11,
+    "soldPercent": 14,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": ""
