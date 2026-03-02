@@ -5,7 +5,7 @@ export function WebSiteJsonLd() {
     name: "핫딜 알리미",
     url: "https://hotdeal-web-peach.vercel.app",
     description:
-      "매일 엄선된 쿠팡 최저가 핫딜을 추천합니다. 골드박스, 타임세일, 베스트 상품을 한눈에 비교하고 최대 할인가로 구매하세요.",
+      "네이버 인기상품, 쿠팡 골드박스 등 매일 엄선된 최저가 핫딜을 한눈에 비교하세요.",
     potentialAction: {
       "@type": "SearchAction",
       target: {
