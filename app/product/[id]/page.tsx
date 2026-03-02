@@ -17,9 +17,7 @@ function getProductById(id: string) {
   return getProducts().find((p) => p.id === id) || null;
 }
 
-export function generateStaticParams() {
-  return getProducts().map((p) => ({ id: p.id }));
-}
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({
   params,
