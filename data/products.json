@@ -17,7 +17,8 @@
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8640509530",
@@ -37,7 +38,8 @@
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8185470702",
@@ -58,7 +60,8 @@
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8832483019",
@@ -87,7 +90,8 @@
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7284800100",
@@ -118,7 +122,8 @@
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "9033913144",
@@ -146,11 +151,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3082,
-    "soldPercent": 4,
+    "soldPercent": 6,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "5790429149",
@@ -177,11 +183,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 818,
-    "soldPercent": 3,
+    "soldPercent": 4,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8199456136",
@@ -207,11 +214,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 601,
-    "soldPercent": 13,
+    "soldPercent": 14,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "6748329067",
@@ -236,11 +244,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 7710,
-    "soldPercent": 4,
+    "soldPercent": 5,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8850393437",
@@ -268,11 +277,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 790,
-    "soldPercent": 6,
+    "soldPercent": 7,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "6120613489",
@@ -297,11 +307,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 692,
-    "soldPercent": 10,
+    "soldPercent": 13,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7904706460",
@@ -332,7 +343,8 @@
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8519734294",
@@ -352,17 +364,19 @@
       "패션",
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1125,
-    "soldPercent": 74,
+    "soldPercent": 84,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "6208969466",
@@ -388,11 +402,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 80463,
-    "soldPercent": 9,
+    "soldPercent": 11,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "1356119340",
@@ -417,11 +432,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 18290,
-    "soldPercent": 7,
+    "soldPercent": 8,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "30859751",
@@ -450,7 +466,8 @@
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8512149593",
@@ -476,11 +493,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 481,
-    "soldPercent": 11,
+    "soldPercent": 12,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "5828827791",
@@ -505,11 +523,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 41710,
-    "soldPercent": 30,
+    "soldPercent": 38,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7870072134",
@@ -535,11 +554,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 95898,
-    "soldPercent": 7,
+    "soldPercent": 8,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8906774227",
@@ -564,11 +584,12 @@
     "isRocket": true,
     "rating": 4,
     "reviewCount": 1880,
-    "soldPercent": 43,
+    "soldPercent": 48,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7368528707",
@@ -594,11 +615,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1739,
-    "soldPercent": 23,
+    "soldPercent": 26,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "3161567",
@@ -617,17 +639,19 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 36169,
-    "soldPercent": 68,
+    "soldPercent": 81,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7046278942",
@@ -652,11 +676,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 31639,
-    "soldPercent": 17,
+    "soldPercent": 19,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "173011",
@@ -681,11 +706,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 39599,
-    "soldPercent": 10,
+    "soldPercent": 12,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "9196219302",
@@ -710,11 +736,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 681,
-    "soldPercent": 14,
+    "soldPercent": 16,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "6630857404",
@@ -740,11 +767,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 10887,
-    "soldPercent": 14,
+    "soldPercent": 16,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "4506441009",
@@ -769,11 +797,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2569,
-    "soldPercent": 26,
+    "soldPercent": 30,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "1148763563",
@@ -800,11 +829,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 12127,
-    "soldPercent": 21,
+    "soldPercent": 25,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "6239512369",
@@ -829,11 +859,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 169159,
-    "soldPercent": 19,
+    "soldPercent": 23,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8817310344",
@@ -859,11 +890,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 405,
-    "soldPercent": 55,
+    "soldPercent": 70,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8278273967",
@@ -889,11 +921,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 725,
-    "soldPercent": 20,
+    "soldPercent": 22,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8771829605",
@@ -918,11 +951,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 111717,
-    "soldPercent": 18,
+    "soldPercent": 21,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8524609628",
@@ -949,11 +983,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 98,
-    "soldPercent": 17,
+    "soldPercent": 20,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8885055518",
@@ -979,11 +1014,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 134,
-    "soldPercent": 24,
+    "soldPercent": 28,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "9069380309",
@@ -1008,11 +1044,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 59726,
-    "soldPercent": 32,
+    "soldPercent": 38,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8157283424",
@@ -1038,11 +1075,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 59274,
-    "soldPercent": 26,
+    "soldPercent": 30,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7792422685",
@@ -1067,11 +1105,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 3953,
-    "soldPercent": 32,
+    "soldPercent": 39,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8259616299",
@@ -1096,11 +1135,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2119,
-    "soldPercent": 32,
+    "soldPercent": 36,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8035055471",
@@ -1125,11 +1165,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 6534,
-    "soldPercent": 65,
+    "soldPercent": 78,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7106874544",
@@ -1155,11 +1196,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 804,
-    "soldPercent": 54,
+    "soldPercent": 68,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "6224528154",
@@ -1187,11 +1229,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 18361,
-    "soldPercent": 33,
+    "soldPercent": 39,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "9392690108",
@@ -1217,11 +1260,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4188,
-    "soldPercent": 9,
+    "soldPercent": 11,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7683355214",
@@ -1241,7 +1285,6 @@
       "생활용품",
       "로켓배송",
       "와우할인",
-      "매진임박",
       "세트상품",
       "커튼"
     ],
@@ -1249,11 +1292,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1284,
-    "soldPercent": 90,
+    "soldPercent": 75,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "6690356169",
@@ -1279,11 +1323,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 5767,
-    "soldPercent": 27,
+    "soldPercent": 30,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "116173986",
@@ -1309,11 +1354,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 16810,
-    "soldPercent": 22,
+    "soldPercent": 26,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7975779639",
@@ -1340,11 +1386,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 5653,
-    "soldPercent": 10,
+    "soldPercent": 13,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8530241638",
@@ -1374,7 +1421,8 @@
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7710710222",
@@ -1401,11 +1449,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4397,
-    "soldPercent": 9,
+    "soldPercent": 11,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7243430420",
@@ -1430,11 +1479,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3557,
-    "soldPercent": 13,
+    "soldPercent": 16,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8192547898",
@@ -1459,11 +1509,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 296,
-    "soldPercent": 23,
+    "soldPercent": 26,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8533494484",
@@ -1489,11 +1540,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 384,
-    "soldPercent": 6,
+    "soldPercent": 7,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "189141227",
@@ -1512,17 +1564,19 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 34757,
-    "soldPercent": 69,
+    "soldPercent": 81,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8783306391",
@@ -1548,10 +1602,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 8,
+    "soldPercent": 3,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "310253967",
@@ -1579,11 +1635,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1729,
-    "soldPercent": 34,
+    "soldPercent": 43,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7561407320",
@@ -1609,11 +1666,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 395,
-    "soldPercent": 5,
+    "soldPercent": 7,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7066907732",
@@ -1638,11 +1696,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 28121,
-    "soldPercent": 27,
+    "soldPercent": 33,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8586266646",
@@ -1675,7 +1734,8 @@
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8734947909",
@@ -1708,7 +1768,8 @@
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8289081646",
@@ -1735,11 +1796,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4193,
-    "soldPercent": 5,
+    "soldPercent": 6,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8562895882",
@@ -1768,11 +1830,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 9641,
-    "soldPercent": 15,
+    "soldPercent": 19,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7012059398",
@@ -1797,11 +1860,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 19585,
-    "soldPercent": 44,
+    "soldPercent": 54,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "158010844",
@@ -1826,11 +1890,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 209817,
-    "soldPercent": 27,
+    "soldPercent": 31,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "6868015967",
@@ -1855,11 +1920,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 17593,
-    "soldPercent": 11,
+    "soldPercent": 14,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "6830320694",
@@ -1884,11 +1950,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 542854,
-    "soldPercent": 27,
+    "soldPercent": 31,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "1628632801",
@@ -1908,17 +1975,19 @@
       "가전/디지털",
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 5,
     "reviewCount": 100798,
-    "soldPercent": 71,
+    "soldPercent": 89,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "6902113163",
@@ -1948,7 +2017,8 @@
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7151451350",
@@ -1967,17 +2037,19 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "5만원이하"
+      "5만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 5,
     "reviewCount": 5214,
-    "soldPercent": 73,
+    "soldPercent": 85,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7699783308",
@@ -2002,11 +2074,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 5962,
-    "soldPercent": 22,
+    "soldPercent": 26,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "9074262260",
@@ -2031,11 +2104,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 5602,
-    "soldPercent": 26,
+    "soldPercent": 28,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7677618842",
@@ -2061,11 +2135,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 23789,
-    "soldPercent": 32,
+    "soldPercent": 36,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "9310281876",
@@ -2094,7 +2169,8 @@
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8589798679",
@@ -2121,11 +2197,12 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1017,
-    "soldPercent": 20,
+    "soldPercent": 40,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7626263931",
@@ -2151,11 +2228,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 43119,
-    "soldPercent": 58,
+    "soldPercent": 79,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "5056864633",
@@ -2180,11 +2258,12 @@
     "isRocket": true,
     "rating": 4,
     "reviewCount": 14162,
-    "soldPercent": 2,
+    "soldPercent": 3,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "8732979237",
@@ -2209,10 +2288,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 13,
+    "soldPercent": 6,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "63223489",
@@ -2237,11 +2318,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 32234,
-    "soldPercent": 12,
+    "soldPercent": 14,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "7660924794",
@@ -2268,11 +2350,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3104,
-    "soldPercent": 7,
+    "soldPercent": 9,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "538043",
@@ -2297,11 +2380,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 20017,
-    "soldPercent": 34,
+    "soldPercent": 40,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "4896256903",
@@ -2327,11 +2411,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4327,
-    "soldPercent": 40,
+    "soldPercent": 49,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "119465439",
@@ -2358,11 +2443,12 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 225284,
-    "soldPercent": 31,
+    "soldPercent": 35,
     "expiresAt": "2026-03-02T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
-    "source": "coupang"
+    "source": "coupang",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "808765746083814",
@@ -2381,7 +2467,9 @@
     "rating": 4.68,
     "reviewCount": 14084,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "미라클뮤즈",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "863243342978468",
@@ -2400,7 +2488,9 @@
     "rating": 4.84,
     "reviewCount": 2606,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "홈리아",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "813024503748339",
@@ -2419,7 +2509,9 @@
     "rating": 4.82,
     "reviewCount": 13781,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "홈리아",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "817259796337249",
@@ -2438,7 +2530,9 @@
     "rating": 4.81,
     "reviewCount": 20126,
     "postedAt": "2026-03-01T13:47:51.319Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "소이조이 공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "809497111098788",
@@ -2457,7 +2551,9 @@
     "rating": 4.89,
     "reviewCount": 242,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "얀뮬러",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805853585957924",
@@ -2476,7 +2572,9 @@
     "rating": 4.84,
     "reviewCount": 28087,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "miso lab 공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807662214233760",
@@ -2495,7 +2593,9 @@
     "rating": 4.86,
     "reviewCount": 66601,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "조선비책",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805557699195073",
@@ -2514,7 +2614,9 @@
     "rating": 4.86,
     "reviewCount": 17771,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "스핀몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "808357295829480",
@@ -2533,7 +2635,9 @@
     "rating": 4.9,
     "reviewCount": 7624,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "바른생활수",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805828583891864",
@@ -2552,7 +2656,9 @@
     "rating": 4.71,
     "reviewCount": 3743,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "Bullsone공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "808797477766720",
@@ -2571,7 +2677,9 @@
     "rating": 4.88,
     "reviewCount": 7804,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "바렌",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "912065443775072",
@@ -2590,7 +2698,9 @@
     "rating": 4.86,
     "reviewCount": 8497,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "블랙모어스",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807406000328032",
@@ -2609,7 +2719,9 @@
     "rating": 4.75,
     "reviewCount": 533,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "시리어스",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "811210205241733",
@@ -2628,7 +2740,9 @@
     "rating": 4.88,
     "reviewCount": 27858,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "닥터파이토",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "811210205241734",
@@ -2647,7 +2761,9 @@
     "rating": 4.84,
     "reviewCount": 36893,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "닥터파이토",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "907799933243329",
@@ -2666,7 +2782,9 @@
     "rating": 4.81,
     "reviewCount": 18656,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "듀플렉스몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "882700590073312",
@@ -2685,7 +2803,9 @@
     "rating": 4.88,
     "reviewCount": 3857,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "빙그레 본사직영몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "832776775046539",
@@ -2704,7 +2824,9 @@
     "rating": 4.82,
     "reviewCount": 88636,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "푸드버킷",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "882755674966592",
@@ -2723,7 +2845,9 @@
     "rating": 4.84,
     "reviewCount": 12965,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "헬스헬퍼 스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "902153214493408",
@@ -2742,7 +2866,9 @@
     "rating": 4.85,
     "reviewCount": 14786,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "웰비오",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "810555598291554",
@@ -2761,7 +2887,9 @@
     "rating": 4.77,
     "reviewCount": 12675,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "STENA",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805828583883655",
@@ -2780,7 +2908,9 @@
     "rating": 4.87,
     "reviewCount": 3815,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "Bullsone공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805828583859102",
@@ -2799,7 +2929,9 @@
     "rating": 4.88,
     "reviewCount": 29575,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "Bullsone공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "907426075775040",
@@ -2818,7 +2950,9 @@
     "rating": 4.84,
     "reviewCount": 6938,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "Bullsone공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "911683294819104",
@@ -2837,7 +2971,9 @@
     "rating": 4.9,
     "reviewCount": 14415,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "럭키푸드 한우",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807700098489600",
@@ -2856,7 +2992,9 @@
     "rating": 4.78,
     "reviewCount": 18964,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "스포틀러",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "910301672545665",
@@ -2875,7 +3013,9 @@
     "rating": 4.86,
     "reviewCount": 10227,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "엘리첸",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "910301672537472",
@@ -2894,7 +3034,9 @@
     "rating": 4.58,
     "reviewCount": 3674,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "엘리첸",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "910301672545664",
@@ -2913,7 +3055,9 @@
     "rating": 4.87,
     "reviewCount": 10304,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "엘리첸",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "835927048916864",
@@ -2932,7 +3076,9 @@
     "rating": 4.75,
     "reviewCount": 4447,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "쿠쿠전자",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "806256819521136",
@@ -2951,7 +3097,9 @@
     "rating": 4.87,
     "reviewCount": 7623,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "벤딕트 공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "806256819521139",
@@ -2970,7 +3118,9 @@
     "rating": 4.86,
     "reviewCount": 8567,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "벤딕트 공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "806256819521142",
@@ -2989,7 +3139,9 @@
     "rating": 4.86,
     "reviewCount": 12328,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "벤딕트 공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "854735403805696",
@@ -3008,7 +3160,9 @@
     "rating": 4.92,
     "reviewCount": 7402,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "비어랜 육포",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "820682600168401",
@@ -3027,7 +3181,9 @@
     "rating": 4.82,
     "reviewCount": 12228,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "더함전자",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "915262294538080",
@@ -3044,7 +3200,9 @@
     "rating": 4.85,
     "reviewCount": 1685,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "오아스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "911986570863520",
@@ -3061,7 +3219,9 @@
     "rating": 4.9,
     "reviewCount": 380,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "오아스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "890059689559488",
@@ -3080,7 +3240,9 @@
     "rating": 4.84,
     "reviewCount": 4961,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "위바이옴",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "910317773216832",
@@ -3097,7 +3259,9 @@
     "rating": 4.64,
     "reviewCount": 28,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "자연과순수",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "912485125882336",
@@ -3116,7 +3280,9 @@
     "rating": 4.63,
     "reviewCount": 9138,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "린백의자",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "817164076806445",
@@ -3135,7 +3301,9 @@
     "rating": 4.83,
     "reviewCount": 10505,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "캐치웰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "878008092762497",
@@ -3154,7 +3322,9 @@
     "rating": 4.9,
     "reviewCount": 6472,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "동아제약",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805538038571513",
@@ -3173,7 +3343,9 @@
     "rating": 4.9,
     "reviewCount": 128958,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "엄마네한우",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805475830411616",
@@ -3192,7 +3364,9 @@
     "rating": 4.91,
     "reviewCount": 16734,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "우메종",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805536079016288",
@@ -3211,7 +3385,9 @@
     "rating": 4.87,
     "reviewCount": 100155,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "엄마네한우",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "847657395483968",
@@ -3230,7 +3406,9 @@
     "rating": 4.89,
     "reviewCount": 1521,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "LG전자인증점 신영플러스",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "895450154857120",
@@ -3249,7 +3427,9 @@
     "rating": 4.87,
     "reviewCount": 990,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "삼성전자공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "844873533616192",
@@ -3268,7 +3448,9 @@
     "rating": 4.89,
     "reviewCount": 13479,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "미닉스",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "850844547851268",
@@ -3287,7 +3469,9 @@
     "rating": 4.81,
     "reviewCount": 215852,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "달바 공식스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "920173184085632",
@@ -3306,7 +3490,9 @@
     "rating": 4.86,
     "reviewCount": 7576,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "미닉스",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "806183404304260",
@@ -3325,7 +3511,9 @@
     "rating": 4.92,
     "reviewCount": 4873,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "삼성공식파트너 다담INC",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "857215734268322",
@@ -3344,7 +3532,9 @@
     "rating": 4.91,
     "reviewCount": 76744,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "동아제약",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "867478599761632",
@@ -3363,7 +3553,9 @@
     "rating": 4.9,
     "reviewCount": 14891,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "오설록 본사직영몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805924424357600",
@@ -3382,7 +3574,9 @@
     "rating": 4.82,
     "reviewCount": 17272,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "다룸 스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805555342176835",
@@ -3401,7 +3595,9 @@
     "rating": 4.95,
     "reviewCount": 2762,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "삼성온라인스토어 유니씨앤씨",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "808024657502595",
@@ -3420,7 +3616,9 @@
     "rating": 4.93,
     "reviewCount": 49842,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "화려한우",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "864654819833184",
@@ -3439,7 +3637,9 @@
     "rating": 4.79,
     "reviewCount": 1551,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "풀리오",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "815890694943557",
@@ -3458,7 +3658,9 @@
     "rating": 4.84,
     "reviewCount": 9431,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "풀리오",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "815890694943560",
@@ -3477,7 +3679,9 @@
     "rating": 4.81,
     "reviewCount": 3048,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "풀리오",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "844844333187333",
@@ -3496,7 +3700,9 @@
     "rating": 4.9,
     "reviewCount": 28963,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "동아제약 생활 공식스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807668590423548",
@@ -3515,7 +3721,9 @@
     "rating": 4.86,
     "reviewCount": 44521,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "대한민국농수산",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "806195320469440",
@@ -3534,7 +3742,9 @@
     "rating": 4.86,
     "reviewCount": 31877,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "산지도매센타",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807951747976352",
@@ -3553,7 +3763,9 @@
     "rating": 4.81,
     "reviewCount": 20184,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "돌쇠굴비",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "871986233745088",
@@ -3572,7 +3784,9 @@
     "rating": 4.92,
     "reviewCount": 3926,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "린클 공식 스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805517350752899",
@@ -3591,7 +3805,9 @@
     "rating": 4.83,
     "reviewCount": 21335,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "정육담다",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "909231712433216",
@@ -3610,7 +3826,9 @@
     "rating": 4.72,
     "reviewCount": 5341,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "맥앤블랙",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "875645002191872",
@@ -3629,7 +3847,9 @@
     "rating": 4.74,
     "reviewCount": 27361,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "멜리언스 스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "920173184081536",
@@ -3648,7 +3868,9 @@
     "rating": 4.79,
     "reviewCount": 2667,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "미닉스",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "891596775577249",
@@ -3667,7 +3889,9 @@
     "rating": 4.88,
     "reviewCount": 2176,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "Branden",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "827838930151297",
@@ -3686,7 +3910,9 @@
     "rating": 4.85,
     "reviewCount": 28902,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "닥터가",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "859691132783616",
@@ -3705,7 +3931,9 @@
     "rating": 4.64,
     "reviewCount": 41885,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "고 씨네농장",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "811222602842880",
@@ -3724,7 +3952,9 @@
     "rating": 4.95,
     "reviewCount": 1283,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "삼성공식파트너 매크로네트웍",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "811228273652114",
@@ -3743,7 +3973,9 @@
     "rating": 4.96,
     "reviewCount": 135,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "삼성공식파트너 매크로네트웍",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "845932789184736",
@@ -3762,7 +3994,9 @@
     "rating": 4.92,
     "reviewCount": 1679,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "삼성공식파트너 삼성하나로",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "832823632480416",
@@ -3779,7 +4013,9 @@
     "rating": 4.94,
     "reviewCount": 1705,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "삼성공식인증점 회산디지털",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "910265620982720",
@@ -3798,7 +4034,9 @@
     "rating": 4.94,
     "reviewCount": 365,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "삼성공식파트너 평강프라자",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "808307314561473",
@@ -3817,7 +4055,9 @@
     "rating": 4.94,
     "reviewCount": 7101,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "삼성공식파트너 코인비엠에스",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805855714513700",
@@ -3836,7 +4076,9 @@
     "rating": 4.92,
     "reviewCount": 6242,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "삼성공식파트너 포디아이",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805584771350657",
@@ -3855,7 +4097,9 @@
     "rating": 4.93,
     "reviewCount": 5453,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "삼성공식파트너 엠피나비",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "907750295441152",
@@ -3874,7 +4118,9 @@
     "rating": 4.77,
     "reviewCount": 12338,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "세포랩",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "861814487527136",
@@ -3893,7 +4139,9 @@
     "rating": 4.86,
     "reviewCount": 76472,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "셀렉스 직영스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "857614008676672",
@@ -3912,7 +4160,9 @@
     "rating": 4.89,
     "reviewCount": 28248,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "한고연몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "823643929388448",
@@ -3931,7 +4181,9 @@
     "rating": 4.91,
     "reviewCount": 51193,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "안티놀 코리아",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805480508363201",
@@ -3950,7 +4202,9 @@
     "rating": 4.92,
     "reviewCount": 3600,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "와이드뷰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "806298799532298",
@@ -3969,7 +4223,9 @@
     "rating": 4.8,
     "reviewCount": 4090,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "자일렉 코리아",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "808409954828416",
@@ -3988,7 +4244,9 @@
     "rating": 4.92,
     "reviewCount": 26560,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "제주반했어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "892236846049024",
@@ -4007,7 +4265,9 @@
     "rating": 4.83,
     "reviewCount": 3962,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "스마일랩몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "900378244578720",
@@ -4026,7 +4286,9 @@
     "rating": 4.88,
     "reviewCount": 1366,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "JUPAZIP",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "862090451189665",
@@ -4045,7 +4307,9 @@
     "rating": 4.79,
     "reviewCount": 22160,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "carepod",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "813272542885344",
@@ -4064,7 +4328,9 @@
     "rating": 4.93,
     "reviewCount": 2478,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "퓨어셀 공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "907051821273152",
@@ -4083,7 +4349,9 @@
     "rating": 4.85,
     "reviewCount": 7231,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "HLB제약",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "806169638668323",
@@ -4102,7 +4370,9 @@
     "rating": 4.91,
     "reviewCount": 15679,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "한경희 생활과학",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807243549706544",
@@ -4121,7 +4391,9 @@
     "rating": 4.91,
     "reviewCount": 18274,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "한우맘",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "810449368346112",
@@ -4140,7 +4412,9 @@
     "rating": 4.83,
     "reviewCount": 53085,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "헨켈홈케어 공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "856834559291844",
@@ -4159,7 +4433,9 @@
     "rating": 4.78,
     "reviewCount": 1400,
     "postedAt": "2026-03-02T01:52:27.038Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "홈쎄라",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "827783820068739",
@@ -4176,7 +4452,9 @@
     "rating": 4.64,
     "reviewCount": 19651,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "워킹보감",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807340309569028",
@@ -4195,7 +4473,9 @@
     "rating": 4.9,
     "reviewCount": 5904,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "벤튼",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "810795100299821",
@@ -4214,7 +4494,9 @@
     "rating": 4.88,
     "reviewCount": 226,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "자연애 스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "816158532969152",
@@ -4233,7 +4515,9 @@
     "rating": 4.56,
     "reviewCount": 6283,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "모두봄 MODUBOM",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "889073101295392",
@@ -4252,7 +4536,9 @@
     "rating": 4.8,
     "reviewCount": 3889,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "브라이트비드 편집샵",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "820775183932352",
@@ -4271,7 +4557,9 @@
     "rating": 4.85,
     "reviewCount": 683,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "힉스코리아 공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "909624616137729",
@@ -4290,7 +4578,9 @@
     "rating": 4.9,
     "reviewCount": 197,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "프레티",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "825358816056897",
@@ -4309,7 +4599,9 @@
     "rating": 4.81,
     "reviewCount": 28881,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "링심",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "832727804777472",
@@ -4328,7 +4620,9 @@
     "rating": 4.86,
     "reviewCount": 11941,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "크리오 공식스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "882081236056128",
@@ -4347,7 +4641,9 @@
     "rating": 4.88,
     "reviewCount": 915,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "에그데이지몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "813383953217632",
@@ -4366,7 +4662,9 @@
     "rating": 4.75,
     "reviewCount": 15734,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "프로넛 PRONUT",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805692188317025",
@@ -4383,7 +4681,9 @@
     "rating": 4.93,
     "reviewCount": 48481,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "도트앤라인",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "876707169195264",
@@ -4402,7 +4702,9 @@
     "rating": 4.8,
     "reviewCount": 2656,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "에어르",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "808369318322434",
@@ -4421,7 +4723,9 @@
     "rating": 4.5,
     "reviewCount": 12626,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "인버브",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "860399014308672",
@@ -4438,7 +4742,9 @@
     "rating": 4.82,
     "reviewCount": 6109,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "유심사스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "822883126495175",
@@ -4455,7 +4761,9 @@
     "rating": 4.83,
     "reviewCount": 82819,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "유심사스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807693481315425",
@@ -4474,7 +4782,9 @@
     "rating": 4.72,
     "reviewCount": 240832,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "집에서 먹자",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "900418883333152",
@@ -4493,7 +4803,9 @@
     "rating": 4.82,
     "reviewCount": 4286,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "다노클리닉",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805828583891862",
@@ -4512,7 +4824,9 @@
     "rating": 4.9,
     "reviewCount": 14200,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "Bullsone공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "847957391832262",
@@ -4531,7 +4845,9 @@
     "rating": 4.81,
     "reviewCount": 875,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "브릭글로",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "827825574188930",
@@ -4548,7 +4864,9 @@
     "rating": 4.82,
     "reviewCount": 17277,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "가루선생",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "854342247037703",
@@ -4565,7 +4883,9 @@
     "rating": 4.9,
     "reviewCount": 241,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "타노아",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807328389663840",
@@ -4584,7 +4904,9 @@
     "rating": 4.86,
     "reviewCount": 103718,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "극소수",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "814761712389952",
@@ -4603,7 +4925,9 @@
     "rating": 4.82,
     "reviewCount": 14125,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "극소수",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "887306114509248",
@@ -4620,7 +4944,9 @@
     "rating": 4.89,
     "reviewCount": 138801,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "메이크샐러드",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "810821050294957",
@@ -4639,7 +4965,9 @@
     "rating": 4.84,
     "reviewCount": 4328,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "미프",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "810550264488676",
@@ -4656,7 +4984,9 @@
     "rating": 4.81,
     "reviewCount": 46197,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "유심스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "806256819525216",
@@ -4675,7 +5005,9 @@
     "rating": 4.82,
     "reviewCount": 9617,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "벤딕트 공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "806256819525218",
@@ -4694,7 +5026,9 @@
     "rating": 4.9,
     "reviewCount": 15363,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "벤딕트 공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "810550264488679",
@@ -4711,7 +5045,9 @@
     "rating": 4.72,
     "reviewCount": 16785,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "유심스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "812273071927809",
@@ -4730,7 +5066,9 @@
     "rating": 4.86,
     "reviewCount": 28433,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "으뜸한돈",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "909646774084192",
@@ -4749,7 +5087,9 @@
     "rating": 4.96,
     "reviewCount": 2301,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "스티커사또",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "839897198590276",
@@ -4766,7 +5106,9 @@
     "rating": 4.82,
     "reviewCount": 19862,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "도시락이심",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "839897198590298",
@@ -4783,7 +5125,9 @@
     "rating": 4.83,
     "reviewCount": 118696,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "도시락이심",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "806193867638721",
@@ -4800,7 +5144,9 @@
     "rating": 4.83,
     "reviewCount": 64468,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "로밍도깨비",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "806193867638732",
@@ -4817,7 +5163,9 @@
     "rating": 4.82,
     "reviewCount": 20725,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "로밍도깨비",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "809772658399795",
@@ -4836,7 +5184,9 @@
     "rating": 4.75,
     "reviewCount": 4264,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "무타공마켓",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "886350262360672",
@@ -4855,7 +5205,9 @@
     "rating": 4.88,
     "reviewCount": 1855,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "엑스퍼 공식스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805818774840386",
@@ -4874,7 +5226,9 @@
     "rating": 4.75,
     "reviewCount": 10077,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "모이니",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805474387972672",
@@ -4893,7 +5247,9 @@
     "rating": 4.89,
     "reviewCount": 106572,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "토리야",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "810449497485217",
@@ -4912,7 +5268,9 @@
     "rating": 4.81,
     "reviewCount": 1408,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "한예지공식샵",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "887246729083168",
@@ -4929,7 +5287,9 @@
     "rating": 4.94,
     "reviewCount": 45359,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "지앤티클린",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "808784890082976",
@@ -4946,7 +5306,9 @@
     "rating": 4.86,
     "reviewCount": 14945,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "우맛순",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "912803721904640",
@@ -4965,7 +5327,9 @@
     "rating": 4.83,
     "reviewCount": 30771,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "비비수산",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807260988922302",
@@ -4984,7 +5348,9 @@
     "rating": 4.78,
     "reviewCount": 335437,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "미스터네이처 다이어트",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "853005711330257",
@@ -5003,7 +5369,9 @@
     "rating": 4.67,
     "reviewCount": 385713,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "맛꾼푸드",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807668590419428",
@@ -5022,7 +5390,9 @@
     "rating": 4.88,
     "reviewCount": 12357,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "대한민국농수산",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "853005711330258",
@@ -5041,7 +5411,9 @@
     "rating": 4.78,
     "reviewCount": 30265,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "맛꾼푸드",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "880505579371780",
@@ -5060,7 +5432,9 @@
     "rating": 4.88,
     "reviewCount": 10016,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "DOSSY",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "912803722469888",
@@ -5079,7 +5453,9 @@
     "rating": 4.82,
     "reviewCount": 33742,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "비비수산",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "808361086935232",
@@ -5098,7 +5474,9 @@
     "rating": 4.93,
     "reviewCount": 22319,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "LuNell",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "869920216890723",
@@ -5117,7 +5495,9 @@
     "rating": 4.84,
     "reviewCount": 82489,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "맛꾼푸드",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "827741981472707",
@@ -5134,7 +5514,9 @@
     "rating": 4.88,
     "reviewCount": 3852,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "메고지고 MEGOZIGO",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "855393424412704",
@@ -5153,7 +5535,9 @@
     "rating": 4.8,
     "reviewCount": 86384,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "봉식스쇼핑몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805928511264678",
@@ -5172,7 +5556,9 @@
     "rating": 4.91,
     "reviewCount": 21692,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "바라던",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807345060982114",
@@ -5189,7 +5575,9 @@
     "rating": 4.89,
     "reviewCount": 56108,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "바이칸 공식스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "810521304076933",
@@ -5208,7 +5596,9 @@
     "rating": 4.92,
     "reviewCount": 48199,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "배마마 PEI MAMA",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805482520302150",
@@ -5227,7 +5617,9 @@
     "rating": 4.92,
     "reviewCount": 114411,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "베리네이처",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "812657850905006",
@@ -5244,7 +5636,9 @@
     "rating": 4.76,
     "reviewCount": 41202,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "말톡",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "806256819521150",
@@ -5263,7 +5657,9 @@
     "rating": 4.91,
     "reviewCount": 12133,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "벤딕트 공식몰",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "912803722310144",
@@ -5282,7 +5678,9 @@
     "rating": 4.89,
     "reviewCount": 8553,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "비비수산",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "912803722678784",
@@ -5301,7 +5699,9 @@
     "rating": 4.9,
     "reviewCount": 3550,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "비비수산",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807661266771586",
@@ -5320,7 +5720,9 @@
     "rating": 4.84,
     "reviewCount": 81659,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "소소한형제",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807315066141024",
@@ -5339,7 +5741,9 @@
     "rating": 4.92,
     "reviewCount": 10821,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "헤음",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805923757827941",
@@ -5358,7 +5762,9 @@
     "rating": 4.92,
     "reviewCount": 522,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "라이온코리아 브랜드스토어",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "914893228292096",
@@ -5377,7 +5783,9 @@
     "rating": 4.79,
     "reviewCount": 732,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "할매찜닭발엽불떡",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "922002743098976",
@@ -5396,7 +5804,9 @@
     "rating": 4.94,
     "reviewCount": 18,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "티슬릭스",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "833042070428544",
@@ -5415,7 +5825,9 @@
     "rating": 4.83,
     "reviewCount": 18198,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "유황한돈",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "812657850905010",
@@ -5432,7 +5844,9 @@
     "rating": 4.83,
     "reviewCount": 92225,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "말톡",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "810155111579427",
@@ -5451,7 +5865,9 @@
     "rating": 4.87,
     "reviewCount": 42054,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "그램원",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "805844579881802",
@@ -5470,7 +5886,9 @@
     "rating": 4.91,
     "reviewCount": 14809,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "큐폴드 QFOLD",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "808782534174560",
@@ -5489,7 +5907,9 @@
     "rating": 4.86,
     "reviewCount": 1897,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "유잼샵",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "857545851175232",
@@ -5508,7 +5928,9 @@
     "rating": 4.83,
     "reviewCount": 4733,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "그린파워테크",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "914585613694880",
@@ -5527,7 +5949,9 @@
     "rating": 4.72,
     "reviewCount": 259,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "브라더커머스",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "869251109281504",
@@ -5546,7 +5970,9 @@
     "rating": 4.85,
     "reviewCount": 901,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "그린파워테크",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "869529828789642",
@@ -5565,7 +5991,9 @@
     "rating": 4.89,
     "reviewCount": 396,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "유황한돈",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "807668590415338",
@@ -5584,7 +6012,9 @@
     "rating": 4.57,
     "reviewCount": 383594,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "대한민국농수산",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   },
   {
     "id": "806301022133110",
@@ -5603,6 +6033,8 @@
     "rating": 4.81,
     "reviewCount": 16662,
     "postedAt": "2026-03-02T01:52:35.147Z",
-    "source": "naver"
+    "source": "naver",
+    "storeName": "훈훈수산",
+    "registeredAt": "2026-03-02T05:15:00.378Z"
   }
 ]
