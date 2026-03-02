@@ -80,6 +80,11 @@ export default function Home() {
     return results;
   }, [wishlistMode, wishlistVersion]);
 
+  const availableSources = useMemo(() => {
+    const all = getProducts();
+    return [...new Set(all.map((p) => p.source).filter(Boolean))] as string[];
+  }, []);
+
   const products = useMemo(() => {
     if (wishlistMode) return []; // handled separately
     let items = getProducts(selectedCategory, selectedSource);
@@ -173,6 +178,7 @@ export default function Home() {
         }}
         selectedSource={selectedSource}
         onSourceChange={setSelectedSource}
+        availableSources={availableSources}
         wishlistMode={wishlistMode}
         onWishlistToggle={() => {
           const next = !wishlistMode;

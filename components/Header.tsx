@@ -11,6 +11,7 @@ interface HeaderProps {
   onSourceChange: (source: string | null) => void;
   wishlistMode?: boolean;
   onWishlistToggle?: () => void;
+  availableSources?: string[];
 }
 
 export default function Header({
@@ -20,6 +21,7 @@ export default function Header({
   onSourceChange,
   wishlistMode,
   onWishlistToggle,
+  availableSources,
 }: HeaderProps) {
   const navRef = useRef<HTMLElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
@@ -85,7 +87,7 @@ export default function Header({
           >
             전체
           </button>
-          {SOURCES.map((s) => (
+          {SOURCES.filter((s) => !availableSources || availableSources.includes(s.id)).map((s) => (
             <button
               key={s.id}
               onClick={() => onSourceChange(selectedSource === s.id ? null : s.id)}
