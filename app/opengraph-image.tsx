@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
-export const alt = '핫딜 알리미 - 매일 엄선된 최저가 핫딜 모음';
+export const alt = '핫딜 알리미 - 매일 엄선된 쿠팡 최저가 핫딜';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -39,7 +39,7 @@ export default function Image() {
             display: 'flex',
           }}
         >
-          네이버 / 쿠팡 최저가 핫딜을 한눈에
+          매일 엄선된 쿠팡 최저가 핫딜 추천
         </div>
       </div>
     ),

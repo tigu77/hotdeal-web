@@ -31,9 +31,8 @@ export async function generateMetadata({
   if (!product) return {};
 
   const title = `${product.title} | 핫딜 알리미`;
-  const isNaver = product.source === 'naver';
-  const description = `${product.title} - ${formatPrice(product.price)}${product.discount ? ` (${product.discount}% 할인)` : ""}. 최저가 핫딜!`;
-  const keywords = ["핫딜", "최저가", isNaver ? "네이버" : "쿠팡", product.title, ...(product.tags || [])];
+  const description = `${product.title} - ${formatPrice(product.price)}${product.discount ? ` (${product.discount}% 할인)` : ""}. 쿠팡 최저가 핫딜!`;
+  const keywords = ["핫딜", "최저가", "쿠팡", product.title, ...(product.tags || [])];
 
   return {
     title,
@@ -69,7 +68,6 @@ export default async function ProductPage({
   const product = getProductById(id);
   if (!product) notFound();
 
-  const isNaver = product.source === 'naver';
   const { salePrice, wowPrice, price, isWow } = product;
   const { basePrice, finalPrice, discountPercent } = getProductPrices(product);
 
@@ -91,7 +89,7 @@ export default async function ProductPage({
       priceCurrency: "KRW",
       availability: product.isSoldOut ? "https://schema.org/SoldOut" : "https://schema.org/InStock",
       url: product.affiliateUrl,
-      seller: { "@type": "Organization", name: isNaver ? "네이버" : "쿠팡" },
+      seller: { "@type": "Organization", name: "쿠팡" },
     },
   };
 
