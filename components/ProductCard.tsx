@@ -131,9 +131,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
         )}
         {isCoupang && <div className="mt-1">{soldBar}</div>}
         {isNaver && <div className="mt-1">{storeInfo}</div>}
-        {!remaining && !soldPercent && !storeInfo && (
-          <span className="text-[10px] text-gray-400">{timeAgo(product.postedAt)}</span>
-        )}
+
       </div>
     );
   }
@@ -199,9 +197,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
           )}
           {isCoupang && soldBar}
           {isNaver && storeInfo}
-          {!remaining && !soldPercent && !storeInfo && (
-            <span className="text-[11px] text-gray-400">{timeAgo(product.postedAt)}</span>
-          )}
+
         </div>
       </div>
     </div>
