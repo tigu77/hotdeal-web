@@ -39,7 +39,7 @@ export default function Image() {
             display: 'flex',
           }}
         >
-          네이버·쿠팡 최저가 핫딜을 한눈에
+          네이버 / 쿠팡 최저가 핫딜을 한눈에
         </div>
       </div>
     ),
