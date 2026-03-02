@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { trackSiteShare } from "@/lib/analytics";
-import { copyToClipboard } from "@/lib/clipboard";
 
 interface SiteShareButtonProps {
   title?: string;
@@ -19,8 +18,17 @@ export default function SiteShareButton({
 }: SiteShareButtonProps) {
   const [copied, setCopied] = useState(false);
 
-  const copyAndNotify = async (text: string) => {
-    await copyToClipboard(text);
+  const copyToClipboard = async (text: string) => {
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand("copy");
+      document.body.removeChild(ta);
+    }
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -38,7 +46,7 @@ export default function SiteShareButton({
         // user cancelled
       }
     }
-    await copyAndNotify(shareUrl);
+    await copyToClipboard(shareUrl);
     trackSiteShare('copy_link');
   };
 

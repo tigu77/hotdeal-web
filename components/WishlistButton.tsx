@@ -11,7 +11,6 @@ interface WishlistButtonProps {
   price: number;
   discount?: number;
   affiliateUrl: string;
-  source?: string;
   /** "card" = small overlay on card, "detail" = larger button for detail page */
   variant?: "card" | "detail";
 }
@@ -23,7 +22,6 @@ export default function WishlistButton({
   price,
   discount,
   affiliateUrl,
-  source,
   variant = "card",
 }: WishlistButtonProps) {
   const [wishlisted, setWishlisted] = useState(false);
@@ -41,7 +39,7 @@ export default function WishlistButton({
     e.stopPropagation();
     const wasWishlisted = isInWishlist(productId);
     toggleWishlist({ productId, title, imageUrl, price, discount, affiliateUrl });
-    trackWishlistToggle(productId, wasWishlisted ? 'remove' : 'add', source);
+    trackWishlistToggle(productId, wasWishlisted ? 'remove' : 'add');
     setAnimate(true);
     setTimeout(() => setAnimate(false), 300);
   };

@@ -2,11 +2,11 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProducts } from "@/data/products";
-import { formatPrice, getProductPrices } from "@/lib/format";
+import { formatPrice, calcDiscountPercent, getDiscountPercent } from "@/lib/format";
 import { SITE, CATEGORIES } from "@/lib/constants";
 import CountdownTimer from "@/components/CountdownTimer";
 import ShareButtons from "@/components/ShareButtons";
-import SoldBar from "@/components/SoldBar";
+import SoldBar from "./SoldBar";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { PurchaseButton, TelegramButton, RecommendCard } from "./TrackingButtons";
 import SaveRecentlyViewed from "@/components/SaveRecentlyViewed";
@@ -68,8 +68,13 @@ export default async function ProductPage({
   const product = getProductById(id);
   if (!product) notFound();
 
-  const { salePrice, wowPrice, price, isWow } = product;
-  const { basePrice, finalPrice, discountPercent } = getProductPrices(product);
+  const { originalPrice, salePrice, wowPrice, price, isWow, discount } = product;
+  const basePrice = originalPrice || 0;
+  const finalPrice = isWow && wowPrice != null ? wowPrice : salePrice || price;
+  const discountPercent =
+    basePrice > 0 && finalPrice < basePrice
+      ? calcDiscountPercent(basePrice, finalPrice)
+      : discount || 0;
 
   const categoryInfo = CATEGORIES.find((c) => c.id === product.category);
   const relatedProducts = getProducts(product.category as string)
@@ -95,7 +100,7 @@ export default async function ProductPage({
 
   return (
     <div className="min-h-screen bg-gray-50 pb-28">
-      <SaveRecentlyViewed productId={product.id} title={product.title} category={product.category} source={product.source} />
+      <SaveRecentlyViewed productId={product.id} title={product.title} category={product.category} />
       {/* 상단 네비 */}
       <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100">
         <div className="max-w-3xl mx-auto px-4 py-3 flex items-center gap-3">
@@ -225,7 +230,7 @@ export default async function ProductPage({
           {/* 판매율 */}
           {(() => {
             const sp = getDisplaySoldPercent(product);
-            return sp >= 0 ? <SoldBar soldPercent={sp} variant="detail" /> : null;
+            return sp >= 0 ? <SoldBar soldPercent={sp} /> : null;
           })()}
 
           {/* CTA + 공유 + 찜 */}
@@ -245,21 +250,18 @@ export default async function ProductPage({
               price={finalPrice}
               category={product.category}
               affiliateUrl={product.affiliateUrl}
-              source={product.source}
             />
             <ShareButtons
               productId={product.id}
               title={product.title}
               discount={discountPercent}
-              source={product.source}
             />
           </div>
 
           {/* 파트너스 고지 */}
           <p className="text-xs text-gray-500 text-center mt-4 bg-gray-100 rounded-lg px-3 py-2 leading-relaxed">
-            {product.source === 'naver'
-              ? '💡 이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.'
-              : '💡 이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.'}
+            💡 이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의
+            수수료를 제공받습니다.
           </p>
         </div>
 

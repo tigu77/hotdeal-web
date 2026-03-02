@@ -23,27 +23,6 @@ export function calcDiscountPercent(
   return Math.round(((original - current) / original) * 100);
 }
 
-/** 상품 객체에서 기본가/최종가/할인율을 한번에 계산 */
-export function getProductPrices(product: {
-  originalPrice?: number;
-  salePrice?: number;
-  wowPrice?: number;
-  price: number;
-  isWow?: boolean;
-  discount?: number;
-}): { basePrice: number; finalPrice: number; discountPercent: number } {
-  const basePrice = product.originalPrice || 0;
-  const finalPrice =
-    product.isWow && product.wowPrice != null
-      ? product.wowPrice
-      : product.salePrice || product.price;
-  const discountPercent =
-    basePrice > 0 && finalPrice < basePrice
-      ? calcDiscountPercent(basePrice, finalPrice)
-      : product.discount || 0;
-  return { basePrice, finalPrice, discountPercent };
-}
-
 /** 상품 객체에서 최종 할인율을 계산하는 헬퍼 */
 export function getDiscountPercent(product: {
   originalPrice?: number;
@@ -53,5 +32,12 @@ export function getDiscountPercent(product: {
   isWow?: boolean;
   discount?: number;
 }): number {
-  return getProductPrices(product).discountPercent;
+  const basePrice = product.originalPrice || 0;
+  const finalPrice =
+    product.isWow && product.wowPrice != null
+      ? product.wowPrice
+      : product.salePrice || product.price;
+  return basePrice > 0 && finalPrice < basePrice
+    ? calcDiscountPercent(basePrice, finalPrice)
+    : product.discount || 0;
 }

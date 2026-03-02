@@ -3,11 +3,12 @@
 import { useState, useEffect, useRef } from "react";
 import { getProducts } from "@/data/products";
 import type { Product } from "@/types";
-import { formatPrice, getProductPrices } from "@/lib/format";
+import { formatPrice } from "@/lib/format";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { trackRecentlyViewedClick } from "@/lib/analytics";
-import { getRecentlyViewed, cleanRecentlyViewed } from "@/lib/recently-viewed";
-import SoldBar from "@/components/SoldBar";
+
+const STORAGE_KEY = "recentlyViewed";
+const MAX_ITEMS = 20;
 
 export default function RecentlyViewed() {
   const [items, setItems] = useState<Product[]>([]);
@@ -38,28 +39,39 @@ export default function RecentlyViewed() {
 
   useEffect(() => {
     const loadRecent = () => {
-      const stored = getRecentlyViewed();
-      if (stored.length === 0) { setItems([]); return; }
+      try {
+        let stored: string[] = JSON.parse(
+          localStorage.getItem(STORAGE_KEY) || "[]"
+        );
+        if (stored.length === 0) { setItems([]); return; }
 
-      const products = getProducts();
-      const productMap = new Map(products.map((p) => [p.id, p]));
-
-      const found: Product[] = [];
-      const validIds: string[] = [];
-      for (const id of stored) {
-        const p = productMap.get(id);
-        if (p) {
-          found.push(p);
-          validIds.push(id);
+        // 마이그레이션: 옛날 형식(객체 배열) → productId 배열
+        if (typeof stored[0] === "object") {
+          stored = (stored as any[]).map((item: any) => item.productId).filter(Boolean);
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(stored));
         }
-      }
 
-      // 삭제된 상품 정리
-      if (validIds.length !== stored.length) {
-        cleanRecentlyViewed(validIds);
-      }
+        // productId 목록 → 현재 상품 데이터에서 찾기
+        const products = getProducts();
+        const productMap = new Map(products.map((p) => [p.id, p]));
 
-      setItems(found);
+        const found: Product[] = [];
+        const validIds: string[] = [];
+        for (const id of stored) {
+          const p = productMap.get(id);
+          if (p) {
+            found.push(p);
+            validIds.push(id);
+          }
+        }
+
+        // 삭제된 상품 정리
+        if (validIds.length !== stored.length) {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(validIds));
+        }
+
+        setItems(found);
+      } catch {}
     };
 
     loadRecent();
@@ -106,8 +118,11 @@ export default function RecentlyViewed() {
         className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide"
       >
         {items.map((item) => {
-          const { finalPrice: displayPrice, discountPercent: discount } = getProductPrices(item);
+          const displayPrice = item.isWow && item.wowPrice != null ? item.wowPrice : (item.salePrice || item.price);
           const priceColor = item.isWow ? "text-purple-600" : "text-orange-600";
+          const discount = item.originalPrice && item.originalPrice > displayPrice
+            ? Math.round((1 - displayPrice / item.originalPrice) * 100)
+            : item.discount || 0;
 
           return (
             <a
@@ -116,7 +131,7 @@ export default function RecentlyViewed() {
               target="_blank"
               rel="noopener noreferrer"
               className={`flex-shrink-0 w-28 group ${item.isSoldOut ? 'opacity-50 grayscale' : ''}`}
-              onClick={() => trackRecentlyViewedClick(item.id, item.title, item.source)}
+              onClick={() => trackRecentlyViewedClick(item.id, item.title)}
             >
               <div className="relative w-28 h-28 rounded-xl overflow-hidden bg-gray-50 mb-1.5">
                 {item.isSoldOut && (
@@ -160,7 +175,23 @@ export default function RecentlyViewed() {
               )}
               {(() => {
                 const sp = getDisplaySoldPercent(item);
-                return sp > 0 ? <SoldBar soldPercent={sp} variant="mini" /> : null;
+                return sp > 0 ? (
+                  <div className="flex items-center gap-1 mt-0.5">
+                    <div className="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                      <div
+                        className={`h-full rounded-full ${
+                          sp >= 80 ? 'bg-red-500' : sp >= 50 ? 'bg-orange-400' : 'bg-blue-400'
+                        }`}
+                        style={{ width: `${Math.min(sp, 100)}%` }}
+                      />
+                    </div>
+                    <span className={`text-[9px] font-bold whitespace-nowrap ${
+                      sp >= 80 ? 'text-red-500' : 'text-gray-500'
+                    }`}>
+                      {sp}%
+                    </span>
+                  </div>
+                ) : null;
               })()}
             </a>
           );

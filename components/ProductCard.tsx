@@ -2,34 +2,77 @@
 
 import { useState, useEffect } from "react";
 import type { Product } from "@/types";
-import { formatPrice, timeAgo, getProductPrices } from "@/lib/format";
+import { formatPrice, timeAgo, calcDiscountPercent } from "@/lib/format";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { trackProductClick } from "@/lib/analytics";
-import { saveRecentlyViewed } from "@/lib/recently-viewed";
-import { useCountdown } from "@/components/CountdownTimer";
 import WishlistButton from "@/components/WishlistButton";
-import SoldBar from "@/components/SoldBar";
 
 interface ProductCardProps {
   product: Product;
   compact?: boolean;
 }
 
-export default function ProductCard({ product, compact = false }: ProductCardProps) {
-  const { salePrice, wowPrice, price, isWow } = product;
-  const { remaining, expired, isUrgent } = useCountdown(product.expiresAt);
-  const { basePrice, finalPrice, discountPercent } = getProductPrices(product);
+function useCountdown(expiresAt?: string) {
+  const [remaining, setRemaining] = useState("");
+  const [expired, setExpired] = useState(false);
+  const [isUrgent, setIsUrgent] = useState(false);
 
-  const isNaver = product.source === 'naver';
-  const isCoupang = product.source !== 'naver';
+  useEffect(() => {
+    if (!expiresAt) return;
+
+    const update = () => {
+      const diff = new Date(expiresAt).getTime() - Date.now();
+      if (diff <= 0) {
+        setExpired(true);
+        setRemaining("종료");
+        return;
+      }
+      const h = Math.floor(diff / 3600000);
+      const m = Math.floor((diff % 3600000) / 60000);
+      const s = Math.floor((diff % 60000) / 1000);
+      setIsUrgent(diff < 3600000); // 1시간 미만
+      setRemaining(
+        `${h.toString().padStart(2, "0")}:${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`
+      );
+    };
+
+    update();
+    const interval = setInterval(update, 1000);
+    return () => clearInterval(interval);
+  }, [expiresAt]);
+
+  return { remaining, expired, isUrgent };
+}
+
+export default function ProductCard({ product, compact = false }: ProductCardProps) {
+  const { originalPrice, salePrice, wowPrice, price, isWow } = product;
+  const { remaining, expired, isUrgent } = useCountdown(product.expiresAt);
+
+  const basePrice = originalPrice || 0;
+  const finalPrice =
+    isWow && wowPrice != null && wowPrice !== undefined
+      ? wowPrice
+      : salePrice || price;
+  const discountPercent =
+    basePrice > 0 && finalPrice < basePrice
+      ? calcDiscountPercent(basePrice, finalPrice)
+      : product.discount || 0;
+
   const isSoldOut = product.isSoldOut || false;
   const soldPercent = getDisplaySoldPercent(product);
   const isAlmostGone = soldPercent >= 80;
 
   // ── 공통 클릭 핸들러 ──
   const handleClick = () => {
-    trackProductClick(product.id, product.title, product.category, product.source);
-    saveRecentlyViewed(product.id);
+    trackProductClick(product.id, product.title, product.category);
+    try {
+      const STORAGE_KEY = "recentlyViewed";
+      const MAX_ITEMS = 20;
+      const stored: string[] = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+      const filtered = stored.filter((id) => id !== product.id);
+      filtered.unshift(product.id);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(filtered.slice(0, MAX_ITEMS)));
+    } catch {}
   };
 
   // ── 공통 요소 ──
@@ -52,7 +95,6 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
       price={finalPrice}
       discount={discountPercent}
       affiliateUrl={product.affiliateUrl}
-      source={product.source}
     />
   );
 
@@ -70,19 +112,21 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
     </span>
   ) : null;
 
-  const sourceBadge = (
-    <span className={`flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded ${
-      isNaver ? 'bg-green-500' : 'bg-red-500'
-    }`}>
-      {isNaver ? '네이버' : '쿠팡'}
-    </span>
+  const soldBar = soldPercent >= 0 && (
+    <div className="flex items-center gap-1.5">
+      <div className={`flex-1 bg-gray-100 rounded-full overflow-hidden ${compact ? 'h-2' : 'h-2 max-w-[80px]'}`}>
+        <div
+          className={`h-full rounded-full transition-all ${
+            soldPercent >= 80 ? "bg-red-500" : soldPercent >= 50 ? "bg-orange-400" : "bg-blue-400"
+          }`}
+          style={{ width: `${Math.min(soldPercent, 100)}%` }}
+        />
+      </div>
+      <span className={`font-bold ${compact ? 'text-[11px]' : 'text-[11px]'} ${soldPercent >= 80 ? "text-red-500" : "text-gray-500"}`}>
+        {soldPercent}% 판매
+      </span>
+    </div>
   );
-
-  const storeInfo = isNaver && product.storeName && (
-    <span className="text-[11px] text-gray-500">🏪 {product.storeName}</span>
-  );
-
-  const soldBar = soldPercent >= 0 && <SoldBar soldPercent={soldPercent} variant="card" />;
 
   // ── compact 모드 (세로형 2열) ──
   if (compact) {
@@ -96,9 +140,8 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
           )}
           {soldOutBadge}
         </div>
-        <h3 className="font-semibold text-gray-900 text-xs leading-snug line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors flex items-start gap-1">
-          {sourceBadge}
-          <span>{product.title}</span>
+        <h3 className="font-semibold text-gray-900 text-xs leading-snug line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors">
+          {product.title}
         </h3>
         <div>
           {basePrice > 0 && discountPercent > 0 && (
@@ -123,16 +166,17 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
             {product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
           </div>
         )}
-        {isCoupang && remaining && !isSoldOut && (
+        {remaining && !isSoldOut && (
           <div className="mt-1">
             <span className={`text-[11px] font-bold tabular-nums ${isUrgent ? "text-red-600 animate-pulse" : "text-orange-500"}`}>
               ⏰ {remaining}
             </span>
           </div>
         )}
-        {isCoupang && <div className="mt-1">{soldBar}</div>}
-        {isNaver && <div className="mt-1">{storeInfo}</div>}
-
+        <div className="mt-1">{soldBar}</div>
+        {!remaining && !soldPercent && (
+          <span className="text-[10px] text-gray-400">{timeAgo(product.postedAt)}</span>
+        )}
       </div>
     );
   }
@@ -152,9 +196,8 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
 
       {/* 정보 */}
       <div className="flex-1 min-w-0 flex flex-col justify-between">
-        <h3 className="font-semibold text-gray-900 text-sm leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors flex items-start gap-1">
-          {sourceBadge}
-          <span>{product.title}</span>
+        <h3 className="font-semibold text-gray-900 text-sm leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors">
+          {product.title}
         </h3>
 
         <div className="mt-1.5">
@@ -188,7 +231,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
         </div>
 
         <div className="flex flex-col gap-1 mt-1.5">
-          {isCoupang && remaining && !isSoldOut && (
+          {remaining && !isSoldOut && (
             <div className="flex items-center gap-1.5">
               <span className={`text-xs font-bold tabular-nums tracking-tight ${isUrgent ? "text-red-600 animate-pulse" : "text-orange-500"}`}>
                 ⏰ {remaining}
@@ -196,9 +239,10 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
               <span className="text-[10px] text-gray-400">남음</span>
             </div>
           )}
-          {isCoupang && soldBar}
-          {isNaver && storeInfo}
-
+          {soldBar}
+          {!remaining && !soldPercent && (
+            <span className="text-[11px] text-gray-400">{timeAgo(product.postedAt)}</span>
+          )}
         </div>
       </div>
     </div>
