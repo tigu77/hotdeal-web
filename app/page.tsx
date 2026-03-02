@@ -11,7 +11,7 @@ import { SITE } from "@/lib/constants";
 import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab, trackChannelVisit } from "@/lib/analytics";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { getWishlist, pruneWishlist } from "@/lib/wishlist";
-type SortType = "sold-rate" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
+type SortType = "recent" | "sold-rate" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
 
 function useIsMobile(breakpoint = 640) {
   const [isMobile, setIsMobile] = useState(false);
@@ -29,7 +29,7 @@ export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedSource, setSelectedSource] = useState<string | null>(null);
-  const [sortBy, setSortBy] = useState<SortType>("discount");
+  const [sortBy, setSortBy] = useState<SortType>("recent");
   const [wishlistMode, setWishlistMode] = useState(false);
   const [wishlistVersion, setWishlistVersion] = useState(0);
   const isMobile = useIsMobile();
@@ -95,10 +95,14 @@ export default function Home() {
 
     // 정렬
     switch (sortBy) {
+      case "recent":
+        items = [...items].sort((a, b) => {
+          const diff = new Date(b.registeredAt || '1970-01-01').getTime() - new Date(a.registeredAt || '1970-01-01').getTime();
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
+        });
+        break;
       case "sold-rate":
         items = [...items].sort((a, b) => {
-          if (a.isSoldOut && !b.isSoldOut) return 1;
-          if (!a.isSoldOut && b.isSoldOut) return -1;
           const diff = getDisplaySoldPercent(b) - getDisplaySoldPercent(a);
           return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
         });
@@ -135,6 +139,13 @@ export default function Home() {
         break;
       // latest는 기본 (getProducts가 이미 최신순)
     }
+
+    // 모든 정렬에서 수량 마감(품절) 상품은 맨 뒤로
+    items.sort((a, b) => {
+      if (a.isSoldOut && !b.isSoldOut) return 1;
+      if (!a.isSoldOut && b.isSoldOut) return -1;
+      return 0;
+    });
 
     return items;
   }, [selectedCategory, selectedSource, searchQuery, sortBy, wishlistMode]);
@@ -221,6 +232,7 @@ export default function Home() {
             onChange={(e) => { setSortBy(e.target.value as SortType); trackSort(e.target.value); }}
             className="text-sm border border-gray-200 rounded-lg px-3 py-1.5 bg-white text-gray-600 focus:outline-none focus:border-orange-400"
           >
+            <option value="recent">최근 등록순</option>
             <option value="sold-rate">판매율순</option>
             <option value="discount">할인율순</option>
             <option value="price-low">가격 낮은순</option>

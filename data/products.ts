@@ -22,6 +22,7 @@ const allProducts: Product[] = (raw as any[]).map((p) => ({
   postedAt: p.postedAt || new Date().toISOString(),
   rating: p.rating,
   reviewCount: p.reviewCount,
+  registeredAt: p.registeredAt,
   source: p.source || 'coupang',
   storeName: p.storeName,
 }));
