@@ -11,7 +11,7 @@ import { SITE } from "@/lib/constants";
 import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab, trackChannelVisit } from "@/lib/analytics";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { getWishlist, pruneWishlist } from "@/lib/wishlist";
-type SortType = "ending-soon" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
+type SortType = "sold-rate" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
 
 function useIsMobile(breakpoint = 640) {
   const [isMobile, setIsMobile] = useState(false);
@@ -29,7 +29,7 @@ export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedSource, setSelectedSource] = useState<string | null>(null);
-  const [sortBy, setSortBy] = useState<SortType>("ending-soon");
+  const [sortBy, setSortBy] = useState<SortType>("sold-rate");
   const [wishlistMode, setWishlistMode] = useState(false);
   const [wishlistVersion, setWishlistVersion] = useState(0);
   const isMobile = useIsMobile();
@@ -95,15 +95,12 @@ export default function Home() {
 
     // 정렬
     switch (sortBy) {
-      case "ending-soon":
+      case "sold-rate":
         items = [...items].sort((a, b) => {
           // 품절은 맨 아래로
           if (a.isSoldOut && !b.isSoldOut) return 1;
           if (!a.isSoldOut && b.isSoldOut) return -1;
-          // 만료시간 있는 것 우선, 임박한 순
-          const aExp = a.expiresAt ? new Date(a.expiresAt).getTime() : Infinity;
-          const bExp = b.expiresAt ? new Date(b.expiresAt).getTime() : Infinity;
-          return aExp - bExp;
+          return getDisplaySoldPercent(b) - getDisplaySoldPercent(a);
         });
         break;
       case "discount":
@@ -209,7 +206,7 @@ export default function Home() {
             onChange={(e) => { setSortBy(e.target.value as SortType); trackSort(e.target.value); }}
             className="text-sm border border-gray-200 rounded-lg px-3 py-1.5 bg-white text-gray-600 focus:outline-none focus:border-orange-400"
           >
-            <option value="ending-soon">마감임박순</option>
+            <option value="sold-rate">판매율순</option>
             <option value="discount">할인율순</option>
             <option value="price-low">가격 낮은순</option>
             <option value="price-high">가격 높은순</option>
