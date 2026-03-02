@@ -2,11 +2,11 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProducts } from "@/data/products";
-import { formatPrice, calcDiscountPercent, getDiscountPercent } from "@/lib/format";
+import { formatPrice, getProductPrices } from "@/lib/format";
 import { SITE, CATEGORIES } from "@/lib/constants";
 import CountdownTimer from "@/components/CountdownTimer";
 import ShareButtons from "@/components/ShareButtons";
-import SoldBar from "./SoldBar";
+import SoldBar from "@/components/SoldBar";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { PurchaseButton, TelegramButton, RecommendCard } from "./TrackingButtons";
 import SaveRecentlyViewed from "@/components/SaveRecentlyViewed";
@@ -68,13 +68,8 @@ export default async function ProductPage({
   const product = getProductById(id);
   if (!product) notFound();
 
-  const { originalPrice, salePrice, wowPrice, price, isWow, discount } = product;
-  const basePrice = originalPrice || 0;
-  const finalPrice = isWow && wowPrice != null ? wowPrice : salePrice || price;
-  const discountPercent =
-    basePrice > 0 && finalPrice < basePrice
-      ? calcDiscountPercent(basePrice, finalPrice)
-      : discount || 0;
+  const { salePrice, wowPrice, price, isWow } = product;
+  const { basePrice, finalPrice, discountPercent } = getProductPrices(product);
 
   const categoryInfo = CATEGORIES.find((c) => c.id === product.category);
   const relatedProducts = getProducts(product.category as string)
@@ -230,7 +225,7 @@ export default async function ProductPage({
           {/* 판매율 */}
           {(() => {
             const sp = getDisplaySoldPercent(product);
-            return sp >= 0 ? <SoldBar soldPercent={sp} /> : null;
+            return sp >= 0 ? <SoldBar soldPercent={sp} variant="detail" /> : null;
           })()}
 
           {/* CTA + 공유 + 찜 */}

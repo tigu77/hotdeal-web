@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { trackShareClick } from "@/lib/analytics";
+import { copyToClipboard } from "@/lib/clipboard";
 
 interface ShareButtonsProps {
   productId: string;
@@ -16,17 +17,8 @@ export default function ShareButtons({ productId, title, discount }: ShareButton
     ? `${window.location.origin}/product/${productId}`
     : `/product/${productId}`;
 
-  const copyToClipboard = async (text: string) => {
-    try {
-      await navigator.clipboard.writeText(text);
-    } catch {
-      const ta = document.createElement("textarea");
-      ta.value = text;
-      document.body.appendChild(ta);
-      ta.select();
-      document.execCommand("copy");
-      document.body.removeChild(ta);
-    }
+  const copyAndNotify = async (text: string) => {
+    await copyToClipboard(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -47,7 +39,7 @@ export default function ShareButtons({ productId, title, discount }: ShareButton
       }
     }
     // fallback: copy link
-    await copyToClipboard(url);
+    await copyAndNotify(url);
     trackShareClick(productId, 'copy_link');
   };
 

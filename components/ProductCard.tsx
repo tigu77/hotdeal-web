@@ -2,61 +2,23 @@
 
 import { useState, useEffect } from "react";
 import type { Product } from "@/types";
-import { formatPrice, timeAgo, calcDiscountPercent } from "@/lib/format";
+import { formatPrice, timeAgo, getProductPrices } from "@/lib/format";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { trackProductClick } from "@/lib/analytics";
+import { saveRecentlyViewed } from "@/lib/recently-viewed";
+import { useCountdown } from "@/components/CountdownTimer";
 import WishlistButton from "@/components/WishlistButton";
+import SoldBar from "@/components/SoldBar";
 
 interface ProductCardProps {
   product: Product;
   compact?: boolean;
 }
 
-function useCountdown(expiresAt?: string) {
-  const [remaining, setRemaining] = useState("");
-  const [expired, setExpired] = useState(false);
-  const [isUrgent, setIsUrgent] = useState(false);
-
-  useEffect(() => {
-    if (!expiresAt) return;
-
-    const update = () => {
-      const diff = new Date(expiresAt).getTime() - Date.now();
-      if (diff <= 0) {
-        setExpired(true);
-        setRemaining("종료");
-        return;
-      }
-      const h = Math.floor(diff / 3600000);
-      const m = Math.floor((diff % 3600000) / 60000);
-      const s = Math.floor((diff % 60000) / 1000);
-      setIsUrgent(diff < 3600000); // 1시간 미만
-      setRemaining(
-        `${h.toString().padStart(2, "0")}:${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`
-      );
-    };
-
-    update();
-    const interval = setInterval(update, 1000);
-    return () => clearInterval(interval);
-  }, [expiresAt]);
-
-  return { remaining, expired, isUrgent };
-}
-
 export default function ProductCard({ product, compact = false }: ProductCardProps) {
-  const { originalPrice, salePrice, wowPrice, price, isWow } = product;
+  const { salePrice, wowPrice, price, isWow } = product;
   const { remaining, expired, isUrgent } = useCountdown(product.expiresAt);
-
-  const basePrice = originalPrice || 0;
-  const finalPrice =
-    isWow && wowPrice != null && wowPrice !== undefined
-      ? wowPrice
-      : salePrice || price;
-  const discountPercent =
-    basePrice > 0 && finalPrice < basePrice
-      ? calcDiscountPercent(basePrice, finalPrice)
-      : product.discount || 0;
+  const { basePrice, finalPrice, discountPercent } = getProductPrices(product);
 
   const isNaver = product.source === 'naver';
   const isCoupang = product.source !== 'naver';
@@ -67,14 +29,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
   // ── 공통 클릭 핸들러 ──
   const handleClick = () => {
     trackProductClick(product.id, product.title, product.category);
-    try {
-      const STORAGE_KEY = "recentlyViewed";
-      const MAX_ITEMS = 20;
-      const stored: string[] = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
-      const filtered = stored.filter((id) => id !== product.id);
-      filtered.unshift(product.id);
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(filtered.slice(0, MAX_ITEMS)));
-    } catch {}
+    saveRecentlyViewed(product.id);
   };
 
   // ── 공통 요소 ──
@@ -126,21 +81,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
     <span className="text-[11px] text-gray-500">🏪 {product.storeName}</span>
   );
 
-  const soldBar = soldPercent >= 0 && (
-    <div className="flex items-center gap-1.5">
-      <div className={`flex-1 bg-gray-100 rounded-full overflow-hidden ${compact ? 'h-2' : 'h-2 max-w-[80px]'}`}>
-        <div
-          className={`h-full rounded-full transition-all ${
-            soldPercent >= 80 ? "bg-red-500" : soldPercent >= 50 ? "bg-orange-400" : "bg-blue-400"
-          }`}
-          style={{ width: `${Math.min(soldPercent, 100)}%` }}
-        />
-      </div>
-      <span className={`font-bold ${compact ? 'text-[11px]' : 'text-[11px]'} ${soldPercent >= 80 ? "text-red-500" : "text-gray-500"}`}>
-        {soldPercent}% 판매
-      </span>
-    </div>
-  );
+  const soldBar = soldPercent >= 0 && <SoldBar soldPercent={soldPercent} variant="card" />;
 
   // ── compact 모드 (세로형 2열) ──
   if (compact) {

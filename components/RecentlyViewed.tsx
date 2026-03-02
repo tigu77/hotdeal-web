@@ -3,12 +3,11 @@
 import { useState, useEffect, useRef } from "react";
 import { getProducts } from "@/data/products";
 import type { Product } from "@/types";
-import { formatPrice } from "@/lib/format";
+import { formatPrice, getProductPrices } from "@/lib/format";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { trackRecentlyViewedClick } from "@/lib/analytics";
-
-const STORAGE_KEY = "recentlyViewed";
-const MAX_ITEMS = 20;
+import { getRecentlyViewed, cleanRecentlyViewed } from "@/lib/recently-viewed";
+import SoldBar from "@/components/SoldBar";
 
 export default function RecentlyViewed() {
   const [items, setItems] = useState<Product[]>([]);
@@ -39,39 +38,28 @@ export default function RecentlyViewed() {
 
   useEffect(() => {
     const loadRecent = () => {
-      try {
-        let stored: string[] = JSON.parse(
-          localStorage.getItem(STORAGE_KEY) || "[]"
-        );
-        if (stored.length === 0) { setItems([]); return; }
+      const stored = getRecentlyViewed();
+      if (stored.length === 0) { setItems([]); return; }
 
-        // 마이그레이션: 옛날 형식(객체 배열) → productId 배열
-        if (typeof stored[0] === "object") {
-          stored = (stored as any[]).map((item: any) => item.productId).filter(Boolean);
-          localStorage.setItem(STORAGE_KEY, JSON.stringify(stored));
+      const products = getProducts();
+      const productMap = new Map(products.map((p) => [p.id, p]));
+
+      const found: Product[] = [];
+      const validIds: string[] = [];
+      for (const id of stored) {
+        const p = productMap.get(id);
+        if (p) {
+          found.push(p);
+          validIds.push(id);
         }
+      }
 
-        // productId 목록 → 현재 상품 데이터에서 찾기
-        const products = getProducts();
-        const productMap = new Map(products.map((p) => [p.id, p]));
+      // 삭제된 상품 정리
+      if (validIds.length !== stored.length) {
+        cleanRecentlyViewed(validIds);
+      }
 
-        const found: Product[] = [];
-        const validIds: string[] = [];
-        for (const id of stored) {
-          const p = productMap.get(id);
-          if (p) {
-            found.push(p);
-            validIds.push(id);
-          }
-        }
-
-        // 삭제된 상품 정리
-        if (validIds.length !== stored.length) {
-          localStorage.setItem(STORAGE_KEY, JSON.stringify(validIds));
-        }
-
-        setItems(found);
-      } catch {}
+      setItems(found);
     };
 
     loadRecent();
@@ -118,11 +106,8 @@ export default function RecentlyViewed() {
         className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide"
       >
         {items.map((item) => {
-          const displayPrice = item.isWow && item.wowPrice != null ? item.wowPrice : (item.salePrice || item.price);
+          const { finalPrice: displayPrice, discountPercent: discount } = getProductPrices(item);
           const priceColor = item.isWow ? "text-purple-600" : "text-orange-600";
-          const discount = item.originalPrice && item.originalPrice > displayPrice
-            ? Math.round((1 - displayPrice / item.originalPrice) * 100)
-            : item.discount || 0;
 
           return (
             <a
@@ -175,23 +160,7 @@ export default function RecentlyViewed() {
               )}
               {(() => {
                 const sp = getDisplaySoldPercent(item);
-                return sp > 0 ? (
-                  <div className="flex items-center gap-1 mt-0.5">
-                    <div className="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                      <div
-                        className={`h-full rounded-full ${
-                          sp >= 80 ? 'bg-red-500' : sp >= 50 ? 'bg-orange-400' : 'bg-blue-400'
-                        }`}
-                        style={{ width: `${Math.min(sp, 100)}%` }}
-                      />
-                    </div>
-                    <span className={`text-[9px] font-bold whitespace-nowrap ${
-                      sp >= 80 ? 'text-red-500' : 'text-gray-500'
-                    }`}>
-                      {sp}%
-                    </span>
-                  </div>
-                ) : null;
+                return sp > 0 ? <SoldBar soldPercent={sp} variant="mini" /> : null;
               })()}
             </a>
           );
