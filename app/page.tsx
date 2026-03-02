@@ -97,26 +97,41 @@ export default function Home() {
     switch (sortBy) {
       case "sold-rate":
         items = [...items].sort((a, b) => {
-          // 품절은 맨 아래로
           if (a.isSoldOut && !b.isSoldOut) return 1;
           if (!a.isSoldOut && b.isSoldOut) return -1;
-          return getDisplaySoldPercent(b) - getDisplaySoldPercent(a);
+          const diff = getDisplaySoldPercent(b) - getDisplaySoldPercent(a);
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
         });
         break;
       case "discount":
-        items = [...items].sort((a, b) => (b.discount || 0) - (a.discount || 0));
+        items = [...items].sort((a, b) => {
+          const diff = (b.discount || 0) - (a.discount || 0);
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
+        });
         break;
       case "price-low":
-        items = [...items].sort((a, b) => (a.price || 0) - (b.price || 0));
+        items = [...items].sort((a, b) => {
+          const diff = (a.price || 0) - (b.price || 0);
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
+        });
         break;
       case "price-high":
-        items = [...items].sort((a, b) => (b.price || 0) - (a.price || 0));
+        items = [...items].sort((a, b) => {
+          const diff = (b.price || 0) - (a.price || 0);
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
+        });
         break;
       case "rating":
-        items = [...items].sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        items = [...items].sort((a, b) => {
+          const diff = (b.rating || 0) - (a.rating || 0);
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
+        });
         break;
       case "reviews":
-        items = [...items].sort((a, b) => (b.reviewCount || 0) - (a.reviewCount || 0));
+        items = [...items].sort((a, b) => {
+          const diff = (b.reviewCount || 0) - (a.reviewCount || 0);
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
+        });
         break;
       // latest는 기본 (getProducts가 이미 최신순)
     }
