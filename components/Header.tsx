@@ -1,21 +1,27 @@
 "use client";
 
 import { useRef, useState, useEffect, useCallback } from "react";
-import { CATEGORIES, SITE } from "@/lib/constants";
+import { CATEGORIES, SITE, SOURCES } from "@/lib/constants";
 import SiteShareButton from "./SiteShareButton";
 
 interface HeaderProps {
   selectedCategory: string | null;
   onCategoryChange: (category: string | null) => void;
+  selectedSource: string | null;
+  onSourceChange: (source: string | null) => void;
   wishlistMode?: boolean;
   onWishlistToggle?: () => void;
+  availableSources?: string[];
 }
 
 export default function Header({
   selectedCategory,
   onCategoryChange,
+  selectedSource,
+  onSourceChange,
   wishlistMode,
   onWishlistToggle,
+  availableSources,
 }: HeaderProps) {
   const navRef = useRef<HTMLElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
@@ -67,6 +73,34 @@ export default function Header({
               📢 텔레그램 구독
             </a>
           </div>
+        </div>
+
+        {/* 소스 필터 */}
+        <div className="flex items-center gap-2 pb-2">
+          <button
+            onClick={() => onSourceChange(null)}
+            className={`px-3 py-1 rounded-full text-xs font-medium transition-all ${
+              selectedSource === null
+                ? 'bg-gray-900 text-white shadow-sm'
+                : 'bg-white text-gray-600 border border-gray-200 hover:border-gray-400'
+            }`}
+          >
+            전체
+          </button>
+          {SOURCES.filter((s) => !availableSources || availableSources.includes(s.id)).map((s) => (
+            <button
+              key={s.id}
+              onClick={() => onSourceChange(selectedSource === s.id ? null : s.id)}
+              className={`px-3 py-1 rounded-full text-xs font-medium transition-all flex items-center gap-1 ${
+                selectedSource === s.id
+                  ? `${s.color} text-white shadow-sm`
+                  : `bg-white ${s.textColor} border ${s.borderColor} hover:opacity-80`
+              }`}
+            >
+              <img src={s.icon} alt={s.name} className="w-3 h-3" />
+              {s.name}
+            </button>
+          ))}
         </div>
 
         {/* 카테고리 필터 (스크롤 힌트 포함) */}

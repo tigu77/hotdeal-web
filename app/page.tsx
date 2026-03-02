@@ -8,10 +8,10 @@ import RecentlyViewed from "@/components/RecentlyViewed";
 import { getProducts } from "@/data/products";
 import type { Product } from "@/types";
 import { SITE } from "@/lib/constants";
-import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab, trackChannelVisit } from "@/lib/analytics";
+import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab, trackChannelVisit, trackSourceFilter } from "@/lib/analytics";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { getWishlist, pruneWishlist } from "@/lib/wishlist";
-type SortType = "popular" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
+type SortType = "recent" | "sold-rate" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
 
 function useIsMobile(breakpoint = 640) {
   const [isMobile, setIsMobile] = useState(false);
@@ -28,7 +28,8 @@ function useIsMobile(breakpoint = 640) {
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
-  const [sortBy, setSortBy] = useState<SortType>("popular");
+  const [selectedSource, setSelectedSource] = useState<string | null>(null);
+  const [sortBy, setSortBy] = useState<SortType>("recent");
   const [wishlistMode, setWishlistMode] = useState(false);
   const [wishlistVersion, setWishlistVersion] = useState(0);
   const isMobile = useIsMobile();
@@ -79,9 +80,14 @@ export default function Home() {
     return results;
   }, [wishlistMode, wishlistVersion]);
 
+  const availableSources = useMemo(() => {
+    const all = getProducts();
+    return [...new Set(all.map((p) => p.source).filter(Boolean))] as string[];
+  }, []);
+
   const products = useMemo(() => {
     if (wishlistMode) return []; // handled separately
-    let items = getProducts(selectedCategory);
+    let items = getProducts(selectedCategory, selectedSource);
 
     // 검색 필터
     if (searchQuery.trim()) {
@@ -94,34 +100,60 @@ export default function Home() {
 
     // 정렬
     switch (sortBy) {
-      case "popular":
+      case "recent":
         items = [...items].sort((a, b) => {
-          // 품절은 맨 아래로
-          if (a.isSoldOut && !b.isSoldOut) return 1;
-          if (!a.isSoldOut && b.isSoldOut) return -1;
-          return getDisplaySoldPercent(b) - getDisplaySoldPercent(a);
+          const diff = new Date(b.registeredAt || '1970-01-01').getTime() - new Date(a.registeredAt || '1970-01-01').getTime();
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
+        });
+        break;
+      case "sold-rate":
+        items = [...items].sort((a, b) => {
+          const diff = getDisplaySoldPercent(b) - getDisplaySoldPercent(a);
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
         });
         break;
       case "discount":
-        items = [...items].sort((a, b) => (b.discount || 0) - (a.discount || 0));
+        items = [...items].sort((a, b) => {
+          const diff = (b.discount || 0) - (a.discount || 0);
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
+        });
         break;
       case "price-low":
-        items = [...items].sort((a, b) => (a.price || 0) - (b.price || 0));
+        items = [...items].sort((a, b) => {
+          const diff = (a.price || 0) - (b.price || 0);
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
+        });
         break;
       case "price-high":
-        items = [...items].sort((a, b) => (b.price || 0) - (a.price || 0));
+        items = [...items].sort((a, b) => {
+          const diff = (b.price || 0) - (a.price || 0);
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
+        });
         break;
       case "rating":
-        items = [...items].sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        items = [...items].sort((a, b) => {
+          const diff = (b.rating || 0) - (a.rating || 0);
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
+        });
         break;
       case "reviews":
-        items = [...items].sort((a, b) => (b.reviewCount || 0) - (a.reviewCount || 0));
+        items = [...items].sort((a, b) => {
+          const diff = (b.reviewCount || 0) - (a.reviewCount || 0);
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
+        });
         break;
       // latest는 기본 (getProducts가 이미 최신순)
     }
 
+    // 모든 정렬에서 수량 마감(품절) 상품은 맨 뒤로
+    items.sort((a, b) => {
+      if (a.isSoldOut && !b.isSoldOut) return 1;
+      if (!a.isSoldOut && b.isSoldOut) return -1;
+      return 0;
+    });
+
     return items;
-  }, [selectedCategory, searchQuery, sortBy, wishlistMode]);
+  }, [selectedCategory, selectedSource, searchQuery, sortBy, wishlistMode]);
 
   // 검색 트래킹 (디바운스 500ms)
   const searchTimer = useRef<NodeJS.Timeout>(null);
@@ -144,6 +176,9 @@ export default function Home() {
           setWishlistMode(false);
           trackCategoryFilter(cat || "전체");
         }}
+        selectedSource={selectedSource}
+        onSourceChange={(s) => { setSelectedSource(s); trackSourceFilter(s || '전체'); }}
+        availableSources={availableSources}
         wishlistMode={wishlistMode}
         onWishlistToggle={() => {
           const next = !wishlistMode;
@@ -156,7 +191,7 @@ export default function Home() {
       {/* 파트너스 고지 */}
       <div className="bg-gray-100 border-b border-gray-200">
         <p className="max-w-6xl mx-auto px-4 py-2 text-xs text-gray-500 text-center">
-          ℹ️ 이 사이트는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+          ℹ️ 이 사이트는 쿠팡 파트너스 및 네이버 쇼핑 커넥트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
         </p>
       </div>
 
@@ -203,7 +238,8 @@ export default function Home() {
             onChange={(e) => { setSortBy(e.target.value as SortType); trackSort(e.target.value); }}
             className="text-sm border border-gray-200 rounded-lg px-3 py-1.5 bg-white text-gray-600 focus:outline-none focus:border-orange-400"
           >
-            <option value="popular">인기순</option>
+            <option value="recent">최근 등록순</option>
+            <option value="sold-rate">판매율순</option>
             <option value="discount">할인율순</option>
             <option value="price-low">가격 낮은순</option>
             <option value="price-high">가격 높은순</option>

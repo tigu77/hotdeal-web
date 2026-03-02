@@ -2,31 +2,24 @@
 
 import { useState } from "react";
 import { trackShareClick } from "@/lib/analytics";
+import { copyToClipboard } from "@/lib/clipboard";
 
 interface ShareButtonsProps {
   productId: string;
   title: string;
   discount?: number;
+  source?: string;
 }
 
-export default function ShareButtons({ productId, title, discount }: ShareButtonsProps) {
+export default function ShareButtons({ productId, title, discount, source }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
 
   const baseUrl = typeof window !== "undefined"
     ? `${window.location.origin}/product/${productId}`
     : `/product/${productId}`;
 
-  const copyToClipboard = async (text: string) => {
-    try {
-      await navigator.clipboard.writeText(text);
-    } catch {
-      const ta = document.createElement("textarea");
-      ta.value = text;
-      document.body.appendChild(ta);
-      ta.select();
-      document.execCommand("copy");
-      document.body.removeChild(ta);
-    }
+  const copyAndNotify = async (text: string) => {
+    await copyToClipboard(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -40,15 +33,15 @@ export default function ShareButtons({ productId, title, discount }: ShareButton
     if (typeof navigator !== "undefined" && navigator.share) {
       try {
         await navigator.share({ title, text, url });
-        trackShareClick(productId, 'native_share');
+        trackShareClick(productId, 'native_share', source);
         return;
       } catch {
         // user cancelled — fall through to copy
       }
     }
     // fallback: copy link
-    await copyToClipboard(url);
-    trackShareClick(productId, 'copy_link');
+    await copyAndNotify(url);
+    trackShareClick(productId, 'copy_link', source);
   };
 
   return (
