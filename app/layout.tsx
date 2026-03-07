@@ -29,6 +29,9 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "sJctEFwOH0C-tk14N2XwoNkxFb99d_yG9Z32tLKFaYU",
+    other: {
+      "naver-site-verification": "48a255943fc3ff208b8e12c3feb80db997271acd",
+    },
   },
   robots: {
     index: true,
