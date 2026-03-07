@@ -87,9 +87,9 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
   // ── compact 모드 (세로형 2열) ──
   if (compact) {
     return (
-      <div className={`group relative p-2.5 bg-white rounded-xl shadow-sm hover:shadow-lg hover:scale-[1.02] active:scale-[1.01] transition-all duration-200 ease-out border border-gray-100 hover:border-orange-200 cursor-pointer ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
+      <div className={`group relative p-2 bg-white rounded-xl shadow-sm hover:shadow-lg hover:scale-[1.02] active:scale-[1.01] transition-all duration-200 ease-out border border-gray-100 hover:border-orange-200 cursor-pointer ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
         {clickOverlay}
-        <div className="relative aspect-square rounded-lg overflow-hidden bg-gray-50 mb-2">
+        <div className="relative aspect-square lg:aspect-[5/4] rounded-lg overflow-hidden bg-gray-50 mb-2">
           {wishlistBtn}
           {product.imageUrl ? thumbnail(product.imageUrl.replace(/\/\d+x\d+ex\//, '/230x230ex/'), "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300") : (
             <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200"><span className="text-2xl">🛒</span></div>
