@@ -190,12 +190,12 @@ export default function Home() {
 
       {/* 파트너스 고지 */}
       <div className="bg-gray-100 border-b border-gray-200">
-        <p className="max-w-6xl mx-auto px-4 py-2 text-xs text-gray-500 text-center">
+        <p className="max-w-7xl mx-auto px-4 py-2 text-xs text-gray-500 text-center">
           ℹ️ 이 사이트는 쿠팡 파트너스 및 네이버 쇼핑 커넥트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
         </p>
       </div>
 
-      <main className="max-w-6xl mx-auto px-4 py-8">
+      <main className="max-w-7xl mx-auto px-4 py-8">
         {/* 히어로 + 검색 */}
         <section aria-label="검색" className="text-center mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-3">
