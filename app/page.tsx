@@ -8,7 +8,7 @@ import RecentlyViewed from "@/components/RecentlyViewed";
 import { getProducts } from "@/data/products";
 import type { Product } from "@/types";
 import { SITE } from "@/lib/constants";
-import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab, trackChannelVisit, trackSourceFilter } from "@/lib/analytics";
+import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab, trackChannelVisit, trackSourceFilter, trackScrollDepth, trackPageEngagement, trackWishlistEmptyView } from "@/lib/analytics";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { getWishlist, pruneWishlist } from "@/lib/wishlist";
 type SortType = "recent" | "sold-rate" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
@@ -63,6 +63,31 @@ export default function Home() {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [selectedCategory]);
+
+  // 스크롤 깊이 트래킹
+  useEffect(() => {
+    const handler = () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      if (docHeight <= 0) return;
+      const pct = (scrollTop / docHeight) * 100;
+      if (pct >= 25) trackScrollDepth(25);
+      if (pct >= 50) trackScrollDepth(50);
+      if (pct >= 75) trackScrollDepth(75);
+      if (pct >= 100) trackScrollDepth(100);
+    };
+    window.addEventListener('scroll', handler, { passive: true });
+    return () => window.removeEventListener('scroll', handler);
+  }, []);
+
+  // 체류 시간 트래킹
+  useEffect(() => {
+    const thresholds = [10, 30, 60];
+    const timers = thresholds.map((sec) =>
+      setTimeout(() => trackPageEngagement(sec), sec * 1000)
+    );
+    return () => timers.forEach(clearTimeout);
+  }, []);
 
   // Wishlist items — 진행 중인 것만 보여줌 (Product 객체로 반환)
   const wishlistProducts = useMemo(() => {
@@ -260,10 +285,7 @@ export default function Home() {
               ))}
             </section>
           ) : (
-            <div className="text-center py-20">
-              <p className="text-gray-400 text-lg">찜한 상품이 없어요</p>
-              <p className="text-gray-300 mt-2">마음에 드는 상품의 ❤️ 를 눌러보세요!</p>
-            </div>
+            <WishlistEmpty />
           )
         ) : products.length > 0 ? (
           <section aria-label="상품 목록" className={`grid gap-3 ${isMobile ? 'grid-cols-2' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
@@ -293,6 +315,18 @@ export default function Home() {
       </main>
 
       <Footer />
+    </div>
+  );
+}
+
+function WishlistEmpty() {
+  useEffect(() => {
+    trackWishlistEmptyView();
+  }, []);
+  return (
+    <div className="text-center py-20">
+      <p className="text-gray-400 text-lg">찜한 상품이 없어요</p>
+      <p className="text-gray-300 mt-2">마음에 드는 상품의 ❤️ 를 눌러보세요!</p>
     </div>
   );
 }

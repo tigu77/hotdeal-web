@@ -125,3 +125,53 @@ export function trackSourceFilter(source: string) {
 export function trackChannelVisit(source: string, medium: string, campaign: string) {
   trackEvent('channel_visit', { source, medium, campaign });
 }
+
+// 스크롤 깊이 (25/50/75/100%)
+const scrolledDepths = new Set<number>();
+export function trackScrollDepth(percent: number) {
+  if (scrolledDepths.has(percent)) return;
+  scrolledDepths.add(percent);
+  trackEvent('scroll', { percent_scrolled: percent });
+}
+
+// 체류 시간 (10/30/60초)
+const engagementFired = new Set<number>();
+export function trackPageEngagement(sec: number) {
+  if (engagementFired.has(sec)) return;
+  engagementFired.add(sec);
+  trackEvent('page_engagement', { engagement_time_sec: sec });
+}
+
+// 이미지 클릭
+export function trackImageClick(productId: string, title: string) {
+  trackEvent('image_click', { item_id: productId, item_name: title });
+}
+
+// 카운트다운 만료
+const countdownExpiredIds = new Set<string>();
+export function trackCountdownExpire(productId: string, title: string) {
+  if (countdownExpiredIds.has(productId)) return;
+  countdownExpiredIds.add(productId);
+  trackEvent('countdown_expire', { item_id: productId, item_name: title });
+}
+
+// 품절 상품 노출
+const soldOutViewedIds = new Set<string>();
+export function trackSoldOutView(productId: string, title: string) {
+  if (soldOutViewedIds.has(productId)) return;
+  soldOutViewedIds.add(productId);
+  trackEvent('sold_out_view', { item_id: productId, item_name: title });
+}
+
+// 빈 찜 탭 노출
+let wishlistEmptyFired = false;
+export function trackWishlistEmptyView() {
+  if (wishlistEmptyFired) return;
+  wishlistEmptyFired = true;
+  trackEvent('wishlist_empty_view');
+}
+
+// 외부 링크 클릭 (쿠팡/네이버)
+export function trackExternalLinkClick(productId: string, destination: 'coupang' | 'naver', url: string) {
+  trackEvent('external_link_click', { item_id: productId, destination, url });
+}

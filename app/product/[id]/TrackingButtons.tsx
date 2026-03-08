@@ -1,6 +1,6 @@
 "use client";
 
-import { trackPurchaseClick, trackTelegramClick, trackRecommendClick } from "@/lib/analytics";
+import { trackPurchaseClick, trackTelegramClick, trackRecommendClick, trackExternalLinkClick } from "@/lib/analytics";
 
 export function PurchaseButton({ productId, title, price, category, affiliateUrl, source }: {
   productId: string; title: string; price: number; category?: string; affiliateUrl: string; source?: string;
@@ -11,7 +11,10 @@ export function PurchaseButton({ productId, title, price, category, affiliateUrl
       href={affiliateUrl}
       target="_blank"
       rel="noopener noreferrer"
-      onClick={() => trackPurchaseClick(productId, title, price, category, source)}
+      onClick={() => {
+        trackPurchaseClick(productId, title, price, category, source);
+        trackExternalLinkClick(productId, isNaver ? 'naver' : 'coupang', affiliateUrl);
+      }}
       className={`flex-1 block text-center ${isNaver ? 'bg-green-500 hover:bg-green-600' : 'bg-orange-500 hover:bg-orange-600'} text-white font-bold py-4 rounded-2xl text-lg transition-colors`}
     >
       {isNaver ? '🛒 네이버에서 구매하기' : '🛒 쿠팡에서 구매하기'}

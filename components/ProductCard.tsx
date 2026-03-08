@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import type { Product } from "@/types";
 import { formatPrice, timeAgo, getProductPrices } from "@/lib/format";
 import { getDisplaySoldPercent } from "@/lib/product";
-import { trackProductClick } from "@/lib/analytics";
+import { trackProductClick, trackImageClick, trackSoldOutView, trackExternalLinkClick } from "@/lib/analytics";
 import { saveRecentlyViewed } from "@/lib/recently-viewed";
 import { useCountdown } from "@/components/CountdownTimer";
 import WishlistButton from "@/components/WishlistButton";
@@ -17,7 +17,7 @@ interface ProductCardProps {
 
 export default function ProductCard({ product, compact = false }: ProductCardProps) {
   const { salePrice, wowPrice, price, isWow } = product;
-  const { remaining, expired, isUrgent } = useCountdown(product.expiresAt);
+  const { remaining, expired, isUrgent } = useCountdown(product.expiresAt, product.id, product.title);
   const { basePrice, finalPrice, discountPercent } = getProductPrices(product);
 
   const isNaver = product.source === 'naver';
@@ -26,11 +26,34 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
   const soldPercent = getDisplaySoldPercent(product);
   const isAlmostGone = soldPercent >= 80;
 
+  // ── 품절 상품 뷰포트 노출 트래킹 ──
+  const cardRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (!isSoldOut || !cardRef.current) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          trackSoldOutView(product.id, product.title);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.5 }
+    );
+    observer.observe(cardRef.current);
+    return () => observer.disconnect();
+  }, [isSoldOut, product.id, product.title]);
+
   // ── 공통 클릭 핸들러 ──
   const handleClick = () => {
     trackProductClick(product.id, product.title, product.category, product.source);
+    trackExternalLinkClick(product.id, isNaver ? 'naver' : 'coupang', product.affiliateUrl);
     saveRecentlyViewed(product.id);
   };
+
+  // ── 이미지 클릭 핸들러 ──
+  const handleImageClick = useCallback(() => {
+    trackImageClick(product.id, product.title);
+  }, [product.id, product.title]);
 
   // ── 공통 요소 ──
   const clickOverlay = (
@@ -87,9 +110,9 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
   // ── compact 모드 (세로형 2열) ──
   if (compact) {
     return (
-      <div className={`group relative p-2 bg-white rounded-xl shadow-sm hover:shadow-lg hover:scale-[1.02] active:scale-[1.01] transition-all duration-200 ease-out border border-gray-100 hover:border-orange-200 cursor-pointer ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
+      <div ref={cardRef} className={`group relative p-2 bg-white rounded-xl shadow-sm hover:shadow-lg hover:scale-[1.02] active:scale-[1.01] transition-all duration-200 ease-out border border-gray-100 hover:border-orange-200 cursor-pointer ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
         {clickOverlay}
-        <div className="relative aspect-square lg:aspect-[5/4] rounded-lg overflow-hidden bg-gray-50 mb-2">
+        <div className="relative aspect-square lg:aspect-[5/4] rounded-lg overflow-hidden bg-gray-50 mb-2" onClick={handleImageClick}>
           {wishlistBtn}
           {product.imageUrl ? thumbnail(product.imageUrl.replace(/\/\d+x\d+ex\//, '/230x230ex/'), "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300") : (
             <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200"><span className="text-2xl">🛒</span></div>
@@ -139,10 +162,10 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
 
   // ── 기본 모드 (가로형 리스트) ──
   return (
-    <div className={`group relative flex gap-3 p-3 bg-white rounded-2xl shadow-sm hover:shadow-lg hover:scale-[1.02] active:scale-[1.01] transition-all duration-200 ease-out border border-gray-100 hover:border-orange-200 cursor-pointer ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
+    <div ref={cardRef} className={`group relative flex gap-3 p-3 bg-white rounded-2xl shadow-sm hover:shadow-lg hover:scale-[1.02] active:scale-[1.01] transition-all duration-200 ease-out border border-gray-100 hover:border-orange-200 cursor-pointer ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
       {clickOverlay}
       {/* 썸네일 */}
-      <div className="relative w-24 h-24 flex-shrink-0 rounded-xl overflow-hidden bg-gray-50">
+      <div className="relative w-24 h-24 flex-shrink-0 rounded-xl overflow-hidden bg-gray-50" onClick={handleImageClick}>
         {wishlistBtn}
         {product.imageUrl ? thumbnail(product.imageUrl, "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300") : (
           <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200"><span className="text-3xl">🛒</span></div>

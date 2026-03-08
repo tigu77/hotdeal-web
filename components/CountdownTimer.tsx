@@ -1,11 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
-export function useCountdown(expiresAt?: string) {
+export function useCountdown(expiresAt?: string, productId?: string, title?: string) {
   const [remaining, setRemaining] = useState("");
   const [expired, setExpired] = useState(false);
   const [isUrgent, setIsUrgent] = useState(false);
+  const expireFiredRef = useRef(false);
 
   useEffect(() => {
     if (!expiresAt) return;
@@ -15,6 +16,12 @@ export function useCountdown(expiresAt?: string) {
       if (diff <= 0) {
         setExpired(true);
         setRemaining("종료");
+        if (!expireFiredRef.current && productId && title) {
+          expireFiredRef.current = true;
+          import("@/lib/analytics").then(({ trackCountdownExpire }) => {
+            trackCountdownExpire(productId, title);
+          });
+        }
         return;
       }
       const h = Math.floor(diff / 3600000);
