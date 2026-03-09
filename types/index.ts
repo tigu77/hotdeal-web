@@ -25,4 +25,5 @@ export interface Product {
   registeredAt?: string;
   source?: 'coupang' | 'naver' | string;
   storeName?: string;
+  badges?: string[];
 }

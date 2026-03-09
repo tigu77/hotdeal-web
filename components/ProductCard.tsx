@@ -101,6 +101,12 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
     </span>
   );
 
+  const extraBadges = product.badges?.map((badge, i) => (
+    <span key={i} className="flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded bg-orange-500">
+      {badge}
+    </span>
+  ));
+
   const storeInfo = isNaver && product.storeName && (
     <span className="text-[11px] text-gray-500">🏪 {product.storeName}</span>
   );
@@ -121,6 +127,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
         </div>
         <h3 className="font-semibold text-gray-900 text-xs leading-snug line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors flex items-start gap-1">
           {sourceBadge}
+          {extraBadges}
           <span>{product.title}</span>
         </h3>
         <div>
@@ -177,6 +184,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
       <div className="flex-1 min-w-0 flex flex-col justify-between">
         <h3 className="font-semibold text-gray-900 text-sm leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors flex items-start gap-1">
           {sourceBadge}
+          {extraBadges}
           <span>{product.title}</span>
         </h3>
 
