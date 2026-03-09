@@ -118,7 +118,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
     return (
       <div ref={cardRef} className={`group relative p-2 bg-white rounded-xl shadow-sm hover:shadow-lg hover:scale-[1.02] active:scale-[1.01] transition-all duration-200 ease-out border border-gray-100 hover:border-orange-200 cursor-pointer ${isSoldOut ? 'opacity-50 grayscale' : ''}`}>
         {clickOverlay}
-        <div className="relative aspect-[4/5] lg:aspect-[5/4] rounded-lg overflow-hidden bg-gray-50 mb-2" onClick={handleImageClick}>
+        <div className="relative aspect-[3/4] lg:aspect-[5/4] rounded-lg overflow-hidden bg-gray-50 mb-2" onClick={handleImageClick}>
           {wishlistBtn}
           {product.imageUrl ? thumbnail(product.imageUrl.replace(/\/\d+x\d+ex\//, '/230x230ex/'), "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300") : (
             <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200"><span className="text-2xl">🛒</span></div>
