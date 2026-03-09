@@ -137,6 +137,16 @@ export default function RecentlyViewed() {
                   </div>
                 )}
               </div>
+              <div className="flex items-center gap-1 mb-0.5">
+                <span className={`text-[8px] font-bold text-white px-1 py-0.5 rounded ${item.source === 'naver' ? 'bg-green-500' : 'bg-red-500'}`}>
+                  {item.source === 'naver' ? '네이버' : '쿠팡'}
+                </span>
+                {item.badges?.map((badge, i) => (
+                  <span key={i} className="text-[8px] font-bold text-white px-1 py-0.5 rounded" style={{ backgroundColor: '#7346F3' }}>
+                    {badge}
+                  </span>
+                ))}
+              </div>
               <h3 className="text-xs font-medium text-gray-800 line-clamp-1 group-hover:text-orange-600 transition-colors">
                 {item.title}
               </h3>
