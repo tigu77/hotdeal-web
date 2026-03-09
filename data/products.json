@@ -45,7 +45,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 23,
+    "soldPercent": 25,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -73,7 +73,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 85,
+    "soldPercent": 92,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -154,7 +154,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 44,
+    "soldPercent": 46,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -181,7 +181,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 25,
+    "soldPercent": 28,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -206,7 +206,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 38,
+    "soldPercent": 40,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -232,7 +232,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 63,
+    "soldPercent": 66,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -258,7 +258,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 57,
+    "soldPercent": 64,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -279,11 +279,12 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "3만원이하"
+      "3만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 78,
+    "soldPercent": 83,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -310,6 +311,7 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "soldPercent": 92,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -337,7 +339,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 54,
+    "soldPercent": 58,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -364,7 +366,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 86,
+    "soldPercent": 93,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -387,11 +389,12 @@
     "tags": [
       "로켓배송",
       "와우할인",
-      "만원이하"
+      "만원이하",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 75,
+    "soldPercent": 83,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -416,6 +419,7 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "soldPercent": 23,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -439,11 +443,12 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
+      "매진임박",
       "여성용"
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 75,
+    "soldPercent": 80,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -525,7 +530,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 57,
+    "soldPercent": 62,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -580,7 +585,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 28,
+    "soldPercent": 29,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -635,7 +640,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 32,
+    "soldPercent": 34,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -687,7 +692,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 19,
+    "soldPercent": 20,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -715,7 +720,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 11,
+    "soldPercent": 12,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -742,7 +747,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 56,
+    "soldPercent": 58,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -770,7 +775,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 30,
+    "soldPercent": 31,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -797,7 +802,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 26,
+    "soldPercent": 27,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -823,7 +828,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 13,
+    "soldPercent": 14,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -932,7 +937,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 85,
-    "soldPercent": 15,
+    "soldPercent": 17,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -1198,13 +1203,14 @@
     "category": "living",
     "tags": [
       "로켓배송",
-      "와우할인"
+      "와우할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 5,
     "reviewCount": 7923,
-    "soldPercent": 78,
+    "soldPercent": 84,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -1235,7 +1241,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 44915,
-    "soldPercent": 66,
+    "soldPercent": 70,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -1267,7 +1273,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3108,
-    "soldPercent": 54,
+    "soldPercent": 58,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -1349,7 +1355,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1507,
-    "soldPercent": 56,
+    "soldPercent": 59,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -1380,7 +1386,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1587,
-    "soldPercent": 56,
+    "soldPercent": 60,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -1536,7 +1542,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 19762,
-    "soldPercent": 84,
+    "soldPercent": 87,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -1565,7 +1571,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 30,
+    "soldPercent": 32,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -1627,7 +1633,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 5325,
-    "soldPercent": 36,
+    "soldPercent": 38,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -1689,7 +1695,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 88,
+    "soldPercent": 98,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -1720,7 +1726,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 16342,
-    "soldPercent": 30,
+    "soldPercent": 31,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -1746,14 +1752,13 @@
       "로켓배송",
       "와우할인",
       "만원이하",
-      "매진임박",
       "아동용"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 5,
     "reviewCount": 330,
-    "soldPercent": 98,
+    "soldPercent": 20,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -1783,7 +1788,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 23922,
-    "soldPercent": 49,
+    "soldPercent": 50,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -1843,7 +1848,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4561,
-    "soldPercent": 6,
+    "soldPercent": 7,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -1874,7 +1879,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 372,
-    "soldPercent": 24,
+    "soldPercent": 22,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -1937,7 +1942,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 213,
-    "soldPercent": 20,
+    "soldPercent": 21,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -1968,7 +1973,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 382,
-    "soldPercent": 10,
+    "soldPercent": 11,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2000,7 +2005,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 107,
-    "soldPercent": 12,
+    "soldPercent": 15,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2031,7 +2036,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 7253,
-    "soldPercent": 86,
+    "soldPercent": 90,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2059,7 +2064,7 @@
     ],
     "isWow": true,
     "isRocket": true,
-    "soldPercent": 66,
+    "soldPercent": 69,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "postedAt": "2026-03-08T22:52:50.558Z",
     "registeredAt": "2026-03-08T22:40:03.039Z",
@@ -2120,7 +2125,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 10216,
-    "soldPercent": 33,
+    "soldPercent": 37,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2182,7 +2187,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 131794,
-    "soldPercent": 16,
+    "soldPercent": 17,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2245,7 +2250,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 776,
-    "soldPercent": 42,
+    "soldPercent": 55,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2311,7 +2316,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 455,
-    "soldPercent": 82,
+    "soldPercent": 87,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2340,6 +2345,7 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "isSoldOut": true,
     "rating": 5,
     "reviewCount": 8372,
     "soldPercent": 96,
@@ -2437,7 +2443,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 311,
-    "soldPercent": 18,
+    "soldPercent": 20,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2499,7 +2505,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 10503,
-    "soldPercent": 50,
+    "soldPercent": 52,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2561,7 +2567,7 @@
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
-    "soldPercent": 6,
+    "soldPercent": 13,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2593,7 +2599,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 233,
-    "soldPercent": 27,
+    "soldPercent": 28,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2625,7 +2631,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 190,
-    "soldPercent": 13,
+    "soldPercent": 14,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2689,7 +2695,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 6800,
-    "soldPercent": 24,
+    "soldPercent": 26,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2787,7 +2793,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 415,
-    "soldPercent": 45,
+    "soldPercent": 47,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2850,7 +2856,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1005,
-    "soldPercent": 26,
+    "soldPercent": 68,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2915,7 +2921,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 22790,
-    "soldPercent": 93,
+    "soldPercent": 98,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -2945,7 +2951,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1967,
-    "soldPercent": 23,
+    "soldPercent": 24,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3040,7 +3046,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 230,
-    "soldPercent": 55,
+    "soldPercent": 57,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3072,7 +3078,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 765,
-    "soldPercent": 94,
+    "soldPercent": 98,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3138,7 +3144,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1211,
-    "soldPercent": 52,
+    "soldPercent": 55,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3204,7 +3210,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 10310,
-    "soldPercent": 75,
+    "soldPercent": 79,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3234,7 +3240,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 300,
-    "soldPercent": 46,
+    "soldPercent": 49,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3265,7 +3271,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 1755,
-    "soldPercent": 15,
+    "soldPercent": 16,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3295,7 +3301,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 24723,
-    "soldPercent": 41,
+    "soldPercent": 44,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3321,7 +3327,6 @@
       "로켓배송",
       "와우할인",
       "50%이상할인",
-      "매진임박",
       "세트상품",
       "이불"
     ],
@@ -3329,7 +3334,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 771,
-    "soldPercent": 80,
+    "soldPercent": 52,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3360,7 +3365,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 81,
-    "soldPercent": 14,
+    "soldPercent": 15,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3454,7 +3459,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 9138,
-    "soldPercent": 42,
+    "soldPercent": 45,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3517,7 +3522,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 48131,
-    "soldPercent": 70,
+    "soldPercent": 74,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3548,7 +3553,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 26444,
-    "soldPercent": 14,
+    "soldPercent": 15,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3574,14 +3579,13 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
-      "매진임박",
       "여성용"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 13218,
-    "soldPercent": 93,
+    "soldPercent": 33,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3613,7 +3617,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3601,
-    "soldPercent": 21,
+    "soldPercent": 22,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3640,6 +3644,7 @@
       "와우할인",
       "만원이하",
       "50%이상할인",
+      "매진임박",
       "대용량",
       "클렌징"
     ],
@@ -3647,7 +3652,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 53256,
-    "soldPercent": 79,
+    "soldPercent": 84,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3677,7 +3682,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2073,
-    "soldPercent": 73,
+    "soldPercent": 78,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3780,7 +3785,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 162,
-    "soldPercent": 73,
+    "soldPercent": 76,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -3935,7 +3940,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 24953,
-    "soldPercent": 75,
+    "soldPercent": 79,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4034,7 +4039,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 579,
-    "soldPercent": 16,
+    "soldPercent": 18,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4067,7 +4072,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 89036,
-    "soldPercent": 64,
+    "soldPercent": 67,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4101,7 +4106,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 172931,
-    "soldPercent": 68,
+    "soldPercent": 72,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4165,7 +4170,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 113,
-    "soldPercent": 34,
+    "soldPercent": 36,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4211,10 +4216,10 @@
     "title": "디오프 알러지케어 누빔 침대패드 고정밴드형, 밀크세이지",
     "description": "",
     "price": 21680,
-    "salePrice": 24900,
+    "salePrice": 34900,
     "wowPrice": 21680,
-    "originalPrice": 50900,
-    "discount": 57,
+    "originalPrice": 60900,
+    "discount": 64,
     "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/b91f/aa53d65f06b4d8ae9462386fb8cf666bb6bf189152f741b6c537ad5de384.jpg",
     "affiliateUrl": "https://link.coupang.com/a/d0BkiL",
     "productUrl": "https://www.coupang.com/vp/products/8719510821?itemId=25327079494&vendorItemId=92321946660&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
@@ -4231,7 +4236,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1553,
-    "soldPercent": 52,
+    "soldPercent": 53,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4300,7 +4305,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 74593,
-    "soldPercent": 69,
+    "soldPercent": 70,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4332,7 +4337,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 6219,
-    "soldPercent": 58,
+    "soldPercent": 59,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4366,7 +4371,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 10242,
-    "soldPercent": 43,
+    "soldPercent": 46,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4398,7 +4403,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 476,
-    "soldPercent": 8,
+    "soldPercent": 9,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4433,7 +4438,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 22214,
-    "soldPercent": 20,
+    "soldPercent": 21,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4464,7 +4469,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1762,
-    "soldPercent": 16,
+    "soldPercent": 18,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4489,6 +4494,7 @@
       "로켓배송",
       "와우할인",
       "50%이상할인",
+      "매진임박",
       "세트상품",
       "방문설치"
     ],
@@ -4496,7 +4502,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 97,
-    "soldPercent": 75,
+    "soldPercent": 83,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4561,7 +4567,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 17131,
-    "soldPercent": 49,
+    "soldPercent": 52,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4594,7 +4600,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 3813,
-    "soldPercent": 70,
+    "soldPercent": 72,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4628,7 +4634,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 11946,
-    "soldPercent": 82,
+    "soldPercent": 86,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4660,7 +4666,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 71067,
-    "soldPercent": 39,
+    "soldPercent": 41,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4757,7 +4763,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 4159,
-    "soldPercent": 34,
+    "soldPercent": 36,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4782,13 +4788,14 @@
       "로켓배송",
       "와우할인",
       "3만원이하",
-      "50%이상할인"
+      "50%이상할인",
+      "매진임박"
     ],
     "isWow": true,
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 6549,
-    "soldPercent": 79,
+    "soldPercent": 83,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4821,7 +4828,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 742,
-    "soldPercent": 87,
+    "soldPercent": 95,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4856,7 +4863,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 6257,
-    "soldPercent": 89,
+    "soldPercent": 92,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4888,7 +4895,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 23093,
-    "soldPercent": 32,
+    "soldPercent": 33,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4919,7 +4926,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 7948,
-    "soldPercent": 25,
+    "soldPercent": 26,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4952,7 +4959,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 2593,
-    "soldPercent": 18,
+    "soldPercent": 19,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -4984,7 +4991,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 17873,
-    "soldPercent": 65,
+    "soldPercent": 72,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -5048,7 +5055,7 @@
     "isRocket": true,
     "rating": 4.5,
     "reviewCount": 1018,
-    "soldPercent": 23,
+    "soldPercent": 24,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -5079,7 +5086,7 @@
     "isRocket": true,
     "rating": 5,
     "reviewCount": 67161,
-    "soldPercent": 45,
+    "soldPercent": 46,
     "expiresAt": "2026-03-09T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-08T22:52:50.558Z",
@@ -5139,8 +5146,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "미라클뮤즈",
-    "badges": []
+    "storeName": "미라클뮤즈"
   },
   {
     "id": "naver-863243342978468",
@@ -5161,8 +5167,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "홈리아",
-    "badges": []
+    "storeName": "홈리아"
   },
   {
     "id": "naver-813024503748339",
@@ -5183,8 +5188,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "홈리아",
-    "badges": []
+    "storeName": "홈리아"
   },
   {
     "id": "naver-809497111098788",
@@ -5205,8 +5209,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "얀뮬러",
-    "badges": []
+    "storeName": "얀뮬러"
   },
   {
     "id": "naver-805853585957924",
@@ -5227,8 +5230,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "miso lab 공식몰",
-    "badges": []
+    "storeName": "miso lab 공식몰"
   },
   {
     "id": "naver-807662214233760",
@@ -5249,8 +5251,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "조선비책",
-    "badges": []
+    "storeName": "조선비책"
   },
   {
     "id": "naver-805557699195073",
@@ -5271,8 +5272,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "스핀몰",
-    "badges": []
+    "storeName": "스핀몰"
   },
   {
     "id": "naver-808357295829480",
@@ -5293,8 +5293,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "바른생활수",
-    "badges": []
+    "storeName": "바른생활수"
   },
   {
     "id": "naver-805828583891864",
@@ -5315,8 +5314,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "Bullsone공식몰",
-    "badges": []
+    "storeName": "Bullsone공식몰"
   },
   {
     "id": "naver-808797477766720",
@@ -5337,8 +5335,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "바렌",
-    "badges": []
+    "storeName": "바렌"
   },
   {
     "id": "naver-912065443775072",
@@ -5359,8 +5356,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "블랙모어스",
-    "badges": []
+    "storeName": "블랙모어스"
   },
   {
     "id": "naver-807406000328032",
@@ -5381,8 +5377,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "시리어스",
-    "badges": []
+    "storeName": "시리어스"
   },
   {
     "id": "naver-811210205241733",
@@ -5403,8 +5398,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "닥터파이토",
-    "badges": []
+    "storeName": "닥터파이토"
   },
   {
     "id": "naver-811210205241734",
@@ -5425,8 +5419,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "닥터파이토",
-    "badges": []
+    "storeName": "닥터파이토"
   },
   {
     "id": "naver-907799933243329",
@@ -5447,8 +5440,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "듀플렉스몰",
-    "badges": []
+    "storeName": "듀플렉스몰"
   },
   {
     "id": "naver-882700590073312",
@@ -5469,8 +5461,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "빙그레 본사직영몰",
-    "badges": []
+    "storeName": "빙그레 본사직영몰"
   },
   {
     "id": "naver-902153214493408",
@@ -5491,8 +5482,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "웰비오",
-    "badges": []
+    "storeName": "웰비오"
   },
   {
     "id": "naver-810555598291554",
@@ -5513,8 +5503,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "STENA",
-    "badges": []
+    "storeName": "STENA"
   },
   {
     "id": "naver-805828583883655",
@@ -5535,8 +5524,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "Bullsone공식몰",
-    "badges": []
+    "storeName": "Bullsone공식몰"
   },
   {
     "id": "naver-805828583859102",
@@ -5557,8 +5545,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "Bullsone공식몰",
-    "badges": []
+    "storeName": "Bullsone공식몰"
   },
   {
     "id": "naver-907426075775040",
@@ -5579,8 +5566,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "Bullsone공식몰",
-    "badges": []
+    "storeName": "Bullsone공식몰"
   },
   {
     "id": "naver-911683294819104",
@@ -5601,8 +5587,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "럭키푸드 한우",
-    "badges": []
+    "storeName": "럭키푸드 한우"
   },
   {
     "id": "naver-807700098489600",
@@ -5623,8 +5608,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "스포틀러",
-    "badges": []
+    "storeName": "스포틀러"
   },
   {
     "id": "naver-910301672545665",
@@ -5645,8 +5629,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "엘리첸",
-    "badges": []
+    "storeName": "엘리첸"
   },
   {
     "id": "naver-910301672537472",
@@ -5667,8 +5650,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "엘리첸",
-    "badges": []
+    "storeName": "엘리첸"
   },
   {
     "id": "naver-910301672545664",
@@ -5689,8 +5671,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "엘리첸",
-    "badges": []
+    "storeName": "엘리첸"
   },
   {
     "id": "naver-835927048916864",
@@ -5711,8 +5692,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "쿠쿠전자",
-    "badges": []
+    "storeName": "쿠쿠전자"
   },
   {
     "id": "naver-806256819521136",
@@ -5733,8 +5713,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "벤딕트 공식몰",
-    "badges": []
+    "storeName": "벤딕트 공식몰"
   },
   {
     "id": "naver-806256819521139",
@@ -5755,8 +5734,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "벤딕트 공식몰",
-    "badges": []
+    "storeName": "벤딕트 공식몰"
   },
   {
     "id": "naver-806256819521142",
@@ -5777,8 +5755,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "벤딕트 공식몰",
-    "badges": []
+    "storeName": "벤딕트 공식몰"
   },
   {
     "id": "naver-854735403805696",
@@ -5799,8 +5776,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "비어랜 육포",
-    "badges": []
+    "storeName": "비어랜 육포"
   },
   {
     "id": "naver-820682600168401",
@@ -5821,8 +5797,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "더함전자",
-    "badges": []
+    "storeName": "더함전자"
   },
   {
     "id": "naver-915262294538080",
@@ -5841,8 +5816,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "오아스토어",
-    "badges": []
+    "storeName": "오아스토어"
   },
   {
     "id": "naver-911986570863520",
@@ -5863,8 +5837,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "오아스토어",
-    "badges": []
+    "storeName": "오아스토어"
   },
   {
     "id": "naver-890059689559488",
@@ -5885,8 +5858,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "위바이옴",
-    "badges": []
+    "storeName": "위바이옴"
   },
   {
     "id": "naver-912485125882336",
@@ -5907,8 +5879,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "린백의자",
-    "badges": []
+    "storeName": "린백의자"
   },
   {
     "id": "naver-817164076806445",
@@ -5929,8 +5900,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "캐치웰",
-    "badges": []
+    "storeName": "캐치웰"
   },
   {
     "id": "naver-805475830411616",
@@ -5951,8 +5921,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "우메종",
-    "badges": []
+    "storeName": "우메종"
   },
   {
     "id": "naver-805536079016288",
@@ -5973,8 +5942,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "엄마네한우",
-    "badges": []
+    "storeName": "엄마네한우"
   },
   {
     "id": "naver-847657395483968",
@@ -5995,8 +5963,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "LG전자인증점 신영플러스",
-    "badges": []
+    "storeName": "LG전자인증점 신영플러스"
   },
   {
     "id": "naver-895450154857120",
@@ -6017,8 +5984,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "삼성전자공식몰",
-    "badges": []
+    "storeName": "삼성전자공식몰"
   },
   {
     "id": "naver-844873533616192",
@@ -6039,8 +6005,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "미닉스",
-    "badges": []
+    "storeName": "미닉스"
   },
   {
     "id": "naver-850844547851268",
@@ -6061,8 +6026,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "달바 공식스토어",
-    "badges": []
+    "storeName": "달바 공식스토어"
   },
   {
     "id": "naver-920173184085632",
@@ -6083,8 +6047,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "미닉스",
-    "badges": []
+    "storeName": "미닉스"
   },
   {
     "id": "naver-806183404304260",
@@ -6103,8 +6066,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "삼성공식파트너 다담INC",
-    "badges": []
+    "storeName": "삼성공식파트너 다담INC"
   },
   {
     "id": "naver-857215734268322",
@@ -6125,8 +6087,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "동아제약",
-    "badges": []
+    "storeName": "동아제약"
   },
   {
     "id": "naver-805924424357600",
@@ -6147,8 +6108,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "다룸 스토어",
-    "badges": []
+    "storeName": "다룸 스토어"
   },
   {
     "id": "naver-808024657502595",
@@ -6169,8 +6129,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "화려한우",
-    "badges": []
+    "storeName": "화려한우"
   },
   {
     "id": "naver-864654819833184",
@@ -6191,8 +6150,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "풀리오",
-    "badges": []
+    "storeName": "풀리오"
   },
   {
     "id": "naver-815890694943557",
@@ -6213,8 +6171,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "풀리오",
-    "badges": []
+    "storeName": "풀리오"
   },
   {
     "id": "naver-815890694943560",
@@ -6235,8 +6192,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "풀리오",
-    "badges": []
+    "storeName": "풀리오"
   },
   {
     "id": "naver-844844333187333",
@@ -6257,8 +6213,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "동아제약 생활 공식스토어",
-    "badges": []
+    "storeName": "동아제약 생활 공식스토어"
   },
   {
     "id": "naver-807668590423548",
@@ -6279,8 +6234,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "대한민국농수산",
-    "badges": []
+    "storeName": "대한민국농수산"
   },
   {
     "id": "naver-807951747976352",
@@ -6301,8 +6255,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "돌쇠굴비",
-    "badges": []
+    "storeName": "돌쇠굴비"
   },
   {
     "id": "naver-871986233745088",
@@ -6323,8 +6276,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "린클 공식 스토어",
-    "badges": []
+    "storeName": "린클 공식 스토어"
   },
   {
     "id": "naver-805517350752899",
@@ -6345,8 +6297,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "정육담다",
-    "badges": []
+    "storeName": "정육담다"
   },
   {
     "id": "naver-875645002191872",
@@ -6367,8 +6318,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "멜리언스 스토어",
-    "badges": []
+    "storeName": "멜리언스 스토어"
   },
   {
     "id": "naver-920173184081536",
@@ -6389,8 +6339,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "미닉스",
-    "badges": []
+    "storeName": "미닉스"
   },
   {
     "id": "naver-891596775577249",
@@ -6411,8 +6360,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "Branden",
-    "badges": []
+    "storeName": "Branden"
   },
   {
     "id": "naver-827838930151297",
@@ -6433,8 +6381,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "닥터가",
-    "badges": []
+    "storeName": "닥터가"
   },
   {
     "id": "naver-811222602842880",
@@ -6455,8 +6402,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "삼성공식파트너 매크로네트웍",
-    "badges": []
+    "storeName": "삼성공식파트너 매크로네트웍"
   },
   {
     "id": "naver-845932789184736",
@@ -6477,8 +6423,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "삼성공식파트너 삼성하나로",
-    "badges": []
+    "storeName": "삼성공식파트너 삼성하나로"
   },
   {
     "id": "naver-832823632480416",
@@ -6499,8 +6444,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "삼성공식인증점 회산디지털",
-    "badges": []
+    "storeName": "삼성공식인증점 회산디지털"
   },
   {
     "id": "naver-910265620982720",
@@ -6521,8 +6465,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "삼성공식파트너 평강프라자",
-    "badges": []
+    "storeName": "삼성공식파트너 평강프라자"
   },
   {
     "id": "naver-808307314561473",
@@ -6543,8 +6486,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "삼성공식파트너 코인비엠에스",
-    "badges": []
+    "storeName": "삼성공식파트너 코인비엠에스"
   },
   {
     "id": "naver-805855714513700",
@@ -6563,8 +6505,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "삼성공식파트너 포디아이",
-    "badges": []
+    "storeName": "삼성공식파트너 포디아이"
   },
   {
     "id": "naver-805584771350657",
@@ -6583,8 +6524,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "삼성공식파트너 엠피나비",
-    "badges": []
+    "storeName": "삼성공식파트너 엠피나비"
   },
   {
     "id": "naver-907750295441152",
@@ -6605,8 +6545,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "세포랩",
-    "badges": []
+    "storeName": "세포랩"
   },
   {
     "id": "naver-857614008676672",
@@ -6627,8 +6566,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "한고연몰",
-    "badges": []
+    "storeName": "한고연몰"
   },
   {
     "id": "naver-823643929388448",
@@ -6649,8 +6587,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "안티놀 코리아",
-    "badges": []
+    "storeName": "안티놀 코리아"
   },
   {
     "id": "naver-805480508363201",
@@ -6671,8 +6608,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "와이드뷰",
-    "badges": []
+    "storeName": "와이드뷰"
   },
   {
     "id": "naver-806298799532298",
@@ -6693,8 +6629,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "자일렉 코리아",
-    "badges": []
+    "storeName": "자일렉 코리아"
   },
   {
     "id": "naver-808409954828416",
@@ -6715,8 +6650,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "제주반했어",
-    "badges": []
+    "storeName": "제주반했어"
   },
   {
     "id": "naver-892236846049024",
@@ -6737,8 +6671,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "스마일랩몰",
-    "badges": []
+    "storeName": "스마일랩몰"
   },
   {
     "id": "naver-900378244578720",
@@ -6759,8 +6692,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "JUPAZIP",
-    "badges": []
+    "storeName": "JUPAZIP"
   },
   {
     "id": "naver-862090451189665",
@@ -6781,8 +6713,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "carepod",
-    "badges": []
+    "storeName": "carepod"
   },
   {
     "id": "naver-813272542885344",
@@ -6803,8 +6734,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "퓨어셀 공식몰",
-    "badges": []
+    "storeName": "퓨어셀 공식몰"
   },
   {
     "id": "naver-907051821273152",
@@ -6825,8 +6755,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "HLB제약",
-    "badges": []
+    "storeName": "HLB제약"
   },
   {
     "id": "naver-806169638668323",
@@ -6847,8 +6776,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "한경희 생활과학",
-    "badges": []
+    "storeName": "한경희 생활과학"
   },
   {
     "id": "naver-807243549706544",
@@ -6869,8 +6797,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "한우맘",
-    "badges": []
+    "storeName": "한우맘"
   },
   {
     "id": "naver-810449368346112",
@@ -6891,8 +6818,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "헨켈홈케어 공식몰",
-    "badges": []
+    "storeName": "헨켈홈케어 공식몰"
   },
   {
     "id": "naver-856834559291844",
@@ -6913,8 +6839,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "홈쎄라",
-    "badges": []
+    "storeName": "홈쎄라"
   },
   {
     "id": "naver-827783820068739",
@@ -6933,8 +6858,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "워킹보감",
-    "badges": []
+    "storeName": "워킹보감"
   },
   {
     "id": "naver-807340309569028",
@@ -6955,8 +6879,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "벤튼",
-    "badges": []
+    "storeName": "벤튼"
   },
   {
     "id": "naver-810795100299821",
@@ -6977,8 +6900,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "자연애 스토어",
-    "badges": []
+    "storeName": "자연애 스토어"
   },
   {
     "id": "naver-816158532969152",
@@ -6999,8 +6921,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "모두봄 MODUBOM",
-    "badges": []
+    "storeName": "모두봄 MODUBOM"
   },
   {
     "id": "naver-889073101295392",
@@ -7021,8 +6942,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "브라이트비드 편집샵",
-    "badges": []
+    "storeName": "브라이트비드 편집샵"
   },
   {
     "id": "naver-825358816056897",
@@ -7043,8 +6963,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "링심",
-    "badges": []
+    "storeName": "링심"
   },
   {
     "id": "naver-832727804777472",
@@ -7065,8 +6984,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "크리오 공식스토어",
-    "badges": []
+    "storeName": "크리오 공식스토어"
   },
   {
     "id": "naver-882081236056128",
@@ -7087,8 +7005,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "에그데이지몰",
-    "badges": []
+    "storeName": "에그데이지몰"
   },
   {
     "id": "naver-813383953217632",
@@ -7109,8 +7026,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "프로넛 PRONUT",
-    "badges": []
+    "storeName": "프로넛 PRONUT"
   },
   {
     "id": "naver-805692188317025",
@@ -7129,8 +7045,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "도트앤라인",
-    "badges": []
+    "storeName": "도트앤라인"
   },
   {
     "id": "naver-876707169195264",
@@ -7151,8 +7066,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "에어르",
-    "badges": []
+    "storeName": "에어르"
   },
   {
     "id": "naver-808369318322434",
@@ -7173,8 +7087,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "인버브",
-    "badges": []
+    "storeName": "인버브"
   },
   {
     "id": "naver-860399014308672",
@@ -7195,8 +7108,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "유심사스토어",
-    "badges": []
+    "storeName": "유심사스토어"
   },
   {
     "id": "naver-822883126495175",
@@ -7215,8 +7127,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "유심사스토어",
-    "badges": []
+    "storeName": "유심사스토어"
   },
   {
     "id": "naver-807693481315425",
@@ -7237,8 +7148,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "집에서 먹자",
-    "badges": []
+    "storeName": "집에서 먹자"
   },
   {
     "id": "naver-900418883333152",
@@ -7259,8 +7169,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "다노클리닉",
-    "badges": []
+    "storeName": "다노클리닉"
   },
   {
     "id": "naver-805828583891862",
@@ -7281,8 +7190,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "Bullsone공식몰",
-    "badges": []
+    "storeName": "Bullsone공식몰"
   },
   {
     "id": "naver-847957391832262",
@@ -7303,8 +7211,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "브릭글로",
-    "badges": []
+    "storeName": "브릭글로"
   },
   {
     "id": "naver-827825574188930",
@@ -7323,8 +7230,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "가루선생",
-    "badges": []
+    "storeName": "가루선생"
   },
   {
     "id": "naver-854342247037703",
@@ -7343,8 +7249,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "타노아",
-    "badges": []
+    "storeName": "타노아"
   },
   {
     "id": "naver-807328389663840",
@@ -7365,8 +7270,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "극소수",
-    "badges": []
+    "storeName": "극소수"
   },
   {
     "id": "naver-814761712389952",
@@ -7387,8 +7291,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "극소수",
-    "badges": []
+    "storeName": "극소수"
   },
   {
     "id": "naver-887306114509248",
@@ -7407,8 +7310,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "메이크샐러드",
-    "badges": []
+    "storeName": "메이크샐러드"
   },
   {
     "id": "naver-810550264488676",
@@ -7427,8 +7329,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "유심스토어",
-    "badges": []
+    "storeName": "유심스토어"
   },
   {
     "id": "naver-806256819525216",
@@ -7449,8 +7350,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "벤딕트 공식몰",
-    "badges": []
+    "storeName": "벤딕트 공식몰"
   },
   {
     "id": "naver-806256819525218",
@@ -7471,8 +7371,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "벤딕트 공식몰",
-    "badges": []
+    "storeName": "벤딕트 공식몰"
   },
   {
     "id": "naver-812273071927809",
@@ -7493,8 +7392,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "으뜸한돈",
-    "badges": []
+    "storeName": "으뜸한돈"
   },
   {
     "id": "naver-909646774084192",
@@ -7515,8 +7413,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "스티커사또",
-    "badges": []
+    "storeName": "스티커사또"
   },
   {
     "id": "naver-839897198590276",
@@ -7535,8 +7432,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "도시락이심",
-    "badges": []
+    "storeName": "도시락이심"
   },
   {
     "id": "naver-839897198590298",
@@ -7555,8 +7451,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "도시락이심",
-    "badges": []
+    "storeName": "도시락이심"
   },
   {
     "id": "naver-806193867638721",
@@ -7575,8 +7470,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "로밍도깨비",
-    "badges": []
+    "storeName": "로밍도깨비"
   },
   {
     "id": "naver-806193867638732",
@@ -7595,8 +7489,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "로밍도깨비",
-    "badges": []
+    "storeName": "로밍도깨비"
   },
   {
     "id": "naver-809772658399795",
@@ -7617,8 +7510,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "무타공마켓",
-    "badges": []
+    "storeName": "무타공마켓"
   },
   {
     "id": "naver-886350262360672",
@@ -7639,8 +7531,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "엑스퍼 공식스토어",
-    "badges": []
+    "storeName": "엑스퍼 공식스토어"
   },
   {
     "id": "naver-805474387972672",
@@ -7661,8 +7552,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "토리야",
-    "badges": []
+    "storeName": "토리야"
   },
   {
     "id": "naver-810449497485217",
@@ -7683,8 +7573,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "한예지공식샵",
-    "badges": []
+    "storeName": "한예지공식샵"
   },
   {
     "id": "naver-808784890082976",
@@ -7703,8 +7592,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "우맛순",
-    "badges": []
+    "storeName": "우맛순"
   },
   {
     "id": "naver-912803721904640",
@@ -7725,8 +7613,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "비비수산",
-    "badges": []
+    "storeName": "비비수산"
   },
   {
     "id": "naver-807260988922302",
@@ -7747,8 +7634,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "미스터네이처 다이어트",
-    "badges": []
+    "storeName": "미스터네이처 다이어트"
   },
   {
     "id": "naver-853005711330257",
@@ -7769,8 +7655,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "맛꾼푸드",
-    "badges": []
+    "storeName": "맛꾼푸드"
   },
   {
     "id": "naver-807668590419428",
@@ -7789,8 +7674,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "대한민국농수산",
-    "badges": []
+    "storeName": "대한민국농수산"
   },
   {
     "id": "naver-853005711330258",
@@ -7811,8 +7695,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "맛꾼푸드",
-    "badges": []
+    "storeName": "맛꾼푸드"
   },
   {
     "id": "naver-912803722469888",
@@ -7833,8 +7716,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "비비수산",
-    "badges": []
+    "storeName": "비비수산"
   },
   {
     "id": "naver-808361086935232",
@@ -7855,8 +7737,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "LuNell",
-    "badges": []
+    "storeName": "LuNell"
   },
   {
     "id": "naver-869920216890723",
@@ -7877,8 +7758,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "맛꾼푸드",
-    "badges": []
+    "storeName": "맛꾼푸드"
   },
   {
     "id": "naver-827741981472707",
@@ -7897,8 +7777,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "메고지고 MEGOZIGO",
-    "badges": []
+    "storeName": "메고지고 MEGOZIGO"
   },
   {
     "id": "naver-855393424412704",
@@ -7919,8 +7798,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "봉식스쇼핑몰",
-    "badges": []
+    "storeName": "봉식스쇼핑몰"
   },
   {
     "id": "naver-805928511264678",
@@ -7941,8 +7819,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "바라던",
-    "badges": []
+    "storeName": "바라던"
   },
   {
     "id": "naver-807345060982114",
@@ -7963,8 +7840,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "바이칸 공식스토어",
-    "badges": []
+    "storeName": "바이칸 공식스토어"
   },
   {
     "id": "naver-810521304076933",
@@ -7985,8 +7861,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "배마마 PEI MAMA",
-    "badges": []
+    "storeName": "배마마 PEI MAMA"
   },
   {
     "id": "naver-805482520302150",
@@ -8007,8 +7882,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "베리네이처",
-    "badges": []
+    "storeName": "베리네이처"
   },
   {
     "id": "naver-812657850905006",
@@ -8027,8 +7901,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "말톡",
-    "badges": []
+    "storeName": "말톡"
   },
   {
     "id": "naver-912803722678784",
@@ -8049,8 +7922,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "비비수산",
-    "badges": []
+    "storeName": "비비수산"
   },
   {
     "id": "naver-807661266771586",
@@ -8071,8 +7943,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "소소한형제",
-    "badges": []
+    "storeName": "소소한형제"
   },
   {
     "id": "naver-807315066141024",
@@ -8093,8 +7964,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "헤음",
-    "badges": []
+    "storeName": "헤음"
   },
   {
     "id": "naver-805923757827941",
@@ -8115,8 +7985,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "라이온코리아 브랜드스토어",
-    "badges": []
+    "storeName": "라이온코리아 브랜드스토어"
   },
   {
     "id": "naver-914893228292096",
@@ -8137,8 +8006,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "할매찜닭발엽불떡",
-    "badges": []
+    "storeName": "할매찜닭발엽불떡"
   },
   {
     "id": "naver-833042070428544",
@@ -8159,8 +8027,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "유황한돈",
-    "badges": []
+    "storeName": "유황한돈"
   },
   {
     "id": "naver-812657850905010",
@@ -8179,8 +8046,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "말톡",
-    "badges": []
+    "storeName": "말톡"
   },
   {
     "id": "naver-810155111579427",
@@ -8201,8 +8067,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "그램원",
-    "badges": []
+    "storeName": "그램원"
   },
   {
     "id": "naver-805844579881802",
@@ -8223,8 +8088,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "큐폴드 QFOLD",
-    "badges": []
+    "storeName": "큐폴드 QFOLD"
   },
   {
     "id": "naver-857545851175232",
@@ -8245,8 +8109,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "그린파워테크",
-    "badges": []
+    "storeName": "그린파워테크"
   },
   {
     "id": "naver-914585613694880",
@@ -8267,8 +8130,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "브라더커머스",
-    "badges": []
+    "storeName": "브라더커머스"
   },
   {
     "id": "naver-869251109281504",
@@ -8289,8 +8151,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "그린파워테크",
-    "badges": []
+    "storeName": "그린파워테크"
   },
   {
     "id": "naver-807668590415338",
@@ -8311,8 +8172,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "대한민국농수산",
-    "badges": []
+    "storeName": "대한민국농수산"
   },
   {
     "id": "naver-806301022133110",
@@ -8333,8 +8193,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "훈훈수산",
-    "badges": []
+    "storeName": "훈훈수산"
   },
   {
     "id": "naver-809497111098787",
@@ -8355,8 +8214,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "얀뮬러",
-    "badges": []
+    "storeName": "얀뮬러"
   },
   {
     "id": "naver-807720442121472",
@@ -8377,8 +8235,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "실바트",
-    "badges": []
+    "storeName": "실바트"
   },
   {
     "id": "naver-805609012842818",
@@ -8399,8 +8256,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "코닥포토프린터",
-    "badges": []
+    "storeName": "코닥포토프린터"
   },
   {
     "id": "naver-809785700317315",
@@ -8421,8 +8277,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "VIVRE KOREA",
-    "badges": []
+    "storeName": "VIVRE KOREA"
   },
   {
     "id": "naver-812578723152513",
@@ -8443,8 +8298,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "바이탈플랜트",
-    "badges": []
+    "storeName": "바이탈플랜트"
   },
   {
     "id": "naver-809792664930985",
@@ -8465,8 +8319,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "THECLASS 더 클래스",
-    "badges": []
+    "storeName": "THECLASS 더 클래스"
   },
   {
     "id": "naver-811195344036202",
@@ -8487,8 +8340,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "모찌네",
-    "badges": []
+    "storeName": "모찌네"
   },
   {
     "id": "naver-916346341599040",
@@ -8509,8 +8361,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "위드웰withwell",
-    "badges": []
+    "storeName": "위드웰withwell"
   },
   {
     "id": "naver-806211985032737",
@@ -8531,8 +8382,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "Branden",
-    "badges": []
+    "storeName": "Branden"
   },
   {
     "id": "naver-806169638668325",
@@ -8553,8 +8403,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "한경희 생활과학",
-    "badges": []
+    "storeName": "한경희 생활과학"
   },
   {
     "id": "naver-812974378078692",
@@ -8575,8 +8424,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "디자인아지트",
-    "badges": []
+    "storeName": "디자인아지트"
   },
   {
     "id": "naver-805692188317031",
@@ -8595,8 +8443,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "도트앤라인",
-    "badges": []
+    "storeName": "도트앤라인"
   },
   {
     "id": "naver-805692188317026",
@@ -8615,8 +8462,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "도트앤라인",
-    "badges": []
+    "storeName": "도트앤라인"
   },
   {
     "id": "naver-809743565530880",
@@ -8637,8 +8483,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "네임코코",
-    "badges": []
+    "storeName": "네임코코"
   },
   {
     "id": "naver-854316149972035",
@@ -8659,8 +8504,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "애슐리 홈스토랑",
-    "badges": []
+    "storeName": "애슐리 홈스토랑"
   },
   {
     "id": "naver-906447730276640",
@@ -8681,8 +8525,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "바라던",
-    "badges": []
+    "storeName": "바라던"
   },
   {
     "id": "naver-862532180013056",
@@ -8703,8 +8546,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-04T12:00:00.000Z",
     "source": "naver",
-    "storeName": "위즈플러스샵",
-    "badges": []
+    "storeName": "위즈플러스샵"
   },
   {
     "id": "naver-817259796337249",
@@ -8725,8 +8567,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-05T14:27:16.624Z",
     "source": "naver",
-    "storeName": "소이조이 공식몰",
-    "badges": []
+    "storeName": "소이조이 공식몰"
   },
   {
     "id": "naver-882755674966592",
@@ -8747,8 +8588,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-05T14:27:16.624Z",
     "source": "naver",
-    "storeName": "헬스헬퍼 스토어",
-    "badges": []
+    "storeName": "헬스헬퍼 스토어"
   },
   {
     "id": "naver-887691410505856",
@@ -8769,8 +8609,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-05T14:27:16.624Z",
     "source": "naver",
-    "storeName": "설렘한입",
-    "badges": []
+    "storeName": "설렘한입"
   },
   {
     "id": "naver-909286098920640",
@@ -8791,8 +8630,7 @@
     "postedAt": "2026-03-09T13:28:56.784Z",
     "registeredAt": "2026-03-05T22:40:48.371Z",
     "source": "naver",
-    "storeName": "에브리봇 공식쇼핑몰",
-    "badges": []
+    "storeName": "에브리봇 공식쇼핑몰"
   },
   {
     "id": "naver-887246729083168",
@@ -8811,8 +8649,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "지앤티클린",
-    "badges": []
+    "storeName": "지앤티클린"
   },
   {
     "id": "naver-806195320469440",
@@ -8833,8 +8670,7 @@
     "postedAt": "2026-03-09T13:29:04.812Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "산지도매센타",
-    "badges": []
+    "storeName": "산지도매센타"
   },
   {
     "id": "naver-807340309564930",
@@ -8855,10 +8691,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "벤튼",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "벤튼"
   },
   {
     "id": "naver-854501964901825",
@@ -8879,10 +8712,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "하나필터",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "하나필터"
   },
   {
     "id": "naver-811210205245830",
@@ -8903,10 +8733,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "닥터파이토",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "닥터파이토"
   },
   {
     "id": "naver-823229430605256",
@@ -8927,10 +8754,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "이너시아",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "이너시아"
   },
   {
     "id": "naver-840913403797537",
@@ -8951,10 +8775,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "메이튼",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "메이튼"
   },
   {
     "id": "naver-806203771831872",
@@ -8975,10 +8796,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "홍동비책",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "홍동비책"
   },
   {
     "id": "naver-849429943531719",
@@ -8999,10 +8817,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "놋향",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "놋향"
   },
   {
     "id": "naver-917796738318177",
@@ -9023,10 +8838,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "한채원",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "한채원"
   },
   {
     "id": "naver-811200984404512",
@@ -9047,10 +8859,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "JMW",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "JMW"
   },
   {
     "id": "naver-854748340780540",
@@ -9071,10 +8880,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "Bullsone공식몰",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "Bullsone공식몰"
   },
   {
     "id": "naver-810866290856384",
@@ -9095,10 +8901,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "다룸 스토어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "다룸 스토어"
   },
   {
     "id": "naver-805940532570144",
@@ -9119,10 +8922,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "JMW",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "JMW"
   },
   {
     "id": "naver-923663143189696",
@@ -9143,10 +8943,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "JW생활건강 본사직영몰",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "JW생활건강 본사직영몰"
   },
   {
     "id": "naver-845591297513357",
@@ -9167,10 +8964,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "마미앤대디",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "마미앤대디"
   },
   {
     "id": "naver-849383000208485",
@@ -9191,10 +8985,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "쿠첸직영몰",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "쿠첸직영몰"
   },
   {
     "id": "naver-850861039899750",
@@ -9215,10 +9006,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "브라이튼몰",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "브라이튼몰"
   },
   {
     "id": "naver-850861039916156",
@@ -9239,10 +9027,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "브라이튼몰",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "브라이튼몰"
   },
   {
     "id": "naver-914614979569568",
@@ -9263,10 +9048,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "모모스커피",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "모모스커피"
   },
   {
     "id": "naver-810821050294957",
@@ -9287,10 +9069,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "미프",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "미프"
   },
   {
     "id": "naver-813331079903425",
@@ -9311,10 +9090,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "더함전자",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "더함전자"
   },
   {
     "id": "naver-813332660615265",
@@ -9335,10 +9111,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "더함전자",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "더함전자"
   },
   {
     "id": "naver-855374354964492",
@@ -9359,10 +9132,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "쌍계명차",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "쌍계명차"
   },
   {
     "id": "naver-809803486435905",
@@ -9383,10 +9153,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "황금이네",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "황금이네"
   },
   {
     "id": "naver-920239029517345",
@@ -9407,10 +9174,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "내츄럴플러스",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "내츄럴플러스"
   },
   {
     "id": "naver-920239029533728",
@@ -9431,10 +9195,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "내츄럴플러스",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "내츄럴플러스"
   },
   {
     "id": "naver-923522146688128",
@@ -9455,10 +9216,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "그린핑거 스토어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "그린핑거 스토어"
   },
   {
     "id": "naver-923523611459168",
@@ -9479,10 +9237,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "그린핑거 스토어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "그린핑거 스토어"
   },
   {
     "id": "naver-923521823944192",
@@ -9503,10 +9258,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "그린핑거 스토어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "그린핑거 스토어"
   },
   {
     "id": "naver-923521518665152",
@@ -9527,10 +9279,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "그린핑거 스토어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "그린핑거 스토어"
   },
   {
     "id": "naver-923522827566208",
@@ -9551,10 +9300,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "그린핑거 스토어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "그린핑거 스토어"
   },
   {
     "id": "naver-815035440525172",
@@ -9575,10 +9321,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "까르엠가구",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "까르엠가구"
   },
   {
     "id": "naver-815035440525171",
@@ -9599,10 +9342,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "까르엠가구",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "까르엠가구"
   },
   {
     "id": "naver-859274934872738",
@@ -9623,10 +9363,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "보스 공식스토어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "보스 공식스토어"
   },
   {
     "id": "naver-859275333233126",
@@ -9647,10 +9384,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "보스 공식스토어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "보스 공식스토어"
   },
   {
     "id": "naver-842844055082288",
@@ -9669,10 +9403,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "슈피겐",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "슈피겐"
   },
   {
     "id": "naver-810249220550496",
@@ -9693,10 +9424,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "아로셀",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "아로셀"
   },
   {
     "id": "naver-919555674232480",
@@ -9717,10 +9445,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "Rael",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "Rael"
   },
   {
     "id": "naver-914142372202208",
@@ -9741,10 +9466,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "레이몬드웨일",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "레이몬드웨일"
   },
   {
     "id": "naver-852313655780321",
@@ -9765,10 +9487,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "토탈선글라스",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "토탈선글라스"
   },
   {
     "id": "naver-855412721237993",
@@ -9789,10 +9508,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "코튼 리빙",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "코튼 리빙"
   },
   {
     "id": "naver-914193822852992",
@@ -9813,10 +9529,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "레이몬드웨일",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "레이몬드웨일"
   },
   {
     "id": "naver-805688401728642",
@@ -9837,10 +9550,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "CJ웰케어 스토어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "CJ웰케어 스토어"
   },
   {
     "id": "naver-814687171046627",
@@ -9861,10 +9571,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "에버조이",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "에버조이"
   },
   {
     "id": "naver-805615242207465",
@@ -9885,10 +9592,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "필립스생활가전코리아",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "필립스생활가전코리아"
   },
   {
     "id": "naver-812667708760227",
@@ -9909,10 +9613,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "필립스생활가전코리아",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "필립스생활가전코리아"
   },
   {
     "id": "naver-818401632443801",
@@ -9933,10 +9634,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "필립스생활가전코리아",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "필립스생활가전코리아"
   },
   {
     "id": "naver-812667708760228",
@@ -9957,10 +9655,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "필립스생활가전코리아",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "필립스생활가전코리아"
   },
   {
     "id": "naver-867761294274272",
@@ -9981,10 +9676,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "일렉트로룩스코리아",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "일렉트로룩스코리아"
   },
   {
     "id": "naver-918767238488064",
@@ -10005,10 +9697,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "춘천감자밭",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "춘천감자밭"
   },
   {
     "id": "naver-805878117926086",
@@ -10029,10 +9718,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "라움에스알",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "라움에스알"
   },
   {
     "id": "naver-807663363964070",
@@ -10053,10 +9739,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "NEEKE",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "NEEKE"
   },
   {
     "id": "naver-807663363964077",
@@ -10077,10 +9760,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "NEEKE",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "NEEKE"
   },
   {
     "id": "naver-919555674248864",
@@ -10101,10 +9781,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "Rael",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "Rael"
   },
   {
     "id": "naver-916348214048385",
@@ -10125,10 +9802,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "락앤락",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "락앤락"
   },
   {
     "id": "naver-916348214064768",
@@ -10149,10 +9823,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "락앤락",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "락앤락"
   },
   {
     "id": "naver-920173184073344",
@@ -10173,10 +9844,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "미닉스",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "미닉스"
   },
   {
     "id": "naver-920173184069248",
@@ -10197,10 +9865,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "미닉스",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "미닉스"
   },
   {
     "id": "naver-849716246468457",
@@ -10221,10 +9886,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "바이오힐보 BOH",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "바이오힐보 BOH"
   },
   {
     "id": "naver-840945165310080",
@@ -10245,10 +9907,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "버티탭 공식스토어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "버티탭 공식스토어"
   },
   {
     "id": "naver-805575695630907",
@@ -10269,10 +9928,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "벨킨공식몰",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "벨킨공식몰"
   },
   {
     "id": "naver-848330004558914",
@@ -10293,10 +9949,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "Branden",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "Branden"
   },
   {
     "id": "naver-806212267370336",
@@ -10317,10 +9970,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "Branden",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "Branden"
   },
   {
     "id": "naver-918824798832129",
@@ -10341,10 +9991,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "닥터가",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "닥터가"
   },
   {
     "id": "naver-907750295432960",
@@ -10365,10 +10012,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "세포랩",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "세포랩"
   },
   {
     "id": "naver-861814487527136",
@@ -10389,10 +10033,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "셀렉스 직영스토어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "셀렉스 직영스토어"
   },
   {
     "id": "naver-813306072176448",
@@ -10413,10 +10054,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "스피드랙 공식 스토어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "스피드랙 공식 스토어"
   },
   {
     "id": "naver-871655543467393",
@@ -10437,10 +10075,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "스포틀러",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "스포틀러"
   },
   {
     "id": "naver-887266519054752",
@@ -10461,10 +10096,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "아이룸 공식스토어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "아이룸 공식스토어"
   },
   {
     "id": "naver-808416729792706",
@@ -10485,10 +10117,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "아임반",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "아임반"
   },
   {
     "id": "naver-864232357510945",
@@ -10509,10 +10138,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "앙또미뇽",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "앙또미뇽"
   },
   {
     "id": "naver-862124285939425",
@@ -10533,10 +10159,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "그래비티헤어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "그래비티헤어"
   },
   {
     "id": "naver-805498192990432",
@@ -10557,10 +10180,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "위즈웰",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "위즈웰"
   },
   {
     "id": "naver-900368473709632",
@@ -10581,10 +10201,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "유닉스전자",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "유닉스전자"
   },
   {
     "id": "naver-806298083600706",
@@ -10605,10 +10222,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "자일렉 코리아",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "자일렉 코리아"
   },
   {
     "id": "naver-849413554062656",
@@ -10629,10 +10243,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "지누스몰",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "지누스몰"
   },
   {
     "id": "naver-917774322642976",
@@ -10653,10 +10264,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "집앤콕",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "집앤콕"
   },
   {
     "id": "naver-835297821269536",
@@ -10677,10 +10285,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "쿠쿠전자",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "쿠쿠전자"
   },
   {
     "id": "naver-820698781863040",
@@ -10701,10 +10306,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "쿠쿠전자",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "쿠쿠전자"
   },
   {
     "id": "naver-922629970312481",
@@ -10725,10 +10327,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "타임리스",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "타임리스"
   },
   {
     "id": "naver-810130517331264",
@@ -10749,10 +10348,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "풀무원고메",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "풀무원고메"
   },
   {
     "id": "naver-832427308135766",
@@ -10773,10 +10369,7 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "필립스",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "필립스"
   },
   {
     "id": "naver-919847678895872",
@@ -10797,9 +10390,6 @@
     "postedAt": "2026-03-09T13:29:13.806Z",
     "registeredAt": "2026-03-09T13:55:19.881Z",
     "source": "naver",
-    "storeName": "위틀스토어",
-    "badges": [
-      "슈퍼적립"
-    ]
+    "storeName": "위틀스토어"
   }
 ]
