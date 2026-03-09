@@ -102,7 +102,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
   );
 
   const extraBadges = product.badges?.map((badge, i) => (
-    <span key={i} className="flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded bg-orange-500">
+    <span key={i} className="flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded" style={{ backgroundColor: '#00B0F0' }}>
       {badge}
     </span>
   ));
