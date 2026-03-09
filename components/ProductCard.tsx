@@ -125,11 +125,15 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
           )}
           {soldOutBadge}
         </div>
-        <h3 className="font-semibold text-gray-900 text-xs leading-snug line-clamp-2 mb-1 group-hover:text-orange-600 transition-colors flex items-start gap-1">
-          {sourceBadge}
-          {extraBadges}
-          <span>{product.title}</span>
-        </h3>
+        <div className="mb-1">
+          <div className="flex items-center gap-1 mb-0.5">
+            {sourceBadge}
+            {extraBadges}
+          </div>
+          <h3 className="font-semibold text-gray-900 text-xs leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors">
+            {product.title}
+          </h3>
+        </div>
         <div>
           {basePrice > 0 && discountPercent > 0 && (
             <div className="flex items-center gap-1 mb-0.5">
@@ -182,11 +186,15 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
 
       {/* 정보 */}
       <div className="flex-1 min-w-0 flex flex-col justify-between">
-        <h3 className="font-semibold text-gray-900 text-sm leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors flex items-start gap-1">
-          {sourceBadge}
-          {extraBadges}
-          <span>{product.title}</span>
-        </h3>
+        <div>
+          <div className="flex items-center gap-1 mb-0.5">
+            {sourceBadge}
+            {extraBadges}
+          </div>
+          <h3 className="font-semibold text-gray-900 text-sm leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors">
+            {product.title}
+          </h3>
+        </div>
 
         <div className="mt-1.5">
           {(basePrice > 0 && discountPercent > 0 || (product.rating != null && product.rating > 0)) && (
