@@ -16,17 +16,19 @@ export default function Footer() {
             href={SITE.kakao}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 text-yellow-600 text-sm hover:text-yellow-700"
+            className="inline-flex items-center gap-1.5 text-sm text-gray-600 hover:text-yellow-600 transition-colors"
           >
-            💬 카카오톡 오픈채팅
+            <img src="/icons/kakao.svg" alt="카카오톡" className="w-5 h-5" />
+            카카오톡 오픈채팅
           </a>
           <a
             href={SITE.telegram}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 text-sky-500 text-sm hover:text-sky-600"
+            className="inline-flex items-center gap-1.5 text-sm text-gray-600 hover:text-sky-500 transition-colors"
           >
-            📢 텔레그램 채널
+            <img src="/icons/telegram.svg" alt="텔레그램" className="w-5 h-5" />
+            텔레그램 채널
           </a>
         </div>
 
