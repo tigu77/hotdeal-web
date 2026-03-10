@@ -71,7 +71,7 @@ export default function Header({
               className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-yellow-400 hover:bg-yellow-500 transition-colors"
             >
               <img src="/icons/kakao.png" alt="카카오톡" className="w-5 h-5" />
-              <span className="text-xs font-bold text-yellow-900">카카오톡</span>
+              <span className="text-xs font-bold text-yellow-900">카카오톡 알림</span>
             </a>
             <a
               href={SITE.telegram}
@@ -80,7 +80,7 @@ export default function Header({
               className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-sky-500 hover:bg-sky-600 transition-colors"
             >
               <img src="/icons/telegram.svg" alt="텔레그램" className="w-5 h-5" />
-              <span className="text-xs font-bold text-white">텔레그램</span>
+              <span className="text-xs font-bold text-white">텔레그램 알림</span>
             </a>
           </div>
         </div>
