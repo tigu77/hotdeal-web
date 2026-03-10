@@ -101,6 +101,12 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
     </span>
   );
 
+  const rocketBadge = !isNaver && product.isRocket ? (
+    <span className="flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded bg-blue-500">
+      🚀 로켓
+    </span>
+  ) : null;
+
   const extraBadges = product.badges?.map((badge, i) => (
     <span key={i} className="flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded" style={{ backgroundColor: '#7346F3' }}>
       {badge}
@@ -126,8 +132,9 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
           {soldOutBadge}
         </div>
         <div className="mb-1">
-          <div className="flex items-center gap-1 mb-0.5">
+          <div className="flex items-center gap-1 mb-0.5 flex-wrap">
             {sourceBadge}
+            {rocketBadge}
             {extraBadges}
           </div>
           <h3 className="font-semibold text-gray-900 text-xs leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors">
@@ -187,8 +194,9 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
       {/* 정보 */}
       <div className="flex-1 min-w-0 flex flex-col justify-between">
         <div>
-          <div className="flex items-center gap-1 mb-0.5">
+          <div className="flex items-center gap-1 mb-0.5 flex-wrap">
             {sourceBadge}
+            {rocketBadge}
             {extraBadges}
           </div>
           <h3 className="font-semibold text-gray-900 text-sm leading-snug line-clamp-2 group-hover:text-orange-600 transition-colors">
