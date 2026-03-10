@@ -137,7 +137,7 @@ export default function RecentlyViewed() {
                   </div>
                 )}
               </div>
-              <div className="flex items-center gap-1 mb-0.5">
+              <div className="flex items-center gap-1 mb-0.5 flex-wrap">
                 <span className={`text-[8px] font-bold text-white px-1 py-0.5 rounded ${item.source === 'naver' ? 'bg-green-500' : 'bg-red-500'}`}>
                   {item.source === 'naver' ? '네이버' : '쿠팡'}
                 </span>
