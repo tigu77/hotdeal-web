@@ -146,11 +146,15 @@ export default function RecentlyViewed() {
                     🚀 로켓
                   </span>
                 )}
-                {item.badges?.map((badge, i) => (
-                  <span key={i} className="text-[8px] font-bold text-white px-1 py-0.5 rounded" style={{ backgroundColor: '#7346F3' }}>
-                    {badge}
-                  </span>
-                ))}
+                {item.badges?.map((badge, i) => {
+                  const colors: Record<string, string> = { '슈퍼적립': '#7346F3', '역대최저가': '#E53E3E', '재등장': '#DD6B20' };
+                  const label = badge === '역대최저가' ? '🏆 ' + badge : badge === '재등장' ? '🔄 ' + badge : badge;
+                  return (
+                    <span key={i} className="text-[8px] font-bold text-white px-1 py-0.5 rounded" style={{ backgroundColor: colors[badge] || '#7346F3' }}>
+                      {label}
+                    </span>
+                  );
+                })}
               </div>
               <h3 className="text-xs font-medium text-gray-800 line-clamp-1 group-hover:text-orange-600 transition-colors">
                 {item.title}
