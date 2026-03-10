@@ -273,8 +273,8 @@ export default function Home() {
           </select>
         </div>
 
-        {/* 최근 본 상품 */}
-        <RecentlyViewed />
+        {/* 최근 본 상품 (검색 중엔 숨김) */}
+        {!searchQuery.trim() && <RecentlyViewed />}
 
         {/* 상품 목록 */}
         {wishlistMode ? (
