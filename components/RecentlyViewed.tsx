@@ -141,6 +141,11 @@ export default function RecentlyViewed() {
                 <span className={`text-[8px] font-bold text-white px-1 py-0.5 rounded ${item.source === 'naver' ? 'bg-green-500' : 'bg-red-500'}`}>
                   {item.source === 'naver' ? '네이버' : '쿠팡'}
                 </span>
+                {item.source !== 'naver' && item.isRocket && (
+                  <span className="text-[8px] font-bold text-white px-1 py-0.5 rounded bg-blue-500">
+                    🚀 로켓
+                  </span>
+                )}
                 {item.badges?.map((badge, i) => (
                   <span key={i} className="text-[8px] font-bold text-white px-1 py-0.5 rounded" style={{ backgroundColor: '#7346F3' }}>
                     {badge}
