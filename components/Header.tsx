@@ -70,7 +70,7 @@ export default function Header({
               rel="noopener noreferrer"
               className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-yellow-400 hover:bg-yellow-500 transition-colors"
             >
-              <img src="/icons/kakao.svg" alt="카카오톡" className="w-5 h-5" />
+              <img src="/icons/kakao.png" alt="카카오톡" className="w-5 h-5" />
               <span className="text-xs font-bold text-yellow-900">카카오톡</span>
             </a>
             <a

@@ -18,7 +18,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-sm text-gray-600 hover:text-yellow-600 transition-colors"
           >
-            <img src="/icons/kakao.svg" alt="카카오톡" className="w-5 h-5" />
+            <img src="/icons/kakao.png" alt="카카오톡" className="w-5 h-5" />
             카카오톡 오픈채팅
           </a>
           <a

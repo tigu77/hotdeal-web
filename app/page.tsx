@@ -310,7 +310,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-yellow-400 text-yellow-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-500 transition-colors"
             >
-              <img src="/icons/kakao.svg" alt="카카오톡" className="w-5 h-5" />
+              <img src="/icons/kakao.png" alt="카카오톡" className="w-5 h-5" />
               카카오톡
             </a>
             <a
