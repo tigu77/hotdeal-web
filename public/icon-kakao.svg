@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="flame" x1="0.5" y1="1" x2="0.5" y2="0">
+      <stop offset="0%" stop-color="#FF4500"/>
+      <stop offset="50%" stop-color="#FF6B00"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+    <linearGradient id="inner" x1="0.5" y1="1" x2="0.5" y2="0">
+      <stop offset="0%" stop-color="#FF6B00"/>
+      <stop offset="100%" stop-color="#FFEB3B"/>
+    </linearGradient>
+  </defs>
+  <!-- 흰색 원형 배경 -->
+  <circle cx="256" cy="256" r="256" fill="white"/>
+  <!-- 불꽃 (더 축소, 여백 확보) -->
+  <g transform="translate(76, 60) scale(0.7)">
+    <path d="M256 16c0 0-48 80-48 144 0 16-16 32-32 16-16-16-32-48-32-48s-64 96-64 192c0 106 78.5 192 176 192s176-86 176-192c0-128-176-304-176-304z" fill="url(#flame)"/>
+    <path d="M256 512c-66 0-112-54-112-120 0-80 64-136 80-152 0 0 8 40 32 56 8 6 16-2 16-12 0-32 16-64 16-64s80 80 80 172c0 66-46 120-112 120z" fill="url(#inner)"/>
+  </g>
+</svg>

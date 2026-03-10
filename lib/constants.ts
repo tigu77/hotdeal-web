@@ -4,6 +4,7 @@ export const SITE = {
   description: "매일 엄선된 최저가 상품을 추천합니다.",
   url: "https://hotdeal-web-peach.vercel.app",
   telegram: "https://t.me/hotdeal_alimi",
+  kakao: "https://open.kakao.com/o/gLCxYLki",
   coupangPartnersId: "AF6113349",
 } as const;
 

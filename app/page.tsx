@@ -297,20 +297,30 @@ export default function Home() {
           <EmptyState query={searchQuery} />
         )}
 
-        {/* 텔레그램 CTA */}
+        {/* 구독 CTA */}
         <aside className="mt-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl p-8 text-center text-white">
           <h3 className="text-2xl font-bold mb-3">핫딜 놓치지 마세요!</h3>
           <p className="text-orange-100 mb-6">
-            텔레그램에서 실시간 최저가 알림을 받아보세요
+            실시간 최저가 알림을 받아보세요
           </p>
-          <a
-            href={SITE.telegram}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-white text-orange-600 px-8 py-3 rounded-full font-bold hover:bg-orange-50 transition-colors"
-          >
-            📢 텔레그램 구독하기
-          </a>
+          <div className="flex items-center justify-center gap-3 flex-wrap">
+            <a
+              href={SITE.kakao}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-yellow-400 text-yellow-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-500 transition-colors"
+            >
+              💬 카카오톡
+            </a>
+            <a
+              href={SITE.telegram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-white text-orange-600 px-8 py-3 rounded-full font-bold hover:bg-orange-50 transition-colors"
+            >
+              📢 텔레그램
+            </a>
+          </div>
         </aside>
       </main>
 

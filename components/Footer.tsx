@@ -11,14 +11,24 @@ export default function Footer() {
 
         <p className="text-sm text-gray-500">{SITE.description}</p>
 
-        <a
-          href={SITE.telegram}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 text-sky-500 text-sm hover:text-sky-600"
-        >
-          📢 텔레그램에서 실시간 알림 받기
-        </a>
+        <div className="flex items-center justify-center gap-4 flex-wrap">
+          <a
+            href={SITE.kakao}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 text-yellow-600 text-sm hover:text-yellow-700"
+          >
+            💬 카카오톡 오픈채팅
+          </a>
+          <a
+            href={SITE.telegram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 text-sky-500 text-sm hover:text-sky-600"
+          >
+            📢 텔레그램 채널
+          </a>
+        </div>
 
         <div className="pt-4 border-t border-gray-200 space-y-2">
           <p className="text-xs text-gray-500">
