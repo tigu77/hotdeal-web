@@ -165,7 +165,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
         </div>
         {product.rating != null && product.rating > 0 && (
           <div className="mt-1 text-[11px]">
-            <span className="text-yellow-500 font-bold">⭐{product.rating.toFixed(1)}</span>
+            <span className="text-yellow-500 font-bold">⭐{(Math.floor(product.rating * 10) / 10).toFixed(1)}</span>
             {product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
           </div>
         )}
@@ -220,7 +220,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
               )}
               {product.rating != null && product.rating > 0 && (
                 <span className="text-[11px]">
-                  <span className="text-yellow-500 font-bold">⭐{product.rating.toFixed(1)}</span>
+                  <span className="text-yellow-500 font-bold">⭐{(Math.floor(product.rating * 10) / 10).toFixed(1)}</span>
                   {product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
                 </span>
               )}
