@@ -68,19 +68,19 @@ export default function Header({
               href={SITE.kakao}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-yellow-400 hover:bg-yellow-500 transition-colors"
+              className="flex items-center justify-center w-9 h-9 rounded-full bg-yellow-400 hover:bg-yellow-500 transition-colors"
+              title="카카오톡 알림"
             >
               <img src="/icons/kakao.png" alt="카카오톡" className="w-5 h-5" />
-              <span className="text-xs font-bold text-yellow-900">카카오톡 알림</span>
             </a>
             <a
               href={SITE.telegram}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-sky-500 hover:bg-sky-600 transition-colors"
+              className="flex items-center justify-center w-9 h-9 rounded-full bg-sky-500 hover:bg-sky-600 transition-colors"
+              title="텔레그램 알림"
             >
               <img src="/icons/telegram.svg" alt="텔레그램" className="w-5 h-5" />
-              <span className="text-xs font-bold text-white">텔레그램 알림</span>
             </a>
           </div>
         </div>
