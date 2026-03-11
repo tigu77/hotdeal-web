@@ -14,7 +14,12 @@ import WishlistButton from "@/components/WishlistButton";
 import ProductCard from "@/components/ProductCard";
 
 function getProductById(id: string) {
-  return getProducts().find((p) => p.id === id) || null;
+  const products = getProducts();
+  // 정확한 id 매칭 (coupang-123, naver-456)
+  const exact = products.find((p) => p.id === id);
+  if (exact) return exact;
+  // 접두사 없는 id fallback (과거 링크 호환)
+  return products.find((p) => p.id === `coupang-${id}` || p.id === `naver-${id}`) || null;
 }
 
 export const dynamic = 'force-dynamic';
