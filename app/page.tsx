@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect, useRef } from "react";
+import { useState, useMemo, useEffect, useRef, useDeferredValue } from "react";
 import Header from "@/components/Header";
 import ProductCard from "@/components/ProductCard";
 import Footer from "@/components/Footer";
@@ -33,6 +33,7 @@ export default function Home() {
   const [wishlistMode, setWishlistMode] = useState(false);
   const [wishlistVersion, setWishlistVersion] = useState(0);
   const isMobile = useIsMobile();
+  const deferredSearchQuery = useDeferredValue(searchQuery);
 
   // UTM 채널 유입 추적
   useEffect(() => {
@@ -115,8 +116,8 @@ export default function Home() {
     let items = getProducts(selectedCategory, selectedSource);
 
     // 검색 필터
-    if (searchQuery.trim()) {
-      const q = searchQuery.trim().toLowerCase();
+    if (deferredSearchQuery.trim()) {
+      const q = deferredSearchQuery.trim().toLowerCase();
       items = items.filter((p) =>
         p.title.toLowerCase().includes(q) ||
         (p.tags && p.tags.some((t) => t.toLowerCase().includes(q)))
@@ -178,7 +179,7 @@ export default function Home() {
     });
 
     return items;
-  }, [selectedCategory, selectedSource, searchQuery, sortBy, wishlistMode]);
+  }, [selectedCategory, selectedSource, deferredSearchQuery, sortBy, wishlistMode]);
 
   // 검색 트래킹 (디바운스 500ms)
   const searchTimer = useRef<NodeJS.Timeout>(null);
@@ -199,7 +200,7 @@ export default function Home() {
   // 카테고리/검색/정렬 변경 시 리셋
   useEffect(() => {
     setVisibleCount(ITEMS_PER_PAGE);
-  }, [selectedCategory, selectedSource, searchQuery, sortBy, wishlistMode]);
+  }, [selectedCategory, selectedSource, deferredSearchQuery, sortBy, wishlistMode]);
 
   useEffect(() => {
     const sentinel = sentinelRef.current;
