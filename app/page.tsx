@@ -207,7 +207,7 @@ export default function Home() {
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
       if (docHeight <= 0) return;
-      if (scrollTop / docHeight >= 0.7) {
+      if (scrollTop / docHeight >= 0.8) {
         setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
       }
     };
