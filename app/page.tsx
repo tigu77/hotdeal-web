@@ -249,13 +249,13 @@ export default function Home() {
         </p>
       </div>
 
-      <main className="max-w-7xl mx-auto px-4 py-8">
+      <main className="max-w-7xl mx-auto px-4 py-4 sm:py-8">
         {/* 히어로 + 검색 */}
-        <section aria-label="검색" className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-3">
+        <section aria-label="검색" className="text-center mb-4 sm:mb-8">
+          <h1 className="hidden sm:block text-3xl font-bold text-gray-900 mb-3">
             오늘의 <span className="text-orange-500">핫딜</span> 🔥
           </h1>
-          <p className="text-gray-500 mb-5">{SITE.description}</p>
+          <p className="hidden sm:block text-gray-500 mb-5">{SITE.description}</p>
 
           {/* 검색바 */}
           <div className="max-w-md mx-auto relative">
