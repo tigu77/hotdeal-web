@@ -137,6 +137,14 @@ export default function RecentlyViewed() {
                   </div>
                 )}
               </div>
+              <div className="flex items-center gap-1 mb-0.5 flex-wrap">
+                <span className={`text-[7px] font-bold text-white px-0.5 py-[1px] rounded ${item.source === 'naver' ? 'bg-green-500' : 'bg-red-500'}`}>
+                  {item.source === 'naver' ? '네이버' : '쿠팡'}
+                </span>
+                {item.source !== 'naver' && item.isRocket && (
+                  <span className="text-[7px] font-bold text-white px-0.5 py-[1px] rounded bg-blue-500">🚀</span>
+                )}
+              </div>
               <h3 className="text-[10px] font-medium text-gray-800 line-clamp-1 group-hover:text-orange-600 transition-colors">
                 {item.title}
               </h3>
@@ -150,6 +158,18 @@ export default function RecentlyViewed() {
                   </span>
                 )}
               </div>
+              {item.rating != null && item.rating > 0 && (
+                <div className="flex items-center gap-0.5">
+                  <span className="text-[9px] font-bold text-yellow-500">⭐{(Math.floor(item.rating * 10) / 10).toFixed(1)}</span>
+                  {item.reviewCount != null && item.reviewCount > 0 && (
+                    <span className="text-[9px] text-gray-400">({item.reviewCount.toLocaleString()})</span>
+                  )}
+                </div>
+              )}
+              {(() => {
+                const sp = getDisplaySoldPercent(item);
+                return sp > 0 ? <SoldBar soldPercent={sp} variant="mini" /> : null;
+              })()}
             </a>
           );
         })}
