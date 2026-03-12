@@ -210,7 +210,7 @@ export default function Home() {
           setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
         }
       },
-      { rootMargin: "200px" }
+      { rootMargin: "600px" }
     );
     observer.observe(sentinel);
     return () => observer.disconnect();
