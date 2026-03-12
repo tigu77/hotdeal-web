@@ -74,8 +74,8 @@ export default function RecentlyViewed() {
   if (items.length === 0) return null;
 
   return (
-    <section className="mb-6">
-      <h2 className="text-lg font-bold text-gray-900 mb-3">🕐 최근 본 상품</h2>
+    <section className="mb-4">
+      <h2 className="text-sm font-bold text-gray-900 mb-2">🕐 최근 본 상품</h2>
       <div className="relative group/scroll">
         {canScrollLeft && (
           <button
@@ -137,50 +137,19 @@ export default function RecentlyViewed() {
                   </div>
                 )}
               </div>
-              <div className="flex items-center gap-1 mb-0.5 flex-wrap">
-                <span className={`text-[8px] font-bold text-white px-1 py-0.5 rounded ${item.source === 'naver' ? 'bg-green-500' : 'bg-red-500'}`}>
-                  {item.source === 'naver' ? '네이버' : '쿠팡'}
-                </span>
-                {item.source !== 'naver' && item.isRocket && (
-                  <span className="text-[8px] font-bold text-white px-1 py-0.5 rounded bg-blue-500">
-                    🚀 로켓
-                  </span>
-                )}
-                {item.badges?.map((badge, i) => {
-                  const colors: Record<string, string> = { '슈퍼적립': '#7346F3', '역대최저가': '#E53E3E', '재등장': '#DD6B20' };
-                  const label = badge === '역대최저가' ? '🏆 ' + badge : badge === '재등장' ? '🔄 ' + badge : badge;
-                  return (
-                    <span key={i} className="text-[8px] font-bold text-white px-1 py-0.5 rounded" style={{ backgroundColor: colors[badge] || '#7346F3' }}>
-                      {label}
-                    </span>
-                  );
-                })}
-              </div>
-              <h3 className="text-xs font-medium text-gray-800 line-clamp-1 group-hover:text-orange-600 transition-colors">
+              <h3 className="text-[10px] font-medium text-gray-800 line-clamp-1 group-hover:text-orange-600 transition-colors">
                 {item.title}
               </h3>
               <div className="flex items-center gap-1">
-                <span className={`text-xs font-bold ${priceColor}`}>
+                <span className={`text-[10px] font-bold ${priceColor}`}>
                   {displayPrice === 0 ? "무료" : formatPrice(displayPrice)}
                 </span>
                 {discount > 0 && (
-                  <span className="text-[10px] font-bold text-red-500">
+                  <span className="text-[9px] font-bold text-red-500">
                     {discount}%↓
                   </span>
                 )}
               </div>
-              {item.rating != null && item.rating > 0 && (
-                <div className="flex items-center gap-0.5">
-                  <span className="text-[10px] font-bold text-yellow-500">⭐{(Math.floor(item.rating * 10) / 10).toFixed(1)}</span>
-                  {item.reviewCount != null && item.reviewCount > 0 && (
-                    <span className="text-[10px] text-gray-400">({item.reviewCount.toLocaleString()})</span>
-                  )}
-                </div>
-              )}
-              {(() => {
-                const sp = getDisplaySoldPercent(item);
-                return sp > 0 ? <SoldBar soldPercent={sp} variant="mini" /> : null;
-              })()}
             </a>
           );
         })}
