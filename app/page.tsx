@@ -191,6 +191,34 @@ export default function Home() {
     return () => { if (searchTimer.current) clearTimeout(searchTimer.current); };
   }, [searchQuery, products.length]);
 
+  // ── 무한 스크롤 ──
+  const ITEMS_PER_PAGE = 30;
+  const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
+  const sentinelRef = useRef<HTMLDivElement>(null);
+
+  // 카테고리/검색/정렬 변경 시 리셋
+  useEffect(() => {
+    setVisibleCount(ITEMS_PER_PAGE);
+  }, [selectedCategory, selectedSource, searchQuery, sortBy, wishlistMode]);
+
+  useEffect(() => {
+    const sentinel = sentinelRef.current;
+    if (!sentinel) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
+        }
+      },
+      { rootMargin: "200px" }
+    );
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, []);
+
+  const visibleProducts = useMemo(() => products.slice(0, visibleCount), [products, visibleCount]);
+  const visibleWishlist = useMemo(() => wishlistProducts.slice(0, visibleCount), [wishlistProducts, visibleCount]);
+
   return (
     <div className="min-h-screen bg-gray-50 pb-28">
       <Header
@@ -280,7 +308,7 @@ export default function Home() {
         {wishlistMode ? (
           wishlistProducts.length > 0 ? (
             <section aria-label="찜한 상품" className={`grid gap-3 ${isMobile ? 'grid-cols-2' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
-              {wishlistProducts.map((product) => (
+              {visibleWishlist.map((product) => (
                 <ProductCard key={product.id} product={product} compact={isMobile} />
               ))}
             </section>
@@ -289,12 +317,20 @@ export default function Home() {
           )
         ) : products.length > 0 ? (
           <section aria-label="상품 목록" className={`grid gap-3 ${isMobile ? 'grid-cols-2' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
-            {products.map((product) => (
+            {visibleProducts.map((product) => (
               <ProductCard key={product.id} product={product} compact={isMobile} />
             ))}
           </section>
         ) : (
           <EmptyState query={searchQuery} />
+        )}
+
+        {/* 무한 스크롤 센티널 */}
+        {((wishlistMode && visibleCount < wishlistProducts.length) ||
+          (!wishlistMode && visibleCount < products.length)) && (
+          <div ref={sentinelRef} className="flex justify-center py-8">
+            <span className="text-gray-400 text-sm">불러오는 중...</span>
+          </div>
         )}
 
         {/* 구독 CTA */}
