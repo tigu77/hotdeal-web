@@ -115,13 +115,13 @@ export default function RecentlyViewed() {
               href={item.affiliateUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className={`flex-shrink-0 w-28 group ${item.isSoldOut ? 'opacity-50 grayscale' : ''}`}
+              className={`flex-shrink-0 w-20 group ${item.isSoldOut ? 'opacity-50 grayscale' : ''}`}
               onClick={() => trackRecentlyViewedClick(item.id, item.title, item.source)}
             >
-              <div className="relative w-28 h-28 rounded-xl overflow-hidden bg-gray-50 mb-1.5">
+              <div className="relative w-20 h-20 rounded-lg overflow-hidden bg-gray-50 mb-1">
                 {item.isSoldOut && (
                   <div className="absolute inset-0 bg-black/60 flex items-center justify-center rounded-xl z-[1]">
-                    <span className="text-white text-[12px] font-bold">한정수량 마감</span>
+                    <span className="text-white text-[10px] font-bold">마감</span>
                   </div>
                 )}
                 {item.imageUrl ? (
@@ -171,7 +171,7 @@ export default function RecentlyViewed() {
               </div>
               {item.rating != null && item.rating > 0 && (
                 <div className="flex items-center gap-0.5">
-                  <span className="text-[10px] font-bold text-yellow-500">⭐{item.rating.toFixed(1)}</span>
+                  <span className="text-[10px] font-bold text-yellow-500">⭐{(Math.floor(item.rating * 10) / 10).toFixed(1)}</span>
                   {item.reviewCount != null && item.reviewCount > 0 && (
                     <span className="text-[10px] text-gray-400">({item.reviewCount.toLocaleString()})</span>
                   )}
