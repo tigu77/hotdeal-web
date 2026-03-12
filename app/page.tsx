@@ -309,8 +309,8 @@ export default function Home() {
         {wishlistMode ? (
           wishlistProducts.length > 0 ? (
             <section aria-label="찜한 상품" className={`grid gap-3 ${isMobile ? 'grid-cols-2' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
-              {visibleWishlist.map((product) => (
-                <ProductCard key={product.id} product={product} compact={isMobile} />
+              {visibleWishlist.map((product, i) => (
+                <ProductCard key={product.id} product={product} compact={isMobile} eager={i < 12} />
               ))}
             </section>
           ) : (
@@ -318,8 +318,8 @@ export default function Home() {
           )
         ) : products.length > 0 ? (
           <section aria-label="상품 목록" className={`grid gap-3 ${isMobile ? 'grid-cols-2' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
-            {visibleProducts.map((product) => (
-              <ProductCard key={product.id} product={product} compact={isMobile} />
+            {visibleProducts.map((product, i) => (
+              <ProductCard key={product.id} product={product} compact={isMobile} eager={i < 12} />
             ))}
           </section>
         ) : (

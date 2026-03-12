@@ -13,9 +13,10 @@ import SoldBar from "@/components/SoldBar";
 interface ProductCardProps {
   product: Product;
   compact?: boolean;
+  eager?: boolean;
 }
 
-export default function ProductCard({ product, compact = false }: ProductCardProps) {
+export default function ProductCard({ product, compact = false, eager = false }: ProductCardProps) {
   const { salePrice, wowPrice, price, isWow } = product;
   const { remaining, expired, isUrgent } = useCountdown(product.expiresAt, product.id, product.title);
   const { basePrice, finalPrice, discountPercent } = getProductPrices(product);
@@ -79,8 +80,8 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
     />
   );
 
-  const thumbnail = (src: string, cls: string) => (
-    <img src={src} alt={product.title} className={cls} loading="lazy" />
+  const thumbnail = (src: string, cls: string, eager?: boolean) => (
+    <img src={src} alt={product.title} className={cls} loading={eager ? "eager" : "lazy"} />
   );
 
   const soldOutBadge = isSoldOut ? (
@@ -131,7 +132,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
         {clickOverlay}
         <div className="relative aspect-square lg:aspect-[4/5] rounded-lg overflow-hidden bg-gray-50 mb-2" onClick={handleImageClick}>
           {wishlistBtn}
-          {product.imageUrl ? thumbnail(product.imageUrl.replace(/\/\d+x\d+ex\//, '/230x230ex/'), "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300") : (
+          {product.imageUrl ? thumbnail(product.imageUrl.replace(/\/\d+x\d+ex\//, '/230x230ex/'), "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300", eager) : (
             <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200"><span className="text-2xl">🛒</span></div>
           )}
           {soldOutBadge}
@@ -190,7 +191,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
       {/* 썸네일 */}
       <div className="relative w-32 h-32 flex-shrink-0 rounded-xl overflow-hidden bg-gray-50" onClick={handleImageClick}>
         {wishlistBtn}
-        {product.imageUrl ? thumbnail(product.imageUrl, "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300") : (
+        {product.imageUrl ? thumbnail(product.imageUrl, "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300", eager) : (
           <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-100 to-orange-200"><span className="text-3xl">🛒</span></div>
         )}
         {soldOutBadge}
