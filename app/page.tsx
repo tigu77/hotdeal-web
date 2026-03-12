@@ -195,7 +195,7 @@ export default function Home() {
   // ── 무한 스크롤 ──
   const ITEMS_PER_PAGE = 30;
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
-  const sentinelRef = useRef<HTMLDivElement>(null);
+
 
   // 카테고리/검색/정렬 변경 시 리셋
   useEffect(() => {
@@ -203,18 +203,16 @@ export default function Home() {
   }, [selectedCategory, selectedSource, deferredSearchQuery, sortBy, wishlistMode]);
 
   useEffect(() => {
-    const sentinel = sentinelRef.current;
-    if (!sentinel) return;
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
-        }
-      },
-      { rootMargin: "600px" }
-    );
-    observer.observe(sentinel);
-    return () => observer.disconnect();
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      if (docHeight <= 0) return;
+      if (scrollTop / docHeight >= 0.7) {
+        setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
+      }
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const visibleProducts = useMemo(() => products.slice(0, visibleCount), [products, visibleCount]);
@@ -326,10 +324,10 @@ export default function Home() {
           <EmptyState query={searchQuery} />
         )}
 
-        {/* 무한 스크롤 센티널 */}
+        {/* 무한 스크롤 로딩 표시 */}
         {((wishlistMode && visibleCount < wishlistProducts.length) ||
           (!wishlistMode && visibleCount < products.length)) && (
-          <div ref={sentinelRef} className="flex justify-center py-8">
+          <div className="flex justify-center py-8">
             <span className="text-gray-400 text-sm">불러오는 중...</span>
           </div>
         )}
