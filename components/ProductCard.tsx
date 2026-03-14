@@ -22,7 +22,8 @@ export default function ProductCard({ product, compact = false, eager = false }:
   const { basePrice, finalPrice, discountPercent } = getProductPrices(product);
 
   const isNaver = product.source === 'naver';
-  const isCoupang = product.source !== 'naver';
+  const isAli = product.source === 'aliexpress';
+  const isCoupang = !isNaver && !isAli;
   const isSoldOut = product.isSoldOut || false;
   const soldPercent = getDisplaySoldPercent(product);
   const isAlmostGone = soldPercent >= 80;
@@ -47,7 +48,7 @@ export default function ProductCard({ product, compact = false, eager = false }:
   // ── 공통 클릭 핸들러 ──
   const handleClick = () => {
     trackProductClick(product.id, product.title, product.category, product.source);
-    trackExternalLinkClick(product.id, isNaver ? 'naver' : 'coupang', product.affiliateUrl);
+    trackExternalLinkClick(product.id, isNaver ? 'naver' : isAli ? 'aliexpress' : 'coupang', product.affiliateUrl);
     saveRecentlyViewed(product.id);
   };
 
@@ -96,13 +97,13 @@ export default function ProductCard({ product, compact = false, eager = false }:
 
   const sourceBadge = (
     <span className={`flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded ${
-      isNaver ? 'bg-green-500' : 'bg-red-500'
+      isNaver ? 'bg-green-500' : isAli ? 'bg-orange-500' : 'bg-red-500'
     }`}>
-      {isNaver ? '네이버' : '쿠팡'}
+      {isNaver ? '네이버' : isAli ? '알리' : '쿠팡'}
     </span>
   );
 
-  const rocketBadge = !isNaver && product.isRocket ? (
+  const rocketBadge = isCoupang && product.isRocket ? (
     <span className="flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded bg-blue-500">
       🚀 로켓
     </span>

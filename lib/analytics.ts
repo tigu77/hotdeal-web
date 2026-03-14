@@ -172,6 +172,6 @@ export function trackWishlistEmptyView() {
 }
 
 // 외부 링크 클릭 (쿠팡/네이버)
-export function trackExternalLinkClick(productId: string, destination: 'coupang' | 'naver', url: string) {
+export function trackExternalLinkClick(productId: string, destination: 'coupang' | 'naver' | 'aliexpress', url: string) {
   trackEvent('external_link_click', { item_id: productId, destination, url });
 }

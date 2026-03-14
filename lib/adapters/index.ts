@@ -1,4 +1,5 @@
 import type { SourceAdapter, WebProduct } from './types';
+import { aliexpressAdapter } from './aliexpress';
 import { coupangAdapter } from './coupang';
 import { naverAdapter } from './naver';
 
@@ -6,6 +7,7 @@ export type { WebProduct, SourceAdapter } from './types';
 
 /** 어댑터 레지스트리 — 새 소스 추가 시 여기에 등록 */
 const adapters: Record<string, SourceAdapter<any>> = {
+  aliexpress: aliexpressAdapter,
   coupang: coupangAdapter,
   naver: naverAdapter,
 };
