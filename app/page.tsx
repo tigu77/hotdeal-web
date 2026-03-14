@@ -202,27 +202,22 @@ export default function Home() {
     setVisibleCount(ITEMS_PER_PAGE);
   }, [selectedCategory, selectedSource, deferredSearchQuery, sortBy, wishlistMode]);
 
+  // IntersectionObserver로 무한스크롤 — 센티널이 보이면 추가 로드
+  const sentinelRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    const loadMore = () => {
-      const scrollTop = window.scrollY;
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      // 스크롤 여유가 화면 높이 20% 이하거나 80% 이상 스크롤 시 추가 로드
-      if (docHeight <= window.innerHeight * 0.2 || scrollTop / docHeight >= 0.8) {
-        setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
-      }
-    };
-    window.addEventListener('scroll', loadMore, { passive: true });
-    // 화면 채울 때까지 반복 체크 (PC 큰 화면 대응)
-    const interval = setInterval(() => {
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      if (docHeight <= window.innerHeight * 0.2) {
-        setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
-      } else {
-        clearInterval(interval);
-      }
-    }, 200);
-    return () => { window.removeEventListener('scroll', loadMore); clearInterval(interval); };
-  }, []);
+    const sentinel = sentinelRef.current;
+    if (!sentinel) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
+        }
+      },
+      { rootMargin: '400px' },  // 400px 여유두고 미리 로드
+    );
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [selectedCategory, selectedSource, deferredSearchQuery, sortBy, wishlistMode]);
 
   const visibleProducts = useMemo(() => products.slice(0, visibleCount), [products, visibleCount]);
   const visibleWishlist = useMemo(() => wishlistProducts.slice(0, visibleCount), [wishlistProducts, visibleCount]);
@@ -334,6 +329,8 @@ export default function Home() {
         )}
 
         {/* 무한 스크롤 로딩 표시 */}
+        {/* 무한스크롤 센티널 */}
+        <div ref={sentinelRef} />
         {((wishlistMode && visibleCount < wishlistProducts.length) ||
           (!wishlistMode && visibleCount < products.length)) && (
           <div className="flex justify-center py-8">
