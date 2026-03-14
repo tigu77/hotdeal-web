@@ -193,7 +193,6 @@ export default function ProductCard({ product, compact = false, eager = false }:
           <div className="mt-1 text-[11px]">
             <span className="text-yellow-500 font-bold">⭐{(Math.floor(product.rating * 10) / 10).toFixed(1)}</span>
             {!isAli && product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
-            {isAli && product.salesVolume != null && product.salesVolume > 0 && <span className="text-gray-400"> ({formatSalesVolume(product.salesVolume)})</span>}
           </div>
         )}
         {isAli && <div className="mt-1">{aliInfo}</div>}
@@ -251,7 +250,6 @@ export default function ProductCard({ product, compact = false, eager = false }:
                 <span className="text-[11px]">
                   <span className="text-yellow-500 font-bold">⭐{(Math.floor(product.rating * 10) / 10).toFixed(1)}</span>
                   {!isAli && product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
-                  {isAli && product.salesVolume != null && product.salesVolume > 0 && <span className="text-gray-400"> ({formatSalesVolume(product.salesVolume)})</span>}
                 </span>
               )}
             </div>
