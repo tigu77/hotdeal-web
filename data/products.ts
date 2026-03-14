@@ -25,6 +25,8 @@ const allProducts: Product[] = (raw as any[]).map((p) => ({
   registeredAt: p.registeredAt,
   source: p.source || 'coupang',
   storeName: p.storeName,
+  salesVolume: p.salesVolume,
+  isFreeShipping: p.isFreeShipping,
   badges: p.badges || [],
 }));
 
