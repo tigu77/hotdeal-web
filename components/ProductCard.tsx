@@ -116,10 +116,18 @@ export default function ProductCard({ product, compact = false, eager = false }:
     '슈퍼적립': '#7346F3',
     '역대최저가': '#E53E3E',
     '재등장': '#DD6B20',
+    '직구 핫딜': '#E53E3E',
+    'Choice': '#191919',
+  };
+  const badgeIcons: Record<string, string> = {
+    '역대최저가': '🏆',
+    '재등장': '🔄',
+    '직구 핫딜': '⚡',
+    'Choice': '✓',
   };
   const extraBadges = product.badges?.map((badge, i) => (
     <span key={i} className="flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded" style={{ backgroundColor: badgeColors[badge] || '#7346F3' }}>
-      {badge === '역대최저가' ? '🏆 ' + badge : badge === '재등장' ? '🔄 ' + badge : badge}
+      {badgeIcons[badge] ? badgeIcons[badge] + ' ' + badge : badge}
     </span>
   ));
 
