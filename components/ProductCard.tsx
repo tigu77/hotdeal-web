@@ -125,7 +125,7 @@ export default function ProductCard({ product, compact = false, eager = false }:
   const badgeIcons: Record<string, string> = {
     '역대최저가': '🏆',
     '재등장': '🔄',
-    '직구 핫딜': '⚡',
+
   };
   const extraBadges = product.badges?.map((badge, i) => (
     <span key={i} className="flex-shrink-0 text-[9px] font-bold px-1.5 py-0.5 rounded" style={{ backgroundColor: badgeColors[badge] || '#7346F3', color: badgeTextColors[badge] || '#FFFFFF' }}>
