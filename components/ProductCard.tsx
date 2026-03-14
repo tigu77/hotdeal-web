@@ -122,7 +122,8 @@ export default function ProductCard({ product, compact = false, eager = false }:
   };
   const badgeTextColors: Record<string, string> = {
     'Choice': '#191919',
-    '브랜드+': '#2D5F8A',
+    '직구 핫딜': '#191919',
+    '브랜드+': '#FFFFFF',
   };
   const badgeIcons: Record<string, string> = {
     '역대최저가': '🏆',
@@ -131,7 +132,7 @@ export default function ProductCard({ product, compact = false, eager = false }:
   };
   const extraBadges = product.badges?.map((badge, i) => (
     <span key={i} className="flex-shrink-0 text-[9px] font-bold px-1.5 py-0.5 rounded" style={{ backgroundColor: badgeColors[badge] || '#7346F3', color: badgeTextColors[badge] || '#FFFFFF' }}>
-      {badgeIcons[badge] ? badgeIcons[badge] + ' ' + badge : badge}
+      {badgeIcons[badge] ? badgeIcons[badge] + ' ' : ''}{badge === '브랜드+' ? <>브랜드<span style={{ color: '#FFD700' }}>+</span></> : badge}
     </span>
   ));
 
