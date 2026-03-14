@@ -117,7 +117,7 @@ export default function ProductCard({ product, compact = false, eager = false }:
     '역대최저가': '#E53E3E',
     '재등장': '#DD6B20',
     '직구 핫딜': '#F4845F',
-    'Choice': '#D4A017',
+    'Choice': '#CCB800',
     '브랜드+': '#C5D8F0',
   };
   const badgeTextColors: Record<string, string> = {
