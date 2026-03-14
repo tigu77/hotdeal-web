@@ -115,13 +115,13 @@ export default function Home() {
     if (wishlistMode) return []; // handled separately
     let items = getProducts(selectedCategory, selectedSource);
 
-    // 검색 필터
+    // 검색 필터 (스페이스 구분 AND 검색)
     if (deferredSearchQuery.trim()) {
-      const q = deferredSearchQuery.trim().toLowerCase();
-      items = items.filter((p) =>
-        p.title.toLowerCase().includes(q) ||
-        (p.tags && p.tags.some((t) => t.toLowerCase().includes(q)))
-      );
+      const words = deferredSearchQuery.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      items = items.filter((p) => {
+        const text = (p.title + ' ' + (p.tags || []).join(' ')).toLowerCase();
+        return words.every((w) => text.includes(w));
+      });
     }
 
     // 정렬
