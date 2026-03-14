@@ -206,8 +206,8 @@ export default function Home() {
     const loadMore = () => {
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      // 스크롤 여유가 없거나(PC 큰 화면) 80% 이상 스크롤 시 추가 로드
-      if (docHeight <= 200 || scrollTop / docHeight >= 0.8) {
+      // 스크롤 여유가 화면 높이 20% 이하거나 80% 이상 스크롤 시 추가 로드
+      if (docHeight <= window.innerHeight * 0.2 || scrollTop / docHeight >= 0.8) {
         setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
       }
     };
