@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import type { Product } from "@/types";
-import { formatPrice, timeAgo, getProductPrices } from "@/lib/format";
+import { formatPrice, formatSalesVolume, timeAgo, getProductPrices } from "@/lib/format";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { trackProductClick, trackImageClick, trackSoldOutView, trackExternalLinkClick } from "@/lib/analytics";
 import { saveRecentlyViewed } from "@/lib/recently-viewed";
@@ -140,7 +140,7 @@ export default function ProductCard({ product, compact = false, eager = false }:
   const aliInfo = isAli && (
     <div className="flex items-center gap-1.5 flex-wrap">
       {product.salesVolume != null && product.salesVolume > 0 && (
-        <span className="text-[11px] text-gray-500">🔥 {product.salesVolume >= 10000 ? `${(product.salesVolume / 10000).toFixed(1)}만` : product.salesVolume.toLocaleString()}개 판매</span>
+        <span className="text-[11px] text-gray-500">🔥 {formatSalesVolume(product.salesVolume)}</span>
       )}
       {product.isFreeShipping && (
         <span className="text-[11px] text-green-600 font-medium">🚚 무료배송</span>
@@ -193,7 +193,7 @@ export default function ProductCard({ product, compact = false, eager = false }:
           <div className="mt-1 text-[11px]">
             <span className="text-yellow-500 font-bold">⭐{(Math.floor(product.rating * 10) / 10).toFixed(1)}</span>
             {!isAli && product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
-            {isAli && product.salesVolume != null && product.salesVolume > 0 && <span className="text-gray-400"> ({product.salesVolume >= 10000 ? `${(product.salesVolume / 10000).toFixed(1)}만` : product.salesVolume.toLocaleString()}개 판매)</span>}
+            {isAli && product.salesVolume != null && product.salesVolume > 0 && <span className="text-gray-400"> ({formatSalesVolume(product.salesVolume)})</span>}
           </div>
         )}
         {isAli && <div className="mt-1">{aliInfo}</div>}
@@ -251,7 +251,7 @@ export default function ProductCard({ product, compact = false, eager = false }:
                 <span className="text-[11px]">
                   <span className="text-yellow-500 font-bold">⭐{(Math.floor(product.rating * 10) / 10).toFixed(1)}</span>
                   {!isAli && product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
-                  {isAli && product.salesVolume != null && product.salesVolume > 0 && <span className="text-gray-400"> ({product.salesVolume >= 10000 ? `${(product.salesVolume / 10000).toFixed(1)}만` : product.salesVolume.toLocaleString()}개 판매)</span>}
+                  {isAli && product.salesVolume != null && product.salesVolume > 0 && <span className="text-gray-400"> ({formatSalesVolume(product.salesVolume)})</span>}
                 </span>
               )}
             </div>

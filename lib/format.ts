@@ -1,3 +1,12 @@
+/** 판매량 포맷 — 알리 스타일 (예: 4,000+ 판매, 1만+ 판매) */
+export function formatSalesVolume(vol: number): string {
+  if (vol >= 100000) return `${Math.floor(vol / 10000).toLocaleString()}만+ 판매`;
+  if (vol >= 10000) return `${(vol / 10000).toFixed(1)}만+ 판매`;
+  if (vol >= 1000) return `${Math.floor(vol / 1000).toLocaleString()},000+ 판매`;
+  if (vol >= 100) return `${Math.floor(vol / 100) * 100}+ 판매`;
+  return `${vol}+ 판매`;
+}
+
 /** 가격 포맷 (예: 36,990원) */
 export function formatPrice(price: number): string {
   return price.toLocaleString("ko-KR") + "원";
