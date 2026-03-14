@@ -95,11 +95,14 @@ export default function ProductCard({ product, compact = false, eager = false }:
     </span>
   ) : null;
 
+  const sourceIcon = isNaver ? '/icons/naver.ico' : isAli ? '/icons/aliexpress.ico' : '/icons/coupang.ico';
+  const sourceName = isNaver ? '네이버' : isAli ? '알리' : '쿠팡';
   const sourceBadge = (
-    <span className={`flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded ${
+    <span className={`flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded flex items-center gap-0.5 ${
       isNaver ? 'bg-green-500' : isAli ? 'bg-orange-500' : 'bg-red-500'
     }`}>
-      {isNaver ? '네이버' : isAli ? '알리' : '쿠팡'}
+      <img src={sourceIcon} alt={sourceName} className="w-3 h-3" />
+      {sourceName}
     </span>
   );
 
