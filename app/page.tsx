@@ -212,9 +212,16 @@ export default function Home() {
       }
     };
     window.addEventListener('scroll', loadMore, { passive: true });
-    // 초기 로드 시 화면을 채울 만큼 자동 로드
-    const timer = setTimeout(loadMore, 100);
-    return () => { window.removeEventListener('scroll', loadMore); clearTimeout(timer); };
+    // 화면 채울 때까지 반복 체크 (PC 큰 화면 대응)
+    const interval = setInterval(() => {
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      if (docHeight <= window.innerHeight * 0.2) {
+        setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
+      } else {
+        clearInterval(interval);
+      }
+    }, 200);
+    return () => { window.removeEventListener('scroll', loadMore); clearInterval(interval); };
   }, []);
 
   const visibleProducts = useMemo(() => products.slice(0, visibleCount), [products, visibleCount]);
