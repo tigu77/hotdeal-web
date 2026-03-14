@@ -19702,6 +19702,7 @@
     "storeName": "Dewalt Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -19726,6 +19727,7 @@
     "storeName": "MAYMEET Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -19750,6 +19752,7 @@
     "storeName": "PRO-Fitness Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -19774,6 +19777,7 @@
     "storeName": "Shop1104782922 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -19798,6 +19802,7 @@
     "storeName": "Vaiquela Wholesale Store",
     "rating": 4.825,
     "salesVolume": 10143,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -19822,6 +19827,7 @@
     "storeName": "Hairun Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -19846,6 +19852,7 @@
     "storeName": "Shop1103816097 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -19870,6 +19877,7 @@
     "storeName": "Share Toy Store",
     "rating": 4.654999999999999,
     "salesVolume": 3826,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -19894,6 +19902,7 @@
     "storeName": "Shop1104680680 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -19918,6 +19927,7 @@
     "storeName": "Shop1104304584 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -19942,6 +19952,7 @@
     "storeName": "Zerone Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -19966,6 +19977,7 @@
     "storeName": "BORN PRETTY Choice Store",
     "rating": 4.654999999999999,
     "salesVolume": 8616,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -19990,6 +20002,7 @@
     "storeName": "Salon Fashion Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20014,6 +20027,7 @@
     "storeName": "Reletech Direct Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20038,6 +20052,7 @@
     "storeName": "New Our Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20062,6 +20077,7 @@
     "storeName": "Shop1104003330 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20086,6 +20102,7 @@
     "storeName": "China Super Electronic Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20110,6 +20127,7 @@
     "storeName": "pracmanu Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20134,6 +20152,7 @@
     "storeName": "Shop1104556530 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20158,6 +20177,7 @@
     "storeName": "Shop1100218677 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20182,6 +20202,7 @@
     "storeName": "Shop1102602078 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20206,6 +20227,7 @@
     "storeName": "Vikefon 3C Technology Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20230,6 +20252,7 @@
     "storeName": "Shop1104003330 Store",
     "rating": 4.515,
     "salesVolume": 10525,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20254,6 +20277,7 @@
     "storeName": "Shop1103835367 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20278,6 +20302,7 @@
     "storeName": "Live Love Life Store Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20302,6 +20327,7 @@
     "storeName": "Life Girls Cosmetics Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20326,6 +20352,7 @@
     "storeName": "Shop1103840190 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20350,6 +20377,7 @@
     "storeName": "Cycling Accessories Specialty Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20374,6 +20402,7 @@
     "storeName": "Lianggongfu Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20398,6 +20427,7 @@
     "storeName": "BORN PRETTY Choice Store",
     "rating": 4.71,
     "salesVolume": 9724,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20422,6 +20452,7 @@
     "storeName": "Shop1102923917 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20446,6 +20477,7 @@
     "storeName": "YangChen Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20470,6 +20502,7 @@
     "storeName": "Carlinkit Official Store",
     "rating": 4.585,
     "salesVolume": 1366,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20494,6 +20527,7 @@
     "storeName": "Magecam Cyber Store",
     "rating": 4.7,
     "salesVolume": 10663,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20518,6 +20552,7 @@
     "storeName": "Beauty Lovey Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20542,6 +20577,7 @@
     "storeName": "Pionray Global Store",
     "rating": 4.4399999999999995,
     "salesVolume": 81374,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20566,6 +20602,7 @@
     "storeName": "Gege Bear Cosmetics Store",
     "rating": 4.54,
     "salesVolume": 4001,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20590,6 +20627,7 @@
     "storeName": "Hardware Polexin Store",
     "rating": 4.635,
     "salesVolume": 212000,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20614,6 +20652,7 @@
     "storeName": "Luyanmaoyi Store",
     "rating": 4.615,
     "salesVolume": 7367,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20638,6 +20677,7 @@
     "storeName": "ishiline petlike Store",
     "rating": 4.845000000000001,
     "salesVolume": 6372,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20662,6 +20702,7 @@
     "storeName": "Mysterious",
     "rating": null,
     "salesVolume": 605,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20686,6 +20727,7 @@
     "storeName": "Stone's Store",
     "rating": 4.9,
     "salesVolume": 10106,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20710,6 +20752,7 @@
     "storeName": "LEICTORY Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20734,6 +20777,7 @@
     "storeName": "Korea Trendy Apparel Store",
     "rating": 4.79,
     "salesVolume": 2679,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20758,6 +20802,7 @@
     "storeName": "Shop1103835367 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20782,6 +20827,7 @@
     "storeName": "PanPai Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20806,6 +20852,7 @@
     "storeName": "ZT-Stationery Store",
     "rating": 4.715,
     "salesVolume": 1263,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20830,6 +20877,7 @@
     "storeName": "Shop1103845511 Store",
     "rating": 4.465,
     "salesVolume": 64682,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20854,6 +20902,7 @@
     "storeName": "Fishsheep Handcaraft Store",
     "rating": 4.29,
     "salesVolume": 1833,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20878,6 +20927,7 @@
     "storeName": "Nibiru DU Official Store",
     "rating": 4.595000000000001,
     "salesVolume": 5702,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20902,6 +20952,7 @@
     "storeName": "Global Mobile Phone Accessories Factory Store",
     "rating": 4.365,
     "salesVolume": 14888,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20926,6 +20977,7 @@
     "storeName": "Glue Master Store",
     "rating": 4.635,
     "salesVolume": 11853,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20950,6 +21002,7 @@
     "storeName": "Sunnyy Toy Store",
     "rating": 4.61,
     "salesVolume": 536,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20974,6 +21027,7 @@
     "storeName": "DaChenXiaoZhuo Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -20998,6 +21052,7 @@
     "storeName": "Shop910336269 Store",
     "rating": 4.8149999999999995,
     "salesVolume": 2481,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21022,6 +21077,7 @@
     "storeName": "Shop911574399 Store",
     "rating": 4.875,
     "salesVolume": 650,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21046,6 +21102,7 @@
     "storeName": "FSKX2 Store",
     "rating": 4.7299999999999995,
     "salesVolume": 6189,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21070,6 +21127,7 @@
     "storeName": "vendeeni Official Store",
     "rating": 4.6049999999999995,
     "salesVolume": 2599,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21094,6 +21152,7 @@
     "storeName": "YZ Model 3 Y Accessories Store",
     "rating": 4.82,
     "salesVolume": 2919,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21118,6 +21177,7 @@
     "storeName": "Factory Collected Store",
     "rating": 4.62,
     "salesVolume": 9757,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21142,6 +21202,7 @@
     "storeName": "Blue Jo Store",
     "rating": 4.695,
     "salesVolume": 4144,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21166,6 +21227,7 @@
     "storeName": "Opansten Factory Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21190,6 +21252,7 @@
     "storeName": "Mustarpicking Umbrella Store",
     "rating": 4.7299999999999995,
     "salesVolume": 26061,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21214,6 +21277,7 @@
     "storeName": "AIOPESON Official Store",
     "rating": 4.65,
     "salesVolume": 2692,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21238,6 +21302,7 @@
     "storeName": "Gege Bear Cosmetics Store",
     "rating": 4.415,
     "salesVolume": 7592,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21262,6 +21327,7 @@
     "storeName": "STAILNESS Store",
     "rating": 4.6850000000000005,
     "salesVolume": 7182,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21286,6 +21352,7 @@
     "storeName": "Beauty-Health Store",
     "rating": 4.45,
     "salesVolume": 11679,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21310,6 +21377,7 @@
     "storeName": "HOPK Stationery Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21334,6 +21402,7 @@
     "storeName": "A Small Snail Store",
     "rating": 4.365,
     "salesVolume": 11038,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21358,6 +21427,7 @@
     "storeName": "Born Beauty",
     "rating": 4.654999999999999,
     "salesVolume": 4165,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21382,6 +21452,7 @@
     "storeName": "Zhumi Factory Store",
     "rating": 4.68,
     "salesVolume": 12968,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21406,6 +21477,7 @@
     "storeName": "QIAO Glass Beads Beading Store",
     "rating": 4.5,
     "salesVolume": 733,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21430,6 +21502,7 @@
     "storeName": "Hansong Choice Store",
     "rating": 4.6450000000000005,
     "salesVolume": 2898,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21454,6 +21527,7 @@
     "storeName": "Gege Bear Brand Store Store",
     "rating": 4.7,
     "salesVolume": 34672,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21478,6 +21552,7 @@
     "storeName": "Nibiru DU Official Store",
     "rating": 4.835,
     "salesVolume": 4733,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21502,6 +21577,7 @@
     "storeName": "Life Girls Cosmetics Store",
     "rating": 4.3100000000000005,
     "salesVolume": 6851,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21526,6 +21602,7 @@
     "storeName": "Shop1103832275 Store",
     "rating": 4.635,
     "salesVolume": 8572,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21550,6 +21627,7 @@
     "storeName": "Shop1103807091 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21574,6 +21652,7 @@
     "storeName": "Shop1103842289 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21598,6 +21677,7 @@
     "storeName": "YZ Model 3 Y Accessories Store",
     "rating": 4.635,
     "salesVolume": 5457,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21622,6 +21702,7 @@
     "storeName": "NewBiFo Toy Store",
     "rating": 4.92,
     "salesVolume": 1325,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21646,6 +21727,7 @@
     "storeName": "VIJIM Select Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21670,6 +21752,7 @@
     "storeName": "BORN PRETTY Choice Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21694,6 +21777,7 @@
     "storeName": "DAQI Beautylife Store",
     "rating": 4.505,
     "salesVolume": 5953,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21718,6 +21802,7 @@
     "storeName": "Shop1103841275 Store",
     "rating": 4.635,
     "salesVolume": 9500,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21742,6 +21827,7 @@
     "storeName": "LINGPENG FITNESS Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21766,6 +21852,7 @@
     "storeName": "MMN Technology Store",
     "rating": 4.755,
     "salesVolume": 3570,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21790,6 +21877,7 @@
     "storeName": "Daily-Goods Shop Store",
     "rating": 4.4399999999999995,
     "salesVolume": 26276,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21814,6 +21902,7 @@
     "storeName": "HOMUG DIRECT Store",
     "rating": 4.46,
     "salesVolume": 6372,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21838,6 +21927,7 @@
     "storeName": "MIddle999 Store",
     "rating": 4.84,
     "salesVolume": 6769,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21862,6 +21952,7 @@
     "storeName": "NNBILI Screen Protection Film Specialty Store Store",
     "rating": 4.595000000000001,
     "salesVolume": 1322,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21886,6 +21977,7 @@
     "storeName": "MALITAI Choice Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21910,6 +22002,7 @@
     "storeName": "Zhi Hui Chuang Technology Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21934,6 +22027,7 @@
     "storeName": "Shop1103329572 Store",
     "rating": 4.71,
     "salesVolume": 15588,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21958,6 +22052,7 @@
     "storeName": "Shop1103841537 Store",
     "rating": 4.1899999999999995,
     "salesVolume": 2361,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -21982,6 +22077,7 @@
     "storeName": "Hi fastSend OK Store",
     "rating": 4.65,
     "salesVolume": 6559,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22006,6 +22102,7 @@
     "storeName": "Geevon Smart Home Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22030,6 +22127,7 @@
     "storeName": "Hardcore Tool Hub Choice Store",
     "rating": 4.75,
     "salesVolume": 3638,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22054,6 +22152,7 @@
     "storeName": "Lacey Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22078,6 +22177,7 @@
     "storeName": "EMTRA Store",
     "rating": 4.515,
     "salesVolume": 9262,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22102,6 +22202,7 @@
     "storeName": "Gege Bear Cosmetics Store",
     "rating": 4.45,
     "salesVolume": 3388,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22126,6 +22227,7 @@
     "storeName": "DaoQunKeJi Store",
     "rating": 4.705,
     "salesVolume": 1138,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22150,6 +22252,7 @@
     "storeName": "ONEFIRE Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22174,6 +22277,7 @@
     "storeName": "Shop1105184330 Store",
     "rating": 4.715,
     "salesVolume": 2702,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22198,6 +22302,7 @@
     "storeName": "LuminaHome Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22222,6 +22327,7 @@
     "storeName": "LQ AE Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22246,6 +22352,7 @@
     "storeName": "WonderToy Hub Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22270,6 +22377,7 @@
     "storeName": "MMN Technology Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22294,6 +22402,7 @@
     "storeName": "HELLO LEIBOO Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22318,6 +22427,7 @@
     "storeName": "MOSKANY NAIL BEAUTY Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22342,6 +22452,7 @@
     "storeName": "Nail Salon Tools Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22366,6 +22477,7 @@
     "storeName": "Geeta Hair Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22390,6 +22502,7 @@
     "storeName": "Hansong Choice Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22414,6 +22527,7 @@
     "storeName": "Linsoir Beads official store",
     "rating": 5.0,
     "salesVolume": 251,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22438,6 +22552,7 @@
     "storeName": "TOP CHOICES Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22462,6 +22577,7 @@
     "storeName": "Weiming6767 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22486,6 +22602,7 @@
     "storeName": "TelDaykemei Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22510,6 +22627,7 @@
     "storeName": "Shop1104091649 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22534,6 +22652,7 @@
     "storeName": "Shop1103743899 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22558,6 +22677,7 @@
     "storeName": "LUBIC Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22582,6 +22702,7 @@
     "storeName": "Shop1102147977 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22606,6 +22727,7 @@
     "storeName": "Shop1104003330 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22630,6 +22752,7 @@
     "storeName": "Shop1103841537 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22654,6 +22777,7 @@
     "storeName": "LENOVO Security Camera Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22678,6 +22802,7 @@
     "storeName": "FXTX Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22702,6 +22827,7 @@
     "storeName": "S Franchise Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22726,6 +22852,7 @@
     "storeName": "Nail Factory Direct-sale Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22750,6 +22877,7 @@
     "storeName": "Judydoll Flagship Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22774,6 +22902,7 @@
     "storeName": "YH Nail Art Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22798,6 +22927,7 @@
     "storeName": "Obsidian Home Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22822,6 +22952,7 @@
     "storeName": "Shop1103832293 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22846,6 +22977,7 @@
     "storeName": "AUTO Man ",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22870,6 +23002,7 @@
     "storeName": "Global Mobile Phone Accessories Factory Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22894,6 +23027,7 @@
     "storeName": "Shop1103844429 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22918,6 +23052,7 @@
     "storeName": "Gel Aura Nails Store",
     "rating": 4.635,
     "salesVolume": 2480,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22942,6 +23077,7 @@
     "storeName": "YZ Model 3 Y Accessories Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22966,6 +23102,7 @@
     "storeName": "Squishy Toys Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -22990,6 +23127,7 @@
     "storeName": "YZ Model 3 Y Accessories Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23014,6 +23152,7 @@
     "storeName": "BWL Perfect Home Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23038,6 +23177,7 @@
     "storeName": "HELLO LEIBOO Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23062,6 +23202,7 @@
     "storeName": "CIFbuy Ironcraft Factory Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23086,6 +23227,7 @@
     "storeName": "Shop1103845379 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23110,6 +23252,7 @@
     "storeName": "YOUR COZY AREA Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23134,6 +23277,7 @@
     "storeName": "BMAD Lighting Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23158,6 +23302,7 @@
     "storeName": "Professional Sport-Running Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23182,6 +23327,7 @@
     "storeName": "Shop1104680680 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23206,6 +23352,7 @@
     "storeName": "MIYOKAKING Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23230,6 +23377,7 @@
     "storeName": "WIKHOSTAR Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23254,6 +23402,7 @@
     "storeName": "Shop1103843961 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23278,6 +23427,7 @@
     "storeName": "Department Store Boutique Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23302,6 +23452,7 @@
     "storeName": "Chicheng Automobiles & Motorcycles Accessories Shop Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23326,6 +23477,7 @@
     "storeName": "Shop1105025028 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23350,6 +23502,7 @@
     "storeName": "Shop1103833347 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23374,6 +23527,7 @@
     "storeName": "michael-cigs",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23398,6 +23552,7 @@
     "storeName": "Stone's Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23422,6 +23577,7 @@
     "storeName": "Shop1104030867 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23446,6 +23602,7 @@
     "storeName": "ToyJoy Global Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23470,6 +23627,7 @@
     "storeName": "HUAYU Toy Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23494,6 +23652,7 @@
     "storeName": "Shop1104763639 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23518,6 +23677,7 @@
     "storeName": "Shop1105001230 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23542,6 +23702,7 @@
     "storeName": "LZ AUTO PARTS Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23566,6 +23727,7 @@
     "storeName": "Diversify Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23590,6 +23752,7 @@
     "storeName": "Shop1104759008 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23614,6 +23777,7 @@
     "storeName": "Stone's Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23638,6 +23802,7 @@
     "storeName": "Cosy Abode Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23662,6 +23827,7 @@
     "storeName": "Baby and Mum Supplies Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23686,6 +23852,7 @@
     "storeName": "YZ Model 3 Y Accessories Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23710,6 +23877,7 @@
     "storeName": "Shop1103295216 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23734,6 +23902,7 @@
     "storeName": "DIXSG Phone Accessories Factory Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23758,6 +23927,7 @@
     "storeName": "Esmarter Outdoors Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23782,6 +23952,7 @@
     "storeName": "Shop1105090364 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23806,6 +23977,7 @@
     "storeName": "OOAGE Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23830,6 +24002,7 @@
     "storeName": "Dropshipping straps Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23854,6 +24027,7 @@
     "storeName": "Haomuren Choice Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23878,6 +24052,7 @@
     "storeName": "GelVibe Beauty Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23902,6 +24077,7 @@
     "storeName": "Shop HENGCHENG Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23926,6 +24102,7 @@
     "storeName": "Shop1103241080 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23950,6 +24127,7 @@
     "storeName": "Dewalt Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23974,6 +24152,7 @@
     "storeName": "LNWPYH Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -23998,6 +24177,7 @@
     "storeName": "JYJ Fishing Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24022,6 +24202,7 @@
     "storeName": "Toocki Direct Choice Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24046,6 +24227,7 @@
     "storeName": "SASA Makeup Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24070,6 +24252,7 @@
     "storeName": "Warsun Outdoor Lights Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24094,6 +24277,7 @@
     "storeName": "LCAPLE Watchband Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24118,6 +24302,7 @@
     "storeName": "HassleFreeFulfill Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24142,6 +24327,7 @@
     "storeName": "AVIDPULSE Flagship Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24166,6 +24352,7 @@
     "storeName": "Daydance Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24190,6 +24377,7 @@
     "storeName": "Magecam Choice Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24214,6 +24402,7 @@
     "storeName": "YERSIDA Flagship Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24238,6 +24427,7 @@
     "storeName": "Coconut General Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24262,6 +24452,7 @@
     "storeName": "Vicky Xiao 3C Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24286,6 +24477,7 @@
     "storeName": "KINIJA TG Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24310,6 +24502,7 @@
     "storeName": "TerraPlay Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24334,6 +24527,7 @@
     "storeName": "TPKI Innovation Tech Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24358,6 +24552,7 @@
     "storeName": "LFINE Laser Level Tools Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24382,6 +24577,7 @@
     "storeName": "Shop1103752316 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24406,6 +24602,7 @@
     "storeName": "Btonera Factory Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24430,6 +24627,7 @@
     "storeName": "AIRAJ TOOL Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24454,6 +24652,7 @@
     "storeName": "Shop910336269 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24478,6 +24677,7 @@
     "storeName": "String Theory Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24502,6 +24702,7 @@
     "storeName": "NewWay Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24526,6 +24727,7 @@
     "storeName": "CN Household Goods Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24550,6 +24752,7 @@
     "storeName": "Peace 3D Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24574,6 +24777,7 @@
     "storeName": "Hydration Glow Skincare Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24598,6 +24802,7 @@
     "storeName": "YZ Model 3 Y Accessories Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24622,6 +24827,7 @@
     "storeName": "HELLO LEIBOO Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24646,6 +24852,7 @@
     "storeName": "upnzt mommy bag Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24670,6 +24877,7 @@
     "storeName": "Xinghedongman Goods Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24694,6 +24902,7 @@
     "storeName": "EVERGENESIS Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24718,6 +24927,7 @@
     "storeName": "PrimeGlobal Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24742,6 +24952,7 @@
     "storeName": "Shop1103619937 Store",
     "rating": 4.8100000000000005,
     "salesVolume": 2080,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24766,6 +24977,7 @@
     "storeName": "Super Boy Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24790,6 +25002,7 @@
     "storeName": "mr.paper Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24814,6 +25027,7 @@
     "storeName": "Shop1104655182 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24838,6 +25052,7 @@
     "storeName": "Hmrui Beauty Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24862,6 +25077,7 @@
     "storeName": "Magcubic Flagship Store Store",
     "rating": 4.725,
     "salesVolume": 4023,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24886,6 +25102,7 @@
     "storeName": "FORWOT Boutique Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24910,6 +25127,7 @@
     "storeName": "Super Deals NN Store",
     "rating": 4.765,
     "salesVolume": 9341,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24934,6 +25152,7 @@
     "storeName": "toocki Direct Official Store",
     "rating": 4.8100000000000005,
     "salesVolume": 501,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24958,6 +25177,7 @@
     "storeName": "Magical Factory Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -24982,6 +25202,7 @@
     "storeName": "Jeffrey Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25006,6 +25227,7 @@
     "storeName": "BEI JIAYIN Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25030,6 +25252,7 @@
     "storeName": "Salon Tool Specialty Store Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25054,6 +25277,7 @@
     "storeName": "FashionWind Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25078,6 +25302,7 @@
     "storeName": "Dotwise Choice Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25102,6 +25327,7 @@
     "storeName": "LEYDUN Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25126,6 +25352,7 @@
     "storeName": "crossgun Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25150,6 +25377,7 @@
     "storeName": "Fununcle Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25174,6 +25402,7 @@
     "storeName": "Kaiersen Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25198,6 +25427,7 @@
     "storeName": "Shop1104592187 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25222,6 +25452,7 @@
     "storeName": "Shop1104984477 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25246,6 +25477,7 @@
     "storeName": "CYCPLUS Choice Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25270,6 +25502,7 @@
     "storeName": "Gege Bear Cosmetics Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25294,6 +25527,7 @@
     "storeName": "mr.paper Official Store",
     "rating": 4.865,
     "salesVolume": 3605,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25318,6 +25552,7 @@
     "storeName": "Toocki Direct Choice Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25342,6 +25577,7 @@
     "storeName": "REVASRI INSTRUMENT Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25366,6 +25602,7 @@
     "storeName": "AUTO PLUS Car Accessories Interior Store",
     "rating": 4.46,
     "salesVolume": 3797,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25390,6 +25627,7 @@
     "storeName": "Storage Solutions Hub Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25414,6 +25652,7 @@
     "storeName": "xnyocn Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25438,6 +25677,7 @@
     "storeName": "SASA Makeup Store",
     "rating": 4.54,
     "salesVolume": 2456,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25462,6 +25702,7 @@
     "storeName": "HanHui Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25486,6 +25727,7 @@
     "storeName": "LIXIN Dropshipping Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25510,6 +25752,7 @@
     "storeName": "Safety Protective Shoes Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25534,6 +25777,7 @@
     "storeName": "Dake Numerical Code Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25558,6 +25802,7 @@
     "storeName": "Haomuren Choice Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25582,6 +25827,7 @@
     "storeName": "Storage Solutions Hub Store",
     "rating": 4.755,
     "salesVolume": 3086,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25606,6 +25852,7 @@
     "storeName": "NEWBOLER Sport Bag Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25630,6 +25877,7 @@
     "storeName": "Baby and Mum Supplies Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25654,6 +25902,7 @@
     "storeName": "Magic Bid Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25678,6 +25927,7 @@
     "storeName": "U Best-Choice Store",
     "rating": 4.805,
     "salesVolume": 1640,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25702,6 +25952,7 @@
     "storeName": "Digital 3c Factory Selection Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25726,6 +25977,7 @@
     "storeName": "PEO Applebands Dropshipping Store Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25750,6 +26002,7 @@
     "storeName": "Super Deals Wholesale Factory Store",
     "rating": 4.5600000000000005,
     "salesVolume": 15693,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25774,6 +26027,7 @@
     "storeName": "WatchBandss Store",
     "rating": 4.55,
     "salesVolume": 7030,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25798,6 +26052,7 @@
     "storeName": "Car Motorcycle Refitting Accessories Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25822,6 +26077,7 @@
     "storeName": "Shop Guzhou Phone Cover Store",
     "rating": 4.705,
     "salesVolume": 8398,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25846,6 +26102,7 @@
     "storeName": "QCY Official Store",
     "rating": 4.8149999999999995,
     "salesVolume": 7413,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25870,6 +26127,7 @@
     "storeName": "Shop1104001798 Store",
     "rating": 4.654999999999999,
     "salesVolume": 8596,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25894,6 +26152,7 @@
     "storeName": "Shop1104682116 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25918,6 +26177,7 @@
     "storeName": "Smart Homehacks Store",
     "rating": 4.585,
     "salesVolume": 18890,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25942,6 +26202,7 @@
     "storeName": "CY animation house Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25966,6 +26227,7 @@
     "storeName": "Microwear Manufacture Store",
     "rating": 4.65,
     "salesVolume": 1132,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -25990,6 +26252,7 @@
     "storeName": "TWOWIN Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26014,6 +26277,7 @@
     "storeName": "Zi Tuo Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26038,6 +26302,7 @@
     "storeName": "star moon Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26062,6 +26327,7 @@
     "storeName": "Shop1104336973 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26086,6 +26352,7 @@
     "storeName": "Shop1104929935 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26110,6 +26377,7 @@
     "storeName": "Data Frog Collection Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26134,6 +26402,7 @@
     "storeName": "TEUCER Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26158,6 +26427,7 @@
     "storeName": "SOVE Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26182,6 +26452,7 @@
     "storeName": "Live Love Life Store Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26206,6 +26477,7 @@
     "storeName": "KitBoom Store",
     "rating": 4.38,
     "salesVolume": 4597,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26230,6 +26502,7 @@
     "storeName": "YH Nail Art Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26254,6 +26527,7 @@
     "storeName": "Aria Studio Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26278,6 +26552,7 @@
     "storeName": "X-TIGER Cycling Store",
     "rating": 4.66,
     "salesVolume": 22031,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26302,6 +26577,7 @@
     "storeName": "ESSAGER Direct Sales Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26326,6 +26602,7 @@
     "storeName": "ILMH Store",
     "rating": 4.6850000000000005,
     "salesVolume": 3164,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26350,6 +26627,7 @@
     "storeName": "Fishsheep Handcaraft Store",
     "rating": 4.1850000000000005,
     "salesVolume": 6165,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26374,6 +26652,7 @@
     "storeName": "Ouke Storage Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26398,6 +26677,7 @@
     "storeName": "Colorii Office Store",
     "rating": 4.904999999999999,
     "salesVolume": 942,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26422,6 +26702,7 @@
     "storeName": "Shop1104433313 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26446,6 +26727,7 @@
     "storeName": "Golden Moment Technology Store",
     "rating": 4.545,
     "salesVolume": 2960,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26470,6 +26752,7 @@
     "storeName": "LEADLOONG Exclusive Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26494,6 +26777,7 @@
     "storeName": "BO XING Clothing Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26518,6 +26802,7 @@
     "storeName": "Shop1104038159 Store",
     "rating": 4.67,
     "salesVolume": 12045,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26542,6 +26827,7 @@
     "storeName": "DAKAIYANJIE-3 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26566,6 +26852,7 @@
     "storeName": "AceGamer Club Store",
     "rating": 4.8149999999999995,
     "salesVolume": 2412,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26590,6 +26877,7 @@
     "storeName": "Shop1104786292 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26614,6 +26902,7 @@
     "storeName": "Stone's Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26638,6 +26927,7 @@
     "storeName": "Hagibis Official Store",
     "rating": 4.775,
     "salesVolume": 4972,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26662,6 +26952,7 @@
     "storeName": "YIDA Mart Store",
     "rating": 4.64,
     "salesVolume": 4039,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26686,6 +26977,7 @@
     "storeName": "Aivuidbs Game Store",
     "rating": 4.84,
     "salesVolume": 1983,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26710,6 +27002,7 @@
     "storeName": "TOPK Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26734,6 +27027,7 @@
     "storeName": "Shop1103852178 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26758,6 +27052,7 @@
     "storeName": "Shop1103847712 Store",
     "rating": 4.470000000000001,
     "salesVolume": 4038,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26782,6 +27077,7 @@
     "storeName": "RSCROLA Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26806,6 +27102,7 @@
     "storeName": "ENMY Art Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26830,6 +27127,7 @@
     "storeName": "Gallop Sprite Moto Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26854,6 +27152,7 @@
     "storeName": "rilibegan Official Store",
     "rating": 4.61,
     "salesVolume": 1403,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26878,6 +27177,7 @@
     "storeName": "Shop1104972338 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26902,6 +27202,7 @@
     "storeName": "Foreverlily LC Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26926,6 +27227,7 @@
     "storeName": "YITUO Store",
     "rating": 4.8149999999999995,
     "salesVolume": 761,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26950,6 +27252,7 @@
     "storeName": "Styles Coming Store",
     "rating": 4.625,
     "salesVolume": 2781,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26974,6 +27277,7 @@
     "storeName": "GoldenBrella Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -26998,6 +27302,7 @@
     "storeName": "GelVibe Beauty Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27022,6 +27327,7 @@
     "storeName": "BELIA Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27046,6 +27352,7 @@
     "storeName": "Shop1103807091 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27070,6 +27377,7 @@
     "storeName": "KechuangruiGlobal Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27094,6 +27402,7 @@
     "storeName": "TOP Goods Supply Store",
     "rating": 4.49,
     "salesVolume": 11983,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27118,6 +27427,7 @@
     "storeName": "70mai Official Store",
     "rating": 4.765,
     "salesVolume": 3182,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27142,6 +27452,7 @@
     "storeName": "Super Steel Knife Tools Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27166,6 +27477,7 @@
     "storeName": "Small fire Store",
     "rating": 4.175,
     "salesVolume": 1412,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27190,6 +27502,7 @@
     "storeName": "JOOAN Security Camera Store",
     "rating": 4.5600000000000005,
     "salesVolume": 2551,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27214,6 +27527,7 @@
     "storeName": "SUITU Car Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27238,6 +27552,7 @@
     "storeName": "Obsidian Home Store",
     "rating": 4.63,
     "salesVolume": 2817,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27262,6 +27577,7 @@
     "storeName": "Shop1103569565 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27286,6 +27602,7 @@
     "storeName": "Gel Aura Nails Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27310,6 +27627,7 @@
     "storeName": "TY AUTO PARTS Store",
     "rating": 4.46,
     "salesVolume": 2839,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27334,6 +27652,7 @@
     "storeName": "Stone's Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27358,6 +27677,7 @@
     "storeName": "Shop1104030867 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27382,6 +27702,7 @@
     "storeName": "Shop1104556530 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27406,6 +27727,7 @@
     "storeName": "TPKI Innovation Tech Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27430,6 +27752,7 @@
     "storeName": "DaChenXiaoZhuo Store",
     "rating": 4.545,
     "salesVolume": 44999,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27454,6 +27777,7 @@
     "storeName": "WRELS Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27478,6 +27802,7 @@
     "storeName": "Life Girls Cosmetics Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27502,6 +27827,7 @@
     "storeName": "HomeEssentials Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27526,6 +27852,7 @@
     "storeName": "Stone's Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27550,6 +27877,7 @@
     "storeName": "PinmoAP Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27574,6 +27902,7 @@
     "storeName": "Yunjieya kitchen & bathroom Pendant Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27598,6 +27927,7 @@
     "storeName": "qianhong Store",
     "rating": 4.35,
     "salesVolume": 2180,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27622,6 +27952,7 @@
     "storeName": "Yes Baby Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27646,6 +27977,7 @@
     "storeName": "xnyocn Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27670,6 +28002,7 @@
     "storeName": "Stone's Store",
     "rating": 4.9,
     "salesVolume": 20894,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27694,6 +28027,7 @@
     "storeName": "Opansten Factory Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27718,6 +28052,7 @@
     "storeName": "Shop1103611577 Store",
     "rating": 4.57,
     "salesVolume": 5470,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27742,6 +28077,7 @@
     "storeName": "Lu Hu Yoga Clothing Fitness Factory Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27766,6 +28102,7 @@
     "storeName": "Shibo Kitchen Tools Store",
     "rating": 4.735,
     "salesVolume": 20314,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27790,6 +28127,7 @@
     "storeName": "FashionWind Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27814,6 +28152,7 @@
     "storeName": "Shop1102999720 Store",
     "rating": 4.735,
     "salesVolume": 6961,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27838,6 +28177,7 @@
     "storeName": "Shop1104476023 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27862,6 +28202,7 @@
     "storeName": "Shop1103569541 Store",
     "rating": 4.71,
     "salesVolume": 16055,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27886,6 +28227,7 @@
     "storeName": "QCY Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27910,6 +28252,7 @@
     "storeName": "EasonStarry Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27934,6 +28277,7 @@
     "storeName": "KRMaetff LIGHTING Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27958,6 +28302,7 @@
     "storeName": "Shop1103842289 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -27982,6 +28327,7 @@
     "storeName": "My House World Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28006,6 +28352,7 @@
     "storeName": "HomefishAppliances Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28030,6 +28377,7 @@
     "storeName": "RICestate3C Phone Case Store",
     "rating": 4.705,
     "salesVolume": 3649,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28054,6 +28402,7 @@
     "storeName": "Keep Watching Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28078,6 +28427,7 @@
     "storeName": "Shop1103842289 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28102,6 +28452,7 @@
     "storeName": "NeoLife Global Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28126,6 +28477,7 @@
     "storeName": "YZ Model 3 Y Accessories Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28150,6 +28502,7 @@
     "storeName": "S-W-G Menswear Manufacturer Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28174,6 +28527,7 @@
     "storeName": "Timberwild Toy Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28198,6 +28552,7 @@
     "storeName": "totallynailsupplies Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28222,6 +28577,7 @@
     "storeName": "ZXZZS Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28246,6 +28602,7 @@
     "storeName": "NNBILI Speciality Stores Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28270,6 +28627,7 @@
     "storeName": "GECOMO Cosmetics Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28294,6 +28652,7 @@
     "storeName": "MOSKANY NAIL BEAUTY Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28318,6 +28677,7 @@
     "storeName": "Tancheng Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28342,6 +28702,7 @@
     "storeName": "Xumeng Trading Co.,Ltd Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28366,6 +28727,7 @@
     "storeName": "CC Hot Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28390,6 +28752,7 @@
     "storeName": "KAIQINGLE Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28414,6 +28777,7 @@
     "storeName": "Professional Sport-Running Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28438,6 +28802,7 @@
     "storeName": "TOLESA Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28462,6 +28827,7 @@
     "storeName": "Shop1104634086 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28486,6 +28852,7 @@
     "storeName": "Lijing Cosmetics Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28510,6 +28877,7 @@
     "storeName": "SOVE Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28534,6 +28902,7 @@
     "storeName": "Home Storage Store Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28558,6 +28927,7 @@
     "storeName": "CRESTED Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28582,6 +28952,7 @@
     "storeName": "upnzt mommy bag Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28606,6 +28977,7 @@
     "storeName": "FX JUJU Dream Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28630,6 +29002,7 @@
     "storeName": "FashionWind Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28654,6 +29027,7 @@
     "storeName": "Mijia Home Appliances Choice Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28678,6 +29052,7 @@
     "storeName": "Shop1103009025 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28702,6 +29077,7 @@
     "storeName": "Shop1103368004 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28726,6 +29102,7 @@
     "storeName": "Airjourney Store",
     "rating": 4.6450000000000005,
     "salesVolume": 2272,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28750,6 +29127,7 @@
     "storeName": "Shop1104297966 Store",
     "rating": 4.34,
     "salesVolume": 2142,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28774,6 +29152,7 @@
     "storeName": "B-CATON Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28798,6 +29177,7 @@
     "storeName": "Super Deals Wholesale Factory Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28822,6 +29202,7 @@
     "storeName": "The Mystery Of Akali Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28846,6 +29227,7 @@
     "storeName": "Qixi Store Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28870,6 +29252,7 @@
     "storeName": "Shop1102818454 Store",
     "rating": 4.025,
     "salesVolume": 1653,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28894,6 +29277,7 @@
     "storeName": "FORWOT Boutique Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28918,6 +29302,7 @@
     "storeName": "Snow Toys Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28942,6 +29327,7 @@
     "storeName": "Born Beauty",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28966,6 +29352,7 @@
     "storeName": "YangChen Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -28990,6 +29377,7 @@
     "storeName": "Qiaobuqi002 Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29014,6 +29402,7 @@
     "storeName": "ESSAGER Choice Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29038,6 +29427,7 @@
     "storeName": "Art lalic Official Store",
     "rating": null,
     "salesVolume": null,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29062,6 +29452,7 @@
     "storeName": "Big Beard Store",
     "rating": 4.470000000000001,
     "salesVolume": 588,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29086,6 +29477,7 @@
     "storeName": "Vicky Xiao 3C Store",
     "rating": 4.5,
     "salesVolume": 23144,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29110,6 +29502,7 @@
     "storeName": "Squishy Toys Store",
     "rating": 4.654999999999999,
     "salesVolume": 917,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29134,6 +29527,7 @@
     "storeName": "Walk To Shoes Store",
     "rating": 4.485,
     "salesVolume": 60416,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29158,6 +29552,7 @@
     "storeName": "A phone accessories Store",
     "rating": 4.2,
     "salesVolume": 50627,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29182,6 +29577,7 @@
     "storeName": "HLXZK Choice Store",
     "rating": 4.5600000000000005,
     "salesVolume": 4426,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29206,6 +29602,7 @@
     "storeName": "Tksmama Official Store",
     "rating": 4.5600000000000005,
     "salesVolume": 1196,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29230,6 +29627,7 @@
     "storeName": "Ease-life Store",
     "rating": 4.745,
     "salesVolume": 6370,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29254,6 +29652,7 @@
     "storeName": "Super Cute Anime Cartoon Store",
     "rating": 4.74,
     "salesVolume": 890,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29278,6 +29677,7 @@
     "storeName": "Hmeily Official Store",
     "rating": 4.6049999999999995,
     "salesVolume": 1567,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29302,6 +29702,7 @@
     "storeName": "UR Sugar Salon Store",
     "rating": 4.62,
     "salesVolume": 5624,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29326,6 +29727,7 @@
     "storeName": "AE Factory Preferred Products Store",
     "rating": 4.7700000000000005,
     "salesVolume": 1428,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29350,6 +29752,7 @@
     "storeName": "XUDA Direct Store",
     "rating": 4.495,
     "salesVolume": 36208,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29374,6 +29777,7 @@
     "storeName": "Shop1104682116 Store",
     "rating": 4.515,
     "salesVolume": 4981,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29398,6 +29802,7 @@
     "storeName": "HOMIE Store",
     "rating": 4.8100000000000005,
     "salesVolume": 81775,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29422,6 +29827,7 @@
     "storeName": "001 Global Supply Store",
     "rating": 4.71,
     "salesVolume": 3863,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29446,6 +29852,7 @@
     "storeName": "ZHAO CAI MIQI Store",
     "rating": 4.375,
     "salesVolume": 21742,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29470,6 +29877,7 @@
     "storeName": "Stone's Store",
     "rating": 4.9,
     "salesVolume": 51248,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29494,6 +29902,7 @@
     "storeName": "Mysterious",
     "rating": null,
     "salesVolume": 146,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29518,6 +29927,7 @@
     "storeName": "Shop1103569541 Store",
     "rating": 4.45,
     "salesVolume": 2580,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29542,6 +29952,7 @@
     "storeName": "Super Deals Wholesale Factory Store",
     "rating": 4.62,
     "salesVolume": 91180,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29566,6 +29977,7 @@
     "storeName": "Li Kun Yoga Fitness Clothing Factory Store Store",
     "rating": 4.87,
     "salesVolume": 4970,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29590,6 +30002,7 @@
     "storeName": "Six Seasons Store",
     "rating": 4.55,
     "salesVolume": 9376,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29614,6 +30027,7 @@
     "storeName": "Digitaling Lighting Store",
     "rating": 4.4799999999999995,
     "salesVolume": 108825,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29638,6 +30052,7 @@
     "storeName": "Cycle Zone Outdoor Store",
     "rating": 4.7700000000000005,
     "salesVolume": 4440,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29662,6 +30077,7 @@
     "storeName": "FutCarter Store",
     "rating": 4.71,
     "salesVolume": 3111,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29686,6 +30102,7 @@
     "storeName": "Shop8341 Store",
     "rating": 4.695,
     "salesVolume": 2095,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29710,6 +30127,7 @@
     "storeName": "FORWOT Boutique Store",
     "rating": 4.67,
     "salesVolume": 878,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29734,6 +30152,7 @@
     "storeName": "Anime Movie Accessories Fashion Beautiful Jewelry Store",
     "rating": 4.705,
     "salesVolume": 518,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29758,6 +30177,7 @@
     "storeName": "Shop1105221919 Store",
     "rating": 4.83,
     "salesVolume": 212,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29782,6 +30202,7 @@
     "storeName": "Jsfun Fishing Store",
     "rating": 4.595000000000001,
     "salesVolume": 1396,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29806,6 +30227,7 @@
     "storeName": "Miss Minest Store",
     "rating": 4.3950000000000005,
     "salesVolume": 654,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29830,6 +30252,7 @@
     "storeName": "Shop1102908392 Store",
     "rating": 4.8100000000000005,
     "salesVolume": 2505,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29854,6 +30277,7 @@
     "storeName": "HELLO LEIBOO Store",
     "rating": 4.715,
     "salesVolume": 368,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29878,6 +30302,7 @@
     "storeName": "Nibiru DU Official Store",
     "rating": 4.885,
     "salesVolume": 21360,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29902,6 +30327,7 @@
     "storeName": "PoPcorn Furniture Store",
     "rating": 4.5,
     "salesVolume": 3014,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29926,6 +30352,7 @@
     "storeName": "Shop1103852178 Store",
     "rating": 4.779999999999999,
     "salesVolume": 5483,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29950,6 +30377,7 @@
     "storeName": "Shop1104672274 Store",
     "rating": 4.86,
     "salesVolume": 2041,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29974,6 +30402,7 @@
     "storeName": "Happy Buy Buy Store",
     "rating": 4.445,
     "salesVolume": 5745,
+    "isFreeShipping": true,
     "badges": []
   },
   {
@@ -29998,6 +30427,7 @@
     "storeName": "Pionray Global Store",
     "rating": 4.3950000000000005,
     "salesVolume": 9014,
+    "isFreeShipping": true,
     "badges": []
   }
 ]

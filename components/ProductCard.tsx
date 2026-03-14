@@ -123,8 +123,19 @@ export default function ProductCard({ product, compact = false, eager = false }:
     </span>
   ));
 
-  const storeInfo = isNaver && product.storeName && (
+  const storeInfo = (isNaver || isAli) && product.storeName && (
     <span className="text-[11px] text-gray-500">🏪 {product.storeName}</span>
+  );
+
+  const aliInfo = isAli && (
+    <div className="flex items-center gap-1.5 flex-wrap">
+      {product.salesVolume != null && product.salesVolume > 0 && (
+        <span className="text-[11px] text-gray-500">🔥 {product.salesVolume >= 10000 ? `${(product.salesVolume / 10000).toFixed(1)}만` : product.salesVolume.toLocaleString()}개 판매</span>
+      )}
+      {product.isFreeShipping && (
+        <span className="text-[11px] text-green-600 font-medium">🚚 무료배송</span>
+      )}
+    </div>
   );
 
   const soldBar = soldPercent >= 0 && <SoldBar soldPercent={soldPercent} variant="card" />;
@@ -171,9 +182,11 @@ export default function ProductCard({ product, compact = false, eager = false }:
         {product.rating != null && product.rating > 0 && (
           <div className="mt-1 text-[11px]">
             <span className="text-yellow-500 font-bold">⭐{(Math.floor(product.rating * 10) / 10).toFixed(1)}</span>
-            {product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
+            {!isAli && product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
+            {isAli && product.salesVolume != null && product.salesVolume > 0 && <span className="text-gray-400"> ({product.salesVolume >= 10000 ? `${(product.salesVolume / 10000).toFixed(1)}만` : product.salesVolume.toLocaleString()}개 판매)</span>}
           </div>
         )}
+        {isAli && <div className="mt-1">{aliInfo}</div>}
         {isCoupang && remaining && !isSoldOut && (
           <div className="mt-1">
             <span className={`text-[11px] font-bold tabular-nums ${isUrgent ? "text-red-600 animate-pulse" : "text-orange-500"}`}>
@@ -183,6 +196,7 @@ export default function ProductCard({ product, compact = false, eager = false }:
         )}
         {isCoupang && <div className="mt-1">{soldBar}</div>}
         {isNaver && <div className="mt-1">{storeInfo}</div>}
+        {isAli && <div className="mt-1">{storeInfo}</div>}
 
       </div>
     );
@@ -226,7 +240,8 @@ export default function ProductCard({ product, compact = false, eager = false }:
               {product.rating != null && product.rating > 0 && (
                 <span className="text-[11px]">
                   <span className="text-yellow-500 font-bold">⭐{(Math.floor(product.rating * 10) / 10).toFixed(1)}</span>
-                  {product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
+                  {!isAli && product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
+                  {isAli && product.salesVolume != null && product.salesVolume > 0 && <span className="text-gray-400"> ({product.salesVolume >= 10000 ? `${(product.salesVolume / 10000).toFixed(1)}만` : product.salesVolume.toLocaleString()}개 판매)</span>}
                 </span>
               )}
             </div>
@@ -255,6 +270,8 @@ export default function ProductCard({ product, compact = false, eager = false }:
           )}
           {isCoupang && soldBar}
           {isNaver && storeInfo}
+          {isAli && aliInfo}
+          {isAli && storeInfo}
 
         </div>
       </div>
