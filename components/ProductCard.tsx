@@ -121,9 +121,6 @@ export default function ProductCard({ product, compact = false, eager = false }:
     '브랜드+': '#C5D8F0',
   };
   const badgeTextColors: Record<string, string> = {
-    'Choice': '#191919',
-    '직구 핫딜': '#191919',
-    '브랜드+': '#FFFFFF',
   };
   const badgeIcons: Record<string, string> = {
     '역대최저가': '🏆',
