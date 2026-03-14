@@ -60,10 +60,10 @@ export default function Home() {
     return () => window.removeEventListener("wishlist-changed", handler);
   }, []);
 
-  // 카테고리 변경 시 스크롤 초기화
+  // 카테고리/소스 변경 시 스크롤 초기화
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [selectedCategory]);
+    window.scrollTo({ top: 0 });
+  }, [selectedCategory, selectedSource]);
 
   // 스크롤 깊이 트래킹
   useEffect(() => {
