@@ -118,7 +118,7 @@ export default function ProductCard({ product, compact = false, eager = false }:
     '재등장': '#DD6B20',
     '직구 핫딜': '#F4845F',
     'Choice': '#CCB800',
-    '브랜드+': '#C5D8F0',
+    '브랜드+': '#4A90D9',
   };
   const badgeTextColors: Record<string, string> = {
   };
