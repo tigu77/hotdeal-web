@@ -11,7 +11,7 @@ import { SITE } from "@/lib/constants";
 import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab, trackChannelVisit, trackSourceFilter, trackScrollDepth, trackPageEngagement, trackWishlistEmptyView } from "@/lib/analytics";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { getWishlist, pruneWishlist } from "@/lib/wishlist";
-type SortType = "recent" | "sold-rate" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
+type SortType = "recent" | "sold-rate" | "discount" | "price-low" | "price-high" | "rating" | "reviews" | "sales-volume";
 
 function useIsMobile(breakpoint = 640) {
   const [isMobile, setIsMobile] = useState(false);
@@ -168,6 +168,12 @@ export default function Home() {
           return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
         });
         break;
+      case "sales-volume":
+        items = [...items].sort((a, b) => {
+          const diff = (b.salesVolume || 0) - (a.salesVolume || 0);
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
+        });
+        break;
       // latest는 기본 (getProducts가 이미 최신순)
     }
 
@@ -301,6 +307,7 @@ export default function Home() {
             <option value="price-high">가격 높은순</option>
             <option value="rating">별점순</option>
             <option value="reviews">리뷰수순</option>
+            <option value="sales-volume">판매량순</option>
           </select>
         </div>
 
