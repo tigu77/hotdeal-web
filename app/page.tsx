@@ -203,16 +203,18 @@ export default function Home() {
   }, [selectedCategory, selectedSource, deferredSearchQuery, sortBy, wishlistMode]);
 
   useEffect(() => {
-    const handleScroll = () => {
+    const loadMore = () => {
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      if (docHeight <= 0) return;
-      if (scrollTop / docHeight >= 0.8) {
+      // 스크롤 여유가 없거나(PC 큰 화면) 80% 이상 스크롤 시 추가 로드
+      if (docHeight <= 200 || scrollTop / docHeight >= 0.8) {
         setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
       }
     };
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', loadMore, { passive: true });
+    // 초기 로드 시 화면을 채울 만큼 자동 로드
+    const timer = setTimeout(loadMore, 100);
+    return () => { window.removeEventListener('scroll', loadMore); clearTimeout(timer); };
   }, []);
 
   const visibleProducts = useMemo(() => products.slice(0, visibleCount), [products, visibleCount]);
