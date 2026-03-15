@@ -1,13 +1,21 @@
 import { NextRequest, NextResponse } from 'next/server';
-import raw from '@/data/products.json';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://hotdeal-alimi.vercel.app';
 
-// products.json에서 shortId/id로 상품 찾기
+// 런타임에 products.json 읽기 (배포 후 업데이트 반영)
 function findProduct(id: string) {
-  const products = raw as any[];
-  return products.find(p => p.shortId === id) || products.find(p => p.id === id) || null;
+  try {
+    const filePath = join(process.cwd(), 'data', 'products.json');
+    const products = JSON.parse(readFileSync(filePath, 'utf-8')) as any[];
+    return products.find(p => p.shortId === id) || products.find(p => p.id === id) || null;
+  } catch {
+    return null;
+  }
 }
+
+export const dynamic = 'force-dynamic';
 
 export async function GET(
   request: NextRequest,
@@ -20,7 +28,7 @@ export async function GET(
     return NextResponse.redirect(SITE_URL, 302);
   }
 
-  // 클릭 로그 (비동기, 실패해도 리다이렉트에 영향 없음)
+  // 클릭 로그
   try {
     const ua = request.headers.get('user-agent') || '';
     const referer = request.headers.get('referer') || '';
