@@ -1,7 +1,9 @@
 import type { Product } from "@/types";
 import raw from "./products.json";
 
-const allProducts: Product[] = (raw as any[]).map((p) => ({
+const ALI_ENABLED = process.env.NEXT_PUBLIC_ALI_ENABLED === 'true';
+
+const allProducts: Product[] = (raw as any[]).filter((p) => ALI_ENABLED || p.source !== 'aliexpress').map((p) => ({
   id: p.id || '',
   title: p.title || '',
   description: p.description || '',
