@@ -1,21 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { readFileSync } from 'fs';
-import { join } from 'path';
+import raw from '@/data/products.json';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://hotdeal-alimi.vercel.app';
 
-// 런타임에 products.json 읽기 (배포 후 업데이트 반영)
-function findProduct(id: string) {
-  try {
-    const filePath = join(process.cwd(), 'data', 'products.json');
-    const products = JSON.parse(readFileSync(filePath, 'utf-8')) as any[];
-    return products.find(p => p.shortId === id) || products.find(p => p.id === id) || null;
-  } catch {
-    return null;
-  }
-}
+const products = raw as any[];
+// shortId → product 맵 (빌드 시 1회 생성)
+const shortIdMap = new Map(products.map(p => [p.shortId, p]));
+const idMap = new Map(products.map(p => [p.id, p]));
 
-export const dynamic = 'force-dynamic';
+function findProduct(id: string) {
+  return shortIdMap.get(id) || idMap.get(id) || null;
+}
 
 export async function GET(
   request: NextRequest,
