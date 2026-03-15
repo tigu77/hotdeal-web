@@ -137,13 +137,22 @@ export default function RecentlyViewed() {
                   </div>
                 )}
               </div>
-              <div className="flex items-center gap-1 mb-0.5 flex-wrap">
-                <span className={`text-[7px] font-bold text-white px-0.5 py-[1px] rounded ${item.source === 'naver' ? 'bg-green-500' : item.source === 'aliexpress' ? 'bg-orange-500' : 'bg-red-500'}`}>
+              <div className="flex items-center gap-0.5 mb-0.5 flex-wrap">
+                <span className={`text-[7px] font-bold text-white px-0.5 py-[1px] rounded flex items-center gap-0.5 ${item.source === 'naver' ? 'bg-green-500' : item.source === 'aliexpress' ? 'bg-orange-500' : 'bg-red-500'}`}>
+                  <img src={item.source === 'naver' ? '/icons/naver.ico' : item.source === 'aliexpress' ? '/icons/aliexpress.ico' : '/icons/coupang.ico'} alt="" className="w-2.5 h-2.5" />
                   {item.source === 'naver' ? '네이버' : item.source === 'aliexpress' ? '알리' : '쿠팡'}
                 </span>
                 {item.source === 'coupang' && item.isRocket && (
                   <span className="text-[7px] font-bold text-white px-0.5 py-[1px] rounded bg-blue-500">🚀</span>
                 )}
+                {item.badges?.map((badge, i) => {
+                  const colors: Record<string, string> = { '슈퍼적립': '#7346F3', '역대최저가': '#E53E3E', '재등장': '#DD6B20', '직구 핫딜': '#F4845F', 'Choice': '#CCB800', '브랜드+': '#4A90D9' };
+                  return (
+                    <span key={i} className="text-[7px] font-bold text-white px-0.5 py-[1px] rounded" style={{ backgroundColor: colors[badge] || '#7346F3' }}>
+                      {badge}
+                    </span>
+                  );
+                })}
               </div>
               <h3 className="text-[10px] font-medium text-gray-800 line-clamp-1 group-hover:text-orange-600 transition-colors">
                 {item.title}
