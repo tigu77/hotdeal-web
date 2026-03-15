@@ -6,6 +6,10 @@ export function PurchaseButton({ productId, title, price, category, affiliateUrl
   productId: string; title: string; price: number; category?: string; affiliateUrl: string; source?: string;
 }) {
   const isNaver = source === 'naver';
+  const isAli = source === 'aliexpress';
+  const destination = isNaver ? 'naver' : isAli ? 'aliexpress' : 'coupang';
+  const btnColor = isNaver ? 'bg-green-500 hover:bg-green-600' : isAli ? 'bg-orange-500 hover:bg-orange-600' : 'bg-red-500 hover:bg-red-600';
+  const btnText = isNaver ? '🛒 네이버에서 구매하기' : isAli ? '🛒 알리에서 구매하기' : '🛒 쿠팡에서 구매하기';
   return (
     <a
       href={affiliateUrl}
@@ -13,11 +17,11 @@ export function PurchaseButton({ productId, title, price, category, affiliateUrl
       rel="noopener noreferrer"
       onClick={() => {
         trackPurchaseClick(productId, title, price, category, source);
-        trackExternalLinkClick(productId, isNaver ? 'naver' : 'coupang', affiliateUrl);
+        trackExternalLinkClick(productId, destination, affiliateUrl);
       }}
-      className={`flex-1 block text-center ${isNaver ? 'bg-green-500 hover:bg-green-600' : 'bg-orange-500 hover:bg-orange-600'} text-white font-bold py-4 rounded-2xl text-lg transition-colors`}
+      className={`flex-1 block text-center ${btnColor} text-white font-bold py-4 rounded-2xl text-lg transition-colors`}
     >
-      {isNaver ? '🛒 네이버에서 구매하기' : '🛒 쿠팡에서 구매하기'}
+      {btnText}
     </a>
   );
 }
