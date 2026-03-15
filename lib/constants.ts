@@ -32,7 +32,7 @@ const ALL_SOURCES = [
 ] as const;
 
 export const SOURCES = ALL_SOURCES.filter(
-  (s) => s.id !== 'aliexpress' || process.env.NEXT_PUBLIC_ALI_ENABLED === 'true'
+  (s) => s.id !== 'aliexpress' || process.env.NEXT_PUBLIC_DEV_MODE === 'true'
 );
 
 export type SourceId = (typeof ALL_SOURCES)[number]["id"];
