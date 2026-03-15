@@ -26,4 +26,6 @@ export interface Product {
   source?: 'coupang' | 'naver' | string;
   storeName?: string;
   badges?: string[];
+  salesVolume?: number;      // 판매량
+  shipToDays?: number;       // 배송 일수
 }

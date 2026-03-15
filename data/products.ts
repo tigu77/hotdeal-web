@@ -27,6 +27,8 @@ const allProducts: Product[] = (raw as any[]).filter((p) => DEV_MODE || p.source
   registeredAt: p.registeredAt,
   source: p.source || 'coupang',
   storeName: p.storeName,
+  salesVolume: p.salesVolume,
+  isFreeShipping: p.isFreeShipping,
   badges: p.badges || [],
 }));
 
@@ -36,8 +38,10 @@ const allProducts: Product[] = (raw as any[]).filter((p) => DEV_MODE || p.source
  */
 export function getProducts(category?: string | null, source?: string | null): Product[] {
   const now = Date.now();
+  const STALE_MS = 2 * 24 * 60 * 60 * 1000; // 2일
   let items = [...allProducts]
-    .filter((p) => !p.expiresAt || new Date(p.expiresAt).getTime() > now);
+    .filter((p) => !p.expiresAt || new Date(p.expiresAt).getTime() > now)
+    .filter((p) => now - new Date(p.postedAt).getTime() < STALE_MS); // 2일 이상 미갱신 숨김
 
   // 소스 필터
   if (source) {

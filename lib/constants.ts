@@ -31,8 +31,6 @@ const ALL_SOURCES = [
   { id: "aliexpress", name: "알리", icon: "/icons/aliexpress.ico", color: "bg-orange-500", textColor: "text-orange-600", borderColor: "border-orange-400" },
 ] as const;
 
-export const SOURCES = ALL_SOURCES.filter(
-  (s) => s.id !== 'aliexpress' || process.env.NEXT_PUBLIC_DEV_MODE === 'true'
-);
+export const SOURCES = ALL_SOURCES;
 
 export type SourceId = (typeof ALL_SOURCES)[number]["id"];

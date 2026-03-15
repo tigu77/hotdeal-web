@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import type { Product } from "@/types";
-import { formatPrice, timeAgo, getProductPrices } from "@/lib/format";
+import { formatPrice, formatSalesVolume, timeAgo, getProductPrices } from "@/lib/format";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { trackProductClick, trackImageClick, trackSoldOutView, trackExternalLinkClick } from "@/lib/analytics";
 import { saveRecentlyViewed } from "@/lib/recently-viewed";
@@ -22,7 +22,8 @@ export default function ProductCard({ product, compact = false, eager = false }:
   const { basePrice, finalPrice, discountPercent } = getProductPrices(product);
 
   const isNaver = product.source === 'naver';
-  const isCoupang = product.source !== 'naver';
+  const isAli = product.source === 'aliexpress';
+  const isCoupang = !isNaver && !isAli;
   const isSoldOut = product.isSoldOut || false;
   const soldPercent = getDisplaySoldPercent(product);
   const isAlmostGone = soldPercent >= 80;
@@ -47,7 +48,7 @@ export default function ProductCard({ product, compact = false, eager = false }:
   // ── 공통 클릭 핸들러 ──
   const handleClick = () => {
     trackProductClick(product.id, product.title, product.category, product.source);
-    trackExternalLinkClick(product.id, isNaver ? 'naver' : 'coupang', product.affiliateUrl);
+    trackExternalLinkClick(product.id, isNaver ? 'naver' : isAli ? 'aliexpress' : 'coupang', product.affiliateUrl);
     saveRecentlyViewed(product.id);
   };
 
@@ -94,15 +95,18 @@ export default function ProductCard({ product, compact = false, eager = false }:
     </span>
   ) : null;
 
+  const sourceIcon = isNaver ? '/icons/naver.ico' : isAli ? '/icons/aliexpress.ico' : '/icons/coupang.ico';
+  const sourceName = isNaver ? '네이버' : isAli ? '알리' : '쿠팡';
   const sourceBadge = (
-    <span className={`flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded ${
-      isNaver ? 'bg-green-500' : 'bg-red-500'
+    <span className={`flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded flex items-center gap-0.5 ${
+      isNaver ? 'bg-green-500' : isAli ? 'bg-orange-500' : 'bg-red-500'
     }`}>
-      {isNaver ? '네이버' : '쿠팡'}
+      <img src={sourceIcon} alt={sourceName} className="w-3 h-3" />
+      {sourceName}
     </span>
   );
 
-  const rocketBadge = !isNaver && product.isRocket ? (
+  const rocketBadge = isCoupang && product.isRocket ? (
     <span className="flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded bg-blue-500">
       🚀 로켓
     </span>
@@ -112,15 +116,36 @@ export default function ProductCard({ product, compact = false, eager = false }:
     '슈퍼적립': '#7346F3',
     '역대최저가': '#E53E3E',
     '재등장': '#DD6B20',
+    '직구 핫딜': '#F4845F',
+    'Choice': '#CCB800',
+    '브랜드+': '#4A90D9',
+  };
+  const badgeTextColors: Record<string, string> = {
+  };
+  const badgeIcons: Record<string, string> = {
+    '역대최저가': '🏆',
+    '재등장': '🔄',
+
   };
   const extraBadges = product.badges?.map((badge, i) => (
-    <span key={i} className="flex-shrink-0 text-[9px] font-bold text-white px-1.5 py-0.5 rounded" style={{ backgroundColor: badgeColors[badge] || '#7346F3' }}>
-      {badge === '역대최저가' ? '🏆 ' + badge : badge === '재등장' ? '🔄 ' + badge : badge}
+    <span key={i} className="flex-shrink-0 text-[9px] font-bold px-1.5 py-0.5 rounded" style={{ backgroundColor: badgeColors[badge] || '#7346F3', color: badgeTextColors[badge] || '#FFFFFF' }}>
+      {badgeIcons[badge] ? badgeIcons[badge] + ' ' : ''}{badge === '브랜드+' ? <>브랜드<span style={{ color: '#FFD700' }}>+</span></> : badge}
     </span>
   ));
 
-  const storeInfo = isNaver && product.storeName && (
+  const storeInfo = (isNaver || isAli) && product.storeName && (
     <span className="text-[11px] text-gray-500">🏪 {product.storeName}</span>
+  );
+
+  const aliInfo = isAli && (
+    <div className="flex items-center gap-1.5 flex-wrap">
+      {product.salesVolume != null && product.salesVolume > 0 && (
+        <span className="text-[11px] text-gray-500">🔥 {formatSalesVolume(product.salesVolume)}</span>
+      )}
+      {product.isFreeShipping && (
+        <span className="text-[11px] text-green-600 font-medium">🚚 무료배송</span>
+      )}
+    </div>
   );
 
   const soldBar = soldPercent >= 0 && <SoldBar soldPercent={soldPercent} variant="card" />;
@@ -167,9 +192,10 @@ export default function ProductCard({ product, compact = false, eager = false }:
         {product.rating != null && product.rating > 0 && (
           <div className="mt-1 text-[11px]">
             <span className="text-yellow-500 font-bold">⭐{(Math.floor(product.rating * 10) / 10).toFixed(1)}</span>
-            {product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
+            {!isAli && product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
           </div>
         )}
+        {isAli && <div className="mt-1">{aliInfo}</div>}
         {isCoupang && remaining && !isSoldOut && (
           <div className="mt-1">
             <span className={`text-[11px] font-bold tabular-nums ${isUrgent ? "text-red-600 animate-pulse" : "text-orange-500"}`}>
@@ -179,6 +205,7 @@ export default function ProductCard({ product, compact = false, eager = false }:
         )}
         {isCoupang && <div className="mt-1">{soldBar}</div>}
         {isNaver && <div className="mt-1">{storeInfo}</div>}
+        {isAli && <div className="mt-1">{storeInfo}</div>}
 
       </div>
     );
@@ -222,7 +249,7 @@ export default function ProductCard({ product, compact = false, eager = false }:
               {product.rating != null && product.rating > 0 && (
                 <span className="text-[11px]">
                   <span className="text-yellow-500 font-bold">⭐{(Math.floor(product.rating * 10) / 10).toFixed(1)}</span>
-                  {product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
+                  {!isAli && product.reviewCount != null && product.reviewCount > 0 && <span className="text-gray-400"> ({product.reviewCount.toLocaleString()})</span>}
                 </span>
               )}
             </div>
@@ -251,6 +278,8 @@ export default function ProductCard({ product, compact = false, eager = false }:
           )}
           {isCoupang && soldBar}
           {isNaver && storeInfo}
+          {isAli && aliInfo}
+          {isAli && storeInfo}
 
         </div>
       </div>

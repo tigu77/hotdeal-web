@@ -11,7 +11,7 @@ import { SITE } from "@/lib/constants";
 import { trackCategoryFilter, trackSearch, trackSort, trackWishlistTab, trackChannelVisit, trackSourceFilter, trackScrollDepth, trackPageEngagement, trackWishlistEmptyView } from "@/lib/analytics";
 import { getDisplaySoldPercent } from "@/lib/product";
 import { getWishlist, pruneWishlist } from "@/lib/wishlist";
-type SortType = "recent" | "sold-rate" | "discount" | "price-low" | "price-high" | "rating" | "reviews";
+type SortType = "recent" | "sold-rate" | "discount" | "price-low" | "price-high" | "rating" | "reviews" | "sales-volume";
 
 function useIsMobile(breakpoint = 640) {
   const [isMobile, setIsMobile] = useState(false);
@@ -60,10 +60,10 @@ export default function Home() {
     return () => window.removeEventListener("wishlist-changed", handler);
   }, []);
 
-  // 카테고리 변경 시 스크롤 초기화
+  // 카테고리/소스 변경 시 스크롤 초기화
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [selectedCategory]);
+    window.scrollTo({ top: 0 });
+  }, [selectedCategory, selectedSource]);
 
   // 스크롤 깊이 트래킹
   useEffect(() => {
@@ -115,13 +115,13 @@ export default function Home() {
     if (wishlistMode) return []; // handled separately
     let items = getProducts(selectedCategory, selectedSource);
 
-    // 검색 필터
+    // 검색 필터 (스페이스 구분 AND 검색)
     if (deferredSearchQuery.trim()) {
-      const q = deferredSearchQuery.trim().toLowerCase();
-      items = items.filter((p) =>
-        p.title.toLowerCase().includes(q) ||
-        (p.tags && p.tags.some((t) => t.toLowerCase().includes(q)))
-      );
+      const words = deferredSearchQuery.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      items = items.filter((p) => {
+        const text = (p.title + ' ' + (p.tags || []).join(' ')).toLowerCase();
+        return words.every((w) => text.includes(w));
+      });
     }
 
     // 정렬
@@ -168,6 +168,12 @@ export default function Home() {
           return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
         });
         break;
+      case "sales-volume":
+        items = [...items].sort((a, b) => {
+          const diff = (b.salesVolume || 0) - (a.salesVolume || 0);
+          return diff !== 0 ? diff : (b.discount || 0) - (a.discount || 0);
+        });
+        break;
       // latest는 기본 (getProducts가 이미 최신순)
     }
 
@@ -202,18 +208,22 @@ export default function Home() {
     setVisibleCount(ITEMS_PER_PAGE);
   }, [selectedCategory, selectedSource, deferredSearchQuery, sortBy, wishlistMode]);
 
+  // IntersectionObserver로 무한스크롤 — 센티널이 보이면 추가 로드
+  const sentinelRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      if (docHeight <= 0) return;
-      if (scrollTop / docHeight >= 0.8) {
-        setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
-      }
-    };
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+    const sentinel = sentinelRef.current;
+    if (!sentinel) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
+        }
+      },
+      { rootMargin: '400px' },  // 400px 여유두고 미리 로드
+    );
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [selectedCategory, selectedSource, deferredSearchQuery, sortBy, wishlistMode]);
 
   const visibleProducts = useMemo(() => products.slice(0, visibleCount), [products, visibleCount]);
   const visibleWishlist = useMemo(() => wishlistProducts.slice(0, visibleCount), [wishlistProducts, visibleCount]);
@@ -243,7 +253,7 @@ export default function Home() {
       {/* 파트너스 고지 */}
       <div className="bg-gray-100 border-b border-gray-200">
         <p className="max-w-7xl mx-auto px-4 py-2 text-xs text-gray-500 text-center">
-          ℹ️ 이 사이트는 쿠팡 파트너스 및 네이버 쇼핑 커넥트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+          ℹ️ 이 사이트는 쿠팡 파트너스, 네이버 쇼핑 커넥트, 알리익스프레스 어필리에이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
         </p>
       </div>
 
@@ -297,6 +307,7 @@ export default function Home() {
             <option value="price-high">가격 높은순</option>
             <option value="rating">별점순</option>
             <option value="reviews">리뷰수순</option>
+            <option value="sales-volume">판매량순</option>
           </select>
         </div>
 
@@ -325,6 +336,8 @@ export default function Home() {
         )}
 
         {/* 무한 스크롤 로딩 표시 */}
+        {/* 무한스크롤 센티널 */}
+        <div ref={sentinelRef} />
         {((wishlistMode && visibleCount < wishlistProducts.length) ||
           (!wishlistMode && visibleCount < products.length)) && (
           <div className="flex justify-center py-8">
