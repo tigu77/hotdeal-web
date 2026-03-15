@@ -143,7 +143,7 @@ export default function RecentlyViewed() {
                   {item.source === 'naver' ? '네이버' : item.source === 'aliexpress' ? '알리' : '쿠팡'}
                 </span>
                 {item.source === 'coupang' && item.isRocket && (
-                  <span className="text-[7px] font-bold text-white px-0.5 py-[1px] rounded bg-blue-500">🚀</span>
+                  <span className="text-[7px] font-bold text-white px-0.5 py-[1px] rounded bg-blue-500">🚀 로켓</span>
                 )}
                 {item.badges?.map((badge, i) => {
                   const colors: Record<string, string> = { '슈퍼적립': '#7346F3', '역대최저가': '#E53E3E', '재등장': '#DD6B20', '직구 핫딜': '#F4845F', 'Choice': '#CCB800', '브랜드+': '#4A90D9' };
