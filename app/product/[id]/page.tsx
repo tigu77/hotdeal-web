@@ -38,7 +38,7 @@ export async function generateMetadata({
 
   const title = `${product.title} | 핫딜 알리미`;
   const description = `${product.title} - ${formatPrice(product.price)}${product.discount ? ` (${product.discount}% 할인)` : ""}. 최저가 핫딜!`;
-  const sourceName = product.source === 'naver' ? '네이버' : product.source === 'ali' ? '알리익스프레스' : '쿠팡';
+  const sourceName = product.source === 'naver' ? '네이버' : product.source === 'aliexpress' ? '알리익스프레스' : '쿠팡';
   const keywords = ["핫딜", "최저가", sourceName, product.title, ...(product.tags || [])];
 
   return {
@@ -96,7 +96,7 @@ export default async function ProductPage({
       priceCurrency: "KRW",
       availability: product.isSoldOut ? "https://schema.org/SoldOut" : "https://schema.org/InStock",
       url: product.affiliateUrl,
-      seller: { "@type": "Organization", name: product.source === 'naver' ? "네이버" : product.source === 'ali' ? "알리익스프레스" : "쿠팡" },
+      seller: { "@type": "Organization", name: product.source === 'naver' ? "네이버" : product.source === 'aliexpress' ? "알리익스프레스" : "쿠팡" },
     },
   };
 
@@ -266,7 +266,7 @@ export default async function ProductPage({
           <p className="text-xs text-gray-500 text-center mt-4 bg-gray-100 rounded-lg px-3 py-2 leading-relaxed">
             {product.source === 'naver'
               ? '💡 이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.'
-              : product.source === 'ali'
+              : product.source === 'aliexpress'
               ? '💡 이 포스팅은 알리익스프레스 어필리에이트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.'
               : '💡 이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.'}
           </p>

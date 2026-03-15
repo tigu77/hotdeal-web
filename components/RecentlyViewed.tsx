@@ -138,8 +138,8 @@ export default function RecentlyViewed() {
                 )}
               </div>
               <div className="flex items-center gap-1 mb-0.5 flex-wrap">
-                <span className={`text-[7px] font-bold text-white px-0.5 py-[1px] rounded ${item.source === 'naver' ? 'bg-green-500' : item.source === 'ali' ? 'bg-orange-500' : 'bg-red-500'}`}>
-                  {item.source === 'naver' ? '네이버' : item.source === 'ali' ? '알리' : '쿠팡'}
+                <span className={`text-[7px] font-bold text-white px-0.5 py-[1px] rounded ${item.source === 'naver' ? 'bg-green-500' : item.source === 'aliexpress' ? 'bg-orange-500' : 'bg-red-500'}`}>
+                  {item.source === 'naver' ? '네이버' : item.source === 'aliexpress' ? '알리' : '쿠팡'}
                 </span>
                 {item.source === 'coupang' && item.isRocket && (
                   <span className="text-[7px] font-bold text-white px-0.5 py-[1px] rounded bg-blue-500">🚀</span>
