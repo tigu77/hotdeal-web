@@ -23,7 +23,7 @@ export interface Product {
   expiresAt?: string;
   postedAt: string;
   registeredAt?: string;
-  source?: 'coupang' | 'naver' | string;
+  source?: 'coupang' | 'naver' | 'aliexpress' | string;
   storeName?: string;
   badges?: string[];
   salesVolume?: number;      // 판매량
