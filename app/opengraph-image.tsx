@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
-export const alt = '핫딜 알리미 - 네이버·쿠팡 매일 엄선된 최저가 핫딜';
+export const alt = '핫딜 알리미 - 네이버·쿠팡·알리 매일 엄선된 최저가 핫딜';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -49,7 +49,7 @@ export default async function Image() {
             display: 'flex',
           }}
         >
-          네이버·쿠팡 매일 엄선된 최저가 핫딜
+          네이버·쿠팡·알리 매일 엄선된 최저가 핫딜
         </div>
       </div>
     ),

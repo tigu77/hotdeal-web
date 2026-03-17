@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getProducts } from "@/data/products";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://hotdeal-web-peach.vercel.app";
+  const baseUrl = "https://hotdeal-alimi.vercel.app";
   const products = getProducts();
 
   return [

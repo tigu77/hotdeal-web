@@ -3,15 +3,15 @@ export function WebSiteJsonLd() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "핫딜 알리미",
-    url: "https://hotdeal-web-peach.vercel.app",
+    url: "https://hotdeal-alimi.vercel.app",
     description:
-      "네이버 인기상품, 쿠팡 골드박스 등 매일 엄선된 최저가 핫딜을 한눈에 비교하세요.",
+      "네이버 인기상품, 쿠팡 골드박스, 알리익스프레스 등 매일 엄선된 최저가 핫딜을 한눈에 비교하세요.",
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
         urlTemplate:
-          "https://hotdeal-web-peach.vercel.app/?q={search_term_string}",
+          "https://hotdeal-alimi.vercel.app/?q={search_term_string}",
       },
       "query-input": "required name=search_term_string",
     },

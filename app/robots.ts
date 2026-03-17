@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://hotdeal-web-peach.vercel.app/sitemap.xml",
+    sitemap: "https://hotdeal-alimi.vercel.app/sitemap.xml",
   };
 }

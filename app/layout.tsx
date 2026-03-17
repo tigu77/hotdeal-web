@@ -5,12 +5,12 @@ import "./globals.css";
 
 const geist = Geist({ subsets: ["latin"] });
 
-const SITE_URL = "https://hotdeal-web-peach.vercel.app";
+const SITE_URL = "https://hotdeal-alimi.vercel.app";
 
 export const metadata: Metadata = {
-  title: "핫딜 알리미 | 네이버·쿠팡 최저가 핫딜 모음",
+  title: "핫딜 알리미 | 네이버·쿠팡·알리 최저가 핫딜 모음",
   description:
-    "네이버 인기상품, 쿠팡 골드박스 등 매일 엄선된 최저가 핫딜을 한눈에 비교하세요.",
+    "네이버 인기상품, 쿠팡 골드박스, 알리익스프레스 등 매일 엄선된 최저가 핫딜을 한눈에 비교하세요.",
   keywords: [
     "핫딜",
     "최저가",
@@ -54,9 +54,9 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "핫딜 알리미 | 네이버·쿠팡 최저가 핫딜 모음",
+    title: "핫딜 알리미 | 네이버·쿠팡·알리 최저가 핫딜 모음",
     description:
-      "네이버 인기상품, 쿠팡 골드박스 등 매일 엄선된 최저가 핫딜을 한눈에 비교하세요.",
+      "네이버 인기상품, 쿠팡 골드박스, 알리익스프레스 등 매일 엄선된 최저가 핫딜을 한눈에 비교하세요.",
     url: SITE_URL,
     siteName: "핫딜 알리미",
     type: "website",
@@ -65,9 +65,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "핫딜 알리미 | 네이버·쿠팡 최저가 핫딜 모음",
+    title: "핫딜 알리미 | 네이버·쿠팡·알리 최저가 핫딜 모음",
     description:
-      "네이버 인기상품, 쿠팡 골드박스 등 매일 엄선된 최저가 핫딜을 한눈에 비교하세요.",
+      "네이버 인기상품, 쿠팡 골드박스, 알리익스프레스 등 매일 엄선된 최저가 핫딜을 한눈에 비교하세요.",
   },
 };
 
