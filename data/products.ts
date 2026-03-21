@@ -36,10 +36,8 @@ const allProducts: Product[] = (raw as any[]).map((p) => ({
  */
 export function getProducts(category?: string | null, source?: string | null): Product[] {
   const now = Date.now();
-  const STALE_MS = 2 * 24 * 60 * 60 * 1000; // 2일
   let items = [...allProducts]
-    .filter((p) => !p.expiresAt || new Date(p.expiresAt).getTime() > now)
-    .filter((p) => now - new Date(p.postedAt).getTime() < STALE_MS); // 2일 이상 미갱신 숨김
+    .filter((p) => !p.expiresAt || new Date(p.expiresAt).getTime() > now);
 
   // 소스 필터
   if (source) {
