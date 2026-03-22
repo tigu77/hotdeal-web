@@ -23,7 +23,11 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "rating": 5,
+    "reviewCount": 64250,
+    "soldPercent": 18,
     "expiresAt": "2026-03-23T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T22:26:51.454Z",
     "source": "coupang"
@@ -52,7 +56,11 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "rating": 5,
+    "reviewCount": 116756,
+    "soldPercent": 5,
     "expiresAt": "2026-03-23T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T22:26:51.454Z",
     "source": "coupang"
@@ -71,7 +79,7 @@
     "affiliateUrl": "https://link.coupang.com/a/d9xBEU",
     "productUrl": "https://www.coupang.com/vp/products/8137821270?itemId=23692294924&vendorItemId=90717433703&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
     "productId": "8137821270",
-    "category": "general",
+    "category": "food",
     "tags": [
       "로켓배송",
       "와우할인",
@@ -79,7 +87,11 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "rating": 5,
+    "reviewCount": 7188,
+    "soldPercent": 11,
     "expiresAt": "2026-03-23T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T22:26:51.454Z",
     "source": "coupang"
@@ -108,7 +120,11 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "rating": 5,
+    "reviewCount": 79422,
+    "soldPercent": 7,
     "expiresAt": "2026-03-23T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T22:26:51.454Z",
     "source": "coupang"
@@ -138,7 +154,11 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "rating": 5,
+    "reviewCount": 431691,
+    "soldPercent": 7,
     "expiresAt": "2026-03-23T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T22:26:51.454Z",
     "source": "coupang"
@@ -166,7 +186,11 @@
     ],
     "isWow": true,
     "isRocket": true,
+    "rating": 4.5,
+    "reviewCount": 811946,
+    "soldPercent": 5,
     "expiresAt": "2026-03-23T22:00:00.000Z",
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T22:26:51.454Z",
     "source": "coupang"
@@ -196,6 +220,7 @@
     "rating": 4.5,
     "reviewCount": 801,
     "soldPercent": 52,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -222,8 +247,9 @@
     "isWow": false,
     "isRocket": true,
     "rating": 5,
-    "reviewCount": 562,
+    "reviewCount": 563,
     "soldPercent": 11,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -241,7 +267,7 @@
     "affiliateUrl": "https://link.coupang.com/a/d9wAHo",
     "productUrl": "https://www.coupang.com/vp/products/9247974090?itemId=27351643259&vendorItemId=94781596727",
     "productId": "9247974090",
-    "category": "general",
+    "category": "food",
     "tags": [
       "만원이하",
       "50%이상할인",
@@ -251,6 +277,7 @@
     "rating": 4.5,
     "reviewCount": 1127,
     "soldPercent": 11,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -278,6 +305,7 @@
     "rating": 4.5,
     "reviewCount": 675,
     "soldPercent": 14,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -307,6 +335,7 @@
     "rating": 4.5,
     "reviewCount": 693,
     "soldPercent": 12,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -337,6 +366,7 @@
     "rating": 5,
     "reviewCount": 150,
     "soldPercent": 17,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -364,6 +394,7 @@
     "rating": 4.5,
     "reviewCount": 272,
     "soldPercent": 14,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -381,7 +412,7 @@
     "affiliateUrl": "https://link.coupang.com/a/d9wBhv",
     "productUrl": "https://www.coupang.com/vp/products/7375539956?itemId=24400201594&vendorItemId=82040646075",
     "productId": "7375539956",
-    "category": "general",
+    "category": "food",
     "tags": [
       "3만원이하",
       "50%이상할인"
@@ -390,6 +421,7 @@
     "rating": 4.5,
     "reviewCount": 1539,
     "soldPercent": 11,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -417,8 +449,9 @@
     "isWow": false,
     "isRocket": true,
     "rating": 4.5,
-    "reviewCount": 602,
+    "reviewCount": 603,
     "soldPercent": 24,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -436,7 +469,7 @@
     "affiliateUrl": "https://link.coupang.com/a/d9wBxS",
     "productUrl": "https://www.coupang.com/vp/products/7737536933?itemId=24224010180&vendorItemId=94731481182",
     "productId": "7737536933",
-    "category": "digital",
+    "category": "sports",
     "tags": [
       "가전/디지털",
       "로켓배송",
@@ -448,8 +481,9 @@
     "isWow": false,
     "isRocket": true,
     "rating": 4.5,
-    "reviewCount": 4027,
+    "reviewCount": 4028,
     "soldPercent": 74,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -482,6 +516,7 @@
     "rating": 5,
     "reviewCount": 436,
     "soldPercent": 47,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -513,6 +548,7 @@
     "rating": 5,
     "reviewCount": 733,
     "soldPercent": 14,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -544,6 +580,7 @@
     "rating": 4.5,
     "reviewCount": 192,
     "soldPercent": 18,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -574,6 +611,7 @@
     "rating": 5,
     "reviewCount": 527,
     "soldPercent": 28,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -591,7 +629,7 @@
     "affiliateUrl": "https://link.coupang.com/a/d9wCee",
     "productUrl": "https://www.coupang.com/vp/products/8776433117?itemId=25281872109&vendorItemId=92277438424",
     "productId": "8776433117",
-    "category": "fashion",
+    "category": "sports",
     "tags": [
       "패션",
       "로켓배송",
@@ -603,6 +641,7 @@
     "rating": 5,
     "reviewCount": 189,
     "soldPercent": 10,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -629,8 +668,9 @@
     "isWow": false,
     "isRocket": true,
     "rating": 4.5,
-    "reviewCount": 2931,
+    "reviewCount": 2932,
     "soldPercent": 21,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -648,7 +688,7 @@
     "affiliateUrl": "https://link.coupang.com/a/d9wCwz",
     "productUrl": "https://www.coupang.com/vp/products/8565514632?itemId=24809793568&vendorItemId=93908197720",
     "productId": "8565514632",
-    "category": "general",
+    "category": "living",
     "tags": [
       "로켓배송",
       "만원이하"
@@ -658,6 +698,7 @@
     "rating": 4.5,
     "reviewCount": 264,
     "soldPercent": 11,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -688,6 +729,7 @@
     "rating": 4.5,
     "reviewCount": 380,
     "soldPercent": 12,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -711,8 +753,9 @@
     ],
     "isWow": false,
     "rating": 5,
-    "reviewCount": 4160,
+    "reviewCount": 3163,
     "soldPercent": 11,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -740,6 +783,7 @@
     "rating": 4.5,
     "reviewCount": 641,
     "soldPercent": 30,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -757,7 +801,7 @@
     "affiliateUrl": "https://link.coupang.com/a/d9wC2f",
     "productUrl": "https://www.coupang.com/vp/products/8880340350?itemId=25916463539&vendorItemId=92902038985",
     "productId": "8880340350",
-    "category": "digital",
+    "category": "kitchen",
     "tags": [
       "가전/디지털",
       "로켓배송",
@@ -769,6 +813,7 @@
     "rating": 4.5,
     "reviewCount": 298,
     "soldPercent": 58,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -798,6 +843,7 @@
     "rating": 4.5,
     "reviewCount": 466,
     "soldPercent": 14,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -815,7 +861,7 @@
     "affiliateUrl": "https://link.coupang.com/a/d9wDnD",
     "productUrl": "https://www.coupang.com/vp/products/7654704459?itemId=20377077737&vendorItemId=86436175436",
     "productId": "7654704459",
-    "category": "general",
+    "category": "health",
     "tags": [
       "로켓배송",
       "3만원이하",
@@ -826,6 +872,7 @@
     "rating": 4.5,
     "reviewCount": 402,
     "soldPercent": 10,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -843,7 +890,7 @@
     "affiliateUrl": "https://link.coupang.com/a/d9wDvI",
     "productUrl": "https://www.coupang.com/vp/products/9262854851?itemId=27408076546&vendorItemId=94373712207",
     "productId": "9262854851",
-    "category": "general",
+    "category": "food",
     "tags": [
       "3만원이하",
       "50%이상할인"
@@ -852,6 +899,7 @@
     "rating": 4.5,
     "reviewCount": 280,
     "soldPercent": 10,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -869,7 +917,7 @@
     "affiliateUrl": "https://link.coupang.com/a/d9wDC6",
     "productUrl": "https://www.coupang.com/vp/products/327044463?itemId=24173191267&vendorItemId=70031937731",
     "productId": "327044463",
-    "category": "general",
+    "category": "living",
     "tags": [
       "만원이하",
       "50%이상할인"
@@ -878,6 +926,7 @@
     "rating": 5,
     "reviewCount": 2227,
     "soldPercent": 11,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -895,7 +944,7 @@
     "affiliateUrl": "https://link.coupang.com/a/d9wDSi",
     "productUrl": "https://www.coupang.com/vp/products/9249858551?itemId=24564939915&vendorItemId=91577057650",
     "productId": "9249858551",
-    "category": "general",
+    "category": "food",
     "tags": [
       "만원이하",
       "70%이상할인",
@@ -905,6 +954,7 @@
     "rating": 4.5,
     "reviewCount": 699,
     "soldPercent": 12,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -922,7 +972,7 @@
     "affiliateUrl": "https://link.coupang.com/a/d9wEkH",
     "productUrl": "https://www.coupang.com/vp/products/8647796854?itemId=25100242568&vendorItemId=92103457735",
     "productId": "8647796854",
-    "category": "general",
+    "category": "food",
     "tags": [
       "만원이하"
     ],
@@ -930,6 +980,7 @@
     "rating": 4.5,
     "reviewCount": 131,
     "soldPercent": 11,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -961,6 +1012,7 @@
     "rating": 4.5,
     "reviewCount": 408,
     "soldPercent": 10,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -988,6 +1040,7 @@
     "rating": 4.5,
     "reviewCount": 622,
     "soldPercent": 10,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -1017,6 +1070,7 @@
     "rating": 4.5,
     "reviewCount": 1033,
     "soldPercent": 11,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-03-22T21:15:01.659Z",
     "source": "coupang"
@@ -1967,41 +2021,6 @@
     "isSoldOut": true,
     "rating": 5,
     "reviewCount": 46,
-    "soldPercent": 100,
-    "expiresAt": "2026-03-23T22:00:00.000Z",
-    "detailChecked": true,
-    "postedAt": "",
-    "registeredAt": "2026-03-22T00:11:30.658Z",
-    "source": "coupang"
-  },
-  {
-    "id": "coupang-181981575",
-    "shortId": "0vyJye",
-    "title": "줌 베이직 베이킹소다 담은 액체 세탁세제, 4.21L, 2개",
-    "description": "",
-    "price": 11590,
-    "salePrice": 12590,
-    "wowPrice": 11590,
-    "originalPrice": 17000,
-    "discount": 32,
-    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/4253993687768262-fac1ced2-5683-45d2-bbbc-dec965a74c13.jpg",
-    "affiliateUrl": "https://link.coupang.com/a/d8YroA",
-    "productUrl": "https://www.coupang.com/vp/products/181981575?itemId=19013353417&vendorItemId=86137969668&sourceType=oms_goldbox&subSourceType=cmgoms&omsPageId=121237&omsPageUrl=121237",
-    "productId": "181981575",
-    "category": "kitchen",
-    "tags": [
-      "주방",
-      "로켓배송",
-      "와우할인",
-      "3만원이하",
-      "매진임박",
-      "세탁세제"
-    ],
-    "isWow": true,
-    "isRocket": true,
-    "isSoldOut": true,
-    "rating": 5,
-    "reviewCount": 125595,
     "soldPercent": 100,
     "expiresAt": "2026-03-23T22:00:00.000Z",
     "detailChecked": true,
@@ -5132,7 +5151,7 @@
     "salePrice": 21000,
     "originalPrice": 34800,
     "discount": 40,
-    "imageUrl": "https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/b97749d6-381a-4214-97d8-f49117ffad82_fixing_v2.png",
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/image_audit/prod/b97749d6-381a-4214-97d8-f49117ffad82_fixing_v2.png",
     "affiliateUrl": "https://link.coupang.com/a/d7HOSy",
     "productUrl": "https://www.coupang.com/vp/products/9065194258?itemId=26619385818&vendorItemId=87540504882",
     "productId": "9065194258",
@@ -5145,7 +5164,8 @@
     "isWow": false,
     "rating": 4.5,
     "reviewCount": 1275,
-    "soldPercent": 52,
+    "soldPercent": 1,
+    "expiresAt": "2026-03-23T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-20T00:09:34.995Z",
     "registeredAt": "2026-03-19T22:20:15.137Z",
@@ -8661,7 +8681,7 @@
     "salePrice": 10510,
     "originalPrice": 17500,
     "discount": 40,
-    "imageUrl": "https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/41ed/b364395070971f08c5e90ac54244c81fd69d9b4ee81d284a1cf99bf14c50.jpg",
+    "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/41ed/b364395070971f08c5e90ac54244c81fd69d9b4ee81d284a1cf99bf14c50.jpg",
     "affiliateUrl": "https://link.coupang.com/a/d62E9W",
     "productUrl": "https://www.coupang.com/vp/products/8873962377?itemId=25992780653&vendorItemId=91444090806",
     "productId": "8873962377",
@@ -8672,7 +8692,8 @@
     "isWow": false,
     "rating": 4.5,
     "reviewCount": 1493,
-    "soldPercent": 23,
+    "soldPercent": 4,
+    "expiresAt": "2026-03-23T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "2026-03-18T22:53:49.770Z",
     "registeredAt": "2026-03-18T21:19:58.522Z",
