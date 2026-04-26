@@ -3227,7 +3227,7 @@
     "affiliateUrl": "https://link.coupang.com/a/ewtDai",
     "productUrl": "https://www.coupang.com/vp/products/6757927018?itemId=15760489220&vendorItemId=94650216913",
     "productId": "6757927018",
-    "category": "living",
+    "category": "health",
     "tags": [
       "생활용품",
       "만원이하",
@@ -3236,8 +3236,9 @@
     ],
     "isWow": false,
     "rating": 4.5,
-    "reviewCount": 1220,
+    "reviewCount": 1225,
     "soldPercent": 10,
+    "detailChecked": true,
     "postedAt": "",
     "registeredAt": "2026-04-26T00:43:49.787Z",
     "source": "coupang"
@@ -3691,7 +3692,7 @@
     "isWow": false,
     "rating": 4.5,
     "reviewCount": 14711,
-    "soldPercent": 12,
+    "soldPercent": 13,
     "expiresAt": "2026-04-27T22:00:00.000Z",
     "detailChecked": true,
     "postedAt": "",
