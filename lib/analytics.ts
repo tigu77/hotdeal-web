@@ -12,25 +12,75 @@ export function trackEvent(action: string, params?: Record<string, any>) {
   }
 }
 
+type DealAnalyticsParams = {
+  productId: string;
+  title: string;
+  price?: number;
+  category?: string;
+  source?: string;
+  storeName?: string;
+  url?: string;
+  destination?: string;
+};
+
+function getLinkDomain(url?: string) {
+  if (!url) return undefined;
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return undefined;
+  }
+}
+
+function buildDealParams({
+  productId,
+  title,
+  price,
+  category,
+  source,
+  storeName,
+  url,
+  destination,
+}: DealAnalyticsParams) {
+  const normalizedSource = source || destination || 'unknown';
+  const linkDomain = getLinkDomain(url);
+
+  return {
+    item_id: productId,
+    item_name: title,
+    item_category: category || 'unknown',
+    item_brand: normalizedSource,
+    source: normalizedSource,
+    destination: destination || normalizedSource,
+    merchant: storeName || destination || normalizedSource,
+    price: price || 0,
+    value: price || 0,
+    currency: 'KRW',
+    link_url: url,
+    link_domain: linkDomain,
+    items: [
+      {
+        item_id: productId,
+        item_name: title,
+        item_category: category || 'unknown',
+        item_brand: normalizedSource,
+        price: price || 0,
+      },
+    ],
+  };
+}
+
 // 상품 카드 클릭
-export function trackProductClick(productId: string, title: string, category?: string, source?: string) {
+export function trackProductClick(params: DealAnalyticsParams) {
   trackEvent('select_item', {
     item_list_name: 'hotdeal_list',
-    items: [{ item_id: productId, item_name: title, item_category: category }],
-    source: source || 'unknown',
+    ...buildDealParams(params),
   });
 }
 
 // 구매 버튼 클릭
-export function trackPurchaseClick(productId: string, title: string, price: number, category?: string, source?: string) {
-  trackEvent('purchase_click', {
-    item_id: productId,
-    item_name: title,
-    item_category: category,
-    value: price,
-    currency: 'KRW',
-    source: source || 'unknown',
-  });
+export function trackPurchaseClick(params: DealAnalyticsParams) {
+  trackEvent('purchase_click', buildDealParams(params));
 }
 
 // 카테고리 필터
@@ -64,12 +114,7 @@ export function trackRecommendClick(productId: string, title: string, source?: s
 
 // 상세 페이지 조회
 export function trackDetailView(productId: string, title: string, category?: string, source?: string) {
-  trackEvent('view_item', {
-    item_id: productId,
-    item_name: title,
-    item_category: category,
-    source: source || 'unknown',
-  });
+  trackEvent('view_item', buildDealParams({ productId, title, category, source }));
 }
 
 // 공유 버튼 클릭
@@ -171,7 +216,7 @@ export function trackWishlistEmptyView() {
   trackEvent('wishlist_empty_view');
 }
 
-// 외부 링크 클릭 (쿠팡/네이버)
-export function trackExternalLinkClick(productId: string, destination: 'coupang' | 'naver' | 'aliexpress', url: string) {
-  trackEvent('external_link_click', { item_id: productId, destination, url });
+// 외부 링크 클릭 (쿠팡/네이버/알리)
+export function trackExternalLinkClick(params: DealAnalyticsParams) {
+  trackEvent('external_link_click', buildDealParams(params));
 }

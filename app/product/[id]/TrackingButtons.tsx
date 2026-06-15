@@ -2,8 +2,8 @@
 
 import { trackPurchaseClick, trackTelegramClick, trackRecommendClick, trackExternalLinkClick } from "@/lib/analytics";
 
-export function PurchaseButton({ productId, title, price, category, affiliateUrl, source }: {
-  productId: string; title: string; price: number; category?: string; affiliateUrl: string; source?: string;
+export function PurchaseButton({ productId, title, price, category, affiliateUrl, source, storeName }: {
+  productId: string; title: string; price: number; category?: string; affiliateUrl: string; source?: string; storeName?: string;
 }) {
   const isNaver = source === 'naver';
   const isAli = source === 'aliexpress';
@@ -16,8 +16,19 @@ export function PurchaseButton({ productId, title, price, category, affiliateUrl
       target="_blank"
       rel="noopener noreferrer"
       onClick={() => {
-        trackPurchaseClick(productId, title, price, category, source);
-        trackExternalLinkClick(productId, destination, affiliateUrl);
+        const analyticsParams = {
+          productId,
+          title,
+          price,
+          category,
+          source,
+          storeName,
+          url: affiliateUrl,
+          destination,
+        };
+
+        trackPurchaseClick(analyticsParams);
+        trackExternalLinkClick(analyticsParams);
       }}
       className={`flex-1 block text-center ${btnColor} text-white font-bold py-4 rounded-2xl text-lg transition-colors`}
     >

@@ -47,8 +47,20 @@ export default function ProductCard({ product, compact = false, eager = false }:
 
   // ── 공통 클릭 핸들러 ──
   const handleClick = () => {
-    trackProductClick(product.id, product.title, product.category, product.source);
-    trackExternalLinkClick(product.id, isNaver ? 'naver' : isAli ? 'aliexpress' : 'coupang', product.affiliateUrl);
+    const destination = isNaver ? 'naver' : isAli ? 'aliexpress' : 'coupang';
+    const analyticsParams = {
+      productId: product.id,
+      title: product.title,
+      price: finalPrice,
+      category: product.category,
+      source: product.source,
+      storeName: product.storeName,
+      url: product.affiliateUrl,
+      destination,
+    };
+
+    trackProductClick(analyticsParams);
+    trackExternalLinkClick(analyticsParams);
     saveRecentlyViewed(product.id);
   };
 

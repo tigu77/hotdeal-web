@@ -253,6 +253,7 @@ export default async function ProductPage({
               category={product.category}
               affiliateUrl={product.affiliateUrl}
               source={product.source}
+              storeName={product.storeName}
             />
             <ShareButtons
               productId={product.id}
