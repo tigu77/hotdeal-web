@@ -145,7 +145,7 @@ export default function ProductCard({ product, compact = false, eager = false }:
     </span>
   ));
 
-  const storeInfo = (isNaver || isAli) && product.storeName && (
+  const storeInfo = product.storeName && (
     <span className="text-[11px] text-gray-500">🏪 {product.storeName}</span>
   );
 
@@ -216,8 +216,7 @@ export default function ProductCard({ product, compact = false, eager = false }:
           </div>
         )}
         {isCoupang && <div className="mt-1">{soldBar}</div>}
-        {isNaver && <div className="mt-1">{storeInfo}</div>}
-        {isAli && <div className="mt-1">{storeInfo}</div>}
+        {storeInfo && <div className="mt-1">{storeInfo}</div>}
 
       </div>
     );
@@ -289,9 +288,8 @@ export default function ProductCard({ product, compact = false, eager = false }:
             </div>
           )}
           {isCoupang && soldBar}
-          {isNaver && storeInfo}
+          {storeInfo}
           {isAli && aliInfo}
-          {isAli && storeInfo}
 
         </div>
       </div>
